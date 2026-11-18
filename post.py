@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Posts the next queued carousel in posts/ (files NNN_1.jpg ... NNN_7.jpg and NNN_caption.txt) to Instagram (Instagram API with Instagram Login).
 
-Env: IG_ACCESS_TOKEN (required), IG_USER_ID (optional, defaults to the token's own account). Optional: IMAGE_BASE, GRAPH_BASE, GRAPH_VERSION,
+Env: IG_ACCESS_TOKEN (required), IG_USER_ID (optional, defaults to the token's own account). Optional: BUFFER_API_KEY (also posts to TikTok through Buffer), TIKTOK_HANDLE, FORCE_POST=1, IMAGE_BASE, GRAPH_BASE, GRAPH_VERSION,
 SKIP_URL_CHECK=1, STATE_FILE.
 Flags: --dry-run (print what would happen), --force (ignore the one post a day guard).
 Exit codes: 0 ok, 1 failure, 3 posted fine but the queue is nearly empty (so GitHub emails you).
@@ -41,6 +41,43 @@ def call(method, path, params, tries=3):
         time.sleep(5 * (n + 1))
     raise RuntimeError(f"{method} {path} failed: {last}")
 
+BUFFER_URL = os.environ.get("BUFFER_URL", "https://api.buffer.com")
+
+def gql(query, key):
+    req = urllib.request.Request(BUFFER_URL, data=json.dumps({"query": query}).encode("utf-8"), method="POST",
+                                 headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json; charset=utf-8"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            out = json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"Buffer HTTP {e.code}: {e.read().decode(errors='replace')[:300]}")
+    if out.get("errors"): raise RuntimeError(f"Buffer error: {json.dumps(out['errors'])[:400]}")
+    return out["data"]
+
+def tiktok_via_buffer(handle, urls, caption):
+    """Sends the carousel to the TikTok channel connected in Buffer (an approved TikTok partner). Returns a short status."""
+    key = os.environ.get("BUFFER_API_KEY", "").strip()
+    if not key: return "not set up"
+    chans = []
+    for org in gql("query { account { organizations { id name } } }", key)["account"]["organizations"]:
+        chans += gql('query { channels(input: {organizationId: "%s"}) { id name displayName service } }' % org["id"], key)["channels"]
+    want = handle.lower().lstrip("@")
+    match = [c for c in chans if c.get("service") == "tiktok" and want in ((c.get("name") or "") + " " + (c.get("displayName") or "")).lower()]
+    if not match:
+        return "no TikTok channel named %s in Buffer (found: %s)" % (handle, ", ".join(f"{c.get('service')}:{c.get('name')}" for c in chans) or "none")
+    assets = ", ".join('{image: {url: %s}}' % json.dumps(u) for u in urls)
+    last = ""
+    for mode in ("shareNow", "addToQueue"):
+        q = ('mutation { createPost(input: {text: %s, channelId: "%s", schedulingType: automatic, mode: %s, assets: [%s]}) '
+             '{ ... on PostActionSuccess { post { id } } ... on MutationError { message } } }') % (json.dumps(caption, ensure_ascii=False), match[0]["id"], mode, assets)
+        try:
+            res = gql(q, key)["createPost"]
+        except RuntimeError as e:
+            last = str(e); continue
+        if res.get("post"): return f"sent ({mode}, Buffer post {res['post']['id']})"
+        last = res.get("message") or json.dumps(res)[:200]
+    return "failed: " + last[:300]
+
 def load_state():
     try:
         return json.load(open(STATE))
@@ -72,7 +109,20 @@ def wait_ready(cid, token, secs=180):
 
 def main():
     dry = "--dry-run" in sys.argv
-    force = "--force" in sys.argv
+    force = "--force" in sys.argv or os.environ.get("FORCE_POST") == "1"
+    if os.environ.get("TIKTOK_TEST") == "1":      # sends the next carousel to TikTok only, to test the Buffer connection
+        st0 = load_state(); done0 = {p["post"] for p in st0["posted"]}
+        nxt = sorted({f.split("_")[0] for f in os.listdir(POSTS) if f.endswith("_caption.txt")} - done0)
+        last = st0["posted"][-1]["post"] if st0["posted"] else (nxt[0] if nxt else None)
+        fs = sorted((f for f in os.listdir(POSTS) if f.startswith(last + "_") and f.endswith(".jpg")), key=lambda f: int(f.split("_")[1].split(".")[0]))
+        base = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', 'OWNER/REPO')}/{os.environ.get('GITHUB_REF_NAME', 'main')}/posts"
+        log("TikTok test:", tiktok_via_buffer(os.environ.get("TIKTOK_HANDLE", "hacker.wei"), [f"{base}/{f}" for f in fs],
+                                              open(os.path.join(POSTS, last + "_caption.txt"), encoding="utf8").read().strip()))
+        return 0
+    try: paused = json.load(open(os.path.join(ROOT, "state", "paused.json"))).get("paused")
+    except Exception: paused = False
+    if paused and not force:
+        log("::notice::Posting is paused (state/paused.json). Nothing posted."); return 0
     st = load_state()
     done = {p["post"] for p in st["posted"]}
     files = os.listdir(POSTS)
@@ -130,9 +180,14 @@ def main():
                                         "caption": caption, "access_token": token})
     wait_ready(car["id"], token)
     pub = call("POST", f"{uid}/media_publish", {"creation_id": car["id"], "access_token": token}, tries=1)
-    st["posted"].append({"post": name, "date": today, "media_id": pub.get("id")})
-    save_state(st)
+    entry = {"post": name, "date": today, "media_id": pub.get("id")}
+    st["posted"].append(entry); save_state(st)
     log(f"Published {name}: media id {pub.get('id')}")
+    try:
+        entry["tiktok"] = tiktok_via_buffer(os.environ.get("TIKTOK_HANDLE", "hacker.wei"), urls, caption)
+    except Exception as e:
+        entry["tiktok"] = f"failed: {e}"[:300]
+    log("TikTok:", entry["tiktok"]); save_state(st)
     left = len(todo) - 1
     if left <= LOW_QUEUE:
         log(f"::warning::Only {left} posts left in the queue. Add more posts to posts/.")

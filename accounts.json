@@ -1,0 +1,11 @@
+{
+ "accounts": [
+  {"id": "hacker", "name": "Hacker Wei", "handle": "hacker.wei", "active": true,
+   "format": "7-slide job hack carousel", "writer": "Gemini (free tier), up to 3 a day",
+   "platforms": ["instagram", "tiktok"], "schedule": "Every day at 17:30 UTC"},
+  {"id": "pirate", "name": "Pirate Wei", "handle": "pirate.wei", "active": false,
+   "format": "Waiting for a post format", "writer": "Off", "platforms": ["tiktok"], "schedule": "Not scheduled"},
+  {"id": "only", "name": "The Only Wei", "handle": "the.only.wei", "active": false,
+   "format": "Waiting for a post format", "writer": "Off", "platforms": ["tiktok"], "schedule": "Not scheduled"}
+ ]
+}
