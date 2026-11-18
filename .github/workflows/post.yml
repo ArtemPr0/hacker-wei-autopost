@@ -4,10 +4,11 @@ on:
     - cron: "30 17 * * *"   # 17:30 UTC, about 17:30 in winter and 18:30 in British Summer Time
   workflow_dispatch:
     inputs:
-      force_generate:
-        description: "Write one new carousel now (test)"
-        type: boolean
-        default: false
+      action:
+        description: "What to do"
+        type: choice
+        default: run
+        options: [run, post_now, write_more, pause, resume, tiktok_test]
 permissions:
   contents: write
 concurrency:
@@ -17,17 +18,25 @@ jobs:
   post:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      ACTION: ${{ inputs.action || 'run' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Pause or resume
+        if: env.ACTION == 'pause' || env.ACTION == 'resume'
+        run: |
+          mkdir -p state
+          if [ "$ACTION" = "pause" ]; then echo '{"paused": true}' > state/paused.json; else echo '{"paused": false}' > state/paused.json; fi
       - name: Write new carousels if the queue is short
+        if: env.ACTION == 'run' || env.ACTION == 'write_more'
         continue-on-error: true
         timeout-minutes: 18
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          FORCE: ${{ inputs.force_generate && '1' || '0' }}
+          FORCE: ${{ inputs.action == 'write_more' && '1' || '0' }}
         run: |
           if [ "$(python generate.py --need)" = "0" ]; then echo "Nothing to write (queue is full enough, or GEMINI_API_KEY is not set)."; exit 0; fi
           sudo apt-get update -qq
@@ -43,12 +52,16 @@ jobs:
         run: |
           git config user.name "hacker-wei-bot"
           git config user.email "hacker-wei-bot@users.noreply.github.com"
-          git add posts state/topics.json
+          git add posts state
           git diff --cached --quiet || (git commit -m "Add generated carousels" && git pull --rebase && git push)
       - name: Post the next carousel
+        if: env.ACTION == 'run' || env.ACTION == 'post_now' || env.ACTION == 'tiktok_test'
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          FORCE_POST: ${{ inputs.action == 'post_now' && '1' || '0' }}
+          TIKTOK_TEST: ${{ inputs.action == 'tiktok_test' && '1' || '0' }}
         run: python post.py
       - name: Save what was posted
         if: always()
@@ -56,6 +69,5 @@ jobs:
           git config user.name "hacker-wei-bot"
           git config user.email "hacker-wei-bot@users.noreply.github.com"
           python gallery.py || true
-          if [ -f state/posted.json ]; then git add state/posted.json; fi
-          if [ -f QUEUE.md ]; then git add QUEUE.md; fi
+          git add state QUEUE.md status.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "Update post record and queue page" && git pull --rebase && git push)
