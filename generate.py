@@ -222,36 +222,44 @@ class Gemini:
         body = json.dumps({"system_instruction": {"parts": [{"text": system}]},
                            "contents": [{"role": "user", "parts": [{"text": user}]}],
                            "generationConfig": {"temperature": temperature, "responseMimeType": "application/json"}}).encode()
-        main = self.main if self.main_calls < MAIN_BUDGET else []
-        order = (self.lite[:2] + main[:1]) if prefer_lite else (main[:2] + self.lite[:2])
         last = "no model available"
-        for model in [m for m in order if m not in self.dead]:
-            is_main = "lite" not in model
-            if is_main: self.main_calls += 1
-            req = urllib.request.Request(f"{URL}/{model}:generateContent", data=body, method="POST", headers={
-                "x-goog-api-key": self.key, "Content-Type": "application/json"})
-            try:
-                with urllib.request.urlopen(req, timeout=180) as r:
-                    raw = r.read().decode(errors="replace")
-                time.sleep(PACE_MAIN if is_main else PACE_LITE)
+        for round_no in range(3):                      # up to 3 passes over the models, waiting between passes
+            main = self.main if self.main_calls < MAIN_BUDGET else []
+            order = (self.lite + main[:2]) if prefer_lite else (main + self.lite)
+            order = [m for m in order if m not in self.dead]
+            if not order: break
+            for model in order:
+                is_main = "lite" not in model
+                req = urllib.request.Request(f"{URL}/{model}:generateContent", data=body, method="POST", headers={
+                    "x-goog-api-key": self.key, "Content-Type": "application/json"})
                 try:
-                    txt = "".join(p.get("text", "") for p in json.loads(raw)["candidates"][0]["content"]["parts"])
+                    with urllib.request.urlopen(req, timeout=180) as r:
+                        raw = r.read().decode(errors="replace")
+                    if is_main: self.main_calls += 1
+                    time.sleep(PACE_MAIN if is_main else PACE_LITE)
+                    try:
+                        txt = "".join(p.get("text", "") for p in json.loads(raw)["candidates"][0]["content"]["parts"])
+                    except Exception as e:
+                        raise ValueError(f"unexpected API response: {raw[:300]!r}") from e
+                    m = re.search(r"\{.*\}", txt, re.S)
+                    if not m: raise ValueError(f"no JSON object in the reply: {txt[:200]!r}")
+                    try:
+                        return json.loads(m.group(0)), model
+                    except Exception as e:
+                        raise ValueError(f"reply was not valid JSON: {txt[:300]!r}") from e
+                except urllib.error.HTTPError as e:
+                    msg = re.sub(r"\s+", " ", e.read().decode(errors="replace"))[:220]
+                    last = f"{model}: HTTP {e.code} {msg}"
+                    if e.code in (400, 403, 404, 429): self.dead.add(model)   # gone, not allowed, or out of free quota: skip for this run
                 except Exception as e:
-                    raise ValueError(f"unexpected API response: {raw[:300]!r}") from e
-                m = re.search(r"\{.*\}", txt, re.S)
-                if not m: raise ValueError(f"no JSON object in the reply: {txt[:200]!r}")
-                try:
-                    return json.loads(m.group(0)), model
-                except Exception as e:
-                    raise ValueError(f"reply was not valid JSON: {txt[:300]!r}") from e
-            except urllib.error.HTTPError as e:
-                last = f"{model}: HTTP {e.code} {e.read().decode(errors='replace')[:300]}"
-                if e.code in (404, 429, 403, 400): self.dead.add(model)   # gone, out of free quota, or not allowed: skip for this run
-            except Exception as e:
-                last = f"{model}: {e!r}"
-            log("model failed:", last[:400])
-        raise RuntimeError(f"all models failed, last error: {last[:400]}")
+                    last = f"{model}: {e!r}"
+                log("model failed:", last[:300])
+                time.sleep(PACE_LITE)
+            log(f"no model answered on pass {round_no + 1}, waiting before trying again")
+            time.sleep(RETRY_WAIT)
+        raise RuntimeError(f"all models failed, last error: {last[:300]}")
 
+RETRY_WAIT = float(os.environ.get("RETRY_WAIT", "45"))
 PACE_MAIN = float(os.environ.get("PACE_MAIN", "13"))   # seconds between calls, to stay under the per-minute free limits
 PACE_LITE = float(os.environ.get("PACE_LITE", "5"))
 
@@ -311,21 +319,25 @@ def main():
     if "--need" in sys.argv:
         print(want); return 0
     log(f"{waiting} carousels waiting, generating {want}")
-    made = 0
+    made, gave_up = 0, False
     ai = None if src or want == 0 else Gemini()
     recent = topics.get("areas", [])[-6:]
     for _ in range(want):
         feedback, ok, sp = [], None, None
         area = random.choice([a for a in AREAS if a not in recent] or AREAS)
         for attempt in range(1, ATTEMPTS + 1):
-            sp = json.load(open(src)) if src else ask_ai(ai, topics["used"], area, feedback, sp)
-            probs = validate(sp, topics["used"])
-            tmp = tempfile.mkdtemp()
-            if not probs: probs = render(sp, tmp)
-            if not probs and ai: probs = review(ai, sp)
+            try:
+                sp = json.load(open(src)) if src else ask_ai(ai, topics["used"], area, feedback, sp)
+                probs = validate(sp, topics["used"])
+                tmp = tempfile.mkdtemp()
+                if not probs: probs = render(sp, tmp)
+                if not probs and ai: probs = review(ai, sp)
+            except RuntimeError as e:
+                log(f"::warning::AI unavailable right now: {e}"); gave_up = True; break
             if not probs: ok = (sp, tmp); break
             log(f"attempt {attempt} rejected:", "; ".join(probs[:6])); feedback = probs
             if src: break
+        if gave_up: break
         if not ok:
             log("::warning::Could not produce an acceptable carousel this time."); continue
         sp, tmp = ok
