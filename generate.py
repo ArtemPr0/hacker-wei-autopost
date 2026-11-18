@@ -19,6 +19,7 @@ MODEL_IDS = [m.strip() for m in os.environ.get("MODEL_IDS", "").split(",") if m.
 TARGET = 30         # the "tank": keep up to this many unposted carousels queued as backup
 MAX_PER_RUN = 3     # new carousels written per daily run (free tier: about 20 requests a day on the main model)
 ATTEMPTS = 4        # tries per carousel before giving up for the day
+TIME_BUDGET = float(os.environ.get("TIME_BUDGET", "660"))   # seconds; stop starting new work after this, the rest waits for tomorrow
 MAIN_BUDGET = 12    # max calls per run to the main (non-lite) model, to stay well inside its daily free limit
 FALLBACK_MODELS = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"]
 AREAS = ["CVs", "cover letters and application forms", "online tests and video assessments", "interviews", "assessment centres",
@@ -196,11 +197,17 @@ class Gemini:
     """Small client: finds the current free Flash models, paces calls, and moves on when one is exhausted."""
     def __init__(self):
         self.key = os.environ["GEMINI_API_KEY"].strip()
-        self.dead, self.main_calls = set(), 0
+        self.dead, self.main_calls, self.strikes = set(), 0, {}
         names = MODEL_IDS or self.discover() or FALLBACK_MODELS
         self.main = [n for n in names if "lite" not in n]
         self.lite = [n for n in names if "lite" in n]
         log("models: main", self.main, "lite", self.lite)
+
+    def strike(self, model):
+        """A model that is overloaded or timing out twice is left alone for the rest of this run (never the last one standing)."""
+        self.strikes[model] = self.strikes.get(model, 0) + 1
+        alive = [m for m in self.main + self.lite if m not in self.dead]
+        if self.strikes[model] >= 2 and len(alive) > 2: self.dead.add(model)
 
     def discover(self):
         try:
@@ -233,7 +240,7 @@ class Gemini:
                 req = urllib.request.Request(f"{URL}/{model}:generateContent", data=body, method="POST", headers={
                     "x-goog-api-key": self.key, "Content-Type": "application/json"})
                 try:
-                    with urllib.request.urlopen(req, timeout=180) as r:
+                    with urllib.request.urlopen(req, timeout=90) as r:
                         raw = r.read().decode(errors="replace")
                     if is_main: self.main_calls += 1
                     time.sleep(PACE_MAIN if is_main else PACE_LITE)
@@ -251,8 +258,10 @@ class Gemini:
                     msg = re.sub(r"\s+", " ", e.read().decode(errors="replace"))[:220]
                     last = f"{model}: HTTP {e.code} {msg}"
                     if e.code in (400, 403, 404, 429): self.dead.add(model)   # gone, not allowed, or out of free quota: skip for this run
+                    else: self.strike(model)
                 except Exception as e:
                     last = f"{model}: {e!r}"
+                    self.strike(model)
                 log("model failed:", last[:300])
                 time.sleep(PACE_LITE)
             log(f"no model answered on pass {round_no + 1}, waiting before trying again")
@@ -322,10 +331,14 @@ def main():
     made, gave_up = 0, False
     ai = None if src or want == 0 else Gemini()
     recent = topics.get("areas", [])[-6:]
+    started = time.time()
     for _ in range(want):
+        if time.time() - started > TIME_BUDGET:
+            log("time budget for this run used up, stopping here"); break
         feedback, ok, sp = [], None, None
         area = random.choice([a for a in AREAS if a not in recent] or AREAS)
         for attempt in range(1, ATTEMPTS + 1):
+            if attempt > 1 and time.time() - started > TIME_BUDGET: break
             try:
                 sp = json.load(open(src)) if src else ask_ai(ai, topics["used"], area, feedback, sp)
                 probs = validate(sp, topics["used"])
