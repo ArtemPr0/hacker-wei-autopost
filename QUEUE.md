@@ -1,12 +1,12 @@
-# Hacker Wei queue
+# Posting queue
 
-**13 waiting to post** (one goes out each day, lowest number first). 3 posted or skipped so far.
+Vault posts (added by hand) go first, then the AI-written queue. To stop a post, delete its files before its slot comes.
 
-To stop a carousel from posting, delete its files in the `posts` folder before its day comes.
+## Hacker Wei
 
-## Waiting
+**13 waiting** (0 from the vault). 1 posted by the system so far.
 
-### Carousel 002
+### 002
 
 <a href="posts/002_1.jpg"><img src="posts/002_1.jpg" width="110"></a> <a href="posts/002_2.jpg"><img src="posts/002_2.jpg" width="110"></a> <a href="posts/002_3.jpg"><img src="posts/002_3.jpg" width="110"></a> <a href="posts/002_4.jpg"><img src="posts/002_4.jpg" width="110"></a> <a href="posts/002_5.jpg"><img src="posts/002_5.jpg" width="110"></a> <a href="posts/002_6.jpg"><img src="posts/002_6.jpg" width="110"></a> <a href="posts/002_7.jpg"><img src="posts/002_7.jpg" width="110"></a>
 
@@ -30,7 +30,7 @@ Send this to a friend who needs it today.
 
 </details>
 
-### Carousel 004
+### 004
 
 <a href="posts/004_1.jpg"><img src="posts/004_1.jpg" width="110"></a> <a href="posts/004_2.jpg"><img src="posts/004_2.jpg" width="110"></a> <a href="posts/004_3.jpg"><img src="posts/004_3.jpg" width="110"></a> <a href="posts/004_4.jpg"><img src="posts/004_4.jpg" width="110"></a> <a href="posts/004_5.jpg"><img src="posts/004_5.jpg" width="110"></a> <a href="posts/004_6.jpg"><img src="posts/004_6.jpg" width="110"></a> <a href="posts/004_7.jpg"><img src="posts/004_7.jpg" width="110"></a>
 
@@ -54,7 +54,7 @@ Save this for assessment day.
 
 </details>
 
-### Carousel 006
+### 006
 
 <a href="posts/006_1.jpg"><img src="posts/006_1.jpg" width="110"></a> <a href="posts/006_2.jpg"><img src="posts/006_2.jpg" width="110"></a> <a href="posts/006_3.jpg"><img src="posts/006_3.jpg" width="110"></a> <a href="posts/006_4.jpg"><img src="posts/006_4.jpg" width="110"></a> <a href="posts/006_5.jpg"><img src="posts/006_5.jpg" width="110"></a> <a href="posts/006_6.jpg"><img src="posts/006_6.jpg" width="110"></a> <a href="posts/006_7.jpg"><img src="posts/006_7.jpg" width="110"></a>
 
@@ -78,7 +78,7 @@ Save this for September and send it to a first year.
 
 </details>
 
-### Carousel 007
+### 007
 
 <a href="posts/007_1.jpg"><img src="posts/007_1.jpg" width="110"></a> <a href="posts/007_2.jpg"><img src="posts/007_2.jpg" width="110"></a> <a href="posts/007_3.jpg"><img src="posts/007_3.jpg" width="110"></a> <a href="posts/007_4.jpg"><img src="posts/007_4.jpg" width="110"></a> <a href="posts/007_5.jpg"><img src="posts/007_5.jpg" width="110"></a> <a href="posts/007_6.jpg"><img src="posts/007_6.jpg" width="110"></a> <a href="posts/007_7.jpg"><img src="posts/007_7.jpg" width="110"></a>
 
@@ -102,7 +102,7 @@ Save this for your next letter.
 
 </details>
 
-### Carousel 008
+### 008
 
 <a href="posts/008_1.jpg"><img src="posts/008_1.jpg" width="110"></a> <a href="posts/008_2.jpg"><img src="posts/008_2.jpg" width="110"></a> <a href="posts/008_3.jpg"><img src="posts/008_3.jpg" width="110"></a> <a href="posts/008_4.jpg"><img src="posts/008_4.jpg" width="110"></a> <a href="posts/008_5.jpg"><img src="posts/008_5.jpg" width="110"></a> <a href="posts/008_6.jpg"><img src="posts/008_6.jpg" width="110"></a> <a href="posts/008_7.jpg"><img src="posts/008_7.jpg" width="110"></a>
 
@@ -126,7 +126,7 @@ Save this for tonight and send it to a friend with a blank profile.
 
 </details>
 
-### Carousel 009
+### 009
 
 <a href="posts/009_1.jpg"><img src="posts/009_1.jpg" width="110"></a> <a href="posts/009_2.jpg"><img src="posts/009_2.jpg" width="110"></a> <a href="posts/009_3.jpg"><img src="posts/009_3.jpg" width="110"></a> <a href="posts/009_4.jpg"><img src="posts/009_4.jpg" width="110"></a> <a href="posts/009_5.jpg"><img src="posts/009_5.jpg" width="110"></a> <a href="posts/009_6.jpg"><img src="posts/009_6.jpg" width="110"></a> <a href="posts/009_7.jpg"><img src="posts/009_7.jpg" width="110"></a>
 
@@ -150,7 +150,7 @@ Save this before your interview.
 
 </details>
 
-### Carousel 010
+### 010
 
 <a href="posts/010_1.jpg"><img src="posts/010_1.jpg" width="110"></a> <a href="posts/010_2.jpg"><img src="posts/010_2.jpg" width="110"></a> <a href="posts/010_3.jpg"><img src="posts/010_3.jpg" width="110"></a> <a href="posts/010_4.jpg"><img src="posts/010_4.jpg" width="110"></a> <a href="posts/010_5.jpg"><img src="posts/010_5.jpg" width="110"></a> <a href="posts/010_6.jpg"><img src="posts/010_6.jpg" width="110"></a> <a href="posts/010_7.jpg"><img src="posts/010_7.jpg" width="110"></a>
 
@@ -174,7 +174,7 @@ Save this for after your interview.
 
 </details>
 
-### Carousel 012
+### 012
 
 <a href="posts/012_1.jpg"><img src="posts/012_1.jpg" width="110"></a> <a href="posts/012_2.jpg"><img src="posts/012_2.jpg" width="110"></a> <a href="posts/012_3.jpg"><img src="posts/012_3.jpg" width="110"></a> <a href="posts/012_4.jpg"><img src="posts/012_4.jpg" width="110"></a> <a href="posts/012_5.jpg"><img src="posts/012_5.jpg" width="110"></a> <a href="posts/012_6.jpg"><img src="posts/012_6.jpg" width="110"></a> <a href="posts/012_7.jpg"><img src="posts/012_7.jpg" width="110"></a>
 
@@ -198,7 +198,7 @@ Save this and follow for a new hack every day.
 
 </details>
 
-### Carousel 013
+### 013
 
 <a href="posts/013_1.jpg"><img src="posts/013_1.jpg" width="110"></a> <a href="posts/013_2.jpg"><img src="posts/013_2.jpg" width="110"></a> <a href="posts/013_3.jpg"><img src="posts/013_3.jpg" width="110"></a> <a href="posts/013_4.jpg"><img src="posts/013_4.jpg" width="110"></a> <a href="posts/013_5.jpg"><img src="posts/013_5.jpg" width="110"></a> <a href="posts/013_6.jpg"><img src="posts/013_6.jpg" width="110"></a> <a href="posts/013_7.jpg"><img src="posts/013_7.jpg" width="110"></a>
 
@@ -222,7 +222,7 @@ Save this and follow for a new hack every day.
 
 </details>
 
-### Carousel 014
+### 014
 
 <a href="posts/014_1.jpg"><img src="posts/014_1.jpg" width="110"></a> <a href="posts/014_2.jpg"><img src="posts/014_2.jpg" width="110"></a> <a href="posts/014_3.jpg"><img src="posts/014_3.jpg" width="110"></a> <a href="posts/014_4.jpg"><img src="posts/014_4.jpg" width="110"></a> <a href="posts/014_5.jpg"><img src="posts/014_5.jpg" width="110"></a> <a href="posts/014_6.jpg"><img src="posts/014_6.jpg" width="110"></a> <a href="posts/014_7.jpg"><img src="posts/014_7.jpg" width="110"></a>
 
@@ -246,7 +246,7 @@ Save this and follow for a new hack every day.
 
 </details>
 
-### Carousel 015
+### 015
 
 <a href="posts/015_1.jpg"><img src="posts/015_1.jpg" width="110"></a> <a href="posts/015_2.jpg"><img src="posts/015_2.jpg" width="110"></a> <a href="posts/015_3.jpg"><img src="posts/015_3.jpg" width="110"></a> <a href="posts/015_4.jpg"><img src="posts/015_4.jpg" width="110"></a> <a href="posts/015_5.jpg"><img src="posts/015_5.jpg" width="110"></a> <a href="posts/015_6.jpg"><img src="posts/015_6.jpg" width="110"></a> <a href="posts/015_7.jpg"><img src="posts/015_7.jpg" width="110"></a>
 
@@ -270,7 +270,7 @@ Save this and follow for a new hack every day.
 
 </details>
 
-### Carousel 016
+### 016
 
 <a href="posts/016_1.jpg"><img src="posts/016_1.jpg" width="110"></a> <a href="posts/016_2.jpg"><img src="posts/016_2.jpg" width="110"></a> <a href="posts/016_3.jpg"><img src="posts/016_3.jpg" width="110"></a> <a href="posts/016_4.jpg"><img src="posts/016_4.jpg" width="110"></a> <a href="posts/016_5.jpg"><img src="posts/016_5.jpg" width="110"></a> <a href="posts/016_6.jpg"><img src="posts/016_6.jpg" width="110"></a> <a href="posts/016_7.jpg"><img src="posts/016_7.jpg" width="110"></a>
 
@@ -294,7 +294,7 @@ Save this and follow for a new hack every day.
 
 </details>
 
-### Carousel 017
+### 017
 
 <a href="posts/017_1.jpg"><img src="posts/017_1.jpg" width="110"></a> <a href="posts/017_2.jpg"><img src="posts/017_2.jpg" width="110"></a> <a href="posts/017_3.jpg"><img src="posts/017_3.jpg" width="110"></a> <a href="posts/017_4.jpg"><img src="posts/017_4.jpg" width="110"></a> <a href="posts/017_5.jpg"><img src="posts/017_5.jpg" width="110"></a> <a href="posts/017_6.jpg"><img src="posts/017_6.jpg" width="110"></a> <a href="posts/017_7.jpg"><img src="posts/017_7.jpg" width="110"></a>
 
@@ -318,9 +318,27 @@ Save this and follow for a new hack every day.
 
 </details>
 
+## Pirate Wei
 
-## Recently posted
+**0 waiting** (0 from the vault). 0 posted by the system so far.
 
-- Carousel 005: manual
-- Carousel 003: manual
-- Carousel 001: 2026-11-18
+Nothing waiting.
+
+## The Only Wei
+
+**0 waiting** (0 from the vault). 0 posted by the system so far.
+
+Nothing waiting.
+
+## You Are Unemployed
+
+**0 waiting** (0 from the vault). 0 posted by the system so far.
+
+Nothing waiting.
+
+## Wei Stories
+
+**0 waiting** (0 from the vault). 0 posted by the system so far.
+
+Nothing waiting.
+

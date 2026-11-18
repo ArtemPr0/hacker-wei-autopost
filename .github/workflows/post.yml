@@ -1,14 +1,21 @@
 name: Post next carousel
 on:
   schedule:
-    - cron: "30 17 * * *"   # 17:30 UTC, about 17:30 in winter and 18:30 in British Summer Time
+    - cron: "30 7,12,18 * * *"   # three slots a day, UTC (one hour later on the clock in British Summer Time)
+  push:
+    branches: [main]
+    paths: ["vault/**", "accounts.json", "quotes.json"]   # a post added to the vault: just refresh the status the dashboard reads
   workflow_dispatch:
     inputs:
       action:
         description: "What to do"
         type: choice
         default: run
-        options: [run, post_now, write_more, pause, resume, tiktok_test]
+        options: [run, post_now, write_more, pause, resume, refresh]
+      account:
+        description: "Account id (hacker, pirate, only, unemployed, stories) or all"
+        type: string
+        default: all
 permissions:
   contents: write
 concurrency:
@@ -17,9 +24,10 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     env:
-      ACTION: ${{ inputs.action || 'run' }}
+      ACTION: ${{ github.event_name == 'push' && 'refresh' || inputs.action || 'run' }}
+      ACCOUNT: ${{ inputs.account || 'all' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,20 +35,18 @@ jobs:
           python-version: "3.12"
       - name: Pause or resume
         if: env.ACTION == 'pause' || env.ACTION == 'resume'
-        run: |
-          mkdir -p state
-          if [ "$ACTION" = "pause" ]; then echo '{"paused": true}' > state/paused.json; else echo '{"paused": false}' > state/paused.json; fi
-      - name: Write new carousels if the queue is short
+        run: python post.py --$ACTION "$ACCOUNT"
+      - name: Write new carousels
         if: env.ACTION == 'run' || env.ACTION == 'write_more'
         continue-on-error: true
-        timeout-minutes: 18
+        timeout-minutes: 20
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FORCE: ${{ inputs.action == 'write_more' && '1' || '0' }}
         run: |
-          if [ "$(python generate.py --need)" = "0" ]; then echo "Nothing to write (queue is full enough, or GEMINI_API_KEY is not set)."; exit 0; fi
+          if [ "$(python generate.py --need)" = "0" ]; then echo "Nothing to write (queues are full enough, or GEMINI_API_KEY is not set)."; exit 0; fi
           sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-inter fonts-dejavu-core
+          sudo apt-get install -y -qq fonts-inter fonts-dejavu-core fonts-dejavu-extra fonts-playfair-display || sudo apt-get install -y -qq fonts-inter fonts-dejavu-core
           fc-list > /tmp/fonts.txt
           grep -qi "Inter" /tmp/fonts.txt || { echo "::warning::Inter font missing, skipping generation"; exit 0; }
           pip install -q playwright
@@ -52,16 +58,16 @@ jobs:
         run: |
           git config user.name "hacker-wei-bot"
           git config user.email "hacker-wei-bot@users.noreply.github.com"
-          git add posts state
+          git add -A posts posts_* state 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "Add generated carousels" && git pull --rebase && git push)
-      - name: Post the next carousel
-        if: env.ACTION == 'run' || env.ACTION == 'post_now' || env.ACTION == 'tiktok_test'
+      - name: Post the next item for each account
+        if: env.ACTION == 'run' || env.ACTION == 'post_now'
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_API_KEY_2: ${{ secrets.BUFFER_API_KEY_2 }}
           FORCE_POST: ${{ inputs.action == 'post_now' && '1' || '0' }}
-          TIKTOK_TEST: ${{ inputs.action == 'tiktok_test' && '1' || '0' }}
         run: python post.py
       - name: Save what was posted
         if: always()

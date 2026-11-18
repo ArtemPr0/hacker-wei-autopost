@@ -1,7 +1,8 @@
 {
- "updated": "2026-11-18T19:31:08Z",
+ "updated": "2026-11-18T22:50:30Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
+ "slots": "07:30, 12:30 and 18:30 UTC",
  "queue_page": "https://github.com/ArtemPr0/hacker-wei-autopost/blob/main/QUEUE.md",
  "runs_page": "https://github.com/ArtemPr0/hacker-wei-autopost/actions/workflows/post.yml",
  "accounts": [
@@ -9,81 +10,99 @@
    "id": "hacker",
    "name": "Hacker Wei",
    "handle": "hacker.wei",
-   "active": true,
    "format": "7-slide job hack carousel",
-   "writer": "Gemini (free tier), up to 3 a day",
+   "writer": "Free AI writes 5 hacks per carousel",
    "platforms": [
     "instagram",
     "tiktok"
    ],
-   "schedule": "Every day at 17:30 UTC",
+   "instagram": "hacker.weii",
+   "tiktok": "hacker.wei",
+   "per_day": 3,
+   "has_writer": true,
+   "active": true,
+   "paused": false,
+   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
    "waiting": 13,
+   "vault_waiting": 0,
    "posted": 1,
    "next": [
     {
      "id": "002",
      "title": "A rejection is not the end. It can be a lead. \ud83d\udca1",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/002_1.jpg",
-     "slides": 7
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/002_1.jpg"
     },
     {
      "id": "004",
      "title": "Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. \ud83c\udfc6",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/004_1.jpg",
-     "slides": 7
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/004_1.jpg"
     },
     {
      "id": "006",
      "title": "Spring weeks fill up early. Here is how to get ahead of it. \ud83c\udf31",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/006_1.jpg",
-     "slides": 7
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/006_1.jpg"
     },
     {
      "id": "007",
      "title": "Your cover letter is judged in the first line. Make it count. \u270d\ufe0f",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/007_1.jpg",
-     "slides": 7
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/007_1.jpg"
     },
     {
      "id": "008",
      "title": "Ten minutes is enough to make your LinkedIn work harder. \ud83d\udd27",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/008_1.jpg",
-     "slides": 7
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/008_1.jpg"
     },
     {
      "id": "009",
      "title": "Video interviews are won in the setup. \ud83c\udfa5",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/009_1.jpg",
-     "slides": 7
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/009_1.jpg"
     }
    ],
    "recent": [
     {
      "id": "001",
      "title": "Online tests can end your application before a human reads it. \ud83d\ude2c",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/001_1.jpg",
-     "slides": 7,
      "date": "2026-11-18",
+     "at": null,
+     "instagram": true,
      "tiktok": null,
-     "instagram": true
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/001_1.jpg"
     },
     {
      "id": "005",
      "title": "Most students only apply through portals. The ones who message people get a head start. \ud83d\udce9",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/005_1.jpg",
-     "slides": 7,
      "date": "manual",
+     "at": null,
+     "instagram": false,
      "tiktok": null,
-     "instagram": false
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/005_1.jpg"
     },
     {
      "id": "003",
      "title": "A robot often reads your CV before a human does. \ud83e\udd16",
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/003_1.jpg",
-     "slides": 7,
      "date": "manual",
+     "at": null,
+     "instagram": false,
      "tiktok": null,
-     "instagram": false
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/003_1.jpg"
     }
    ]
   },
@@ -91,14 +110,20 @@
    "id": "pirate",
    "name": "Pirate Wei",
    "handle": "pirate.wei",
-   "active": false,
-   "format": "Waiting for a post format",
-   "writer": "Off",
+   "format": "7-slide rant carousel: 5 lies of the careers world and the truth",
+   "writer": "Free AI writes the rants",
    "platforms": [
     "tiktok"
    ],
-   "schedule": "Not scheduled",
+   "instagram": "",
+   "tiktok": "pirate.wei",
+   "per_day": 3,
+   "has_writer": true,
+   "active": true,
+   "paused": false,
+   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
    "waiting": 0,
+   "vault_waiting": 0,
    "posted": 0,
    "next": [],
    "recent": []
@@ -107,30 +132,63 @@
    "id": "only",
    "name": "The Only Wei",
    "handle": "the.only.wei",
-   "active": false,
-   "format": "Waiting for a post format",
-   "writer": "Off",
+   "format": "7-slide quote carousel: a checked real quote and 5 ways to use it",
+   "writer": "Quotes come from the checked quote bank; free AI writes the lessons",
    "platforms": [
     "tiktok"
    ],
-   "schedule": "Not scheduled",
+   "instagram": "",
+   "tiktok": "the.only.wei",
+   "per_day": 3,
+   "has_writer": true,
+   "active": true,
+   "paused": false,
+   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
    "waiting": 0,
+   "vault_waiting": 0,
    "posted": 0,
    "next": [],
-   "recent": []
+   "recent": [],
+   "quotes_left": 14
   },
   {
    "id": "unemployed",
    "name": "You Are Unemployed",
    "handle": "yourareunemployed",
-   "active": false,
-   "format": "Waiting for a post format",
-   "writer": "Off",
+   "format": "Vault only: posts whatever is added to its vault",
+   "writer": "None",
    "platforms": [
     "tiktok"
    ],
-   "schedule": "Not scheduled",
+   "instagram": "",
+   "tiktok": "yourareunemployed",
+   "per_day": 3,
+   "has_writer": false,
+   "active": false,
+   "paused": false,
+   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
    "waiting": 0,
+   "vault_waiting": 0,
+   "posted": 0,
+   "next": [],
+   "recent": []
+  },
+  {
+   "id": "stories",
+   "name": "Wei Stories",
+   "handle": "",
+   "format": "Vault only: story reels (video) added to its vault",
+   "writer": "None",
+   "platforms": [],
+   "instagram": "",
+   "tiktok": "",
+   "per_day": 1,
+   "has_writer": false,
+   "active": false,
+   "paused": false,
+   "schedule": "No platform connected",
+   "waiting": 0,
+   "vault_waiting": 0,
    "posted": 0,
    "next": [],
    "recent": []

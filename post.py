@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
-"""Posts the next queued carousel in posts/ (files NNN_1.jpg ... NNN_7.jpg and NNN_caption.txt) to Instagram (Instagram API with Instagram Login).
+"""Posts the next item for every account (or one account). An item is a carousel (NAME_1.jpg ... plus NAME_caption.txt) or a video
+(NAME.mp4 plus NAME_caption.txt). Items in vault/<account>/ go first, then the AI-written queue in the account's posts folder.
 
-Env: IG_ACCESS_TOKEN (required), IG_USER_ID (optional, defaults to the token's own account). Optional: BUFFER_API_KEY (also posts to TikTok through Buffer), TIKTOK_HANDLE, FORCE_POST=1, IMAGE_BASE, GRAPH_BASE, GRAPH_VERSION,
-SKIP_URL_CHECK=1, STATE_FILE.
-Flags: --dry-run (print what would happen), --force (ignore the one post a day guard).
-Exit codes: 0 ok, 1 failure, 3 posted fine but the queue is nearly empty (so GitHub emails you).
+Each account posts up to its per_day limit, at least GAP_MIN minutes apart. Instagram goes through the Instagram API (accounts with an
+"instagram" entry), TikTok through Buffer (accounts with a "tiktok" handle that is connected in Buffer).
+
+Env: IG_ACCESS_TOKEN, IG_USER_ID (optional), BUFFER_API_KEY, BUFFER_API_KEY_2 (optional second Buffer account), ACCOUNT (one account id, or all),
+FORCE_POST=1 (ignore the daily limit, the gap and pause), GRAPH_BASE, GRAPH_VERSION, SKIP_URL_CHECK=1, IMAGE_BASE.
+Flags: --dry-run, --force, --pause ID|all, --resume ID|all.
+Exit codes: 0 ok, 1 failure, 3 fine but an AI-written queue is nearly empty (so GitHub emails the owner).
 """
-import os, sys, json, time, datetime, urllib.request, urllib.parse, urllib.error
+import os, sys, json, time, datetime, subprocess, urllib.request, urllib.parse, urllib.error
+import common
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
-POSTS = os.path.join(ROOT, "posts")
-STATE = os.environ.get("STATE_FILE", os.path.join(ROOT, "state", "posted.json"))
+ROOT = common.ROOT
 BASE = os.environ.get("GRAPH_BASE", "https://graph.instagram.com").rstrip("/")
 VER = os.environ.get("GRAPH_VERSION", "").strip("/")
 LOW_QUEUE = 2
+GAP_MIN = 150
 DEFAULT_IG_ID = "17841413475185588"  # hacker.weii, used only on graph.facebook.com
 
 def log(*a): print(*a, flush=True)
@@ -54,46 +58,46 @@ def gql(query, key):
     if out.get("errors"): raise RuntimeError(f"Buffer error: {json.dumps(out['errors'])[:400]}")
     return out["data"]
 
-def tiktok_via_buffer(handle, urls, caption):
-    """Sends the carousel to the TikTok channel connected in Buffer (an approved TikTok partner). Returns a short status."""
-    key = os.environ.get("BUFFER_API_KEY", "").strip()
-    if not key: return "not set up"
-    chans = []
-    for org in gql("query { account { organizations { id name } } }", key)["account"]["organizations"]:
-        chans += gql('query { channels(input: {organizationId: "%s"}) { id name displayName service } }' % org["id"], key)["channels"]
+_channels = None
+def buffer_channels():
+    """Every channel in every connected Buffer account, each with the key that reaches it."""
+    global _channels
+    if _channels is None:
+        _channels = []
+        for key in [os.environ.get(k, "").strip() for k in ("BUFFER_API_KEY", "BUFFER_API_KEY_2")]:
+            if not key: continue
+            for org in gql("query { account { organizations { id name } } }", key)["account"]["organizations"]:
+                for c in gql('query { channels(input: {organizationId: "%s"}) { id name displayName service } }' % org["id"], key)["channels"]:
+                    _channels.append(dict(c, key=key))
+    return _channels
+
+def tiktok_via_buffer(handle, urls, caption, video=False):
+    """Sends a carousel or a video to the TikTok channel connected in Buffer (an approved TikTok partner). Returns a short status."""
+    if not any(os.environ.get(k, "").strip() for k in ("BUFFER_API_KEY", "BUFFER_API_KEY_2")): return "not set up"
     want = handle.lower().lstrip("@")
-    match = [c for c in chans if c.get("service") == "tiktok" and want in ((c.get("name") or "") + " " + (c.get("displayName") or "")).lower()]
+    match = [c for c in buffer_channels() if c.get("service") == "tiktok" and want in ((c.get("name") or "").lower(), (c.get("displayName") or "").lower())]
     if not match:
-        return "no TikTok channel named %s in Buffer (found: %s)" % (handle, ", ".join(f"{c.get('service')}:{c.get('name')}" for c in chans) or "none")
-    assets = ", ".join('{image: {url: %s}}' % json.dumps(u) for u in urls)
-    last = ""
+        return "not connected in Buffer: %s (connected: %s)" % (handle, ", ".join(c.get("name") or "?" for c in buffer_channels()) or "none")
+    kind = "video" if video else "image"
+    assets = ", ".join('{%s: {url: %s}}' % (kind, json.dumps(u)) for u in urls)
     soon = time.strftime("%Y-%m-%dT%H:%M:%S.000Z", time.gmtime(time.time() + 180))
+    last = ""
     for mode in ("shareNow", 'customScheduled, dueAt: "%s"' % soon, "addToQueue"):
         q = ('mutation { createPost(input: {text: %s, channelId: "%s", schedulingType: automatic, mode: %s, assets: [%s]}) '
              '{ ... on PostActionSuccess { post { id } } ... on MutationError { message } } }') % (json.dumps(caption, ensure_ascii=False), match[0]["id"], mode, assets)
         try:
-            res = gql(q, key)["createPost"]
+            res = gql(q, match[0]["key"])["createPost"]
         except RuntimeError as e:
             last = str(e); continue
         if res.get("post"): return f"sent ({mode.split(',')[0]}, Buffer post {res['post']['id']})"
         last = res.get("message") or json.dumps(res)[:200]
     return "failed: " + last[:300]
 
-def load_state():
-    try:
-        return json.load(open(STATE))
-    except FileNotFoundError:
-        return {"posted": []}
-
-def save_state(st):
-    os.makedirs(os.path.dirname(STATE), exist_ok=True)
-    json.dump(st, open(STATE, "w"), indent=1)
-
 def check_url(u):
     req = urllib.request.Request(u, method="HEAD")
     with urllib.request.urlopen(req, timeout=30) as r:
         ct = r.headers.get("Content-Type", "")
-        if r.status != 200 or "image" not in ct:
+        if r.status != 200 or not ("image" in ct or "video" in ct or "octet" in ct):
             raise RuntimeError(f"image not reachable as an image: {u} ({r.status}, {ct})")
 
 def wait_ready(cid, token, secs=180):
@@ -108,92 +112,128 @@ def wait_ready(cid, token, secs=180):
         time.sleep(4)
     raise RuntimeError(f"container {cid} not ready after {secs}s")
 
-def main():
-    dry = "--dry-run" in sys.argv
-    force = "--force" in sys.argv or os.environ.get("FORCE_POST") == "1"
-    if os.environ.get("TIKTOK_TEST") == "1":      # sends the next carousel to TikTok only, to test the Buffer connection
-        st0 = load_state(); done0 = {p["post"] for p in st0["posted"]}
-        nxt = sorted({f.split("_")[0] for f in os.listdir(POSTS) if f.endswith("_caption.txt")} - done0)
-        last = st0["posted"][-1]["post"] if st0["posted"] else (nxt[0] if nxt else None)
-        fs = sorted((f for f in os.listdir(POSTS) if f.startswith(last + "_") and f.endswith(".jpg")), key=lambda f: int(f.split("_")[1].split(".")[0]))
-        base = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', 'OWNER/REPO')}/{os.environ.get('GITHUB_REF_NAME', 'main')}/posts"
-        log("TikTok test:", tiktok_via_buffer(os.environ.get("TIKTOK_HANDLE", "hacker.wei"), [f"{base}/{f}" for f in fs],
-                                              open(os.path.join(POSTS, last + "_caption.txt"), encoding="utf8").read().strip()))
-        return 0
-    try: paused = json.load(open(os.path.join(ROOT, "state", "paused.json"))).get("paused")
-    except Exception: paused = False
-    if paused and not force:
-        log("::notice::Posting is paused (state/paused.json). Nothing posted."); return 0
-    st = load_state()
-    done = {p["post"] for p in st["posted"]}
-    files = os.listdir(POSTS)
-    queue = sorted({f.split("_")[0] for f in files if f.endswith("_caption.txt")})
-    todo = [d for d in queue if d not in done]
-    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
-    if not todo:
-        log("Queue is empty. Add more posts to posts/.")
-        return 3
-    if not force and st["posted"] and st["posted"][-1]["date"] == today:
-        log("Already posted today, skipping.")
-        return 0
-    name = todo[0]
-    slides = sorted((f for f in files if f.startswith(name + "_") and f.lower().endswith((".jpg", ".jpeg"))),
-                    key=lambda f: int(f.split("_")[1].split(".")[0]))
-    caption = open(os.path.join(POSTS, name + "_caption.txt"), encoding="utf8").read().strip()
-    assert 2 <= len(slides) <= 10, f"{name}: need 2 to 10 slides, found {len(slides)}"
-    assert len(caption) <= 2200 and caption.count("#") <= 30, f"{name}: caption too long or too many hashtags"
-    repo = os.environ.get("GITHUB_REPOSITORY", "OWNER/REPO")
-    branch = os.environ.get("GITHUB_REF_NAME", "main")
-    img_base = os.environ.get("IMAGE_BASE", f"https://raw.githubusercontent.com/{repo}/{branch}/posts").rstrip("/")
-    urls = [f"{img_base}/{s}" for s in slides]
-    log(f"Next post: {name} with {len(slides)} slides")
-    if dry:
-        for u in urls: log("  ", u)
-        log("Caption:\n" + caption)
-        return 0
-    uid = os.environ.get("IG_USER_ID", "").strip() or "me"
-    token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
-    if not token:
-        log("::notice::IG_ACCESS_TOKEN secret is not set yet, nothing posted.")
-        return 0
+_ig = {}
+def ig_login():
+    """Works out which Graph host accepts the token. Returns (user id, token) or None when no token is set."""
     global BASE
+    if "v" in _ig: return _ig["v"]
+    token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
+    uid = os.environ.get("IG_USER_ID", "").strip() or "me"
+    if not token:
+        _ig["v"] = None; return None
     try:
         who = call("GET", "me", {"fields": "user_id,username", "access_token": token}, tries=1)
-        log(f"Posting as @{who.get('username')} via {BASE}")
     except RuntimeError as e:
-        if "GRAPH_BASE" in os.environ:
-            raise
-        # Tokens from Meta's unified login are served by graph.facebook.com instead.
+        if "GRAPH_BASE" in os.environ: raise
         log(f"graph.instagram.com did not accept the token ({str(e)[:160]}), trying graph.facebook.com")
         BASE = "https://graph.facebook.com"
-        if uid == "me":
-            uid = DEFAULT_IG_ID
+        if uid == "me": uid = DEFAULT_IG_ID
         who = call("GET", uid, {"fields": "username", "access_token": token}, tries=1)
-        log(f"Posting as @{who.get('username')} via {BASE}")
+    log(f"Instagram: posting as @{who.get('username')} via {BASE}")
+    _ig["v"] = (uid, token, (who.get("username") or "").lower()); return _ig["v"]
+
+def instagram(a, it, urls):
+    """Publishes a carousel, a single image or a reel. Returns the media id."""
+    login = ig_login()
+    if not login: raise RuntimeError("IG_ACCESS_TOKEN is not set")
+    uid, token, username = login
+    if username and username != a["instagram"].lower():
+        raise RuntimeError(f"the Instagram token belongs to @{username}, not @{a['instagram']}")
+    cap = it["caption"]
+    assert len(cap) <= 2200 and cap.count("#") <= 30, "caption too long or too many hashtags for Instagram"
+    if it["video"]:
+        c = call("POST", f"{uid}/media", {"media_type": "REELS", "video_url": urls[0], "caption": cap, "access_token": token})
+        wait_ready(c["id"], token, secs=600); final = c["id"]
+    elif len(urls) == 1:
+        c = call("POST", f"{uid}/media", {"image_url": urls[0], "caption": cap, "access_token": token})
+        wait_ready(c["id"], token); final = c["id"]
+    else:
+        assert len(urls) <= 10, "Instagram carousels take at most 10 slides"
+        kids = [call("POST", f"{uid}/media", {"image_url": u, "is_carousel_item": "true", "access_token": token})["id"] for u in urls]
+        for k in kids: wait_ready(k, token)
+        car = call("POST", f"{uid}/media", {"media_type": "CAROUSEL", "children": ",".join(kids), "caption": cap, "access_token": token})
+        wait_ready(car["id"], token); final = car["id"]
+    return call("POST", f"{uid}/media_publish", {"creation_id": final, "access_token": token}, tries=1).get("id")
+
+def set_pause(who, value):
+    f = os.path.join(ROOT, "state", "paused.json")
+    try: p = json.load(open(f))
+    except Exception: p = {}
+    if who in ("", "all"): p["paused"] = value; p["accounts"] = {} if not value else p.get("accounts", {})
+    else: p.setdefault("accounts", {})[who] = value
+    os.makedirs(os.path.dirname(f), exist_ok=True); json.dump(p, open(f, "w"))
+    log(f"{'Paused' if value else 'Resumed'}: {who or 'all'}")
+
+def post_account(a, force, dry, img_base):
+    """Posts one item for one account. Returns 'posted', 'skipped', 'empty', 'low' or 'failed'."""
+    name = a["name"]
+    if common.paused(a) and not force:
+        log(f"{name}: paused, nothing posted."); return "skipped"
+    if not a.get("instagram") and not a.get("tiktok"):
+        log(f"{name}: no connected platform yet."); return "skipped"
+    st = common.load_state(a)
+    todo = common.waiting(a)
+    if not todo:
+        log(f"{name}: nothing waiting."); return "empty"
+    now = datetime.datetime.now(datetime.timezone.utc)
+    today = now.strftime("%Y-%m-%d")
+    mine = [p for p in st["posted"] if p.get("date") == today]
+    if not force:
+        if len(mine) >= int(a.get("per_day", 1)):
+            log(f"{name}: already posted {len(mine)} today, skipping."); return "skipped"
+        last = max((p.get("at", "") for p in mine), default="")
+        if last and (now - datetime.datetime.strptime(last, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)).total_seconds() < GAP_MIN * 60:
+            log(f"{name}: last post was under {GAP_MIN} minutes ago, skipping."); return "skipped"
+    it = todo[0]
+    urls = [f"{img_base}/{it['rel']}/{urllib.parse.quote(m)}" for m in it["media"]]
+    log(f"{name}: next is {it['key']} ({'video' if it['video'] else str(len(urls)) + ' slides'})")
+    if dry:
+        for u in urls: log("  ", u)
+        log("Caption:\n" + it["caption"]); return "skipped"
     if os.environ.get("SKIP_URL_CHECK") != "1":
         for u in urls: check_url(u)
-    kids = []
-    for u in urls:
-        c = call("POST", f"{uid}/media", {"image_url": u, "is_carousel_item": "true", "access_token": token})
-        kids.append(c["id"])
-    for k in kids: wait_ready(k, token)
-    car = call("POST", f"{uid}/media", {"media_type": "CAROUSEL", "children": ",".join(kids),
-                                        "caption": caption, "access_token": token})
-    wait_ready(car["id"], token)
-    pub = call("POST", f"{uid}/media_publish", {"creation_id": car["id"], "access_token": token}, tries=1)
-    entry = {"post": name, "date": today, "media_id": pub.get("id")}
-    st["posted"].append(entry); save_state(st)
-    log(f"Published {name}: media id {pub.get('id')}")
-    try:
-        entry["tiktok"] = tiktok_via_buffer(os.environ.get("TIKTOK_HANDLE", "hacker.wei"), urls, caption)
-    except Exception as e:
-        entry["tiktok"] = f"failed: {e}"[:300]
-    log("TikTok:", entry["tiktok"]); save_state(st)
-    left = len(todo) - 1
-    if left <= LOW_QUEUE:
-        log(f"::warning::Only {left} posts left in the queue. Add more posts to posts/.")
-        return 3
-    return 0
+    entry = {"post": it["key"], "date": today, "at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "media_id": None, "title": it["caption"].splitlines()[0][:160]}
+    if a.get("instagram"):
+        try:
+            entry["media_id"] = instagram(a, it, urls); log(f"{name}: Instagram published, media id {entry['media_id']}")
+        except Exception as e:
+            entry["instagram_error"] = str(e)[:300]; log(f"::warning::{name}: Instagram failed: {e}")
+        if entry["media_id"]:
+            st["posted"].append(entry); common.save_state(a, st)     # saved at once, so a later crash can never cause a double post
+    if a.get("tiktok"):
+        try: entry["tiktok"] = tiktok_via_buffer(a["tiktok"], urls, it["caption"], it["video"])
+        except Exception as e: entry["tiktok"] = f"failed: {e}"[:300]
+        log(f"{name}: TikTok: {entry['tiktok']}")
+    ok = bool(entry["media_id"]) or str(entry.get("tiktok", "")).startswith("sent")
+    if not ok:
+        log(f"::warning::{name}: {it['key']} did not go out anywhere, it stays in the queue for the next slot."); return "failed"
+    if entry not in st["posted"]: st["posted"].append(entry)
+    common.save_state(a, st)
+    left = len([t for t in todo[1:] if not t["vault"]])
+    if a.get("profile") and left <= LOW_QUEUE:
+        log(f"::warning::{name}: only {left} AI-written posts left in the queue."); return "low"
+    return "posted"
+
+def main():
+    args = sys.argv[1:]
+    for flag, val in (("--pause", True), ("--resume", False)):
+        if flag in args:
+            set_pause(args[args.index(flag) + 1] if len(args) > args.index(flag) + 1 else "all", val); return 0
+    dry = "--dry-run" in args
+    force = "--force" in args or os.environ.get("FORCE_POST") == "1"
+    only = os.environ.get("ACCOUNT", "all").strip() or "all"
+    repo = os.environ.get("GITHUB_REPOSITORY", "OWNER/REPO")
+    try: sha = subprocess.run(["git", "-C", ROOT, "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip() or "main"
+    except Exception: sha = "main"
+    img_base = os.environ.get("IMAGE_BASE", f"https://raw.githubusercontent.com/{repo}/{sha}").rstrip("/")
+    results = {}
+    for a in common.accounts():
+        if only != "all" and a["id"] != only: continue
+        try: results[a["id"]] = post_account(a, force, dry, img_base)
+        except Exception as e:
+            log(f"::error::{a['name']}: {e}"); results[a["id"]] = "failed"
+    log("Summary:", json.dumps(results))
+    return 3 if "low" in results.values() else 0
 
 if __name__ == "__main__":
     try:
