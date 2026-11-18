@@ -122,12 +122,21 @@ def ask_ai(used, feedback):
             "Authorization": f"Bearer {token}", "Content-Type": "application/json", "Accept": "application/json"})
         try:
             with urllib.request.urlopen(req, timeout=90) as r:
-                out = json.loads(r.read().decode())
-            txt = out["choices"][0]["message"]["content"]
+                raw = r.read().decode(errors="replace")
+                meta = f"status {r.status}, type {r.headers.get('Content-Type')}"
+            try:
+                out = json.loads(raw)
+                txt = out["choices"][0]["message"]["content"]
+            except Exception as e:
+                raise ValueError(f"unexpected API response ({meta}): {raw[:300]!r}") from e
             m = re.search(r"\{.*\}", txt, re.S)
-            if not m: raise ValueError("no JSON object in the reply")
+            if not m: raise ValueError(f"no JSON object in the reply: {txt[:200]!r}")
+            try:
+                sp = json.loads(m.group(0))
+            except Exception as e:
+                raise ValueError(f"reply was not valid JSON: {txt[:300]!r}") from e
             log(f"AI reply from {model}")
-            return json.loads(m.group(0))
+            return sp
         except urllib.error.HTTPError as e:
             last = f"{model}: HTTP {e.code} {e.read().decode(errors='replace')[:200]}"
         except Exception as e:
