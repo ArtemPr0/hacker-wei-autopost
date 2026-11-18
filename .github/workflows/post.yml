@@ -31,7 +31,8 @@ jobs:
           if [ "$(python generate.py --need)" = "0" ]; then echo "Queue is full enough, nothing to write."; exit 0; fi
           sudo apt-get update -qq
           sudo apt-get install -y -qq fonts-inter fonts-dejavu-core
-          fc-list | grep -qi "Inter" || { echo "::warning::Inter font missing, skipping generation"; exit 0; }
+          fc-list > /tmp/fonts.txt
+          grep -qi "Inter" /tmp/fonts.txt || { echo "::warning::Inter font missing, skipping generation"; exit 0; }
           pip install -q playwright
           python -m playwright install --with-deps chromium
           python generate.py
