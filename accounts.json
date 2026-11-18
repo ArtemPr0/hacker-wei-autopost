@@ -1,15 +1,65 @@
 {
  "slots": "07:30, 12:30 and 18:30 UTC",
  "accounts": [
-  {"id": "hacker", "name": "Hacker Wei", "handle": "hacker.wei", "dir": "posts", "profile": "hacker", "per_day": 3,
-   "instagram": "hacker.weii", "tiktok": "hacker.wei", "format": "7-slide job hack carousel", "writer": "Free AI writes 5 hacks per carousel"},
-  {"id": "pirate", "name": "Pirate Wei", "handle": "pirate.wei", "profile": "pirate", "per_day": 3,
-   "tiktok": "pirate.wei", "format": "7-slide rant carousel: 5 lies of the careers world and the truth", "writer": "Free AI writes the rants"},
-  {"id": "only", "name": "The Only Wei", "handle": "the.only.wei", "profile": "only", "per_day": 3,
-   "tiktok": "the.only.wei", "format": "7-slide quote carousel: a checked real quote and 5 ways to use it", "writer": "Quotes come from the checked quote bank; free AI writes the lessons"},
-  {"id": "unemployed", "name": "You Are Unemployed", "handle": "yourareunemployed", "per_day": 3,
-   "tiktok": "yourareunemployed", "format": "Vault only: posts whatever is added to its vault", "writer": "None"},
-  {"id": "stories", "name": "Wei Stories", "handle": "wei.stories5", "per_day": 1,
-   "tiktok": "wei.stories5", "instagram": "weistories", "format": "Vault only: story reels (video) added to its vault", "writer": "None"}
+  {
+   "id": "hacker",
+   "name": "Hacker Wei",
+   "handle": "hacker.wei",
+   "dir": "posts",
+   "profile": "hacker",
+   "per_day": 3,
+   "instagram": "hacker.weii",
+   "tiktok": "hacker.wei",
+   "format": "7-slide job hack carousel",
+   "writer": "Free AI writes 5 hacks per carousel"
+  },
+  {
+   "id": "pirate",
+   "name": "Pirate Wei",
+   "handle": "pirate.wei",
+   "profile": "pirate",
+   "per_day": 3,
+   "tiktok": "pirate.wei",
+   "format": "7-slide rant carousel: 5 lies of the careers world and the truth",
+   "writer": "Free AI writes the rants"
+  },
+  {
+   "id": "only",
+   "name": "The Only Wei",
+   "handle": "the.only.wei",
+   "profile": "only",
+   "per_day": 3,
+   "tiktok": "the.only.wei",
+   "format": "7-slide quote carousel: a checked real quote and 5 ways to use it",
+   "writer": "Quotes come from the checked quote bank; free AI writes the lessons"
+  },
+  {
+   "id": "unemployed",
+   "name": "You Are Unemployed",
+   "handle": "yourareunemployed",
+   "per_day": 3,
+   "tiktok": "yourareunemployed",
+   "format": "Vault only: posts whatever is added to its vault",
+   "writer": "None"
+  },
+  {
+   "id": "stories",
+   "name": "Wei Stories",
+   "handle": "wei.stories5",
+   "per_day": 1,
+   "tiktok": "wei.stories5",
+   "instagram": "weistories",
+   "format": "Vault only: story reels (video) added to its vault",
+   "writer": "None"
+  },
+  {
+   "id": "pathwei",
+   "name": "Pathwei",
+   "handle": "pathwei_ai",
+   "per_day": 1,
+   "tiktok": "pathwei_ai",
+   "format": "Vault only: posts whatever is added to its vault",
+   "writer": "None"
+  }
  ]
 }
