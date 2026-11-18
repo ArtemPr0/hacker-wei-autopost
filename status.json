@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:51:18Z",
+ "updated": "2026-11-18T22:56:55Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UTC",
@@ -23,7 +23,7 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
-   "waiting": 13,
+   "waiting": 15,
    "vault_waiting": 0,
    "posted": 1,
    "next": [
@@ -122,10 +122,27 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
-   "waiting": 0,
+   "waiting": 2,
    "vault_waiting": 0,
    "posted": 0,
-   "next": [],
+   "next": [
+    {
+     "id": "001",
+     "title": "Reaching out to strangers for careers advice feels uncomfortable. Here is how to actually get replies.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_pirate/001_1.jpg"
+    },
+    {
+     "id": "002",
+     "title": "They ask for years of experience for a role that starts at graduation. Here is how to read between the lines.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_pirate/002_1.jpg"
+    }
+   ],
    "recent": []
   },
   {
@@ -144,12 +161,29 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
-   "waiting": 0,
+   "waiting": 2,
    "vault_waiting": 0,
    "posted": 0,
-   "next": [],
+   "next": [
+    {
+     "id": "001",
+     "title": "\"If a schedule is long, it's wrong. If it's tight, it's right.\" Elon Musk (Starship update talk, 2019)",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_only/001_1.jpg"
+    },
+    {
+     "id": "002",
+     "title": "\"If you have a really good idea, stick to it, but be flexible on how you get there.\" Jeff Bezos (The New Yorker, 2019)",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_only/002_1.jpg"
+    }
+   ],
    "recent": [],
-   "quotes_left": 14
+   "quotes_left": 12
   },
   {
    "id": "unemployed",

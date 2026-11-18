@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**13 waiting** (0 from the vault). 1 posted by the system so far.
+**15 waiting** (0 from the vault). 1 posted by the system so far.
 
 ### 002
 
@@ -318,17 +318,161 @@ Save this and follow for a new hack every day.
 
 </details>
 
+### 018
+
+<a href="posts/018_1.jpg"><img src="posts/018_1.jpg" width="110"></a> <a href="posts/018_2.jpg"><img src="posts/018_2.jpg" width="110"></a> <a href="posts/018_3.jpg"><img src="posts/018_3.jpg" width="110"></a> <a href="posts/018_4.jpg"><img src="posts/018_4.jpg" width="110"></a> <a href="posts/018_5.jpg"><img src="posts/018_5.jpg" width="110"></a> <a href="posts/018_6.jpg"><img src="posts/018_6.jpg" width="110"></a> <a href="posts/018_7.jpg"><img src="posts/018_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+An employment contract is more than just a starting date and a salary. Here is what to check before you sign.
+
+5 clauses to check before you sign:
+1. Check the probation period length
+2. Look up notice period rules
+3. Read the training repayment clause
+4. Check the standard working hours
+5. Find the place of work clause
+
+Which clause will you check? Comment the number 👇
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #employmentlaw #graduatescheme #careerstart #jobsearchuk #hackerwei
+```
+
+</details>
+
+### 019
+
+<a href="posts/019_1.jpg"><img src="posts/019_1.jpg" width="110"></a> <a href="posts/019_2.jpg"><img src="posts/019_2.jpg" width="110"></a> <a href="posts/019_3.jpg"><img src="posts/019_3.jpg" width="110"></a> <a href="posts/019_4.jpg"><img src="posts/019_4.jpg" width="110"></a> <a href="posts/019_5.jpg"><img src="posts/019_5.jpg" width="110"></a> <a href="posts/019_6.jpg"><img src="posts/019_6.jpg" width="110"></a> <a href="posts/019_7.jpg"><img src="posts/019_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Finding a placement year is tough when everyone else is applying too. Here is how to stand out.
+
+5 ways to beat the rush:
+1. Target mid sized local firms
+2. Use your university careers hub
+3. Direct message the recruitment team
+4. Treat applications like a module
+5. Practise recorded video interviews
+
+Which one will you try? Comment the number 👇
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #placementyear #internship #unilife #jobsearchuk #hackerwei
+```
+
+</details>
+
 ## Pirate Wei
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**2 waiting** (0 from the vault). 0 posted by the system so far.
 
-Nothing waiting.
+### 001
+
+<a href="posts_pirate/001_1.jpg"><img src="posts_pirate/001_1.jpg" width="110"></a> <a href="posts_pirate/001_2.jpg"><img src="posts_pirate/001_2.jpg" width="110"></a> <a href="posts_pirate/001_3.jpg"><img src="posts_pirate/001_3.jpg" width="110"></a> <a href="posts_pirate/001_4.jpg"><img src="posts_pirate/001_4.jpg" width="110"></a> <a href="posts_pirate/001_5.jpg"><img src="posts_pirate/001_5.jpg" width="110"></a> <a href="posts_pirate/001_6.jpg"><img src="posts_pirate/001_6.jpg" width="110"></a> <a href="posts_pirate/001_7.jpg"><img src="posts_pirate/001_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Reaching out to strangers for careers advice feels uncomfortable. Here is how to actually get replies.
+
+5 lies about networking:
+1. Just slide into their inbox
+2. Ask for a quick coffee
+3. You need a big network
+4. Send them your CV
+5. Always ask for a job
+
+Which tip will you use? Comment the number 👇
+Follow for a daily rant about the careers world.
+
+#ukgraduate #graduatejobs #ukstudents #jobhunting #careerhumour #networking #linkedinuk #jobsearchuk #graduatelife #piratewei
+```
+
+</details>
+
+### 002
+
+<a href="posts_pirate/002_1.jpg"><img src="posts_pirate/002_1.jpg" width="110"></a> <a href="posts_pirate/002_2.jpg"><img src="posts_pirate/002_2.jpg" width="110"></a> <a href="posts_pirate/002_3.jpg"><img src="posts_pirate/002_3.jpg" width="110"></a> <a href="posts_pirate/002_4.jpg"><img src="posts_pirate/002_4.jpg" width="110"></a> <a href="posts_pirate/002_5.jpg"><img src="posts_pirate/002_5.jpg" width="110"></a> <a href="posts_pirate/002_6.jpg"><img src="posts_pirate/002_6.jpg" width="110"></a> <a href="posts_pirate/002_7.jpg"><img src="posts_pirate/002_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+They ask for years of experience for a role that starts at graduation. Here is how to read between the lines.
+
+5 lies about entry roles:
+1. Two years of experience
+2. Must have industry knowledge
+3. Proven track record
+4. Be a subject expert
+5. We want a specialist
+
+Which lie got you? Comment the number 👇
+Follow for a daily rant about the careers world.
+
+#ukgraduate #graduatejobs #ukstudents #jobhunting #careerhumour #entrylevel #jobsearchuk #graduatelife #cvtips #piratewei
+```
+
+</details>
 
 ## The Only Wei
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**2 waiting** (0 from the vault). 0 posted by the system so far.
 
-Nothing waiting.
+### 001
+
+<a href="posts_only/001_1.jpg"><img src="posts_only/001_1.jpg" width="110"></a> <a href="posts_only/001_2.jpg"><img src="posts_only/001_2.jpg" width="110"></a> <a href="posts_only/001_3.jpg"><img src="posts_only/001_3.jpg" width="110"></a> <a href="posts_only/001_4.jpg"><img src="posts_only/001_4.jpg" width="110"></a> <a href="posts_only/001_5.jpg"><img src="posts_only/001_5.jpg" width="110"></a> <a href="posts_only/001_6.jpg"><img src="posts_only/001_6.jpg" width="110"></a> <a href="posts_only/001_7.jpg"><img src="posts_only/001_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+"If a schedule is long, it's wrong. If it's tight, it's right." Elon Musk (Starship update talk, 2019)
+
+Give yourself too much time and work expands to fill it. Here is how to use tight deadlines to get things done.
+
+5 ways to use this:
+1. Cut your timeline in half
+2. Set artificial limits today
+3. Deliver the draft early
+4. Focus on the main goal
+5. Time-box your daily tasks
+
+Which will you try first? Comment the number 👇
+Save this and follow for one idea a day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #firstjob #productivity #timemanagement #efficiency #workhacks #theonlywei
+```
+
+</details>
+
+### 002
+
+<a href="posts_only/002_1.jpg"><img src="posts_only/002_1.jpg" width="110"></a> <a href="posts_only/002_2.jpg"><img src="posts_only/002_2.jpg" width="110"></a> <a href="posts_only/002_3.jpg"><img src="posts_only/002_3.jpg" width="110"></a> <a href="posts_only/002_4.jpg"><img src="posts_only/002_4.jpg" width="110"></a> <a href="posts_only/002_5.jpg"><img src="posts_only/002_5.jpg" width="110"></a> <a href="posts_only/002_6.jpg"><img src="posts_only/002_6.jpg" width="110"></a> <a href="posts_only/002_7.jpg"><img src="posts_only/002_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+"If you have a really good idea, stick to it, but be flexible on how you get there." Jeff Bezos (The New Yorker, 2019)
+
+Stubbornness on the goal is useful, but stubbornness on the method will slow you down. Here is how to adapt.
+
+5 ways to use this:
+1. Define the core goal clearly
+2. Test methods quickly
+3. Listen to feedback openly
+4. Drop failing tactics early
+5. Keep a log of changes
+
+Which will you try first? Comment the number 👇
+Save this and follow for one idea a day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #firstjob #flexibility #problemsolving #projectwork #careergrowth #theonlywei
+```
+
+</details>
 
 ## You Are Unemployed
 
