@@ -6,6 +6,8 @@
   {"id": "pirate", "name": "Pirate Wei", "handle": "pirate.wei", "active": false,
    "format": "Waiting for a post format", "writer": "Off", "platforms": ["tiktok"], "schedule": "Not scheduled"},
   {"id": "only", "name": "The Only Wei", "handle": "the.only.wei", "active": false,
+   "format": "Waiting for a post format", "writer": "Off", "platforms": ["tiktok"], "schedule": "Not scheduled"},
+  {"id": "unemployed", "name": "You Are Unemployed", "handle": "yourareunemployed", "active": false,
    "format": "Waiting for a post format", "writer": "Off", "platforms": ["tiktok"], "schedule": "Not scheduled"}
  ]
 }

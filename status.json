@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T18:43:25Z",
+ "updated": "2026-11-18T19:06:32Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "queue_page": "https://github.com/ArtemPr0/hacker-wei-autopost/blob/main/QUEUE.md",
@@ -107,6 +107,22 @@
    "id": "only",
    "name": "The Only Wei",
    "handle": "the.only.wei",
+   "active": false,
+   "format": "Waiting for a post format",
+   "writer": "Off",
+   "platforms": [
+    "tiktok"
+   ],
+   "schedule": "Not scheduled",
+   "waiting": 0,
+   "posted": 0,
+   "next": [],
+   "recent": []
+  },
+  {
+   "id": "unemployed",
+   "name": "You Are Unemployed",
+   "handle": "yourareunemployed",
    "active": false,
    "format": "Waiting for a post format",
    "writer": "Off",
