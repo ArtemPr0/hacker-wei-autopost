@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Writes and renders new Hacker Wei carousels so the queue never runs dry.
 
-Each run: if fewer than TARGET unposted carousels are queued, ask a free GitHub Models AI for a new one,
+Each run: if fewer than TARGET unposted carousels are queued, ask Google Gemini (free tier) for a new one,
 check it against fixed rules, render the 7 slides in the house design, and add it to posts/.
 Any failure leaves the queue untouched (the daily post still goes out from what is already queued).
 
-Env: GITHUB_TOKEN (needs "models: read"). Optional: MODELS_URL, MODEL_IDS (comma separated), FORCE=1.
+Env: GEMINI_API_KEY (free key from Google AI Studio). Optional: MODELS_URL, MODEL_IDS (comma separated), FORCE=1.
 Flags: --from-file spec.json (skip the AI, used for tests), --dry-run (do not write into posts/).
 """
 import os, sys, re, json, glob, shutil, subprocess, tempfile, urllib.request, urllib.error
@@ -14,9 +14,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 POSTS = os.path.join(ROOT, "posts")
 STATE = os.environ.get("STATE_FILE", os.path.join(ROOT, "state", "posted.json"))
 TOPICS = os.environ.get("TOPICS_FILE", os.path.join(ROOT, "state", "topics.json"))
-URL = os.environ.get("MODELS_URL", "https://models.github.ai/inference/chat/completions")
+URL = os.environ.get("MODELS_URL", "https://generativelanguage.googleapis.com/v1beta/models").rstrip("/")
 MODELS = [m.strip() for m in os.environ.get(
-    "MODEL_IDS", "openai/gpt-4.1,openai/gpt-4o,openai/gpt-4.1-mini,openai/gpt-4o-mini").split(",") if m.strip()]
+    "MODEL_IDS", "gemini-3.5-flash,gemini-2.5-flash,gemini-3.1-flash-lite,gemini-2.5-flash-lite").split(",") if m.strip()]
 TARGET = 5          # keep this many unposted carousels queued
 MAX_PER_RUN = 2
 ATTEMPTS = 4
@@ -109,24 +109,26 @@ def validate(sp, used):
     return p
 
 def ask_ai(used, feedback):
-    token = os.environ["GITHUB_TOKEN"]
-    msgs = [{"role": "system", "content": RULES},
-            {"role": "user", "content": "Already used topics (do not repeat or closely overlap):\n- " + "\n- ".join(used[-80:]) +
-             "\n\nWrite one new carousel. Pick a topic UK students or graduates search for during job hunting, internships, applications, interviews or starting a first job."}]
+    key = os.environ["GEMINI_API_KEY"].strip()
+    ask = ("Already used topics (do not repeat or closely overlap):\n- " + "\n- ".join(used[-80:]) +
+           "\n\nWrite one new carousel. Pick a topic UK students or graduates search for during job hunting, "
+           "internships, applications, interviews or starting a first job.")
     if feedback:
-        msgs.append({"role": "user", "content": "Your previous attempt was rejected for these reasons. Fix every one and return the full JSON again:\n- " + "\n- ".join(feedback[:12])})
+        ask += ("\n\nYour previous attempt was rejected for these reasons. Fix every one and return the full JSON again:\n- "
+                + "\n- ".join(feedback[:12]))
+    body = json.dumps({"system_instruction": {"parts": [{"text": RULES}]},
+                       "contents": [{"role": "user", "parts": [{"text": ask}]}],
+                       "generationConfig": {"temperature": 0.9, "responseMimeType": "application/json"}}).encode()
     last = None
     for model in MODELS:
-        body = json.dumps({"model": model, "messages": msgs, "temperature": 0.9, "max_tokens": 1400}).encode()
-        req = urllib.request.Request(URL, data=body, method="POST", headers={
-            "Authorization": f"Bearer {token}", "Content-Type": "application/json", "Accept": "application/json"})
+        req = urllib.request.Request(f"{URL}/{model}:generateContent", data=body, method="POST", headers={
+            "x-goog-api-key": key, "Content-Type": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=90) as r:
+            with urllib.request.urlopen(req, timeout=120) as r:
                 raw = r.read().decode(errors="replace")
                 meta = f"status {r.status}, type {r.headers.get('Content-Type')}"
             try:
-                out = json.loads(raw)
-                txt = out["choices"][0]["message"]["content"]
+                txt = "".join(p.get("text", "") for p in json.loads(raw)["candidates"][0]["content"]["parts"])
             except Exception as e:
                 raise ValueError(f"unexpected API response ({meta}): {raw[:300]!r}") from e
             m = re.search(r"\{.*\}", txt, re.S)
@@ -138,7 +140,7 @@ def ask_ai(used, feedback):
             log(f"AI reply from {model}")
             return sp
         except urllib.error.HTTPError as e:
-            last = f"{model}: HTTP {e.code} {e.read().decode(errors='replace')[:200]}"
+            last = f"{model}: HTTP {e.code} {e.read().decode(errors='replace')[:300]}"
         except Exception as e:
             last = f"{model}: {e!r}"
         log("model failed:", last)
@@ -174,6 +176,8 @@ def main():
     waiting = len([i for i in ids if i not in done])
     topics = json.load(open(TOPICS)) if os.path.exists(TOPICS) else {"used": []}
     want = 1 if os.environ.get("FORCE") == "1" else min(MAX_PER_RUN, max(0, TARGET - waiting))
+    if not src and not os.environ.get("GEMINI_API_KEY", "").strip():
+        want = 0
     if "--need" in sys.argv:
         print(want); return 0
     log(f"{waiting} carousels waiting, generating {want}")
