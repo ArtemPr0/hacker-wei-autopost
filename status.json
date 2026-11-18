@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T18:42:58Z",
+ "updated": "2026-11-18T18:43:25Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "queue_page": "https://github.com/ArtemPr0/hacker-wei-autopost/blob/main/QUEUE.md",
@@ -17,7 +17,7 @@
     "tiktok"
    ],
    "schedule": "Every day at 17:30 UTC",
-   "waiting": 14,
+   "waiting": 13,
    "posted": 1,
    "next": [
     {

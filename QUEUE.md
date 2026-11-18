@@ -1,6 +1,6 @@
 # Hacker Wei queue
 
-**14 waiting to post** (one goes out each day, lowest number first). 3 posted or skipped so far.
+**13 waiting to post** (one goes out each day, lowest number first). 3 posted or skipped so far.
 
 To stop a carousel from posting, delete its files in the `posts` folder before its day comes.
 
@@ -170,30 +170,6 @@ Did you send one last time? Comment the number 👇
 Save this for after your interview.
 
 #thankyouemail #interviewtips #followup #ukgraduate #graduatejobs #ukstudents #careeradvice #jobinterview #jobsearchuk #hackerwei
-```
-
-</details>
-
-### Carousel 011
-
-<a href="posts/011_1.jpg"><img src="posts/011_1.jpg" width="110"></a> <a href="posts/011_2.jpg"><img src="posts/011_2.jpg" width="110"></a> <a href="posts/011_3.jpg"><img src="posts/011_3.jpg" width="110"></a> <a href="posts/011_4.jpg"><img src="posts/011_4.jpg" width="110"></a> <a href="posts/011_5.jpg"><img src="posts/011_5.jpg" width="110"></a> <a href="posts/011_6.jpg"><img src="posts/011_6.jpg" width="110"></a> <a href="posts/011_7.jpg"><img src="posts/011_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Competency interviews can feel like a guessing game. Use a clear structure to keep your answers sharp and professional.
-
-5 tips to master them:
-1. Draft your stories first
-2. Use the star method
-3. Keep your answers concise
-4. Focus on your specific role
-5. Practice saying it aloud
-
-Which questions scare you? Comment the number 👇
-Save this and follow for a new hack every day.
-
-#graduatesuk #ukjobs #interviewtips #careeradvice #jobhunting #starmethod #universitylife #gradjobs #careerprep #hackerwei
 ```
 
 </details>
