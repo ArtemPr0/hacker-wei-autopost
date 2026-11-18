@@ -31,6 +31,8 @@ Hard rules:
 - No promises ("guaranteed", "always works"). Use honest wording such as "often", "many", "can".
 - No company names except generic tools students already know (LinkedIn, Excel, Zoom, Teams). No links, no @mentions, no emojis inside slides.
 - Never use em dashes or en dashes.
+- British spelling matters: the verb is "practise" (the noun is "practice"), "organise", "summarise". Write STAR in capitals when you mean the STAR method.
+- The closing question must be answerable with a number from 1 to 5, for example "Which one will you try?"
 - Advice must be legal, honest and safe. Never suggest lying, faking experience or tricking an employer.
 - The topic must be clearly different from every topic in the "already used" list.
 
@@ -55,6 +57,8 @@ ALLOWED_NUMBERS = {"24", "10", "15", "30", "60"}   # times and durations that ar
 def clean(t):
     t = str(t).replace("—", ", ").replace("–", " to ").replace("’", "'").replace("‘", "'")
     t = t.replace("“", '"').replace("”", '"').replace("…", "...")
+    t = re.sub(r"\b([Pp])ractice (saying|answering|your|the|with|out|each|it|on|in|for|until|before)\b", r"\1ractise \2", t)
+    t = re.sub(r"\bstar method\b", "STAR method", t)
     return re.sub(r"\s+", " ", t).strip()
 
 def words(t): return {w for w in re.findall(r"[a-z]{4,}", t.lower())}
