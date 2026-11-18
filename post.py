@@ -14,6 +14,7 @@ STATE = os.environ.get("STATE_FILE", os.path.join(ROOT, "state", "posted.json"))
 BASE = os.environ.get("GRAPH_BASE", "https://graph.instagram.com").rstrip("/")
 VER = os.environ.get("GRAPH_VERSION", "").strip("/")
 LOW_QUEUE = 2
+DEFAULT_IG_ID = "17841413475185588"  # hacker.weii, used only on graph.facebook.com
 
 def log(*a): print(*a, flush=True)
 
@@ -104,8 +105,20 @@ def main():
     if not token:
         log("::notice::IG_ACCESS_TOKEN secret is not set yet, nothing posted.")
         return 0
-    who = call("GET", "me", {"fields": "user_id,username", "access_token": token})
-    log(f"Posting as @{who.get('username')}")
+    global BASE
+    try:
+        who = call("GET", "me", {"fields": "user_id,username", "access_token": token}, tries=1)
+        log(f"Posting as @{who.get('username')} via {BASE}")
+    except RuntimeError as e:
+        if "GRAPH_BASE" in os.environ:
+            raise
+        # Tokens from Meta's unified login are served by graph.facebook.com instead.
+        log(f"graph.instagram.com did not accept the token ({str(e)[:160]}), trying graph.facebook.com")
+        BASE = "https://graph.facebook.com"
+        if uid == "me":
+            uid = DEFAULT_IG_ID
+        who = call("GET", uid, {"fields": "username", "access_token": token}, tries=1)
+        log(f"Posting as @{who.get('username')} via {BASE}")
     if os.environ.get("SKIP_URL_CHECK") != "1":
         for u in urls: check_url(u)
     kids = []
