@@ -67,14 +67,15 @@ def tiktok_via_buffer(handle, urls, caption):
         return "no TikTok channel named %s in Buffer (found: %s)" % (handle, ", ".join(f"{c.get('service')}:{c.get('name')}" for c in chans) or "none")
     assets = ", ".join('{image: {url: %s}}' % json.dumps(u) for u in urls)
     last = ""
-    for mode in ("shareNow", "addToQueue"):
+    soon = time.strftime("%Y-%m-%dT%H:%M:%S.000Z", time.gmtime(time.time() + 180))
+    for mode in ("shareNow", 'customScheduled, dueAt: "%s"' % soon, "addToQueue"):
         q = ('mutation { createPost(input: {text: %s, channelId: "%s", schedulingType: automatic, mode: %s, assets: [%s]}) '
              '{ ... on PostActionSuccess { post { id } } ... on MutationError { message } } }') % (json.dumps(caption, ensure_ascii=False), match[0]["id"], mode, assets)
         try:
             res = gql(q, key)["createPost"]
         except RuntimeError as e:
             last = str(e); continue
-        if res.get("post"): return f"sent ({mode}, Buffer post {res['post']['id']})"
+        if res.get("post"): return f"sent ({mode.split(',')[0]}, Buffer post {res['post']['id']})"
         last = res.get("message") or json.dumps(res)[:200]
     return "failed: " + last[:300]
 
