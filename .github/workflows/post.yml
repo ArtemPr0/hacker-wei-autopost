@@ -34,7 +34,7 @@ jobs:
           fc-list > /tmp/fonts.txt
           grep -qi "Inter" /tmp/fonts.txt || { echo "::warning::Inter font missing, skipping generation"; exit 0; }
           pip install -q playwright
-          python -m playwright install --with-deps chromium
+          python -m playwright install chromium
           python generate.py
           git config user.name "hacker-wei-bot"
           git config user.email "hacker-wei-bot@users.noreply.github.com"
