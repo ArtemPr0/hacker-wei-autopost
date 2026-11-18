@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:56:55Z",
+ "updated": "2026-11-18T23:34:14Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UTC",
@@ -104,7 +104,11 @@
      "tiktok": null,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/003_1.jpg"
     }
-   ]
+   ],
+   "connected": {
+    "instagram": true,
+    "tiktok": true
+   }
   },
   {
    "id": "pirate",
@@ -143,7 +147,10 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_pirate/002_1.jpg"
     }
    ],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "tiktok": false
+   }
   },
   {
    "id": "only",
@@ -183,6 +190,9 @@
     }
    ],
    "recent": [],
+   "connected": {
+    "tiktok": true
+   },
    "quotes_left": 12
   },
   {
@@ -205,27 +215,43 @@
    "vault_waiting": 0,
    "posted": 0,
    "next": [],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "tiktok": true
+   }
   },
   {
    "id": "stories",
    "name": "Wei Stories",
-   "handle": "",
+   "handle": "wei.stories5",
    "format": "Vault only: story reels (video) added to its vault",
    "writer": "None",
-   "platforms": [],
-   "instagram": "",
-   "tiktok": "",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ],
+   "instagram": "weistories",
+   "tiktok": "wei.stories5",
    "per_day": 1,
    "has_writer": false,
    "active": false,
    "paused": false,
-   "schedule": "No platform connected",
+   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UTC)",
    "waiting": 0,
    "vault_waiting": 0,
    "posted": 0,
    "next": [],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "instagram": false,
+    "tiktok": false
+   }
   }
+ ],
+ "buffer_accounts": 1,
+ "channels": [
+  "tiktok the.only.wei",
+  "tiktok hacker.wei",
+  "tiktok yourareunemployed"
  ]
 }
