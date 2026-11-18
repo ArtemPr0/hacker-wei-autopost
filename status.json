@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:34:14Z",
+ "updated": "2026-11-18T23:51:37Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UTC",
@@ -149,7 +149,7 @@
    ],
    "recent": [],
    "connected": {
-    "tiktok": false
+    "tiktok": true
    }
   },
   {
@@ -244,14 +244,42 @@
    "recent": [],
    "connected": {
     "instagram": false,
-    "tiktok": false
+    "tiktok": true
+   }
+  },
+  {
+   "id": "pathwei",
+   "name": "Pathwei",
+   "handle": "pathwei_ai",
+   "format": "Vault only: posts whatever is added to its vault",
+   "writer": "None",
+   "platforms": [
+    "tiktok"
+   ],
+   "instagram": "",
+   "tiktok": "pathwei_ai",
+   "per_day": 1,
+   "has_writer": false,
+   "active": false,
+   "paused": false,
+   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UTC)",
+   "waiting": 0,
+   "vault_waiting": 0,
+   "posted": 0,
+   "next": [],
+   "recent": [],
+   "connected": {
+    "tiktok": true
    }
   }
  ],
- "buffer_accounts": 1,
+ "buffer_accounts": 2,
  "channels": [
   "tiktok the.only.wei",
   "tiktok hacker.wei",
-  "tiktok yourareunemployed"
+  "tiktok yourareunemployed",
+  "tiktok pathwei_ai",
+  "tiktok pirate.wei",
+  "tiktok wei.stories5"
  ]
 }
