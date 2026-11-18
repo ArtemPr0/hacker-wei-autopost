@@ -2,7 +2,7 @@
 
 After this, one carousel is posted every day with nothing for you to approve. It is free: GitHub Actions runs the job and the Instagram API publishes it.
 
-Queue: 10 carousels are ready (posts/001 to posts/010), about 10 days of content.
+Queue: 10 carousels are ready in posts/ (001 to 010), about 10 days of content.
 
 ## 1. Check the account
 Hacker Wei must be an Instagram Creator or Business account. You said it is a creator account, so you are fine.
@@ -27,7 +27,7 @@ Repository Settings > Secrets and variables > Actions > New repository secret:
 Also check Settings > Actions > General that workflows are allowed to run.
 
 ## 5. Run it once
-Actions tab > Post next carousel > Run workflow. This publishes posts/001 live straight away, as a test. After that it runs by itself at 17:30 UTC every day.
+Actions tab > Post next carousel > Run workflow. This publishes carousel 001 live straight away, as a test. After that it runs by itself at 17:30 UTC every day.
 
 ## What you get without doing anything
 - GitHub emails you only when a run fails. Silence means it worked.
@@ -37,4 +37,4 @@ Actions tab > Post next carousel > Run workflow. This publishes posts/001 live s
 ## Honest notes
 - I tested the script against a fake Instagram API (tools/mock_test.py), not the real one, so the first live run is the real test. If it errors, the message is in the Actions log.
 - Instagram API menus and rules change. If a step looks different, tell me what you see.
-- The queue ends after 10 posts. To refill, add folders 011, 012 and so on, each with 7 slide images (1.jpg to 7.jpg) and a caption.txt, or ask me for the next batch. Auto-writing new posts would need a paid AI API key, so I left that out to keep this free.
+- The queue ends after 10 posts. To refill, add files to posts/ named 011_1.jpg to 011_7.jpg plus 011_caption.txt, then 012 and so on, or ask me for the next batch. Auto-writing new posts would need a paid AI API key, so I left that out to keep this free.

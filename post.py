@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Posts the next queued carousel in posts/ to Instagram (Instagram API with Instagram Login).
+"""Posts the next queued carousel in posts/ (files NNN_1.jpg ... NNN_7.jpg and NNN_caption.txt) to Instagram (Instagram API with Instagram Login).
 
 Env: IG_USER_ID, IG_ACCESS_TOKEN (required). Optional: IMAGE_BASE, GRAPH_BASE, GRAPH_VERSION,
 SKIP_URL_CHECK=1, STATE_FILE.
@@ -74,31 +74,35 @@ def main():
     force = "--force" in sys.argv
     st = load_state()
     done = {p["post"] for p in st["posted"]}
-    queue = sorted(d for d in os.listdir(POSTS) if os.path.isdir(os.path.join(POSTS, d)))
+    files = os.listdir(POSTS)
+    queue = sorted({f.split("_")[0] for f in files if f.endswith("_caption.txt")})
     todo = [d for d in queue if d not in done]
     today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
     if not todo:
-        log("Queue is empty. Add more folders to posts/.")
+        log("Queue is empty. Add more posts to posts/.")
         return 3
     if not force and st["posted"] and st["posted"][-1]["date"] == today:
         log("Already posted today, skipping.")
         return 0
     name = todo[0]
-    folder = os.path.join(POSTS, name)
-    slides = sorted(f for f in os.listdir(folder) if f.lower().endswith((".jpg", ".jpeg")))
-    caption = open(os.path.join(folder, "caption.txt"), encoding="utf8").read().strip()
+    slides = sorted((f for f in files if f.startswith(name + "_") and f.lower().endswith((".jpg", ".jpeg"))),
+                    key=lambda f: int(f.split("_")[1].split(".")[0]))
+    caption = open(os.path.join(POSTS, name + "_caption.txt"), encoding="utf8").read().strip()
     assert 2 <= len(slides) <= 10, f"{name}: need 2 to 10 slides, found {len(slides)}"
     assert len(caption) <= 2200 and caption.count("#") <= 30, f"{name}: caption too long or too many hashtags"
     repo = os.environ.get("GITHUB_REPOSITORY", "OWNER/REPO")
     branch = os.environ.get("GITHUB_REF_NAME", "main")
     img_base = os.environ.get("IMAGE_BASE", f"https://raw.githubusercontent.com/{repo}/{branch}/posts").rstrip("/")
-    urls = [f"{img_base}/{name}/{s}" for s in slides]
+    urls = [f"{img_base}/{s}" for s in slides]
     log(f"Next post: {name} with {len(slides)} slides")
     if dry:
         for u in urls: log("  ", u)
         log("Caption:\n" + caption)
         return 0
-    uid, token = os.environ["IG_USER_ID"], os.environ["IG_ACCESS_TOKEN"]
+    uid, token = os.environ.get("IG_USER_ID", "").strip(), os.environ.get("IG_ACCESS_TOKEN", "").strip()
+    if not uid or not token:
+        log("::notice::IG_USER_ID or IG_ACCESS_TOKEN secret is not set yet, nothing posted.")
+        return 0
     if os.environ.get("SKIP_URL_CHECK") != "1":
         for u in urls: check_url(u)
     kids = []
@@ -115,7 +119,7 @@ def main():
     log(f"Published {name}: media id {pub.get('id')}")
     left = len(todo) - 1
     if left <= LOW_QUEUE:
-        log(f"::warning::Only {left} posts left in the queue. Add more folders to posts/.")
+        log(f"::warning::Only {left} posts left in the queue. Add more posts to posts/.")
         return 3
     return 0
 
