@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Posts the next queued carousel in posts/ (files NNN_1.jpg ... NNN_7.jpg and NNN_caption.txt) to Instagram (Instagram API with Instagram Login).
 
-Env: IG_USER_ID, IG_ACCESS_TOKEN (required). Optional: IMAGE_BASE, GRAPH_BASE, GRAPH_VERSION,
+Env: IG_ACCESS_TOKEN (required), IG_USER_ID (optional, defaults to the token's own account). Optional: IMAGE_BASE, GRAPH_BASE, GRAPH_VERSION,
 SKIP_URL_CHECK=1, STATE_FILE.
 Flags: --dry-run (print what would happen), --force (ignore the one post a day guard).
 Exit codes: 0 ok, 1 failure, 3 posted fine but the queue is nearly empty (so GitHub emails you).
@@ -99,10 +99,13 @@ def main():
         for u in urls: log("  ", u)
         log("Caption:\n" + caption)
         return 0
-    uid, token = os.environ.get("IG_USER_ID", "").strip(), os.environ.get("IG_ACCESS_TOKEN", "").strip()
-    if not uid or not token:
-        log("::notice::IG_USER_ID or IG_ACCESS_TOKEN secret is not set yet, nothing posted.")
+    uid = os.environ.get("IG_USER_ID", "").strip() or "me"
+    token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
+    if not token:
+        log("::notice::IG_ACCESS_TOKEN secret is not set yet, nothing posted.")
         return 0
+    who = call("GET", "me", {"fields": "user_id,username", "access_token": token})
+    log(f"Posting as @{who.get('username')}")
     if os.environ.get("SKIP_URL_CHECK") != "1":
         for u in urls: check_url(u)
     kids = []
