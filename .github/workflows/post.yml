@@ -55,5 +55,7 @@ jobs:
         run: |
           git config user.name "hacker-wei-bot"
           git config user.email "hacker-wei-bot@users.noreply.github.com"
+          python gallery.py || true
           if [ -f state/posted.json ]; then git add state/posted.json; fi
-          git diff --cached --quiet || (git commit -m "Record posted carousel" && git pull --rebase && git push)
+          if [ -f QUEUE.md ]; then git add QUEUE.md; fi
+          git diff --cached --quiet || (git commit -m "Update post record and queue page" && git pull --rebase && git push)
