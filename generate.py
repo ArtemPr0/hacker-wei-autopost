@@ -454,7 +454,7 @@ def render(sp, outdir):
     spec = {k: sp[k] for k in ("cmd", "head", "pill", "hacks", "out", "tag", "quote") if k in sp}
     f = os.path.join(outdir, "spec.json"); json.dump([spec], open(f, "w"))
     r = subprocess.run([sys.executable, os.path.join(ROOT, "make_carousel.py"), f, outdir], capture_output=True, text=True,
-                       env=dict(os.environ, THEME=P["id"]))
+                       env=dict(os.environ, THEME=P["id"], BRAND=P.get("brand", "")))
     if r.returncode != 0: raise RuntimeError("render failed: " + r.stderr[-400:])
     p = []
     for x in json.load(open(os.path.join(outdir, "layout.json"))):
@@ -492,7 +492,8 @@ NEWS = []
 def run_account(acct, ai, src, dry, budget):
     """Writes up to MAX_PER_RUN carousels for one account. Returns False when the AI is unavailable (stop the whole run)."""
     global POSTS, TOPICS, P
-    P = PROFILES[acct["profile"]]
+    P = dict(PROFILES[acct["profile"]], brand=acct["name"].upper(),
+             tag=re.sub(r"[^a-z0-9]", "", (acct.get("handle") or acct["name"]).lower()) or PROFILES[acct["profile"]]["tag"])
     POSTS, TOPICS = common.posts_dir(acct), common.topics_file(acct)
     os.makedirs(POSTS, exist_ok=True)
     ids = sorted({f.split("_")[0] for f in os.listdir(POSTS) if f.endswith("_caption.txt")})

@@ -5,7 +5,7 @@
 Each account posts up to its per_day limit, at least GAP_MIN minutes apart. Instagram goes through the Instagram API (accounts with an
 "instagram" entry), TikTok through Buffer (accounts with a "tiktok" handle that is connected in Buffer).
 
-Env: IG_ACCESS_TOKEN, IG_USER_ID (optional), BUFFER_API_KEY, BUFFER_API_KEY_2 (optional second Buffer account), ACCOUNT (one account id, or all),
+Env: SECRETS_JSON (all repository secrets: IG_ACCESS_TOKEN, IG_TOKEN_<ID>, BUFFER_API_KEY, BUFFER_API_KEY_2, ...), ACCOUNT (one account id, or all),
 FORCE_POST=1 (ignore the daily limit, the gap and pause), GRAPH_BASE, GRAPH_VERSION, SKIP_URL_CHECK=1, IMAGE_BASE.
 Flags: --dry-run, --force, --pause ID|all, --resume ID|all.
 Exit codes: 0 ok, 1 failure, 3 fine but an AI-written queue is nearly empty (so GitHub emails the owner).
@@ -45,52 +45,32 @@ def call(method, path, params, tries=3):
         time.sleep(5 * (n + 1))
     raise RuntimeError(f"{method} {path} failed: {last}")
 
-BUFFER_URL = os.environ.get("BUFFER_URL", "https://api.buffer.com")
+gql = common.gql
 
-def gql(query, key):
-    req = urllib.request.Request(BUFFER_URL, data=json.dumps({"query": query}).encode("utf-8"), method="POST",
-                                 headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json; charset=utf-8"})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            out = json.loads(r.read().decode())
-    except urllib.error.HTTPError as e:
-        raise RuntimeError(f"Buffer HTTP {e.code}: {e.read().decode(errors='replace')[:300]}")
-    if out.get("errors"): raise RuntimeError(f"Buffer error: {json.dumps(out['errors'])[:400]}")
-    return out["data"]
-
-_channels = None
-def buffer_channels():
-    """Every channel in every connected Buffer account, each with the key that reaches it."""
-    global _channels
-    if _channels is None:
-        _channels = []
-        for key in [os.environ.get(k, "").strip() for k in ("BUFFER_API_KEY", "BUFFER_API_KEY_2")]:
-            if not key: continue
-            for org in gql("query { account { organizations { id name } } }", key)["account"]["organizations"]:
-                for c in gql('query { channels(input: {organizationId: "%s"}) { id name displayName service } }' % org["id"], key)["channels"]:
-                    _channels.append(dict(c, key=key))
-    return _channels
-
-def tiktok_via_buffer(handle, urls, caption, video=False):
-    """Sends a carousel or a video to the TikTok channel connected in Buffer (an approved TikTok partner). Returns a short status."""
-    if not any(os.environ.get(k, "").strip() for k in ("BUFFER_API_KEY", "BUFFER_API_KEY_2")): return "not set up"
-    want = handle.lower().lstrip("@")
-    match = [c for c in buffer_channels() if c.get("service") == "tiktok" and want in ((c.get("name") or "").lower(), (c.get("displayName") or "").lower())]
-    if not match:
-        return "not connected in Buffer: %s (connected: %s)" % (handle, ", ".join(c.get("name") or "?" for c in buffer_channels()) or "none")
+def via_buffer(service, handle, urls, caption, video=False):
+    """Sends a carousel or a video to a channel connected in Buffer (an approved partner of TikTok and Instagram). Returns a short status."""
+    if not any(k.startswith("BUFFER_API_KEY") for k in common.secrets()): return "not set up"
+    ch = common.buffer_channel(service, handle)
+    if not ch:
+        return "not connected in Buffer: %s (connected: %s)" % (handle, ", ".join(f"{c.get('service')} {c.get('name')}" for c in common.buffer_channels()) or "none")
     kind = "video" if video else "image"
     assets = ", ".join('{%s: {url: %s}}' % (kind, json.dumps(u)) for u in urls)
+    meta = ""
+    if service == "instagram":
+        meta = ', metadata: {instagram: {type: %s, shouldShareToFeed: true}}' % ("reel" if video else "post")
     soon = time.strftime("%Y-%m-%dT%H:%M:%S.000Z", time.gmtime(time.time() + 180))
     last = ""
-    for mode in ("shareNow", 'customScheduled, dueAt: "%s"' % soon, "addToQueue"):
-        q = ('mutation { createPost(input: {text: %s, channelId: "%s", schedulingType: automatic, mode: %s, assets: [%s]}) '
-             '{ ... on PostActionSuccess { post { id } } ... on MutationError { message } } }') % (json.dumps(caption, ensure_ascii=False), match[0]["id"], mode, assets)
-        try:
-            res = gql(q, match[0]["key"])["createPost"]
-        except RuntimeError as e:
-            last = str(e); continue
-        if res.get("post"): return f"sent ({mode.split(',')[0]}, Buffer post {res['post']['id']})"
-        last = res.get("message") or json.dumps(res)[:200]
+    for extra in (meta, ""):
+        for mode in ("shareNow", 'customScheduled, dueAt: "%s"' % soon, "addToQueue"):
+            q = ('mutation { createPost(input: {text: %s, channelId: "%s", schedulingType: automatic, mode: %s, assets: [%s]%s}) '
+                 '{ ... on PostActionSuccess { post { id } } ... on MutationError { message } } }') % (json.dumps(caption, ensure_ascii=False), ch["id"], mode, assets, extra)
+            try:
+                res = gql(q, ch["key"])["createPost"]
+            except RuntimeError as e:
+                last = str(e); continue
+            if res.get("post"): return f"sent ({mode.split(',')[0]}, Buffer post {res['post']['id']})"
+            last = res.get("message") or json.dumps(res)[:200]
+        if not meta: break
     return "failed: " + last[:300]
 
 def check_url(u):
@@ -113,32 +93,33 @@ def wait_ready(cid, token, secs=180):
     raise RuntimeError(f"container {cid} not ready after {secs}s")
 
 _ig = {}
-def ig_login():
-    """Works out which Graph host accepts the token. Returns (user id, token) or None when no token is set."""
+def ig_token(a):
+    """The account's own Instagram API token: IG_TOKEN_<ID>, or IG_ACCESS_TOKEN for Hacker Wei. None means: use Buffer for Instagram."""
+    sec = common.secrets()
+    return sec.get("IG_TOKEN_" + a["id"].upper()) or (sec.get("IG_ACCESS_TOKEN") if a["id"] == "hacker" else None)
+
+def ig_login(a):
+    """Works out which Graph host accepts the token. Returns (user id, token)."""
     global BASE
-    if "v" in _ig: return _ig["v"]
-    token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
-    uid = os.environ.get("IG_USER_ID", "").strip() or "me"
-    if not token:
-        _ig["v"] = None; return None
+    if a["id"] in _ig: return _ig[a["id"]]
+    token = ig_token(a)
+    uid = (common.secrets().get("IG_USER_ID") if a["id"] == "hacker" else None) or "me"
     try:
         who = call("GET", "me", {"fields": "user_id,username", "access_token": token}, tries=1)
     except RuntimeError as e:
-        if "GRAPH_BASE" in os.environ: raise
+        if "GRAPH_BASE" in os.environ or a["id"] != "hacker": raise
         log(f"graph.instagram.com did not accept the token ({str(e)[:160]}), trying graph.facebook.com")
         BASE = "https://graph.facebook.com"
         if uid == "me": uid = DEFAULT_IG_ID
         who = call("GET", uid, {"fields": "username", "access_token": token}, tries=1)
     log(f"Instagram: posting as @{who.get('username')} via {BASE}")
-    _ig["v"] = (uid, token, (who.get("username") or "").lower()); return _ig["v"]
+    if (who.get("username") or "").lower() not in ("", a["instagram"].lower()):
+        raise RuntimeError(f"the Instagram token belongs to @{who.get('username')}, not @{a['instagram']}")
+    _ig[a["id"]] = (uid, token); return _ig[a["id"]]
 
 def instagram(a, it, urls):
-    """Publishes a carousel, a single image or a reel. Returns the media id."""
-    login = ig_login()
-    if not login: raise RuntimeError("IG_ACCESS_TOKEN is not set")
-    uid, token, username = login
-    if username and username != a["instagram"].lower():
-        raise RuntimeError(f"the Instagram token belongs to @{username}, not @{a['instagram']}")
+    """Publishes a carousel, a single image or a reel through the Instagram API. Returns the media id."""
+    uid, token = ig_login(a)
     cap = it["caption"]
     assert len(cap) <= 2200 and cap.count("#") <= 30, "caption too long or too many hashtags for Instagram"
     if it["video"]:
@@ -195,13 +176,18 @@ def post_account(a, force, dry, img_base):
     entry = {"post": it["key"], "date": today, "at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "media_id": None, "title": it["caption"].splitlines()[0][:160]}
     if a.get("instagram"):
         try:
-            entry["media_id"] = instagram(a, it, urls); log(f"{name}: Instagram published, media id {entry['media_id']}")
+            if ig_token(a): entry["media_id"] = instagram(a, it, urls)
+            else:
+                r = via_buffer("instagram", a["instagram"], urls, it["caption"], it["video"])
+                if not r.startswith("sent"): raise RuntimeError(r)
+                entry["media_id"] = r
+            log(f"{name}: Instagram published: {entry['media_id']}")
         except Exception as e:
             entry["instagram_error"] = str(e)[:300]; log(f"::warning::{name}: Instagram failed: {e}")
         if entry["media_id"]:
             st["posted"].append(entry); common.save_state(a, st)     # saved at once, so a later crash can never cause a double post
     if a.get("tiktok"):
-        try: entry["tiktok"] = tiktok_via_buffer(a["tiktok"], urls, it["caption"], it["video"])
+        try: entry["tiktok"] = via_buffer("tiktok", a["tiktok"], urls, it["caption"], it["video"])
         except Exception as e: entry["tiktok"] = f"failed: {e}"[:300]
         log(f"{name}: TikTok: {entry['tiktok']}")
     ok = bool(entry["media_id"]) or str(entry.get("tiktok", "")).startswith("sent")

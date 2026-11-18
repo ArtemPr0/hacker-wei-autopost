@@ -1,5 +1,5 @@
 """Shared helpers: the list of accounts, where each account keeps its queue, vault and record of what was posted."""
-import os, re, json
+import os, re, json, urllib.request, urllib.error
 ROOT = os.path.dirname(os.path.abspath(__file__))
 IMG = (".jpg", ".jpeg", ".png")
 VID = (".mp4", ".mov")
@@ -48,3 +48,47 @@ def paused(a=None):
     try: p = json.load(open(os.path.join(ROOT, "state", "paused.json")))
     except Exception: return False
     return bool(p.get("paused")) or bool(a and (p.get("accounts") or {}).get(a["id"]))
+
+def secrets():
+    """Every secret the workflow was given (SECRETS_JSON), plus plain environment variables, so a new account's key needs no workflow change."""
+    try: s = json.loads(os.environ.get("SECRETS_JSON") or "{}")
+    except Exception: s = {}
+    for k, v in os.environ.items():
+        if k.startswith(("BUFFER_API_KEY", "IG_")) and v.strip(): s.setdefault(k, v)
+    return {k: str(v).strip() for k, v in s.items() if str(v).strip()}
+
+BUFFER_URL = os.environ.get("BUFFER_URL", "https://api.buffer.com")
+
+def gql(query, key):
+    req = urllib.request.Request(BUFFER_URL, data=json.dumps({"query": query}).encode("utf-8"), method="POST",
+                                 headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json; charset=utf-8"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            out = json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"Buffer HTTP {e.code}: {e.read().decode(errors='replace')[:300]}")
+    if out.get("errors"): raise RuntimeError(f"Buffer error: {json.dumps(out['errors'])[:400]}")
+    return out["data"]
+
+_channels = None
+def buffer_channels():
+    """Every channel in every connected Buffer account (secrets named BUFFER_API_KEY, BUFFER_API_KEY_2, ...), each with the key that reaches it."""
+    global _channels
+    if _channels is None:
+        _channels = []
+        for name, key in sorted(secrets().items()):
+            if not name.startswith("BUFFER_API_KEY"): continue
+            try:
+                for org in gql("query { account { organizations { id name } } }", key)["account"]["organizations"]:
+                    for ch in gql('query { channels(input: {organizationId: "%s"}) { id name displayName service } }' % org["id"], key)["channels"]:
+                        _channels.append(dict(ch, key=key))
+            except Exception as e:
+                print(f"::warning::Buffer account behind {name} could not be read: {str(e)[:200]}", flush=True)
+    return _channels
+
+def buffer_channel(service, handle):
+    want = (handle or "").lower().lstrip("@")
+    for ch in buffer_channels():
+        if ch.get("service") == service and want and want in ((ch.get("name") or "").lower().lstrip("@"), (ch.get("displayName") or "").lower().lstrip("@")):
+            return ch
+    return None

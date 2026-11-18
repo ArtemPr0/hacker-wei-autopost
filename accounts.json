@@ -9,7 +9,7 @@
    "tiktok": "the.only.wei", "format": "7-slide quote carousel: a checked real quote and 5 ways to use it", "writer": "Quotes come from the checked quote bank; free AI writes the lessons"},
   {"id": "unemployed", "name": "You Are Unemployed", "handle": "yourareunemployed", "per_day": 3,
    "tiktok": "yourareunemployed", "format": "Vault only: posts whatever is added to its vault", "writer": "None"},
-  {"id": "stories", "name": "Wei Stories", "handle": "", "per_day": 1,
-   "tiktok": "", "format": "Vault only: story reels (video) added to its vault", "writer": "None"}
+  {"id": "stories", "name": "Wei Stories", "handle": "wei.stories5", "per_day": 1,
+   "tiktok": "wei.stories5", "instagram": "weistories", "format": "Vault only: story reels (video) added to its vault", "writer": "None"}
  ]
 }

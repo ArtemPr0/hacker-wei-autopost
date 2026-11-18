@@ -23,6 +23,8 @@ T = {
                 box="#fffaf0", boxline="#15120e", baroff="#d9cfbd", dot="#9a6b12", grid="rgba(21,18,14,.045)", label="LESSON {n}", boxlabel="APPLY IT",
                 cta="Comment the number. Follow for one idea a day.", font="'Inter'", headw=800, assets="asset_only_"),
 }[THEME]
+if os.environ.get("BRAND"): T["name"] = html.escape(os.environ["BRAND"])
+if T["name"] != {"hacker": "HACKER WEI", "pirate": "PIRATE WEI", "only": "THE ONLY WEI"}[THEME]: T["assets"] = "asset_none_"   # another account borrowing the design gets no mascot
 BIG, ICON, CIRC = b64(T["assets"] + "big.png"), b64(T["assets"] + "icon.png"), b64(T["assets"] + "circ.png")
 POSTS = json.load(open(sys.argv[1])); OUT = sys.argv[2]
 SERIF = "'Playfair Display','DejaVu Serif',serif"

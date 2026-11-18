@@ -9,6 +9,8 @@ cfg = json.load(open(os.path.join(ROOT, "accounts.json")))
 try: pz = json.load(open(os.path.join(ROOT, "state", "paused.json")))
 except Exception: pz = {}
 
+HAVE_BUFFER = any(k.startswith("BUFFER_API_KEY") for k in common.secrets())
+
 def item(i):
     return {"id": i["key"], "title": i["caption"].splitlines()[0][:160], "slides": len(i["media"]), "video": i["video"], "vault": i["vault"],
             "cover": None if i["video"] else f"{raw}/{i['rel']}/{i['media'][0]}"}
@@ -32,6 +34,8 @@ for a in common.accounts():
             "schedule": f"Up to {a.get('per_day', 1)} a day ({cfg.get('slots', '')})" if platforms else "No platform connected",
             "waiting": len(todo), "vault_waiting": len([t for t in todo if t["vault"]]),
             "posted": len([p for p in st if p.get("date") != "manual"]), "next": [item(i) for i in todo[:6]], "recent": recent}
+    if HAVE_BUFFER:
+        info["connected"] = {p: bool((p == "instagram" and a["id"] == "hacker") or common.buffer_channel(p, a.get(p))) for p in platforms}
     if a.get("profile") == "only":
         try:
             used = set(json.load(open(common.topics_file(a))).get("quotes", []))
@@ -47,6 +51,8 @@ for a in common.accounts():
 open(os.path.join(ROOT, "QUEUE.md"), "w", encoding="utf8").write("\n".join(md) + "\n")
 status = {"updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "repo": repo, "paused": bool(pz.get("paused")),
           "slots": cfg.get("slots", ""), "queue_page": f"https://github.com/{repo}/blob/main/QUEUE.md",
-          "runs_page": f"https://github.com/{repo}/actions/workflows/post.yml", "accounts": out}
+          "runs_page": f"https://github.com/{repo}/actions/workflows/post.yml", "accounts": out,
+          "buffer_accounts": len([k for k in common.secrets() if k.startswith("BUFFER_API_KEY")]),
+          "channels": [f"{c.get('service')} {c.get('name')}" for c in common.buffer_channels()] if HAVE_BUFFER else []}
 json.dump(status, open(os.path.join(ROOT, "status.json"), "w"), indent=1)
 print("QUEUE.md and status.json written:", ", ".join(f"{a['name']} {a['waiting']}" for a in out))
