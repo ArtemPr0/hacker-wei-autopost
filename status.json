@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T23:24:34Z",
+ "updated": "2026-11-19T23:25:29Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -28,7 +28,7 @@
    "posted": 5,
    "manual": false,
    "off": false,
-   "mirror": false,
+   "mirror": true,
    "next": [
     {
      "id": "007",
@@ -184,7 +184,7 @@
     }
    ],
    "connected": {
-    "instagram": true,
+    "instagram": false,
     "tiktok": true
    }
   },
