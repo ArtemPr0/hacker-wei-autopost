@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:35:39Z",
+ "updated": "2026-11-19T22:36:05Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -23,21 +23,11 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 16,
-   "vault_waiting": 2,
+   "waiting": 14,
+   "vault_waiting": 0,
    "posted": 2,
    "manual": false,
    "next": [
-    {
-     "id": "vault/20261120-1000-tt-hack-hiddengradjobsgoogle",
-     "title": "the google search most grads never use",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T10:00:00Z",
-     "platform": "tiktok"
-    },
     {
      "id": "004",
      "title": "Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. \ud83c\udfc6",
@@ -77,33 +67,17 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/009_1.jpg"
-    }
-   ],
-   "hand": [
+    },
     {
-     "id": "vault/20261120-1730-tt-carousel-cv-7seconds",
-     "title": "where recruiters actually look on your cv, in order",
-     "slides": 6,
+     "id": "010",
+     "title": "The email after your interview matters more than you think. \ud83d\udce7",
+     "slides": 7,
      "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg",
-     "at": "2026-11-20T17:30:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "song",
-     "caption": "where recruiters actually look on your cv, in order\n\n#cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs",
-     "sound": "Add in-app: \"Snowfall\" (\u00d8neheart x reidenshi), low volume.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_2.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_3.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_4.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_5.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_6.jpg"
-     ]
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/010_1.jpg"
     }
    ],
+   "hand": [],
    "recent": [
     {
      "id": "002",
@@ -149,7 +123,11 @@
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/003_1.jpg"
     }
-   ]
+   ],
+   "connected": {
+    "instagram": true,
+    "tiktok": true
+   }
   },
   {
    "id": "pirate",
@@ -164,49 +142,15 @@
    "tiktok": "pirate.wei",
    "per_day": 3,
    "has_writer": false,
-   "active": true,
+   "active": false,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 2,
-   "vault_waiting": 2,
+   "waiting": 0,
+   "vault_waiting": 0,
    "posted": 1,
    "manual": false,
-   "next": [
-    {
-     "id": "vault/20261120-1200-tt-meme-gotfivemins",
-     "title": "it is never 5 minutes",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T12:00:00Z",
-     "platform": "tiktok"
-    }
-   ],
-   "hand": [
-    {
-     "id": "vault/20261120-1800-tt-carousel-emailstory-notenoughexperience",
-     "title": "they said i didn't have enough experience",
-     "slides": 5,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg",
-     "at": "2026-11-20T18:00:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "song",
-     "caption": "they said i didn't have enough experience\n\n#jobsearch #rejection #emails #graduatejobs #corporatelife #storytime",
-     "sound": "Add in-app: \"Oh No\" (Kreepa), low volume.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_2.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_3.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_4.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_5.jpg"
-     ]
-    }
-   ],
+   "next": [],
+   "hand": [],
    "recent": [
     {
      "id": "001",
@@ -219,7 +163,10 @@
      "by_hand": false,
      "cover": null
     }
-   ]
+   ],
+   "connected": {
+    "tiktok": true
+   }
   },
   {
    "id": "only",
@@ -234,38 +181,15 @@
    "tiktok": "the.only.wei",
    "per_day": 3,
    "has_writer": false,
-   "active": true,
+   "active": false,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 1,
-   "vault_waiting": 1,
+   "waiting": 0,
+   "vault_waiting": 0,
    "posted": 1,
    "manual": false,
    "next": [],
-   "hand": [
-    {
-     "id": "vault/20261120-0730-tt-carousel-stevemartin-tenyears",
-     "title": "it took him 10 years to get good. then everything changed.",
-     "slides": 5,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg",
-     "at": "2026-11-20T07:30:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "song",
-     "caption": "it took him 10 years to get good. then everything changed.\n\n#stevemartin #discipline #careeradvice #mindset #quotes #ukjobs",
-     "sound": "Add in-app: \"Experience\" by Ludovico Einaudi, low volume.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_2.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_3.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_4.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_5.jpg"
-     ]
-    }
-   ],
+   "hand": [],
    "recent": [
     {
      "id": "001",
@@ -278,7 +202,10 @@
      "by_hand": false,
      "cover": null
     }
-   ]
+   ],
+   "connected": {
+    "tiktok": true
+   }
   },
   {
    "id": "unemployed",
@@ -293,37 +220,19 @@
    "tiktok": "yourareunemployed",
    "per_day": 3,
    "has_writer": false,
-   "active": true,
+   "active": false,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 2,
-   "vault_waiting": 2,
+   "waiting": 0,
+   "vault_waiting": 0,
    "posted": 0,
    "manual": false,
-   "next": [
-    {
-     "id": "vault/20261120-0730-tt-jobapplications",
-     "title": "they all stopped. he didn't.",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T07:30:00Z",
-     "platform": "tiktok"
-    },
-    {
-     "id": "vault/20261120-1800-tt-mostsuccessful-pt1-usa-jeffbezos",
-     "title": "the most successful person from every country. part 1: usa",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T18:00:00Z",
-     "platform": "tiktok"
-    }
-   ],
+   "next": [],
    "hand": [],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "tiktok": true
+   }
   },
   {
    "id": "stories",
@@ -339,37 +248,20 @@
    "tiktok": "wei.stories5",
    "per_day": 1,
    "has_writer": false,
-   "active": true,
+   "active": false,
    "paused": false,
    "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 2,
-   "vault_waiting": 2,
+   "waiting": 0,
+   "vault_waiting": 0,
    "posted": 0,
    "manual": false,
-   "next": [
-    {
-     "id": "vault/20261120-1830-tt-afterhours-ep1-331",
-     "title": "part 1. nobody should still be in the office at 3:31am",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T18:30:00Z",
-     "platform": "tiktok"
-    },
-    {
-     "id": "vault/20261120-2130-tt-afterhours-ep2-thecleanersrules",
-     "title": "part 2. the cleaner left a list of rules",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T21:30:00Z",
-     "platform": "tiktok"
-    }
-   ],
+   "next": [],
    "hand": [],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "instagram": false,
+    "tiktok": true
+   }
   },
   {
    "id": "pathwei",
@@ -388,88 +280,26 @@
    "active": false,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 4,
-   "vault_waiting": 4,
+   "waiting": 0,
+   "vault_waiting": 0,
    "posted": 0,
    "manual": true,
    "next": [],
-   "hand": [
-    {
-     "id": "vault/20261120-1000-tt-thepromotion",
-     "title": "ego took the credit. obsession took the company.",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T10:00:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "",
-     "caption": "ego took the credit. obsession took the company.\n\n#promotion #corporatelife #obsession #ego #motivation #careers",
-     "sound": "Song baked in. If TikTok mutes it, re-add the same sound in-app.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pathwei/20261120-1000-tt-thepromotion.mp4"
-     ]
-    },
-    {
-     "id": "vault/20261120-1230-tt-mostsuccessful-pt2-spain-amancioortega",
-     "title": "every country's most successful person. part 2: spain",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T12:30:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "",
-     "caption": "every country's most successful person. part 2: spain\n\n#amancioortega #zara #spain #success #mindset #careers",
-     "sound": "Song and voice baked in. Keep original audio.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pathwei/20261120-1230-tt-mostsuccessful-pt2-spain-amancioortega.mp4"
-     ]
-    },
-    {
-     "id": "vault/20261120-1800-ig-thepromotion",
-     "title": "ego took the credit. obsession took the company.",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T18:00:00Z",
-     "platform": "instagram",
-     "hand": true,
-     "hold": "",
-     "caption": "ego took the credit. obsession took the company.\n\n#promotion #corporatelife #careers #motivation",
-     "sound": "Song baked in.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pathwei/20261120-1800-ig-thepromotion.mp4"
-     ]
-    },
-    {
-     "id": "vault/20261120-1900-tt-founder-skit-newruleeveryweek",
-     "title": "recruiters every single week with a new rule",
-     "slides": 1,
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-20T19:00:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "",
-     "caption": "recruiters every single week with a new rule\n\n#comedy #recruiters #work #jobs #skit #jobsearch",
-     "sound": "Film with your own audio.",
-     "note": "Backup video. The plan was to film this one; see the script in the batch.",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pathwei/20261120-1900-tt-founder-skit-newruleeveryweek.mp4"
-     ]
-    }
-   ],
-   "recent": []
+   "hand": [],
+   "recent": [],
+   "connected": {
+    "instagram": false,
+    "tiktok": true
+   }
   }
  ],
- "buffer_accounts": 0,
- "channels": []
+ "buffer_accounts": 2,
+ "channels": [
+  "tiktok the.only.wei",
+  "tiktok hacker.wei",
+  "tiktok yourareunemployed",
+  "tiktok pathwei_ai",
+  "tiktok pirate.wei",
+  "tiktok wei.stories5"
+ ]
 }
