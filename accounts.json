@@ -50,7 +50,8 @@
    "tiktok": "wei.stories5",
    "instagram": "weistories",
    "format": "Vault only: videos made in the MARKETING chat",
-   "writer": "None"
+   "writer": "None",
+   "mirror": true
   },
   {
    "id": "pathwei",
