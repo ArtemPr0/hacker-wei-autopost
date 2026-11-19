@@ -1,5 +1,5 @@
 {
- "slots": "07:30, 12:30 and 18:30 UTC",
+ "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
  "accounts": [
   {
    "id": "hacker",
@@ -10,28 +10,28 @@
    "per_day": 3,
    "instagram": "hacker.weii",
    "tiktok": "hacker.wei",
-   "format": "7-slide job hack carousel",
+   "format": "AI job hack carousels, plus vault posts from the MARKETING chat",
    "writer": "Free AI writes 5 hacks per carousel"
   },
   {
    "id": "pirate",
    "name": "Pirate Wei",
    "handle": "pirate.wei",
-   "profile": "pirate",
    "per_day": 3,
    "tiktok": "pirate.wei",
-   "format": "7-slide rant carousel: 5 lies of the careers world and the truth",
-   "writer": "Free AI writes the rants"
+   "format": "Vault only: videos and carousels made in the MARKETING chat",
+   "writer": "None (AI writer switched off)",
+   "queue": false
   },
   {
    "id": "only",
    "name": "The Only Wei",
    "handle": "the.only.wei",
-   "profile": "only",
    "per_day": 3,
    "tiktok": "the.only.wei",
-   "format": "7-slide quote carousel: a checked real quote and 5 ways to use it",
-   "writer": "Quotes come from the checked quote bank; free AI writes the lessons"
+   "format": "Vault only: videos and carousels made in the MARKETING chat",
+   "writer": "None (AI writer switched off)",
+   "queue": false
   },
   {
    "id": "unemployed",
@@ -39,7 +39,7 @@
    "handle": "yourareunemployed",
    "per_day": 3,
    "tiktok": "yourareunemployed",
-   "format": "Vault only: posts whatever is added to its vault",
+   "format": "Vault only: videos made in the MARKETING chat",
    "writer": "None"
   },
   {
@@ -49,17 +49,19 @@
    "per_day": 1,
    "tiktok": "wei.stories5",
    "instagram": "weistories",
-   "format": "Vault only: story reels (video) added to its vault",
+   "format": "Vault only: videos made in the MARKETING chat",
    "writer": "None"
   },
   {
    "id": "pathwei",
    "name": "Pathwei",
    "handle": "pathwei_ai",
-   "per_day": 1,
+   "per_day": 3,
    "tiktok": "pathwei_ai",
-   "format": "Vault only: posts whatever is added to its vault",
-   "writer": "None"
+   "format": "Main account. Posted by hand from the dashboard, never automatically",
+   "writer": "None",
+   "manual": true,
+   "instagram": "pathwei.ai"
   }
  ]
 }

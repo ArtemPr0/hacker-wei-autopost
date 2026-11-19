@@ -4,7 +4,35 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**14 waiting** (0 from the vault). 2 posted by the system so far.
+**16 waiting** (2 from the vault). 2 posted by the system so far.
+
+### vault/20261120-1000-tt-hack-hiddengradjobsgoogle
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+the google search most grads never use
+
+#graduatejobs #jobsearchtips #jobsearch #careertips #cvtips #interviewtips #graduatejobs
+```
+
+</details>
+
+### vault/20261120-1730-tt-carousel-cv-7seconds
+
+<a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_2.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_2.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_3.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_3.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_4.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_4.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_5.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_5.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_6.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_6.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+where recruiters actually look on your cv, in order
+
+#cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
+```
+
+</details>
 
 ### 004
 
@@ -344,153 +372,175 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**2 waiting** (0 from the vault). 1 posted by the system so far.
+**2 waiting** (2 from the vault). 1 posted by the system so far.
 
-### 002
+### vault/20261120-1200-tt-meme-gotfivemins
 
-<a href="posts_pirate/002_1.jpg"><img src="posts_pirate/002_1.jpg" width="110"></a> <a href="posts_pirate/002_2.jpg"><img src="posts_pirate/002_2.jpg" width="110"></a> <a href="posts_pirate/002_3.jpg"><img src="posts_pirate/002_3.jpg" width="110"></a> <a href="posts_pirate/002_4.jpg"><img src="posts_pirate/002_4.jpg" width="110"></a> <a href="posts_pirate/002_5.jpg"><img src="posts_pirate/002_5.jpg" width="110"></a> <a href="posts_pirate/002_6.jpg"><img src="posts_pirate/002_6.jpg" width="110"></a> <a href="posts_pirate/002_7.jpg"><img src="posts_pirate/002_7.jpg" width="110"></a>
+(video)
 
 <details><summary>Caption</summary>
 
 ```
-They ask for years of experience for a role that starts at graduation. Here is how to read between the lines.
+it is never 5 minutes
 
-5 lies about entry roles:
-1. Two years of experience
-2. Must have industry knowledge
-3. Proven track record
-4. Be a subject expert
-5. We want a specialist
-
-Which lie got you? Comment the number 👇
-Follow for a daily rant about the careers world.
-
-#ukgraduate #graduatejobs #ukstudents #jobhunting #careerhumour #entrylevel #jobsearchuk #graduatelife #cvtips #piratewei
+#workmemes #teams #corporatelife #corporatehumor #workhumor #officememes
 ```
 
 </details>
 
-### 003
+### vault/20261120-1800-tt-carousel-emailstory-notenoughexperience
 
-<a href="posts_pirate/003_1.jpg"><img src="posts_pirate/003_1.jpg" width="110"></a> <a href="posts_pirate/003_2.jpg"><img src="posts_pirate/003_2.jpg" width="110"></a> <a href="posts_pirate/003_3.jpg"><img src="posts_pirate/003_3.jpg" width="110"></a> <a href="posts_pirate/003_4.jpg"><img src="posts_pirate/003_4.jpg" width="110"></a> <a href="posts_pirate/003_5.jpg"><img src="posts_pirate/003_5.jpg" width="110"></a> <a href="posts_pirate/003_6.jpg"><img src="posts_pirate/003_6.jpg" width="110"></a> <a href="posts_pirate/003_7.jpg"><img src="posts_pirate/003_7.jpg" width="110"></a>
+<a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg" width="110"></a> <a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_2.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_2.jpg" width="110"></a> <a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_3.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_3.jpg" width="110"></a> <a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_4.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_4.jpg" width="110"></a> <a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_5.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_5.jpg" width="110"></a>
 
 <details><summary>Caption</summary>
 
 ```
-Graduate schemes are sold like royal coronations. Here is the reality check.
+they said i didn't have enough experience
 
-5 grad scheme myths:
-1. Fast track to leadership
-2. Rotational experience
-3. Elite graduate cohort
-4. World class training
-5. Global career mobility
-
-Which lie got you? Comment the number 👇
-Follow for a daily rant about the careers world.
-
-#ukgraduate #graduatejobs #ukstudents #jobhunting #careerhumour #gradschemes #graduatelife #jobsearchuk #careersadvice #piratewei
+#jobsearch #rejection #emails #graduatejobs #corporatelife #storytime
 ```
 
 </details>
 
 ## The Only Wei
 
-**3 waiting** (0 from the vault). 1 posted by the system so far.
+**1 waiting** (1 from the vault). 1 posted by the system so far.
 
-### 002
+### vault/20261120-0730-tt-carousel-stevemartin-tenyears
 
-<a href="posts_only/002_1.jpg"><img src="posts_only/002_1.jpg" width="110"></a> <a href="posts_only/002_2.jpg"><img src="posts_only/002_2.jpg" width="110"></a> <a href="posts_only/002_3.jpg"><img src="posts_only/002_3.jpg" width="110"></a> <a href="posts_only/002_4.jpg"><img src="posts_only/002_4.jpg" width="110"></a> <a href="posts_only/002_5.jpg"><img src="posts_only/002_5.jpg" width="110"></a> <a href="posts_only/002_6.jpg"><img src="posts_only/002_6.jpg" width="110"></a> <a href="posts_only/002_7.jpg"><img src="posts_only/002_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-"If you have a really good idea, stick to it, but be flexible on how you get there." Jeff Bezos (The New Yorker, 2019)
-
-Stubbornness on the goal is useful, but stubbornness on the method will slow you down. Here is how to adapt.
-
-5 ways to use this:
-1. Define the core goal clearly
-2. Test methods quickly
-3. Listen to feedback openly
-4. Drop failing tactics early
-5. Keep a log of changes
-
-Which will you try first? Comment the number 👇
-Save this and follow for one idea a day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #firstjob #flexibility #problemsolving #projectwork #careergrowth #theonlywei
-```
-
-</details>
-
-### 003
-
-<a href="posts_only/003_1.jpg"><img src="posts_only/003_1.jpg" width="110"></a> <a href="posts_only/003_2.jpg"><img src="posts_only/003_2.jpg" width="110"></a> <a href="posts_only/003_3.jpg"><img src="posts_only/003_3.jpg" width="110"></a> <a href="posts_only/003_4.jpg"><img src="posts_only/003_4.jpg" width="110"></a> <a href="posts_only/003_5.jpg"><img src="posts_only/003_5.jpg" width="110"></a> <a href="posts_only/003_6.jpg"><img src="posts_only/003_6.jpg" width="110"></a> <a href="posts_only/003_7.jpg"><img src="posts_only/003_7.jpg" width="110"></a>
+<a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_2.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_2.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_3.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_3.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_4.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_4.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_5.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_5.jpg" width="110"></a>
 
 <details><summary>Caption</summary>
 
 ```
-"When something is important enough, you do it even if the odds are not in your favor." Elon Musk (60 Minutes interview, 2012)
+it took him 10 years to get good. then everything changed.
 
-Competitive roles are hard to get, but avoiding them is worse. Here is how to pursue ambitious goals early in your career.
-
-5 ways to back yourself:
-1. Target high-value goals
-2. Focus on your effort
-3. Expect early setbacks
-4. Build proof of interest
-5. Seek relevant guidance
-
-Which number will you try? Comment the number 👇
-Save this and follow for one idea a day.
-
-#ukgraduates #graduatejobs #ukstudents #careeradvice #firstjob #ambition #jobsearch #resilience #careersuccess #theonlywei
-```
-
-</details>
-
-### 004
-
-<a href="posts_only/004_1.jpg"><img src="posts_only/004_1.jpg" width="110"></a> <a href="posts_only/004_2.jpg"><img src="posts_only/004_2.jpg" width="110"></a> <a href="posts_only/004_3.jpg"><img src="posts_only/004_3.jpg" width="110"></a> <a href="posts_only/004_4.jpg"><img src="posts_only/004_4.jpg" width="110"></a> <a href="posts_only/004_5.jpg"><img src="posts_only/004_5.jpg" width="110"></a> <a href="posts_only/004_6.jpg"><img src="posts_only/004_6.jpg" width="110"></a> <a href="posts_only/004_7.jpg"><img src="posts_only/004_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-"We don't get paid for activity, just for being right." Warren Buffett (Berkshire Hathaway annual meeting, 1998)
-
-You can work hard all day and still achieve nothing. Learning to distinguish effort from impact is a vital career skill.
-
-5 ways to use this:
-1. Identify the main goal
-2. Question your daily routine
-3. Focus on deep work blocks
-4. Measure results not hours
-5. Pause before you act
-
-Which will you start with? Comment the number 👇
-Save this and follow for one idea a day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #firstjob #productivity #timemanagement #workplace #success #theonlywei
+#stevemartin #discipline #careeradvice #mindset #quotes #ukjobs
 ```
 
 </details>
 
 ## You Are Unemployed
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**2 waiting** (2 from the vault). 0 posted by the system so far.
 
-Nothing waiting.
+### vault/20261120-0730-tt-jobapplications
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+they all stopped. he didn't.
+
+#jobsearch #mentality #obsession #discipline #winterarc #graduatejobs
+```
+
+</details>
+
+### vault/20261120-1800-tt-mostsuccessful-pt1-usa-jeffbezos
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+the most successful person from every country. part 1: usa
+
+#jeffbezos #amazon #success #mentality #discipline #obsession
+```
+
+</details>
 
 ## Wei Stories
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**2 waiting** (2 from the vault). 0 posted by the system so far.
 
-Nothing waiting.
+### vault/20261120-1830-tt-afterhours-ep1-331
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+part 1. nobody should still be in the office at 3:31am
+
+#scarystories #officehorror #animation #story #whatif #corporatelife #horrorstory
+```
+
+</details>
+
+### vault/20261120-2130-tt-afterhours-ep2-thecleanersrules
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+part 2. the cleaner left a list of rules
+
+#scarystories #rules #animation #story #whatif #corporatelife #horrorstory
+```
+
+</details>
 
 ## Pathwei
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**4 waiting** (4 from the vault). 0 posted by the system so far.
 
-Nothing waiting.
+### vault/20261120-1000-tt-thepromotion
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+ego took the credit. obsession took the company.
+
+#promotion #corporatelife #obsession #ego #motivation #careers
+```
+
+</details>
+
+### vault/20261120-1230-tt-mostsuccessful-pt2-spain-amancioortega
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+every country's most successful person. part 2: spain
+
+#amancioortega #zara #spain #success #mindset #careers
+```
+
+</details>
+
+### vault/20261120-1800-ig-thepromotion
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+ego took the credit. obsession took the company.
+
+#promotion #corporatelife #careers #motivation
+```
+
+</details>
+
+### vault/20261120-1900-tt-founder-skit-newruleeveryweek
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+recruiters every single week with a new rule
+
+#comedy #recruiters #work #jobs #skit #jobsearch
+```
+
+</details>
 

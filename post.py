@@ -18,6 +18,8 @@ BASE = os.environ.get("GRAPH_BASE", "https://graph.instagram.com").rstrip("/")
 VER = os.environ.get("GRAPH_VERSION", "").strip("/")
 LOW_QUEUE = 2
 GAP_MIN = 150
+AHEAD_H = 24     # a timed vault post is handed to Buffer this many hours before its time
+LATE_H = 6       # and is dropped (left in the vault, flagged) if it could not be scheduled within this many hours after it
 SLOTS = ["07:30", "12:30", "18:30"]   # UTC. The workflow wakes every hour; an account posts when a slot has passed that it has not used yet,
                                       # so a late or missed run only delays a post, it never loses one.
 DEFAULT_IG_ID = "17841413475185588"  # hacker.weii, used only on graph.facebook.com
@@ -49,7 +51,7 @@ def call(method, path, params, tries=3):
 
 gql = common.gql
 
-def via_buffer(service, handle, urls, caption, video=False):
+def via_buffer(service, handle, urls, caption, video=False, when=None):
     """Sends a carousel or a video to a channel connected in Buffer (an approved partner of TikTok and Instagram). Returns a short status."""
     if not any(k.startswith("BUFFER_API_KEY") for k in common.secrets()): return "not set up"
     ch = common.buffer_channel(service, handle)
@@ -62,15 +64,16 @@ def via_buffer(service, handle, urls, caption, video=False):
         meta = ', metadata: {instagram: {type: %s, shouldShareToFeed: true}}' % ("reel" if video else "post")
     soon = time.strftime("%Y-%m-%dT%H:%M:%S.000Z", time.gmtime(time.time() + 180))
     last = ""
+    modes = ['customScheduled, dueAt: "%s"' % when] if when else ["shareNow", 'customScheduled, dueAt: "%s"' % soon, "addToQueue"]
     for extra in (meta, ""):
-        for mode in ("shareNow", 'customScheduled, dueAt: "%s"' % soon, "addToQueue"):
+        for mode in modes:
             q = ('mutation { createPost(input: {text: %s, channelId: "%s", schedulingType: automatic, mode: %s, assets: [%s]%s}) '
                  '{ ... on PostActionSuccess { post { id } } ... on MutationError { message } } }') % (json.dumps(caption, ensure_ascii=False), ch["id"], mode, assets, extra)
             try:
                 res = gql(q, ch["key"])["createPost"]
             except RuntimeError as e:
                 last = str(e); continue
-            if res.get("post"): return f"sent ({mode.split(',')[0]}, Buffer post {res['post']['id']})"
+            if res.get("post"): return (f"sent (scheduled in Buffer for {when}, post {res['post']['id']})" if when else f"sent ({mode.split(',')[0]}, Buffer post {res['post']['id']})")
             last = res.get("message") or json.dumps(res)[:200]
         if not meta: break
     return "failed: " + last[:300]
@@ -175,14 +178,42 @@ def post_account(a, force, dry, img_base):
     name = a["name"]
     if common.paused(a) and not force:
         log(f"{name}: paused, nothing posted."); return "skipped"
+    if a.get("manual"):
+        log(f"{name}: posted by hand from the dashboard, never automatically."); return "skipped"
     if not a.get("instagram") and not a.get("tiktok"):
         log(f"{name}: no connected platform yet."); return "skipped"
     retry_instagram(a, img_base, dry)
     st = common.load_state(a)
-    todo = common.waiting(a)
-    if not todo:
-        log(f"{name}: nothing waiting."); return "empty"
+    todo = [t for t in common.waiting(a) if not t["hold"]]
     now = datetime.datetime.now(datetime.timezone.utc)
+    iso = lambda d: d.strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Timed vault posts: handed to Buffer up to a day ahead with their exact time, so they go out on time whatever GitHub's scheduler does.
+    timed = [t for t in todo if t["at"]]
+    todo = [t for t in todo if not t["at"]]
+    handed = 0
+    for it in timed:
+        if it["at"] > iso(now + datetime.timedelta(hours=AHEAD_H)): continue
+        if it["at"] < iso(now - datetime.timedelta(hours=LATE_H)):
+            log(f"::warning::{name}: {it['key']} was due {it['at']} and is too late to post; left in the vault."); continue
+        urls = [f"{img_base}/{it['rel']}/{urllib.parse.quote(m)}" for m in it["media"]]
+        when = max(it["at"], iso(now + datetime.timedelta(minutes=3)))[:19] + ".000Z"
+        log(f"{name}: timed post {it['key']} for {it['at']}")
+        if dry: continue
+        entry = {"post": it["key"], "date": it["at"][:10], "at": it["at"], "media_id": None, "title": it["caption"].splitlines()[0][:160], "timed": True}
+        for plat in ("tiktok", "instagram"):
+            if not a.get(plat) or (it["platform"] and it["platform"] != plat): continue
+            try: r = via_buffer(plat, a[plat], urls, it["caption"], it["video"], when=when)
+            except Exception as e: r = f"failed: {e}"[:300]
+            log(f"{name}: {plat}: {r}")
+            if plat == "tiktok": entry["tiktok"] = r
+            elif r.startswith("sent"): entry["media_id"] = r
+            else: entry["instagram_error"] = r
+        if str(entry.get("tiktok", "")).startswith("sent") or entry["media_id"]:
+            st["posted"].append(entry); common.save_state(a, st); handed += 1
+        else:
+            log(f"::warning::{name}: {it['key']} could not be scheduled, it will be tried again on the next wake-up.")
+    if not todo:
+        log(f"{name}: nothing else waiting."); return "posted" if handed else "empty"
     today = now.strftime("%Y-%m-%d")
     mine = [p for p in st["posted"] if p.get("date") == today]
     if not force:
@@ -190,7 +221,7 @@ def post_account(a, force, dry, img_base):
         due = len([t for t in slots if now.strftime("%H:%M") >= t])
         if len(mine) >= due:
             log(f"{name}: {len(mine)} posted today, {due} slot(s) passed, nothing due."); return "skipped"
-        last = max((p.get("at", "") for p in mine), default="")
+        last = max((p.get("at", "") for p in mine if not p.get("timed")), default="")
         if last and (now - datetime.datetime.strptime(last, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)).total_seconds() < GAP_MIN * 60:
             log(f"{name}: last post was under {GAP_MIN} minutes ago, skipping."); return "skipped"
     it = todo[0]

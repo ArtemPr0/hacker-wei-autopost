@@ -1,4 +1,6 @@
-"""Shared helpers: the list of accounts, where each account keeps its queue, vault and record of what was posted."""
+"""A vault item may carry NAME_meta.json: {"at": "2026-11-20T18:30:00Z" (post at this time), "platform": "tiktok" or "instagram" (only there),
+"hold": "song" (do not auto-post; a founder posts it by hand), "sound": "...", "title": "..."}.
+Shared helpers: the list of accounts, where each account keeps its queue, vault and record of what was posted."""
 import os, re, json, urllib.request, urllib.error
 ROOT = os.path.dirname(os.path.abspath(__file__))
 IMG = (".jpg", ".jpeg", ".png")
@@ -31,14 +33,23 @@ def _items(folder, prefix):
         pics.sort(key=lambda f: int(re.search(r"_(\d+)\.\w+$", f).group(1)))
         media = vids[:1] or pics
         if not media: continue
-        out.append({"key": prefix + name, "name": name, "folder": folder, "rel": os.path.relpath(folder, ROOT).replace(os.sep, "/"),
+        try: meta = json.load(open(os.path.join(folder, name + "_meta.json"), encoding="utf8"))
+        except Exception: meta = {}
+        out.append({"meta": meta, "at": meta.get("at") or "", "platform": meta.get("platform") or "", "hold": meta.get("hold") or "",
+                    "key": prefix + name, "name": name, "folder": folder, "rel": os.path.relpath(folder, ROOT).replace(os.sep, "/"),
                     "media": media, "video": bool(vids), "vault": bool(prefix),
                     "caption": open(os.path.join(folder, cap), encoding="utf8").read().strip()})
     return out
 
 def all_items(a):
     """Vault first (what a founder added by hand), then the AI-written queue."""
-    return _items(vault_dir(a), "vault/") + _items(posts_dir(a), "")
+    queue = [] if a.get("queue") is False else _items(posts_dir(a), "")
+    vault = _items(vault_dir(a), "vault/")
+    return sorted([i for i in vault if i["at"]], key=lambda i: i["at"]) + [i for i in vault if not i["at"]] + queue
+
+def by_hand(a, i):
+    """True when a founder posts this item themselves: the account is hand-posted, or the item is held (for example until a song is added)."""
+    return bool(a.get("manual") or i["hold"])
 
 def waiting(a):
     done = {p["post"] for p in load_state(a)["posted"]}

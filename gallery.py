@@ -11,9 +11,15 @@ except Exception: pz = {}
 
 HAVE_BUFFER = any(k.startswith("BUFFER_API_KEY") for k in common.secrets())
 
-def item(i):
-    return {"id": i["key"], "title": i["caption"].splitlines()[0][:160], "slides": len(i["media"]), "video": i["video"], "vault": i["vault"],
-            "cover": None if i["video"] else f"{raw}/{i['rel']}/{i['media'][0]}"}
+def item(i, a=None):
+    d = {"id": i["key"], "title": i["caption"].splitlines()[0][:160], "slides": len(i["media"]), "video": i["video"], "vault": i["vault"],
+         "cover": None if i["video"] else f"{raw}/{i['rel']}/{i['media'][0]}"}
+    if i["at"]: d["at"] = i["at"]
+    if i["platform"]: d["platform"] = i["platform"]
+    if a and common.by_hand(a, i):      # a founder posts this one: the dashboard needs the files and the caption
+        d.update(hand=True, hold=i["hold"], caption=i["caption"], sound=i["meta"].get("sound", ""), note=i["meta"].get("note", ""),
+                 media=[f"{raw}/{i['rel']}/{m}" for m in i["media"]])
+    return d
 
 md = ["# Posting queue", "", "Vault posts (added by hand) go first, then the AI-written queue. To stop a post, delete its files before its slot comes.", ""]
 out = []
@@ -25,15 +31,16 @@ for a in common.accounts():
     for p in st[::-1][:8]:
         i = everything.get(p["post"])
         recent.append({"id": p["post"], "title": p.get("title") or (i["caption"].splitlines()[0][:160] if i else p["post"]), "date": p.get("date"), "at": p.get("at"),
-                       "instagram": bool(p.get("media_id")), "tiktok": p.get("tiktok"), "cover": (None if not i or i["video"] else f"{raw}/{i['rel']}/{i['media'][0]}")})
+                       "instagram": bool(p.get("media_id")), "tiktok": p.get("tiktok"), "timed": bool(p.get("timed")), "by_hand": bool(p.get("by_hand")), "cover": (None if not i or i["video"] else f"{raw}/{i['rel']}/{i['media'][0]}")})
     platforms = [x for x in ("instagram", "tiktok") if a.get(x)]
     info = {"id": a["id"], "name": a["name"], "handle": a.get("handle") or "", "format": a.get("format", ""), "writer": a.get("writer", ""),
             "platforms": platforms, "instagram": a.get("instagram") or "", "tiktok": a.get("tiktok") or "", "per_day": a.get("per_day", 1),
-            "has_writer": bool(a.get("profile")), "active": bool(platforms) and (bool(a.get("profile")) or bool(todo)),
+            "has_writer": bool(a.get("profile")), "active": bool(platforms) and not a.get("manual") and (bool(a.get("profile")) or bool(todo)),
             "paused": bool(pz.get("paused")) or bool((pz.get("accounts") or {}).get(a["id"])),
             "schedule": f"Up to {a.get('per_day', 1)} a day ({cfg.get('slots', '')})" if platforms else "No platform connected",
             "waiting": len(todo), "vault_waiting": len([t for t in todo if t["vault"]]),
-            "posted": len([p for p in st if p.get("date") != "manual"]), "next": [item(i) for i in todo[:6]], "recent": recent}
+            "posted": len([p for p in st if p.get("date") != "manual"]), "manual": bool(a.get("manual")),
+            "next": [item(i, a) for i in todo if not common.by_hand(a, i)][:6], "hand": [item(i, a) for i in todo if common.by_hand(a, i)][:8], "recent": recent}
     if HAVE_BUFFER:
         info["connected"] = {p: bool((p == "instagram" and a["id"] == "hacker") or common.buffer_channel(p, a.get(p))) for p in platforms}
     if a.get("profile") == "only":
