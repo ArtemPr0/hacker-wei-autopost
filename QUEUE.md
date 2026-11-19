@@ -4,31 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**15 waiting** (0 from the vault). 1 posted by the system so far.
-
-### 002
-
-<a href="posts/002_1.jpg"><img src="posts/002_1.jpg" width="110"></a> <a href="posts/002_2.jpg"><img src="posts/002_2.jpg" width="110"></a> <a href="posts/002_3.jpg"><img src="posts/002_3.jpg" width="110"></a> <a href="posts/002_4.jpg"><img src="posts/002_4.jpg" width="110"></a> <a href="posts/002_5.jpg"><img src="posts/002_5.jpg" width="110"></a> <a href="posts/002_6.jpg"><img src="posts/002_6.jpg" width="110"></a> <a href="posts/002_7.jpg"><img src="posts/002_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-A rejection is not the end. It can be a lead. 💡
-
-5 moves that turn a no into a lead:
-1. Reply within 24 hours
-2. Ask for feedback
-3. Ask to be kept in mind
-4. Connect with the people you met
-5. Log what you learned
-
-Which one will you try? Comment the number 👇
-Send this to a friend who needs it today.
-
-#rejection #jobrejection #ukgraduate #graduatejobs #jobsearch #careeradvice #ukstudents #graduatelife #motivation #hackerwei
-```
-
-</details>
+**14 waiting** (0 from the vault). 2 posted by the system so far.
 
 ### 004
 
@@ -368,31 +344,7 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**2 waiting** (0 from the vault). 0 posted by the system so far.
-
-### 001
-
-<a href="posts_pirate/001_1.jpg"><img src="posts_pirate/001_1.jpg" width="110"></a> <a href="posts_pirate/001_2.jpg"><img src="posts_pirate/001_2.jpg" width="110"></a> <a href="posts_pirate/001_3.jpg"><img src="posts_pirate/001_3.jpg" width="110"></a> <a href="posts_pirate/001_4.jpg"><img src="posts_pirate/001_4.jpg" width="110"></a> <a href="posts_pirate/001_5.jpg"><img src="posts_pirate/001_5.jpg" width="110"></a> <a href="posts_pirate/001_6.jpg"><img src="posts_pirate/001_6.jpg" width="110"></a> <a href="posts_pirate/001_7.jpg"><img src="posts_pirate/001_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Reaching out to strangers for careers advice feels uncomfortable. Here is how to actually get replies.
-
-5 lies about networking:
-1. Just slide into their inbox
-2. Ask for a quick coffee
-3. You need a big network
-4. Send them your CV
-5. Always ask for a job
-
-Which tip will you use? Comment the number 👇
-Follow for a daily rant about the careers world.
-
-#ukgraduate #graduatejobs #ukstudents #jobhunting #careerhumour #networking #linkedinuk #jobsearchuk #graduatelife #piratewei
-```
-
-</details>
+**2 waiting** (0 from the vault). 1 posted by the system so far.
 
 ### 002
 
@@ -418,35 +370,33 @@ Follow for a daily rant about the careers world.
 
 </details>
 
-## The Only Wei
+### 003
 
-**2 waiting** (0 from the vault). 0 posted by the system so far.
-
-### 001
-
-<a href="posts_only/001_1.jpg"><img src="posts_only/001_1.jpg" width="110"></a> <a href="posts_only/001_2.jpg"><img src="posts_only/001_2.jpg" width="110"></a> <a href="posts_only/001_3.jpg"><img src="posts_only/001_3.jpg" width="110"></a> <a href="posts_only/001_4.jpg"><img src="posts_only/001_4.jpg" width="110"></a> <a href="posts_only/001_5.jpg"><img src="posts_only/001_5.jpg" width="110"></a> <a href="posts_only/001_6.jpg"><img src="posts_only/001_6.jpg" width="110"></a> <a href="posts_only/001_7.jpg"><img src="posts_only/001_7.jpg" width="110"></a>
+<a href="posts_pirate/003_1.jpg"><img src="posts_pirate/003_1.jpg" width="110"></a> <a href="posts_pirate/003_2.jpg"><img src="posts_pirate/003_2.jpg" width="110"></a> <a href="posts_pirate/003_3.jpg"><img src="posts_pirate/003_3.jpg" width="110"></a> <a href="posts_pirate/003_4.jpg"><img src="posts_pirate/003_4.jpg" width="110"></a> <a href="posts_pirate/003_5.jpg"><img src="posts_pirate/003_5.jpg" width="110"></a> <a href="posts_pirate/003_6.jpg"><img src="posts_pirate/003_6.jpg" width="110"></a> <a href="posts_pirate/003_7.jpg"><img src="posts_pirate/003_7.jpg" width="110"></a>
 
 <details><summary>Caption</summary>
 
 ```
-"If a schedule is long, it's wrong. If it's tight, it's right." Elon Musk (Starship update talk, 2019)
+Graduate schemes are sold like royal coronations. Here is the reality check.
 
-Give yourself too much time and work expands to fill it. Here is how to use tight deadlines to get things done.
+5 grad scheme myths:
+1. Fast track to leadership
+2. Rotational experience
+3. Elite graduate cohort
+4. World class training
+5. Global career mobility
 
-5 ways to use this:
-1. Cut your timeline in half
-2. Set artificial limits today
-3. Deliver the draft early
-4. Focus on the main goal
-5. Time-box your daily tasks
+Which lie got you? Comment the number 👇
+Follow for a daily rant about the careers world.
 
-Which will you try first? Comment the number 👇
-Save this and follow for one idea a day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #firstjob #productivity #timemanagement #efficiency #workhacks #theonlywei
+#ukgraduate #graduatejobs #ukstudents #jobhunting #careerhumour #gradschemes #graduatelife #jobsearchuk #careersadvice #piratewei
 ```
 
 </details>
+
+## The Only Wei
+
+**3 waiting** (0 from the vault). 1 posted by the system so far.
 
 ### 002
 
@@ -470,6 +420,58 @@ Which will you try first? Comment the number 👇
 Save this and follow for one idea a day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #firstjob #flexibility #problemsolving #projectwork #careergrowth #theonlywei
+```
+
+</details>
+
+### 003
+
+<a href="posts_only/003_1.jpg"><img src="posts_only/003_1.jpg" width="110"></a> <a href="posts_only/003_2.jpg"><img src="posts_only/003_2.jpg" width="110"></a> <a href="posts_only/003_3.jpg"><img src="posts_only/003_3.jpg" width="110"></a> <a href="posts_only/003_4.jpg"><img src="posts_only/003_4.jpg" width="110"></a> <a href="posts_only/003_5.jpg"><img src="posts_only/003_5.jpg" width="110"></a> <a href="posts_only/003_6.jpg"><img src="posts_only/003_6.jpg" width="110"></a> <a href="posts_only/003_7.jpg"><img src="posts_only/003_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+"When something is important enough, you do it even if the odds are not in your favor." Elon Musk (60 Minutes interview, 2012)
+
+Competitive roles are hard to get, but avoiding them is worse. Here is how to pursue ambitious goals early in your career.
+
+5 ways to back yourself:
+1. Target high-value goals
+2. Focus on your effort
+3. Expect early setbacks
+4. Build proof of interest
+5. Seek relevant guidance
+
+Which number will you try? Comment the number 👇
+Save this and follow for one idea a day.
+
+#ukgraduates #graduatejobs #ukstudents #careeradvice #firstjob #ambition #jobsearch #resilience #careersuccess #theonlywei
+```
+
+</details>
+
+### 004
+
+<a href="posts_only/004_1.jpg"><img src="posts_only/004_1.jpg" width="110"></a> <a href="posts_only/004_2.jpg"><img src="posts_only/004_2.jpg" width="110"></a> <a href="posts_only/004_3.jpg"><img src="posts_only/004_3.jpg" width="110"></a> <a href="posts_only/004_4.jpg"><img src="posts_only/004_4.jpg" width="110"></a> <a href="posts_only/004_5.jpg"><img src="posts_only/004_5.jpg" width="110"></a> <a href="posts_only/004_6.jpg"><img src="posts_only/004_6.jpg" width="110"></a> <a href="posts_only/004_7.jpg"><img src="posts_only/004_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+"We don't get paid for activity, just for being right." Warren Buffett (Berkshire Hathaway annual meeting, 1998)
+
+You can work hard all day and still achieve nothing. Learning to distinguish effort from impact is a vital career skill.
+
+5 ways to use this:
+1. Identify the main goal
+2. Question your daily routine
+3. Focus on deep work blocks
+4. Measure results not hours
+5. Pause before you act
+
+Which will you start with? Comment the number 👇
+Save this and follow for one idea a day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #firstjob #productivity #timemanagement #workplace #success #theonlywei
 ```
 
 </details>

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:51:37Z",
+ "updated": "2026-11-19T16:54:57Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UTC",
@@ -23,18 +23,10 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
-   "waiting": 15,
+   "waiting": 14,
    "vault_waiting": 0,
-   "posted": 1,
+   "posted": 2,
    "next": [
-    {
-     "id": "002",
-     "title": "A rejection is not the end. It can be a lead. \ud83d\udca1",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/002_1.jpg"
-    },
     {
      "id": "004",
      "title": "Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. \ud83c\udfc6",
@@ -74,9 +66,26 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/009_1.jpg"
+    },
+    {
+     "id": "010",
+     "title": "The email after your interview matters more than you think. \ud83d\udce7",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/010_1.jpg"
     }
    ],
    "recent": [
+    {
+     "id": "002",
+     "title": "A rejection is not the end. It can be a lead. \ud83d\udca1",
+     "date": "2026-11-19",
+     "at": "2026-11-19T16:53:46Z",
+     "instagram": false,
+     "tiktok": "sent (shareNow, Buffer post 6aff29bebe5295ac8b6d0fc6)",
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/002_1.jpg"
+    },
     {
      "id": "001",
      "title": "Online tests can end your application before a human reads it. \ud83d\ude2c",
@@ -128,16 +137,8 @@
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
    "waiting": 2,
    "vault_waiting": 0,
-   "posted": 0,
+   "posted": 1,
    "next": [
-    {
-     "id": "001",
-     "title": "Reaching out to strangers for careers advice feels uncomfortable. Here is how to actually get replies.",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_pirate/001_1.jpg"
-    },
     {
      "id": "002",
      "title": "They ask for years of experience for a role that starts at graduation. Here is how to read between the lines.",
@@ -145,9 +146,27 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_pirate/002_1.jpg"
+    },
+    {
+     "id": "003",
+     "title": "Graduate schemes are sold like royal coronations. Here is the reality check.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_pirate/003_1.jpg"
     }
    ],
-   "recent": [],
+   "recent": [
+    {
+     "id": "001",
+     "title": "Reaching out to strangers for careers advice feels uncomfortable. Here is how to actually get replies.",
+     "date": "2026-11-19",
+     "at": "2026-11-19T16:54:33Z",
+     "instagram": false,
+     "tiktok": "sent (shareNow, Buffer post 6aff29ca1bbbe06957e04640)",
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_pirate/001_1.jpg"
+    }
+   ],
    "connected": {
     "tiktok": true
    }
@@ -168,18 +187,10 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UTC)",
-   "waiting": 2,
+   "waiting": 3,
    "vault_waiting": 0,
-   "posted": 0,
+   "posted": 1,
    "next": [
-    {
-     "id": "001",
-     "title": "\"If a schedule is long, it's wrong. If it's tight, it's right.\" Elon Musk (Starship update talk, 2019)",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_only/001_1.jpg"
-    },
     {
      "id": "002",
      "title": "\"If you have a really good idea, stick to it, but be flexible on how you get there.\" Jeff Bezos (The New Yorker, 2019)",
@@ -187,13 +198,39 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_only/002_1.jpg"
+    },
+    {
+     "id": "003",
+     "title": "\"When something is important enough, you do it even if the odds are not in your favor.\" Elon Musk (60 Minutes interview, 2012)",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_only/003_1.jpg"
+    },
+    {
+     "id": "004",
+     "title": "\"We don't get paid for activity, just for being right.\" Warren Buffett (Berkshire Hathaway annual meeting, 1998)",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_only/004_1.jpg"
     }
    ],
-   "recent": [],
+   "recent": [
+    {
+     "id": "001",
+     "title": "\"If a schedule is long, it's wrong. If it's tight, it's right.\" Elon Musk (Starship update talk, 2019)",
+     "date": "2026-11-19",
+     "at": "2026-11-19T16:54:44Z",
+     "instagram": false,
+     "tiktok": "sent (shareNow, Buffer post 6aff29d61bbbe06957e04b8c)",
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts_only/001_1.jpg"
+    }
+   ],
    "connected": {
     "tiktok": true
    },
-   "quotes_left": 12
+   "quotes_left": 10
   },
   {
    "id": "unemployed",
