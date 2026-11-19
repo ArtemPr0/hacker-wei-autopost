@@ -42,7 +42,7 @@ for a in common.accounts():
             "posted": len([p for p in st if p.get("date") != "manual"]), "manual": bool(a.get("manual")), "off": bool(a.get("off")), "mirror": bool(a.get("mirror")),
             "next": [item(i, a) for i in todo if not common.by_hand(a, i)][:6], "hand": [item(i, a) for i in todo if common.by_hand(a, i)][:8], "recent": recent}
     if HAVE_BUFFER:
-        info["connected"] = {p: bool((p == "instagram" and a["id"] == "hacker") or common.buffer_channel(p, a.get(p))) for p in platforms}
+        info["connected"] = {p: bool((p == "instagram" and a["id"] == "hacker" and a.get("instagram_via") != "buffer") or common.buffer_channel(p, a.get(p))) for p in platforms}
     if a.get("profile") == "only":
         try:
             used = set(json.load(open(common.topics_file(a))).get("quotes", []))

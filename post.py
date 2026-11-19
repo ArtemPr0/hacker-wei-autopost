@@ -101,6 +101,7 @@ _ig = {}
 def ig_token(a):
     """The account's own Instagram API token: IG_TOKEN_<ID>, or IG_ACCESS_TOKEN for Hacker Wei. None means: use Buffer for Instagram."""
     sec = common.secrets()
+    if a.get("instagram_via") == "buffer": return None
     return sec.get("IG_TOKEN_" + a["id"].upper()) or (sec.get("IG_ACCESS_TOKEN") if a["id"] == "hacker" else None)
 
 def ig_login(a):
@@ -171,7 +172,7 @@ def set_pause(who, value):
 
 def retry_instagram(a, img_base, dry):
     """A post that reached TikTok but was refused by Instagram is tried again on Instagram for two days (one per run)."""
-    if not a.get("instagram") or dry: return
+    if not a.get("instagram") or dry or a.get("mirror"): return     # mirrored accounts are handled by mirror_instagram
     st = common.load_state(a); items = {i["key"]: i for i in common.all_items(a)}
     cutoff = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -278,7 +279,7 @@ def post_account(a, force, dry, img_base):
                 log(f"{name}: slot {at}: {it['key']}: {r}")
                 if not r.startswith("sent"): break
                 entry = {"post": it["key"], "date": d, "at": at, "media_id": None, "title": it["caption"].splitlines()[0][:160], "timed": True, "tiktok": r}
-                if a.get("instagram"): entry["instagram_pending"] = True
+                if a.get("instagram") and not a.get("mirror"): entry["instagram_pending"] = True
                 st["posted"].append(entry); common.save_state(a, st); todo.pop(0); handed += 1
         if not todo: return "posted"
     today = now.strftime("%Y-%m-%d")
@@ -321,7 +322,7 @@ def post_account(a, force, dry, img_base):
     ok = bool(entry["media_id"]) or str(entry.get("tiktok", "")).startswith("sent")
     if not ok:
         log(f"::warning::{name}: {it['key']} did not go out anywhere, it stays in the queue for the next slot."); return "failed"
-    if a.get("instagram") and not entry["media_id"] and "PUBLISH_UNCONFIRMED" not in entry.get("instagram_error", ""): entry["instagram_pending"] = True
+    if a.get("instagram") and not a.get("mirror") and not entry["media_id"] and "PUBLISH_UNCONFIRMED" not in entry.get("instagram_error", ""): entry["instagram_pending"] = True
     if entry not in st["posted"]: st["posted"].append(entry)
     common.save_state(a, st)
     left = len([t for t in todo[1:] if not t["vault"]])
