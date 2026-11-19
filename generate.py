@@ -552,6 +552,7 @@ def run_account(acct, ai, src, dry, budget):
 def need(acct):
     waiting = len([i for i in common.waiting(acct) if not i["vault"]])
     if os.environ.get("FORCE") == "1": return max(1, min(MAX_PER_RUN, TARGET - waiting))
+    if waiting >= 6 and time.gmtime().tm_hour not in (7, 12, 18): return 0     # hourly runs only write when a queue is running low
     return min(MAX_PER_RUN, max(0, TARGET - waiting))
 
 def main():

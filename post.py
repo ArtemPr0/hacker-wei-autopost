@@ -8,7 +8,7 @@ Each account posts up to its per_day limit, at least GAP_MIN minutes apart. Inst
 Env: SECRETS_JSON (all repository secrets: IG_ACCESS_TOKEN, IG_TOKEN_<ID>, BUFFER_API_KEY, BUFFER_API_KEY_2, ...), ACCOUNT (one account id, or all),
 FORCE_POST=1 (ignore the daily limit, the gap and pause), GRAPH_BASE, GRAPH_VERSION, SKIP_URL_CHECK=1, IMAGE_BASE.
 Flags: --dry-run, --force, --pause ID|all, --resume ID|all.
-Exit codes: 0 ok, 1 failure, 3 fine but an AI-written queue is nearly empty (so GitHub emails the owner).
+Exit codes: 0 ok, 1 failure. A nearly empty AI-written queue is a warning in the log and shows on the dashboard.
 """
 import os, sys, json, time, datetime, subprocess, urllib.request, urllib.parse, urllib.error
 import common
@@ -18,6 +18,8 @@ BASE = os.environ.get("GRAPH_BASE", "https://graph.instagram.com").rstrip("/")
 VER = os.environ.get("GRAPH_VERSION", "").strip("/")
 LOW_QUEUE = 2
 GAP_MIN = 150
+SLOTS = ["07:30", "12:30", "18:30"]   # UTC. The workflow wakes every hour; an account posts when a slot has passed that it has not used yet,
+                                      # so a late or missed run only delays a post, it never loses one.
 DEFAULT_IG_ID = "17841413475185588"  # hacker.weii, used only on graph.facebook.com
 
 def log(*a): print(*a, flush=True)
@@ -145,6 +147,29 @@ def set_pause(who, value):
     os.makedirs(os.path.dirname(f), exist_ok=True); json.dump(p, open(f, "w"))
     log(f"{'Paused' if value else 'Resumed'}: {who or 'all'}")
 
+def retry_instagram(a, img_base, dry):
+    """A post that reached TikTok but was refused by Instagram is tried again on Instagram for two days (one per run)."""
+    if not a.get("instagram") or dry: return
+    st = common.load_state(a); items = {i["key"]: i for i in common.all_items(a)}
+    cutoff = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for p in st["posted"]:
+        if not p.get("instagram_pending"): continue
+        it = items.get(p["post"])
+        if not it or p.get("at", "") < cutoff:
+            p.pop("instagram_pending"); p["instagram_error"] = (p.get("instagram_error", "") + " (gave up)")[:300]; common.save_state(a, st); continue
+        urls = [f"{img_base}/{it['rel']}/{urllib.parse.quote(m)}" for m in it["media"]]
+        try:
+            if ig_token(a): p["media_id"] = instagram(a, it, urls)
+            else:
+                r = via_buffer("instagram", a["instagram"], urls, it["caption"], it["video"])
+                if not r.startswith("sent"): raise RuntimeError(r)
+                p["media_id"] = r
+            p.pop("instagram_pending"); p.pop("instagram_error", None)
+            log(f"{a['name']}: Instagram caught up on {p['post']}: {p['media_id']}")
+        except Exception as e:
+            p["instagram_error"] = str(e)[:300]; log(f"::warning::{a['name']}: Instagram still refuses {p['post']}: {str(e)[:200]}")
+        common.save_state(a, st); return
+
 def post_account(a, force, dry, img_base):
     """Posts one item for one account. Returns 'posted', 'skipped', 'empty', 'low' or 'failed'."""
     name = a["name"]
@@ -152,6 +177,7 @@ def post_account(a, force, dry, img_base):
         log(f"{name}: paused, nothing posted."); return "skipped"
     if not a.get("instagram") and not a.get("tiktok"):
         log(f"{name}: no connected platform yet."); return "skipped"
+    retry_instagram(a, img_base, dry)
     st = common.load_state(a)
     todo = common.waiting(a)
     if not todo:
@@ -160,8 +186,10 @@ def post_account(a, force, dry, img_base):
     today = now.strftime("%Y-%m-%d")
     mine = [p for p in st["posted"] if p.get("date") == today]
     if not force:
-        if len(mine) >= int(a.get("per_day", 1)):
-            log(f"{name}: already posted {len(mine)} today, skipping."); return "skipped"
+        slots = SLOTS[-max(1, min(len(SLOTS), int(a.get("per_day", 1)))):]
+        due = len([t for t in slots if now.strftime("%H:%M") >= t])
+        if len(mine) >= due:
+            log(f"{name}: {len(mine)} posted today, {due} slot(s) passed, nothing due."); return "skipped"
         last = max((p.get("at", "") for p in mine), default="")
         if last and (now - datetime.datetime.strptime(last, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)).total_seconds() < GAP_MIN * 60:
             log(f"{name}: last post was under {GAP_MIN} minutes ago, skipping."); return "skipped"
@@ -193,6 +221,7 @@ def post_account(a, force, dry, img_base):
     ok = bool(entry["media_id"]) or str(entry.get("tiktok", "")).startswith("sent")
     if not ok:
         log(f"::warning::{name}: {it['key']} did not go out anywhere, it stays in the queue for the next slot."); return "failed"
+    if a.get("instagram") and not entry["media_id"]: entry["instagram_pending"] = True
     if entry not in st["posted"]: st["posted"].append(entry)
     common.save_state(a, st)
     left = len([t for t in todo[1:] if not t["vault"]])
@@ -219,7 +248,7 @@ def main():
         except Exception as e:
             log(f"::error::{a['name']}: {e}"); results[a["id"]] = "failed"
     log("Summary:", json.dumps(results))
-    return 3 if "low" in results.values() else 0
+    return 0
 
 if __name__ == "__main__":
     try:

@@ -1,7 +1,7 @@
 name: Post next carousel
 on:
   schedule:
-    - cron: "30 7,12,18 * * *"   # three slots a day, UTC (one hour later on the clock in British Summer Time)
+    - cron: "30 * * * *"   # wakes every hour; posting slots are 07:30, 12:30 and 18:30 UTC, and a late or missed wake-up is caught by the next one
   push:
     branches: [main]
     paths: ["vault/**", "accounts.json", "quotes.json"]   # a post added to the vault: just refresh the status the dashboard reads
