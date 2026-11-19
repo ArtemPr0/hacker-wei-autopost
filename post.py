@@ -155,8 +155,9 @@ def retry_instagram(a, img_base, dry):
     if not a.get("instagram") or dry: return
     st = common.load_state(a); items = {i["key"]: i for i in common.all_items(a)}
     cutoff = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for p in st["posted"]:
-        if not p.get("instagram_pending"): continue
+        if not p.get("instagram_pending") or p.get("at", "") > now: continue
         it = items.get(p["post"])
         if not it or p.get("at", "") < cutoff:
             p.pop("instagram_pending"); p["instagram_error"] = (p.get("instagram_error", "") + " (gave up)")[:300]; common.save_state(a, st); continue
@@ -214,6 +215,26 @@ def post_account(a, force, dry, img_base):
             log(f"::warning::{name}: {it['key']} could not be scheduled, it will be tried again on the next wake-up.")
     if not todo:
         log(f"{name}: nothing else waiting."); return "posted" if handed else "empty"
+    # Untimed posts (the AI queue, and vault posts without a time): each coming slot is also handed to Buffer ahead of time,
+    # so one wake-up a day is enough. Instagram's own connection cannot schedule ahead; it catches up once the slot has passed.
+    if a.get("tiktok") and not force and not dry and common.buffer_channel("tiktok", a["tiktok"]):
+        slots = SLOTS[-max(1, min(len(SLOTS), int(a.get("per_day", 1)))):]
+        for day in (now, now + datetime.timedelta(days=1)):
+            d = day.strftime("%Y-%m-%d")
+            have = len([p for p in st["posted"] if p.get("date") == d])
+            for t in slots[have:]:
+                at = f"{d}T{t}:00Z"
+                if not todo or at <= iso(now + datetime.timedelta(minutes=5)) or at > iso(now + datetime.timedelta(hours=AHEAD_H)): continue
+                it = todo[0]
+                urls = [f"{img_base}/{it['rel']}/{urllib.parse.quote(m)}" for m in it["media"]]
+                try: r = via_buffer("tiktok", a["tiktok"], urls, it["caption"], it["video"], when=at[:19] + ".000Z")
+                except Exception as e: r = f"failed: {e}"[:300]
+                log(f"{name}: slot {at}: {it['key']}: {r}")
+                if not r.startswith("sent"): break
+                entry = {"post": it["key"], "date": d, "at": at, "media_id": None, "title": it["caption"].splitlines()[0][:160], "timed": True, "tiktok": r}
+                if a.get("instagram"): entry["instagram_pending"] = True
+                st["posted"].append(entry); common.save_state(a, st); todo.pop(0); handed += 1
+        if not todo: return "posted"
     today = now.strftime("%Y-%m-%d")
     mine = [p for p in st["posted"] if p.get("date") == today]
     if not force:
