@@ -174,6 +174,27 @@ def retry_instagram(a, img_base, dry):
             p["instagram_error"] = str(e)[:300]; log(f"::warning::{a['name']}: Instagram still refuses {p['post']}: {str(e)[:200]}")
         common.save_state(a, st); return
 
+def mirror_instagram(a, img_base, dry):
+    """Accounts with "mirror": true send every automatic TikTok post to their Instagram account as well, through Buffer.
+    Posts still in the future are scheduled there for the same time; ones whose time has passed (within two days) go at once."""
+    if not (a.get("mirror") and a.get("instagram")) or dry or ig_token(a): return
+    if not common.buffer_channel("instagram", a["instagram"]):
+        log(f"{a['name']}: Instagram @{a['instagram']} is not connected in Buffer yet, nothing mirrored."); return
+    st = common.load_state(a); items = {i["key"]: i for i in common.all_items(a)}
+    now = datetime.datetime.now(datetime.timezone.utc)
+    cutoff = (now - datetime.timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ"); soon = (now + datetime.timedelta(minutes=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for p in st["posted"]:
+        it = items.get(p["post"])
+        if not it or p.get("media_id") or p.get("by_hand") or p.get("instagram_tries", 0) >= 3 or p.get("at", "") < cutoff: continue
+        if not str(p.get("tiktok", "")).startswith("sent"): continue
+        urls = [f"{img_base}/{it['rel']}/{urllib.parse.quote(m)}" for m in it["media"]]
+        try: r = via_buffer("instagram", a["instagram"], urls, it["caption"], it["video"], when=(p["at"][:19] + ".000Z") if p["at"] > soon else None)
+        except Exception as e: r = f"failed: {e}"[:300]
+        log(f"{a['name']}: Instagram mirror of {p['post']}: {r}")
+        if r.startswith("sent"): p["media_id"] = r; p.pop("instagram_error", None)
+        else: p["instagram_error"] = r; p["instagram_tries"] = p.get("instagram_tries", 0) + 1
+        common.save_state(a, st)
+
 def post_account(a, force, dry, img_base):
     """Posts one item for one account. Returns 'posted', 'skipped', 'empty', 'low' or 'failed'."""
     name = a["name"]
@@ -202,7 +223,8 @@ def post_account(a, force, dry, img_base):
         if dry: continue
         entry = {"post": it["key"], "date": it["at"][:10], "at": it["at"], "media_id": None, "title": it["caption"].splitlines()[0][:160], "timed": True}
         for plat in ("tiktok", "instagram"):
-            if not a.get(plat) or (it["platform"] and it["platform"] != plat): continue
+            if not a.get(plat) or (it["platform"] and it["platform"] != plat and not (plat == "instagram" and a.get("mirror"))): continue
+            if plat == "instagram" and not common.buffer_channel("instagram", a["instagram"]): continue
             try: r = via_buffer(plat, a[plat], urls, it["caption"], it["video"], when=when)
             except Exception as e: r = f"failed: {e}"[:300]
             log(f"{name}: {plat}: {r}")
@@ -298,7 +320,9 @@ def main():
     results = {}
     for a in common.accounts():
         if only != "all" and a["id"] != only: continue
-        try: results[a["id"]] = post_account(a, force, dry, img_base)
+        try:
+            results[a["id"]] = post_account(a, force, dry, img_base)
+            if not a.get("manual"): mirror_instagram(a, img_base, dry)
         except Exception as e:
             log(f"::error::{a['name']}: {e}"); results[a["id"]] = "failed"
     log("Summary:", json.dumps(results))
