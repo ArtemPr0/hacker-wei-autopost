@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T23:25:29Z",
+ "updated": "2026-11-19T23:32:31Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -110,7 +110,7 @@
      "title": "Spring weeks fill up early. Here is how to get ahead of it. \ud83c\udf31",
      "date": "2026-11-20",
      "at": "2026-11-20T18:30:00Z",
-     "instagram": false,
+     "instagram": true,
      "tiktok": "sent (scheduled in Buffer for 2026-11-20T18:30:00.000Z, post 6aff7ab4b3e65522f835b499)",
      "timed": true,
      "by_hand": false,
@@ -121,7 +121,7 @@
      "title": "Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. \ud83c\udfc6",
      "date": "2026-11-20",
      "at": "2026-11-20T12:30:00Z",
-     "instagram": false,
+     "instagram": true,
      "tiktok": "sent (scheduled in Buffer for 2026-11-20T12:30:00.000Z, post 6aff7ab3ef915da8dbc57483)",
      "timed": true,
      "by_hand": false,
@@ -132,7 +132,7 @@
      "title": "the google search most grads never use",
      "date": "2026-11-20",
      "at": "2026-11-20T10:00:00Z",
-     "instagram": false,
+     "instagram": true,
      "tiktok": "sent (scheduled in Buffer for 2026-11-20T10:00:00.000Z, post 6aff7a5ab3e65522f8358d14)",
      "timed": true,
      "by_hand": false,
@@ -184,7 +184,7 @@
     }
    ],
    "connected": {
-    "instagram": false,
+    "instagram": true,
     "tiktok": true
    }
   },
@@ -242,7 +242,7 @@
      "title": "it is never 5 minutes",
      "date": "2026-11-20",
      "at": "2026-11-20T12:00:00Z",
-     "instagram": false,
+     "instagram": true,
      "tiktok": "sent (scheduled in Buffer for 2026-11-20T12:00:00.000Z, post 6aff7a5aef915da8dbc55a13)",
      "timed": true,
      "by_hand": false,
@@ -261,7 +261,7 @@
     }
    ],
    "connected": {
-    "instagram": false,
+    "instagram": true,
     "tiktok": true
    }
   },
@@ -327,7 +327,7 @@
     }
    ],
    "connected": {
-    "instagram": false,
+    "instagram": true,
     "tiktok": true
    }
   },
@@ -629,13 +629,16 @@
    }
   }
  ],
- "buffer_accounts": 2,
+ "buffer_accounts": 3,
  "channels": [
   "tiktok the.only.wei",
   "tiktok hacker.wei",
   "tiktok yourareunemployed",
   "tiktok pathwei_ai",
   "tiktok pirate.wei",
-  "tiktok wei.stories5"
+  "tiktok wei.stories5",
+  "instagram weigradjobs",
+  "instagram pirate.wei",
+  "instagram hacker.weii"
  ]
 }
