@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:55:06Z",
+ "updated": "2026-11-19T23:01:31Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -27,6 +27,8 @@
    "vault_waiting": 1,
    "posted": 5,
    "manual": false,
+   "off": false,
+   "mirror": false,
    "next": [
     {
      "id": "007",
@@ -141,7 +143,7 @@
      "title": "A rejection is not the end. It can be a lead. \ud83d\udca1",
      "date": "2026-11-19",
      "at": "2026-11-19T16:53:46Z",
-     "instagram": false,
+     "instagram": true,
      "tiktok": "sent (shareNow, Buffer post 6aff29bebe5295ac8b6d0fc6)",
      "timed": false,
      "by_hand": false,
@@ -193,9 +195,10 @@
    "format": "Vault only: videos and carousels made in the MARKETING chat",
    "writer": "None (AI writer switched off)",
    "platforms": [
+    "instagram",
     "tiktok"
    ],
-   "instagram": "",
+   "instagram": "pirate.wei",
    "tiktok": "pirate.wei",
    "per_day": 3,
    "has_writer": false,
@@ -206,6 +209,8 @@
    "vault_waiting": 1,
    "posted": 2,
    "manual": false,
+   "off": false,
+   "mirror": true,
    "next": [],
    "hand": [
     {
@@ -256,6 +261,7 @@
     }
    ],
    "connected": {
+    "instagram": false,
     "tiktok": true
    }
   },
@@ -266,9 +272,10 @@
    "format": "Vault only: videos and carousels made in the MARKETING chat",
    "writer": "None (AI writer switched off)",
    "platforms": [
+    "instagram",
     "tiktok"
    ],
-   "instagram": "",
+   "instagram": "weigradjobs",
    "tiktok": "the.only.wei",
    "per_day": 3,
    "has_writer": false,
@@ -279,6 +286,8 @@
    "vault_waiting": 1,
    "posted": 1,
    "manual": false,
+   "off": false,
+   "mirror": true,
    "next": [],
    "hand": [
     {
@@ -318,6 +327,7 @@
     }
    ],
    "connected": {
+    "instagram": false,
     "tiktok": true
    }
   },
@@ -341,6 +351,8 @@
    "vault_waiting": 0,
    "posted": 2,
    "manual": false,
+   "off": false,
+   "mirror": false,
    "next": [],
    "hand": [],
    "recent": [
@@ -392,6 +404,8 @@
    "vault_waiting": 0,
    "posted": 2,
    "manual": false,
+   "off": false,
+   "mirror": true,
    "next": [],
    "hand": [],
    "recent": [
@@ -444,6 +458,8 @@
    "vault_waiting": 4,
    "posted": 0,
    "manual": true,
+   "off": false,
+   "mirror": false,
    "next": [],
    "hand": [
     {
@@ -523,6 +539,93 @@
    "connected": {
     "instagram": false,
     "tiktok": true
+   }
+  },
+  {
+   "id": "chef",
+   "name": "Chef Wei",
+   "handle": "cheff.wei",
+   "format": "Vault only: posts whatever is added to its vault",
+   "writer": "None",
+   "platforms": [
+    "instagram"
+   ],
+   "instagram": "cheff.wei",
+   "tiktok": "",
+   "per_day": 1,
+   "has_writer": false,
+   "active": false,
+   "paused": false,
+   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "waiting": 0,
+   "vault_waiting": 0,
+   "posted": 0,
+   "manual": false,
+   "off": false,
+   "mirror": false,
+   "next": [],
+   "hand": [],
+   "recent": [],
+   "connected": {
+    "instagram": false
+   }
+  },
+  {
+   "id": "pathweiapp",
+   "name": "Pathwei App",
+   "handle": "pathwei.app",
+   "format": "Listed only. Not automated yet",
+   "writer": "None",
+   "platforms": [
+    "instagram"
+   ],
+   "instagram": "pathwei.app",
+   "tiktok": "",
+   "per_day": 1,
+   "has_writer": false,
+   "active": false,
+   "paused": false,
+   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "waiting": 0,
+   "vault_waiting": 0,
+   "posted": 0,
+   "manual": false,
+   "off": true,
+   "mirror": false,
+   "next": [],
+   "hand": [],
+   "recent": [],
+   "connected": {
+    "instagram": false
+   }
+  },
+  {
+   "id": "mrpathwei",
+   "name": "Mr Pathwei",
+   "handle": "mr.pathwei",
+   "format": "Listed only. Not automated yet",
+   "writer": "None",
+   "platforms": [
+    "instagram"
+   ],
+   "instagram": "mr.pathwei",
+   "tiktok": "",
+   "per_day": 1,
+   "has_writer": false,
+   "active": false,
+   "paused": false,
+   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "waiting": 0,
+   "vault_waiting": 0,
+   "posted": 0,
+   "manual": false,
+   "off": true,
+   "mirror": false,
+   "next": [],
+   "hand": [],
+   "recent": [],
+   "connected": {
+    "instagram": false
    }
   }
  ],
