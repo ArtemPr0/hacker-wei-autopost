@@ -217,6 +217,8 @@ def post_account(a, force, dry, img_base):
     today = now.strftime("%Y-%m-%d")
     mine = [p for p in st["posted"] if p.get("date") == today]
     if not force:
+        if now.hour >= 22 or now.hour < 6:
+            log(f"{name}: quiet hours, no catch-up posts between 22:00 and 06:00."); return "posted" if handed else "skipped"
         slots = SLOTS[-max(1, min(len(SLOTS), int(a.get("per_day", 1)))):]
         due = len([t for t in slots if now.strftime("%H:%M") >= t])
         if len(mine) >= due:
