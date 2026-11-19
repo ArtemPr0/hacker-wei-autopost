@@ -139,7 +139,26 @@ def instagram(a, it, urls):
         for k in kids: wait_ready(k, token)
         car = call("POST", f"{uid}/media", {"media_type": "CAROUSEL", "children": ",".join(kids), "caption": cap, "access_token": token})
         wait_ready(car["id"], token); final = car["id"]
-    return call("POST", f"{uid}/media_publish", {"creation_id": final, "access_token": token}, tries=1).get("id")
+    # Publishing is tried exactly once per post. Instagram has answered "request limit reached" while publishing anyway, so after an
+    # error the account's latest posts are checked; if the outcome cannot be confirmed the post is NOT tried again (a gap beats a duplicate).
+    try:
+        return call("POST", f"{uid}/media_publish", {"creation_id": final, "access_token": token}, tries=1).get("id")
+    except RuntimeError as e:
+        found = ig_find(uid, token, cap)
+        if found: log(f"Instagram reported an error but the post is live ({found})."); return found
+        raise RuntimeError(f"PUBLISH_UNCONFIRMED {e}")
+
+def ig_find(uid, token, cap):
+    """The id of a post from the last three days whose caption starts like this one, or None."""
+    try:
+        time.sleep(20)
+        recent = call("GET", f"{uid}/media", {"fields": "id,caption,timestamp", "limit": "12", "access_token": token}, tries=1).get("data", [])
+    except Exception as e:
+        log(f"could not list recent Instagram posts: {str(e)[:160]}"); return None
+    since = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=3)).strftime("%Y-%m-%dT%H:%M")
+    for m in recent:
+        if (m.get("caption") or "")[:60].strip() == cap[:60].strip() and (m.get("timestamp") or "")[:16] >= since: return m["id"]
+    return None
 
 def set_pause(who, value):
     f = os.path.join(ROOT, "state", "paused.json")
@@ -163,7 +182,9 @@ def retry_instagram(a, img_base, dry):
             p.pop("instagram_pending"); p["instagram_error"] = (p.get("instagram_error", "") + " (gave up)")[:300]; common.save_state(a, st); continue
         urls = [f"{img_base}/{it['rel']}/{urllib.parse.quote(m)}" for m in it["media"]]
         try:
-            if ig_token(a): p["media_id"] = instagram(a, it, urls)
+            if ig_token(a):
+                uid, token = ig_login(a)
+                p["media_id"] = ig_find(uid, token, it["caption"]) or instagram(a, it, urls)
             else:
                 r = via_buffer("instagram", a["instagram"], urls, it["caption"], it["video"])
                 if not r.startswith("sent"): raise RuntimeError(r)
@@ -172,6 +193,7 @@ def retry_instagram(a, img_base, dry):
             log(f"{a['name']}: Instagram caught up on {p['post']}: {p['media_id']}")
         except Exception as e:
             p["instagram_error"] = str(e)[:300]; log(f"::warning::{a['name']}: Instagram still refuses {p['post']}: {str(e)[:200]}")
+            if "PUBLISH_UNCONFIRMED" in str(e): p.pop("instagram_pending", None)
         common.save_state(a, st); return
 
 def mirror_instagram(a, img_base, dry):
@@ -200,6 +222,8 @@ def post_account(a, force, dry, img_base):
     name = a["name"]
     if common.paused(a) and not force:
         log(f"{name}: paused, nothing posted."); return "skipped"
+    if a.get("off"):
+        log(f"{name}: listed only, not automated yet."); return "skipped"
     if a.get("manual"):
         log(f"{name}: posted by hand from the dashboard, never automatically."); return "skipped"
     if not a.get("instagram") and not a.get("tiktok"):
@@ -297,7 +321,7 @@ def post_account(a, force, dry, img_base):
     ok = bool(entry["media_id"]) or str(entry.get("tiktok", "")).startswith("sent")
     if not ok:
         log(f"::warning::{name}: {it['key']} did not go out anywhere, it stays in the queue for the next slot."); return "failed"
-    if a.get("instagram") and not entry["media_id"]: entry["instagram_pending"] = True
+    if a.get("instagram") and not entry["media_id"] and "PUBLISH_UNCONFIRMED" not in entry.get("instagram_error", ""): entry["instagram_pending"] = True
     if entry not in st["posted"]: st["posted"].append(entry)
     common.save_state(a, st)
     left = len([t for t in todo[1:] if not t["vault"]])
@@ -322,7 +346,7 @@ def main():
         if only != "all" and a["id"] != only: continue
         try:
             results[a["id"]] = post_account(a, force, dry, img_base)
-            if not a.get("manual"): mirror_instagram(a, img_base, dry)
+            if not a.get("manual") and not a.get("off"): mirror_instagram(a, img_base, dry)
         except Exception as e:
             log(f"::error::{a['name']}: {e}"); results[a["id"]] = "failed"
     log("Summary:", json.dumps(results))
