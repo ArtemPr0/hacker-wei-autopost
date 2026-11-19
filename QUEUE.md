@@ -4,7 +4,21 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**14 waiting** (0 from the vault). 2 posted by the system so far.
+**15 waiting** (1 from the vault). 3 posted by the system so far.
+
+### vault/20261120-1730-tt-carousel-cv-7seconds
+
+<a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_2.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_2.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_3.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_3.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_4.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_4.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_5.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_5.jpg" width="110"></a> <a href="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_6.jpg"><img src="vault/hacker/20261120-1730-tt-carousel-cv-7seconds_6.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+where recruiters actually look on your cv, in order
+
+#cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
+```
+
+</details>
 
 ### 004
 
@@ -344,31 +358,109 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**0 waiting** (0 from the vault). 1 posted by the system so far.
+**1 waiting** (1 from the vault). 2 posted by the system so far.
 
-Nothing waiting.
+### vault/20261120-1800-tt-carousel-emailstory-notenoughexperience
+
+<a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg" width="110"></a> <a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_2.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_2.jpg" width="110"></a> <a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_3.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_3.jpg" width="110"></a> <a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_4.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_4.jpg" width="110"></a> <a href="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_5.jpg"><img src="vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_5.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+they said i didn't have enough experience
+
+#jobsearch #rejection #emails #graduatejobs #corporatelife #storytime
+```
+
+</details>
 
 ## The Only Wei
 
-**0 waiting** (0 from the vault). 1 posted by the system so far.
+**1 waiting** (1 from the vault). 1 posted by the system so far.
 
-Nothing waiting.
+### vault/20261120-0730-tt-carousel-stevemartin-tenyears
+
+<a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_2.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_2.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_3.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_3.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_4.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_4.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_5.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_5.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+it took him 10 years to get good. then everything changed.
+
+#stevemartin #discipline #careeradvice #mindset #quotes #ukjobs
+```
+
+</details>
 
 ## You Are Unemployed
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**0 waiting** (0 from the vault). 2 posted by the system so far.
 
 Nothing waiting.
 
 ## Wei Stories
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**0 waiting** (0 from the vault). 2 posted by the system so far.
 
 Nothing waiting.
 
 ## Pathwei
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**4 waiting** (4 from the vault). 0 posted by the system so far.
 
-Nothing waiting.
+### vault/20261120-1000-tt-thepromotion
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+ego took the credit. obsession took the company.
+
+#promotion #corporatelife #obsession #ego #motivation #careers
+```
+
+</details>
+
+### vault/20261120-1230-tt-mostsuccessful-pt2-spain-amancioortega
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+every country's most successful person. part 2: spain
+
+#amancioortega #zara #spain #success #mindset #careers
+```
+
+</details>
+
+### vault/20261120-1800-ig-thepromotion
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+ego took the credit. obsession took the company.
+
+#promotion #corporatelife #careers #motivation
+```
+
+</details>
+
+### vault/20261120-1900-tt-founder-skit-newruleeveryweek
+
+(video)
+
+<details><summary>Caption</summary>
+
+```
+recruiters every single week with a new rule
+
+#comedy #recruiters #work #jobs #skit #jobsearch
+```
+
+</details>
 
