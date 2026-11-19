@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:38:23Z",
+ "updated": "2026-11-19T22:39:48Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -23,27 +23,11 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 15,
+   "waiting": 13,
    "vault_waiting": 1,
-   "posted": 3,
+   "posted": 5,
    "manual": false,
    "next": [
-    {
-     "id": "004",
-     "title": "Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. \ud83c\udfc6",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/004_1.jpg"
-    },
-    {
-     "id": "006",
-     "title": "Spring weeks fill up early. Here is how to get ahead of it. \ud83c\udf31",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/006_1.jpg"
-    },
     {
      "id": "007",
      "title": "Your cover letter is judged in the first line. Make it count. \u270d\ufe0f",
@@ -75,6 +59,22 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/010_1.jpg"
+    },
+    {
+     "id": "012",
+     "title": "Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/012_1.jpg"
+    },
+    {
+     "id": "013",
+     "title": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/013_1.jpg"
     }
    ],
    "hand": [
@@ -103,6 +103,28 @@
     }
    ],
    "recent": [
+    {
+     "id": "006",
+     "title": "Spring weeks fill up early. Here is how to get ahead of it. \ud83c\udf31",
+     "date": "2026-11-20",
+     "at": "2026-11-20T18:30:00Z",
+     "instagram": false,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-20T18:30:00.000Z, post 6aff7ab4b3e65522f835b499)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/006_1.jpg"
+    },
+    {
+     "id": "004",
+     "title": "Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. \ud83c\udfc6",
+     "date": "2026-11-20",
+     "at": "2026-11-20T12:30:00Z",
+     "instagram": false,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-20T12:30:00.000Z, post 6aff7ab3ef915da8dbc57483)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/004_1.jpg"
+    },
     {
      "id": "vault/20261120-1000-tt-hack-hiddengradjobsgoogle",
      "title": "the google search most grads never use",

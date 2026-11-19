@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**15 waiting** (1 from the vault). 3 posted by the system so far.
+**13 waiting** (1 from the vault). 5 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,54 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 004
-
-<a href="posts/004_1.jpg"><img src="posts/004_1.jpg" width="110"></a> <a href="posts/004_2.jpg"><img src="posts/004_2.jpg" width="110"></a> <a href="posts/004_3.jpg"><img src="posts/004_3.jpg" width="110"></a> <a href="posts/004_4.jpg"><img src="posts/004_4.jpg" width="110"></a> <a href="posts/004_5.jpg"><img src="posts/004_5.jpg" width="110"></a> <a href="posts/004_6.jpg"><img src="posts/004_6.jpg" width="110"></a> <a href="posts/004_7.jpg"><img src="posts/004_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. 🏆
-
-5 group exercise moves:
-1. Speak early, not loudly
-2. Bring the quiet person in
-3. Watch the clock out loud
-4. Credit other people's ideas
-5. Summarise at the end
-
-Which move would you use first? Comment the number 👇
-Save this for assessment day.
-
-#assessmentcentre #graduatescheme #groupexercise #ukgraduate #interviewtips #graduatejobs #ukstudents #careeradvice #jobinterview #hackerwei
-```
-
-</details>
-
-### 006
-
-<a href="posts/006_1.jpg"><img src="posts/006_1.jpg" width="110"></a> <a href="posts/006_2.jpg"><img src="posts/006_2.jpg" width="110"></a> <a href="posts/006_3.jpg"><img src="posts/006_3.jpg" width="110"></a> <a href="posts/006_4.jpg"><img src="posts/006_4.jpg" width="110"></a> <a href="posts/006_5.jpg"><img src="posts/006_5.jpg" width="110"></a> <a href="posts/006_6.jpg"><img src="posts/006_6.jpg" width="110"></a> <a href="posts/006_7.jpg"><img src="posts/006_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Spring weeks fill up early. Here is how to get ahead of it. 🌱
-
-5 ways to land one:
-1. Apply as soon as they open
-2. Look beyond the big names
-3. Use your first year well
-4. Show interest in one sentence
-5. Do not panic if you miss out
-
-Which one are you doing first? Comment the number 👇
-Save this for September and send it to a first year.
-
-#springweek #springweeks #insightday #ukstudents #firstyear #graduatejobs #internships #careeradvice #ukuniversity #hackerwei
 ```
 
 </details>
