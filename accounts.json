@@ -74,10 +74,10 @@
    "id": "chef",
    "name": "Chef Wei",
    "handle": "cheff.wei",
-   "per_day": 1,
+   "per_day": 3,
    "instagram": "cheff.wei",
-   "format": "Vault only: posts whatever is added to its vault",
-   "writer": "None"
+   "format": "Cheap student recipe carousels, 3 a day (11:30, 17:00, 21:00 UK), food photos from Higgsfield",
+   "writer": "Made in batches (vault)"
   },
   {
    "id": "pathweiapp",
