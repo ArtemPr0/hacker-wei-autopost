@@ -39,14 +39,6 @@ def main():
     if "--schema" in sys.argv or os.environ.get("DEBUG"):
         print("Post:", sorted(PF)); print("Channel:", sorted(CF))
         if not os.environ.get("DEBUG"): return 0
-        try:
-            mt = CF.get("metadata") or {}
-            while mt and mt.get("ofType"): mt = mt["ofType"]
-            name = mt.get("name")
-            t = common.gql('query { __type(name: "%s") { kind fields { name type { kind name ofType { name } } } possibleTypes { name fields { name type { kind name ofType { name } } } } } }' % name, keys[0][1])
-            print("METADATA", name, json.dumps(t)[:3000])
-            t2 = common.gql('query { __type(name: "Account") { fields { name } } }', keys[0][1]); print("ACCOUNT", json.dumps(t2)[:800])
-        except Exception as e: print("METADATA failed", e)
     want_post = [f for f in ("id", "text", "sentAt", "dueAt", "createdAt", "status", "externalLink", "serviceLink", "permalink", "link", "type", "postType") if f in PF and scalar(PF[f])]
     want_chan = [f for f in ("id", "name", "displayName", "service", "avatar", "serviceId", "externalLink", "serviceLink", "url", "type", "isDisconnected", "isLocked") if f in CF and scalar(CF[f])]
     assets = " assets { __typename ... on ImageAsset { thumbnail } ... on VideoAsset { thumbnail } }" if "assets" in PF else ""
