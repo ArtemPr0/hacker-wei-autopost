@@ -94,7 +94,7 @@ jobs:
           BUFFER_API_KEY_5: ${{ secrets.BUFFER_API_KEY_5 }}
         run: |
           if [ "$ACTION" = "run" ] && [ $(( $(date -u +%H) % 3 )) -ne 0 ]; then echo "Analytics are read every 3 hours."; exit 0; fi
-          python analytics.py
+          DEBUG=${{ inputs.account == 'debug' && '1' || '' }} python analytics.py
       - name: Save what was posted
         if: always()
         env:

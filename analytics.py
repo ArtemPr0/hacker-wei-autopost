@@ -36,8 +36,9 @@ def main():
     if not keys: log("no Buffer keys, nothing to read"); return 0
     since = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=DAYS)).strftime("%Y-%m-%dT00:00:00.000Z")
     PF = fields("Post", keys[0][1]); CF = fields("Channel", keys[0][1])
-    if "--schema" in sys.argv:
-        print("Post:", sorted(PF)); print("Channel:", sorted(CF)); return 0
+    if "--schema" in sys.argv or os.environ.get("DEBUG"):
+        print("Post:", sorted(PF)); print("Channel:", sorted(CF))
+        if not os.environ.get("DEBUG"): return 0
     want_post = [f for f in ("id", "text", "sentAt", "dueAt", "createdAt", "status", "externalLink", "serviceLink", "permalink", "link", "type", "postType") if f in PF and scalar(PF[f])]
     want_chan = [f for f in ("id", "name", "displayName", "service", "avatar", "serviceId", "externalLink", "serviceLink", "url", "type", "isDisconnected", "isLocked") if f in CF and scalar(CF[f])]
     assets = " assets { __typename ... on ImageAsset { thumbnail } ... on VideoAsset { thumbnail } }" if "assets" in PF else ""
@@ -54,21 +55,25 @@ def main():
                 seen.add(ch["id"])
                 posts, after, pages = [], None, 0
                 while pages < 10:
-                    q = ('query { posts(input: {organizationId: "%s", filter: {channelIds: ["%s"], status: [sent], startDate: "%s"}}, first: 50%s) '
+                    q = ('query { posts(input: {organizationId: "%s", filter: {channelIds: ["%s"], status: [sent]}}, first: 50%s) '
                          '{ edges { node { %s metrics { type value } metricsUpdatedAt%s } } pageInfo { hasNextPage endCursor } } }') % (
-                         org["id"], ch["id"], since, (', after: "%s"' % after) if after else "", " ".join(want_post), assets)
+                         org["id"], ch["id"], (', after: "%s"' % after) if after else "", " ".join(want_post), assets)
                     try: r = common.gql(q, key)["posts"]
                     except Exception as e:
                         if assets and "assets" in str(e): assets = ""; continue      # retry once without thumbnails
                         out["errors"].append(f"{ch.get('service')} {ch.get('name')}: {str(e)[:200]}"); break
+                    if os.environ.get("DEBUG") and pages == 0: log("DEBUG", ch.get("name"), json.dumps(r)[:600])
+                    old = False
                     for ed in r["edges"]:
                         n = ed["node"]; m = {x["type"]: x["value"] for x in (n.get("metrics") or [])}
                         thumb = next((a.get("thumbnail") for a in (n.get("assets") or []) if a and a.get("thumbnail")), None)
+                        at = n.get("sentAt") or n.get("dueAt") or n.get("createdAt")
+                        if at and at < since: old = True; continue
                         posts.append({"id": n.get("id"), "at": n.get("sentAt") or n.get("dueAt") or n.get("createdAt"),
                                       "text": (n.get("text") or "").split("\n")[0][:140], "link": n.get("externalLink") or n.get("serviceLink") or n.get("permalink") or n.get("link"),
                                       "thumb": thumb, "metrics": m, "metrics_at": n.get("metricsUpdatedAt")})
                     pages += 1
-                    if not r["pageInfo"]["hasNextPage"]: break
+                    if old or not r["pageInfo"]["hasNextPage"]: break
                     after = r["pageInfo"]["endCursor"]; time.sleep(0.3)
                 b = brand_for(ch.get("service"), ch.get("name")) or brand_for(ch.get("service"), ch.get("displayName"))
                 out["channels"].append({"service": ch.get("service"), "handle": ch.get("name") or ch.get("displayName"), "avatar": ch.get("avatar"),
