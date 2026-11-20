@@ -91,13 +91,14 @@
   },
   {
    "id": "mrpathwei",
-   "name": "Mr Pathwei",
+   "name": "Mr Wei",
    "handle": "mr.pathwei",
    "per_day": 1,
    "instagram": "mr.pathwei",
    "off": true,
-   "format": "Listed only. Not automated yet",
-   "writer": "None"
+   "format": "Listed only. Not automated yet (Instagram and LinkedIn)",
+   "writer": "None",
+   "linkedin": "mr-wei"
   }
  ]
 }

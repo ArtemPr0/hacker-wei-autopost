@@ -32,9 +32,9 @@ for a in common.accounts():
         i = everything.get(p["post"])
         recent.append({"id": p["post"], "title": p.get("title") or (i["caption"].splitlines()[0][:160] if i else p["post"]), "date": p.get("date"), "at": p.get("at"),
                        "instagram": bool(p.get("media_id")), "tiktok": p.get("tiktok"), "timed": bool(p.get("timed")), "by_hand": bool(p.get("by_hand")), "cover": (None if not i or i["video"] else f"{raw}/{i['rel']}/{i['media'][0]}")})
-    platforms = [x for x in ("instagram", "tiktok") if a.get(x)]
+    platforms = [x for x in ("instagram", "tiktok", "linkedin") if a.get(x)]
     info = {"id": a["id"], "name": a["name"], "handle": a.get("handle") or "", "format": a.get("format", ""), "writer": a.get("writer", ""),
-            "platforms": platforms, "instagram": a.get("instagram") or "", "tiktok": a.get("tiktok") or "", "per_day": a.get("per_day", 1),
+            "platforms": platforms, "instagram": a.get("instagram") or "", "tiktok": a.get("tiktok") or "", "linkedin": a.get("linkedin") or "", "per_day": a.get("per_day", 1),
             "has_writer": bool(a.get("profile")), "active": bool(platforms) and not a.get("manual") and not a.get("off") and (bool(a.get("profile")) or bool(todo)),
             "paused": bool(pz.get("paused")) or bool((pz.get("accounts") or {}).get(a["id"])),
             "schedule": f"Up to {a.get('per_day', 1)} a day ({cfg.get('slots', '')})" if platforms else "No platform connected",

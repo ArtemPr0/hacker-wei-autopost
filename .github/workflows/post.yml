@@ -59,7 +59,13 @@ jobs:
           git config user.name "hacker-wei-bot"
           git config user.email "hacker-wei-bot@users.noreply.github.com"
           git add -A posts posts_* state 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "Add generated carousels" && git pull --rebase && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Add generated carousels"
+          for i in 1 2 3 4; do
+            if git pull --rebase -X theirs origin main && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
       - name: Post the next item for each account
         if: env.ACTION == 'run' || env.ACTION == 'post_now'
         env:
@@ -75,7 +81,6 @@ jobs:
       - name: Save what was posted
         if: always()
         env:
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_API_KEY_2: ${{ secrets.BUFFER_API_KEY_2 }}
@@ -87,4 +92,11 @@ jobs:
           git config user.email "hacker-wei-bot@users.noreply.github.com"
           python gallery.py || true
           git add state QUEUE.md status.json 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "Update post record and queue page" && git pull --rebase && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Update post record and queue page"
+          for i in 1 2 3 4; do
+            if git pull --rebase -X theirs origin main && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          exit 1
