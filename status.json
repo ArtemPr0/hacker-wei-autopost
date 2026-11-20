@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:26:49Z",
+ "updated": "2026-11-20T17:55:17Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -691,7 +691,7 @@
    "hand": [],
    "recent": [],
    "connected": {
-    "instagram": false
+    "instagram": true
    }
   },
   {
@@ -720,11 +720,11 @@
    "hand": [],
    "recent": [],
    "connected": {
-    "instagram": false
+    "instagram": true
    }
   }
  ],
- "buffer_accounts": 4,
+ "buffer_accounts": 5,
  "channels": [
   "tiktok the.only.wei",
   "tiktok hacker.wei",
@@ -737,6 +737,9 @@
   "instagram hacker.weii",
   "instagram pathwei.ai",
   "instagram cheff.wei",
-  "instagram weistories"
+  "instagram weistories",
+  "linkedin mr-wei",
+  "instagram mr.pathwei",
+  "instagram pathwei.app"
  ]
 }
