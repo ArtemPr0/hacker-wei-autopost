@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**13 waiting** (1 from the vault). 5 posted by the system so far.
+**12 waiting** (1 from the vault). 6 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,30 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 007
-
-<a href="posts/007_1.jpg"><img src="posts/007_1.jpg" width="110"></a> <a href="posts/007_2.jpg"><img src="posts/007_2.jpg" width="110"></a> <a href="posts/007_3.jpg"><img src="posts/007_3.jpg" width="110"></a> <a href="posts/007_4.jpg"><img src="posts/007_4.jpg" width="110"></a> <a href="posts/007_5.jpg"><img src="posts/007_5.jpg" width="110"></a> <a href="posts/007_6.jpg"><img src="posts/007_6.jpg" width="110"></a> <a href="posts/007_7.jpg"><img src="posts/007_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Your cover letter is judged in the first line. Make it count. ✍️
-
-5 fixes for a stronger one:
-1. Skip "I am writing to apply"
-2. Match one need from the advert
-3. Tell one short story
-4. Keep it to one page
-5. End with a clear next step
-
-Which fix is hardest for you? Comment the number 👇
-Save this for your next letter.
-
-#coverletter #coverlettertips #jobapplication #ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #cvtips #hackerwei
 ```
 
 </details>

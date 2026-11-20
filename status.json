@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:44:35Z",
+ "updated": "2026-11-20T08:43:33Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -23,21 +23,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 13,
+   "waiting": 12,
    "vault_waiting": 1,
-   "posted": 5,
+   "posted": 6,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "007",
-     "title": "Your cover letter is judged in the first line. Make it count. \u270d\ufe0f",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/007_1.jpg"
-    },
     {
      "id": "008",
      "title": "Ten minutes is enough to make your LinkedIn work harder. \ud83d\udd27",
@@ -77,6 +69,14 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/013_1.jpg"
+    },
+    {
+     "id": "014",
+     "title": "Feeling lost after graduation is normal. Stop overthinking and start testing your way to a clear answer.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/014_1.jpg"
     }
    ],
    "hand": [
@@ -105,6 +105,17 @@
     }
    ],
    "recent": [
+    {
+     "id": "007",
+     "title": "Your cover letter is judged in the first line. Make it count. \u270d\ufe0f",
+     "date": "2026-11-21",
+     "at": "2026-11-21T07:30:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-21T07:30:00.000Z, post 6b000834d5f8acdd0d84ddcd)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/007_1.jpg"
+    },
     {
      "id": "006",
      "title": "Spring weeks fill up early. Here is how to get ahead of it. \ud83c\udf31",
