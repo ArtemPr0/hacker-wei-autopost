@@ -1,0 +1,157 @@
+{
+"updated": "2026-11-20T18:30:56Z",
+"days": 90,
+"channels": [
+{
+"service": "tiktok",
+"handle": "the.only.wei",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6afdfc77ece6dfde5f10c577_1795030135352",
+"brand": "The Only Wei",
+"brand_id": "only",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "tiktok",
+"handle": "hacker.wei",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6afdfbf0ece6dfde5f10bf73_1795030000571",
+"brand": "Hacker Wei",
+"brand_id": "hacker",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "tiktok",
+"handle": "yourareunemployed",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6afdf6b5ece6dfde5f105a83_1795028966998",
+"brand": "You Are Unemployed",
+"brand_id": "unemployed",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "tiktok",
+"handle": "pathwei_ai",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6afe38f2ece6dfde5f14e346_1795045618579",
+"brand": "Pathwei",
+"brand_id": "pathwei",
+"mode": "manual",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "tiktok",
+"handle": "pirate.wei",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6afe3889ece6dfde5f14dc77_1795045551542",
+"brand": "Pirate Wei",
+"brand_id": "pirate",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "tiktok",
+"handle": "wei.stories5",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6afe3829ece6dfde5f14d1ba_1795045417763",
+"brand": "Wei Stories",
+"brand_id": "stories",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "instagram",
+"handle": "weigradjobs",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff84dcece6dfde5f27bd98_1795130588922",
+"brand": "The Only Wei",
+"brand_id": "only",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "instagram",
+"handle": "pirate.wei",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff84a5ece6dfde5f27b707_1795130533454",
+"brand": "Pirate Wei",
+"brand_id": "pirate",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "instagram",
+"handle": "hacker.weii",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff845bece6dfde5f27ad78_1795130459624",
+"brand": "Hacker Wei",
+"brand_id": "hacker",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "instagram",
+"handle": "pathwei.ai",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b007611ece6dfde5f3474a2_1795192337398",
+"brand": "Pathwei",
+"brand_id": "pathwei",
+"mode": "manual",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "instagram",
+"handle": "cheff.wei",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b0075d4ece6dfde5f3471f5_1795192276691",
+"brand": "Chef Wei",
+"brand_id": "chef",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "instagram",
+"handle": "weistories",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b0075a3ece6dfde5f346ff4_1795192227167",
+"brand": "Wei Stories",
+"brand_id": "stories",
+"mode": "auto",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "linkedin",
+"handle": "mr-wei",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b0088b5ece6dfde5f358417_1795197109232",
+"brand": "Mr Wei",
+"brand_id": "mrpathwei",
+"mode": "off",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "instagram",
+"handle": "mr.pathwei",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b008787ece6dfde5f357a82_1795196807559",
+"brand": "Mr Wei",
+"brand_id": "mrpathwei",
+"mode": "off",
+"disconnected": false,
+"posts": []
+},
+{
+"service": "instagram",
+"handle": "pathwei.app",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b00874eece6dfde5f357891_1795196750233",
+"brand": "Pathwei App",
+"brand_id": "pathweiapp",
+"mode": "off",
+"disconnected": false,
+"posts": []
+}
+],
+"errors": []
+}
