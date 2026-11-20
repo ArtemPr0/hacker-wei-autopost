@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:55:17Z",
+ "updated": "2026-11-20T17:59:35Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -18,6 +18,7 @@
    ],
    "instagram": "hacker.weii",
    "tiktok": "hacker.wei",
+   "linkedin": "",
    "per_day": 3,
    "has_writer": true,
    "active": true,
@@ -211,6 +212,7 @@
    ],
    "instagram": "pirate.wei",
    "tiktok": "pirate.wei",
+   "linkedin": "",
    "per_day": 3,
    "has_writer": false,
    "active": true,
@@ -288,6 +290,7 @@
    ],
    "instagram": "weigradjobs",
    "tiktok": "the.only.wei",
+   "linkedin": "",
    "per_day": 3,
    "has_writer": false,
    "active": true,
@@ -353,6 +356,7 @@
    ],
    "instagram": "",
    "tiktok": "yourareunemployed",
+   "linkedin": "",
    "per_day": 3,
    "has_writer": false,
    "active": false,
@@ -406,6 +410,7 @@
    ],
    "instagram": "weistories",
    "tiktok": "wei.stories5",
+   "linkedin": "",
    "per_day": 1,
    "has_writer": false,
    "active": false,
@@ -460,6 +465,7 @@
    ],
    "instagram": "pathwei.ai",
    "tiktok": "pathwei_ai",
+   "linkedin": "",
    "per_day": 3,
    "has_writer": false,
    "active": false,
@@ -563,6 +569,7 @@
    ],
    "instagram": "cheff.wei",
    "tiktok": "",
+   "linkedin": "",
    "per_day": 3,
    "has_writer": false,
    "active": true,
@@ -676,6 +683,7 @@
    ],
    "instagram": "pathwei.app",
    "tiktok": "",
+   "linkedin": "",
    "per_day": 1,
    "has_writer": false,
    "active": false,
@@ -696,15 +704,17 @@
   },
   {
    "id": "mrpathwei",
-   "name": "Mr Pathwei",
+   "name": "Mr Wei",
    "handle": "mr.pathwei",
-   "format": "Listed only. Not automated yet",
+   "format": "Listed only. Not automated yet (Instagram and LinkedIn)",
    "writer": "None",
    "platforms": [
-    "instagram"
+    "instagram",
+    "linkedin"
    ],
    "instagram": "mr.pathwei",
    "tiktok": "",
+   "linkedin": "mr-wei",
    "per_day": 1,
    "has_writer": false,
    "active": false,
@@ -720,7 +730,8 @@
    "hand": [],
    "recent": [],
    "connected": {
-    "instagram": true
+    "instagram": true,
+    "linkedin": true
    }
   }
  ],

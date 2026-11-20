@@ -739,7 +739,7 @@ Save it for later and follow for 3 cheap recipes a day 👨‍🍳
 
 Nothing waiting.
 
-## Mr Pathwei
+## Mr Wei
 
 **0 waiting** (0 from the vault). 0 posted by the system so far.
 
