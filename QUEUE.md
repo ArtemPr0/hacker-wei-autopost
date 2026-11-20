@@ -394,9 +394,389 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**0 waiting** (0 from the vault). 0 posted by the system so far.
+**21 waiting** (21 from the vault). 0 posted by the system so far.
 
-Nothing waiting.
+### vault/20261121-1130-ig-egg-fried-rice
+
+<a href="vault/chef/20261121-1130-ig-egg-fried-rice_1.jpg"><img src="vault/chef/20261121-1130-ig-egg-fried-rice_1.jpg" width="110"></a> <a href="vault/chef/20261121-1130-ig-egg-fried-rice_2.jpg"><img src="vault/chef/20261121-1130-ig-egg-fried-rice_2.jpg" width="110"></a> <a href="vault/chef/20261121-1130-ig-egg-fried-rice_3.jpg"><img src="vault/chef/20261121-1130-ig-egg-fried-rice_3.jpg" width="110"></a> <a href="vault/chef/20261121-1130-ig-egg-fried-rice_4.jpg"><img src="vault/chef/20261121-1130-ig-egg-fried-rice_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+The takeaway classic for under £1, in 10 minutes. 🍳
+
+Egg fried rice: 10 mins, under £1 a portion, serves 1.
+You need 1 mug cooked rice, 2 eggs, handful of frozen peas, 1 spring onion, 1 tbsp soy sauce and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #friedrice
+```
+
+</details>
+
+### vault/20261121-1700-ig-one-pan-chickpea-curry
+
+<a href="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_1.jpg"><img src="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_1.jpg" width="110"></a> <a href="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_2.jpg"><img src="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_2.jpg" width="110"></a> <a href="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_3.jpg"><img src="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_3.jpg" width="110"></a> <a href="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_4.jpg"><img src="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+One pan, three dinners, about £1 each. 🍛
+
+One-pan chickpea curry: 25 mins, about £1 a portion, serves 3.
+You need 1 onion, 2 garlic cloves, 2 tbsp curry paste, 1 tin chopped tomatoes, 1 tin chickpeas and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #chickpeacurry
+```
+
+</details>
+
+### vault/20261121-2100-ig-overnight-oats
+
+<a href="vault/chef/20261121-2100-ig-overnight-oats_1.jpg"><img src="vault/chef/20261121-2100-ig-overnight-oats_1.jpg" width="110"></a> <a href="vault/chef/20261121-2100-ig-overnight-oats_2.jpg"><img src="vault/chef/20261121-2100-ig-overnight-oats_2.jpg" width="110"></a> <a href="vault/chef/20261121-2100-ig-overnight-oats_3.jpg"><img src="vault/chef/20261121-2100-ig-overnight-oats_3.jpg" width="110"></a> <a href="vault/chef/20261121-2100-ig-overnight-oats_4.jpg"><img src="vault/chef/20261121-2100-ig-overnight-oats_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Five minutes tonight, breakfast sorted tomorrow. 🥣
+
+Overnight oats: 5 mins tonight, under £1 a jar, serves 1.
+You need 50g porridge oats (half a mug), 150ml milk, 2 tbsp yoghurt, 1 tsp honey, pinch of cinnamon and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #overnightoats
+```
+
+</details>
+
+### vault/20261122-1130-ig-cheesy-bean-quesadilla
+
+<a href="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_1.jpg"><img src="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_1.jpg" width="110"></a> <a href="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_2.jpg"><img src="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_2.jpg" width="110"></a> <a href="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_3.jpg"><img src="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_3.jpg" width="110"></a> <a href="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_4.jpg"><img src="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Crispy, melty and ready in 10 minutes. 🧀
+
+Cheesy bean quesadilla: 10 mins, under £1.50 a portion, serves 1.
+You need 2 tortilla wraps, half a tin kidney or black beans, handful of grated cheddar, half tsp smoked paprika or chilli powder, 1 tbsp salsa or ketchup and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #quesadilla
+```
+
+</details>
+
+### vault/20261122-1700-ig-chicken-thigh-tray-bake
+
+<a href="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_1.jpg"><img src="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_1.jpg" width="110"></a> <a href="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_2.jpg"><img src="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_2.jpg" width="110"></a> <a href="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_3.jpg"><img src="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_3.jpg" width="110"></a> <a href="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_4.jpg"><img src="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Chuck it in a tray, walk away, dinner done. 🍗
+
+Chicken thigh tray bake: 45 mins, under £2 a portion, serves 2.
+You need 4 chicken thighs, 3 medium potatoes, 1 red onion, 1 pepper, 2 tbsp oil and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #traybake
+```
+
+</details>
+
+### vault/20261122-2100-ig-batch-tomato-soup
+
+<a href="vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg"><img src="vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg" width="110"></a> <a href="vault/chef/20261122-2100-ig-batch-tomato-soup_2.jpg"><img src="vault/chef/20261122-2100-ig-batch-tomato-soup_2.jpg" width="110"></a> <a href="vault/chef/20261122-2100-ig-batch-tomato-soup_3.jpg"><img src="vault/chef/20261122-2100-ig-batch-tomato-soup_3.jpg" width="110"></a> <a href="vault/chef/20261122-2100-ig-batch-tomato-soup_4.jpg"><img src="vault/chef/20261122-2100-ig-batch-tomato-soup_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Four bowls of soup for less than one meal deal. 🍅
+
+Batch tomato soup: 30 mins, under £1 a portion, serves 4.
+You need 1 onion, 1 carrot, 2 garlic cloves, 2 tins chopped tomatoes, 1 stock cube in 500ml hot water and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #tomatosoup
+```
+
+</details>
+
+### vault/20261123-1130-ig-tuna-sweetcorn-melt
+
+<a href="vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_1.jpg"><img src="vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_1.jpg" width="110"></a> <a href="vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_2.jpg"><img src="vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_2.jpg" width="110"></a> <a href="vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_3.jpg"><img src="vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_3.jpg" width="110"></a> <a href="vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_4.jpg"><img src="vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+The lunch that beats every meal deal. 🥪
+
+Tuna sweetcorn melt: 10 mins, under £1.50 a portion, serves 1.
+You need 1 small tin tuna, 2 tbsp sweetcorn, 1 tbsp mayo, 2 slices bread, handful of grated cheese and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #tunamelt
+```
+
+</details>
+
+### vault/20261123-1700-ig-red-lentil-bolognese
+
+<a href="vault/chef/20261123-1700-ig-red-lentil-bolognese_1.jpg"><img src="vault/chef/20261123-1700-ig-red-lentil-bolognese_1.jpg" width="110"></a> <a href="vault/chef/20261123-1700-ig-red-lentil-bolognese_2.jpg"><img src="vault/chef/20261123-1700-ig-red-lentil-bolognese_2.jpg" width="110"></a> <a href="vault/chef/20261123-1700-ig-red-lentil-bolognese_3.jpg"><img src="vault/chef/20261123-1700-ig-red-lentil-bolognese_3.jpg" width="110"></a> <a href="vault/chef/20261123-1700-ig-red-lentil-bolognese_4.jpg"><img src="vault/chef/20261123-1700-ig-red-lentil-bolognese_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Bolognese for four, under £1 a plate. 🍝
+
+Red lentil bolognese: 30 mins, under £1 a portion, serves 4.
+You need 1 onion, 1 carrot, 2 garlic cloves, 150g red lentils, 1 tin chopped tomatoes and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #lentilbolognese
+```
+
+</details>
+
+### vault/20261123-2100-ig-banana-mug-cake
+
+<a href="vault/chef/20261123-2100-ig-banana-mug-cake_1.jpg"><img src="vault/chef/20261123-2100-ig-banana-mug-cake_1.jpg" width="110"></a> <a href="vault/chef/20261123-2100-ig-banana-mug-cake_2.jpg"><img src="vault/chef/20261123-2100-ig-banana-mug-cake_2.jpg" width="110"></a> <a href="vault/chef/20261123-2100-ig-banana-mug-cake_3.jpg"><img src="vault/chef/20261123-2100-ig-banana-mug-cake_3.jpg" width="110"></a> <a href="vault/chef/20261123-2100-ig-banana-mug-cake_4.jpg"><img src="vault/chef/20261123-2100-ig-banana-mug-cake_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Cake in 5 minutes, no oven needed. 🍌
+
+Banana mug cake: 5 mins, under £1 a mug, serves 1.
+You need half a ripe banana, 4 tbsp self-raising flour, 1 tbsp sugar, 3 tbsp milk, 1 tbsp oil and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #mugcake
+```
+
+</details>
+
+### vault/20261124-1130-ig-chickpea-smash-wrap
+
+<a href="vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg"><img src="vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg" width="110"></a> <a href="vault/chef/20261124-1130-ig-chickpea-smash-wrap_2.jpg"><img src="vault/chef/20261124-1130-ig-chickpea-smash-wrap_2.jpg" width="110"></a> <a href="vault/chef/20261124-1130-ig-chickpea-smash-wrap_3.jpg"><img src="vault/chef/20261124-1130-ig-chickpea-smash-wrap_3.jpg" width="110"></a> <a href="vault/chef/20261124-1130-ig-chickpea-smash-wrap_4.jpg"><img src="vault/chef/20261124-1130-ig-chickpea-smash-wrap_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+No cooking, two lunches, under £1 each. 🌯
+
+Chickpea smash wrap: 10 mins, under £1 a wrap, makes 2.
+You need 1 tin chickpeas, 2 tbsp mayo or greek yoghurt, squeeze of lemon, quarter of a cucumber, pinch of paprika and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #chickpeawrap
+```
+
+</details>
+
+### vault/20261124-1700-ig-creamy-garlic-mushroom-pasta
+
+<a href="vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_1.jpg"><img src="vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_1.jpg" width="110"></a> <a href="vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_2.jpg"><img src="vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_2.jpg" width="110"></a> <a href="vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_3.jpg"><img src="vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_3.jpg" width="110"></a> <a href="vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_4.jpg"><img src="vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Tastes like a restaurant, costs like a sandwich. 🍄
+
+Creamy garlic mushroom pasta: 20 mins, under £1.50 a portion, serves 2.
+You need 200g pasta, 250g mushrooms, 2 garlic cloves, knob of butter, 100g soft cheese and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #mushroompasta
+```
+
+</details>
+
+### vault/20261124-2100-ig-big-batch-red-lentil-dal
+
+<a href="vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_1.jpg"><img src="vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_1.jpg" width="110"></a> <a href="vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_2.jpg"><img src="vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_2.jpg" width="110"></a> <a href="vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_3.jpg"><img src="vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_3.jpg" width="110"></a> <a href="vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_4.jpg"><img src="vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Four warm bowls for the price of a coffee. 🫕
+
+Big-batch red lentil dal: 30 mins, under £1 a portion, serves 4.
+You need 250g red lentils, 1 onion, 3 garlic cloves, thumb of ginger, 2 tsp curry powder and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #dal
+```
+
+</details>
+
+### vault/20261125-1130-ig-10-minute-peanut-noodles
+
+<a href="vault/chef/20261125-1130-ig-10-minute-peanut-noodles_1.jpg"><img src="vault/chef/20261125-1130-ig-10-minute-peanut-noodles_1.jpg" width="110"></a> <a href="vault/chef/20261125-1130-ig-10-minute-peanut-noodles_2.jpg"><img src="vault/chef/20261125-1130-ig-10-minute-peanut-noodles_2.jpg" width="110"></a> <a href="vault/chef/20261125-1130-ig-10-minute-peanut-noodles_3.jpg"><img src="vault/chef/20261125-1130-ig-10-minute-peanut-noodles_3.jpg" width="110"></a> <a href="vault/chef/20261125-1130-ig-10-minute-peanut-noodles_4.jpg"><img src="vault/chef/20261125-1130-ig-10-minute-peanut-noodles_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Better than the takeaway, ready before the delivery app loads. 🥜
+
+10-minute peanut noodles: 10 mins, under £1 a portion, serves 1.
+You need 1 nest of noodles, 1 heaped tbsp peanut butter, 1 tbsp soy sauce, 1 tsp honey or sugar, 1 garlic clove and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #peanutnoodles
+```
+
+</details>
+
+### vault/20261125-1700-ig-sausage-and-bean-casserole
+
+<a href="vault/chef/20261125-1700-ig-sausage-and-bean-casserole_1.jpg"><img src="vault/chef/20261125-1700-ig-sausage-and-bean-casserole_1.jpg" width="110"></a> <a href="vault/chef/20261125-1700-ig-sausage-and-bean-casserole_2.jpg"><img src="vault/chef/20261125-1700-ig-sausage-and-bean-casserole_2.jpg" width="110"></a> <a href="vault/chef/20261125-1700-ig-sausage-and-bean-casserole_3.jpg"><img src="vault/chef/20261125-1700-ig-sausage-and-bean-casserole_3.jpg" width="110"></a> <a href="vault/chef/20261125-1700-ig-sausage-and-bean-casserole_4.jpg"><img src="vault/chef/20261125-1700-ig-sausage-and-bean-casserole_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Proper comfort food for a cold Wednesday. 🌭
+
+Sausage and bean casserole: 35 mins, under £1.50 a portion, serves 3.
+You need 6 sausages (pork or veggie), 1 onion, 2 garlic cloves, 1 tsp smoked paprika, 1 tin chopped tomatoes and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #sausagecasserole
+```
+
+</details>
+
+### vault/20261125-2100-ig-tortilla-pizza
+
+<a href="vault/chef/20261125-2100-ig-tortilla-pizza_1.jpg"><img src="vault/chef/20261125-2100-ig-tortilla-pizza_1.jpg" width="110"></a> <a href="vault/chef/20261125-2100-ig-tortilla-pizza_2.jpg"><img src="vault/chef/20261125-2100-ig-tortilla-pizza_2.jpg" width="110"></a> <a href="vault/chef/20261125-2100-ig-tortilla-pizza_3.jpg"><img src="vault/chef/20261125-2100-ig-tortilla-pizza_3.jpg" width="110"></a> <a href="vault/chef/20261125-2100-ig-tortilla-pizza_4.jpg"><img src="vault/chef/20261125-2100-ig-tortilla-pizza_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Late-night pizza for under £1. Put the delivery app down. 🍕
+
+Tortilla pizza: 10 mins, under £1 a pizza, serves 1.
+You need 1 large tortilla wrap, 2 tbsp passata or tomato purée, handful of grated mozzarella or cheddar, pinch of dried oregano, toppings: ham and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #tortillapizza
+```
+
+</details>
+
+### vault/20261126-1130-ig-pesto-pasta-with-peas
+
+<a href="vault/chef/20261126-1130-ig-pesto-pasta-with-peas_1.jpg"><img src="vault/chef/20261126-1130-ig-pesto-pasta-with-peas_1.jpg" width="110"></a> <a href="vault/chef/20261126-1130-ig-pesto-pasta-with-peas_2.jpg"><img src="vault/chef/20261126-1130-ig-pesto-pasta-with-peas_2.jpg" width="110"></a> <a href="vault/chef/20261126-1130-ig-pesto-pasta-with-peas_3.jpg"><img src="vault/chef/20261126-1130-ig-pesto-pasta-with-peas_3.jpg" width="110"></a> <a href="vault/chef/20261126-1130-ig-pesto-pasta-with-peas_4.jpg"><img src="vault/chef/20261126-1130-ig-pesto-pasta-with-peas_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Twelve minutes, three ingredients, zero effort. 🌿
+
+Pesto pasta with peas: 12 mins, under £1 a portion, serves 1.
+You need 100g pasta, 2 handfuls frozen peas, 2 tbsp green pesto, handful of grated hard cheese, black pepper and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #pestopasta
+```
+
+</details>
+
+### vault/20261126-1700-ig-veggie-chilli
+
+<a href="vault/chef/20261126-1700-ig-veggie-chilli_1.jpg"><img src="vault/chef/20261126-1700-ig-veggie-chilli_1.jpg" width="110"></a> <a href="vault/chef/20261126-1700-ig-veggie-chilli_2.jpg"><img src="vault/chef/20261126-1700-ig-veggie-chilli_2.jpg" width="110"></a> <a href="vault/chef/20261126-1700-ig-veggie-chilli_3.jpg"><img src="vault/chef/20261126-1700-ig-veggie-chilli_3.jpg" width="110"></a> <a href="vault/chef/20261126-1700-ig-veggie-chilli_4.jpg"><img src="vault/chef/20261126-1700-ig-veggie-chilli_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+A big pot of chilli for less than £1 a bowl. 🌶️
+
+Veggie chilli: 35 mins, under £1 a portion, serves 4.
+You need 1 onion, 1 pepper, 2 garlic cloves, 2 tsp chilli powder, 1 tsp ground cumin and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #veggiechilli
+```
+
+</details>
+
+### vault/20261126-2100-ig-easy-oven-flapjacks
+
+<a href="vault/chef/20261126-2100-ig-easy-oven-flapjacks_1.jpg"><img src="vault/chef/20261126-2100-ig-easy-oven-flapjacks_1.jpg" width="110"></a> <a href="vault/chef/20261126-2100-ig-easy-oven-flapjacks_2.jpg"><img src="vault/chef/20261126-2100-ig-easy-oven-flapjacks_2.jpg" width="110"></a> <a href="vault/chef/20261126-2100-ig-easy-oven-flapjacks_3.jpg"><img src="vault/chef/20261126-2100-ig-easy-oven-flapjacks_3.jpg" width="110"></a> <a href="vault/chef/20261126-2100-ig-easy-oven-flapjacks_4.jpg"><img src="vault/chef/20261126-2100-ig-easy-oven-flapjacks_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Twelve flapjacks for the price of one from the campus shop. 🍯
+
+Easy oven flapjacks: 30 mins, under £2 for 12 bars, makes 12.
+You need 125g butter, 100g light brown sugar, 3 tbsp golden syrup, 250g porridge oats, pinch of salt and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #flapjacks
+```
+
+</details>
+
+### vault/20261127-1130-ig-microwave-jacket-potato
+
+<a href="vault/chef/20261127-1130-ig-microwave-jacket-potato_1.jpg"><img src="vault/chef/20261127-1130-ig-microwave-jacket-potato_1.jpg" width="110"></a> <a href="vault/chef/20261127-1130-ig-microwave-jacket-potato_2.jpg"><img src="vault/chef/20261127-1130-ig-microwave-jacket-potato_2.jpg" width="110"></a> <a href="vault/chef/20261127-1130-ig-microwave-jacket-potato_3.jpg"><img src="vault/chef/20261127-1130-ig-microwave-jacket-potato_3.jpg" width="110"></a> <a href="vault/chef/20261127-1130-ig-microwave-jacket-potato_4.jpg"><img src="vault/chef/20261127-1130-ig-microwave-jacket-potato_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+A proper jacket potato without waiting an hour. 🥔
+
+Microwave jacket potato: 15 mins, under £1 a portion, serves 1.
+You need 1 large baking potato, half a tin baked beans, handful of grated cheese, small knob of butter, salt and pepper and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #jacketpotato
+```
+
+</details>
+
+### vault/20261127-1700-ig-sticky-soy-garlic-chicken
+
+<a href="vault/chef/20261127-1700-ig-sticky-soy-garlic-chicken_1.jpg"><img src="vault/chef/20261127-1700-ig-sticky-soy-garlic-chicken_1.jpg" width="110"></a> <a href="vault/chef/20261127-1700-ig-sticky-soy-garlic-chicken_2.jpg"><img src="vault/chef/20261127-1700-ig-sticky-soy-garlic-chicken_2.jpg" width="110"></a> <a href="vault/chef/20261127-1700-ig-sticky-soy-garlic-chicken_3.jpg"><img src="vault/chef/20261127-1700-ig-sticky-soy-garlic-chicken_3.jpg" width="110"></a> <a href="vault/chef/20261127-1700-ig-sticky-soy-garlic-chicken_4.jpg"><img src="vault/chef/20261127-1700-ig-sticky-soy-garlic-chicken_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Fakeaway Friday: sticky chicken in 20 minutes. 🍜
+
+Sticky soy garlic chicken: 20 mins, under £2 a portion, serves 2.
+You need 2 chicken breasts or 4 boneless thighs, 1 pack stir-fry veg, 2 garlic cloves, 3 tbsp soy sauce, 1 tbsp honey and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #fakeaway
+```
+
+</details>
+
+...and 1 more after these.
 
 ## Pathwei App
 

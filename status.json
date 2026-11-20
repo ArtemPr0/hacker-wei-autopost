@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:35:20Z",
+ "updated": "2026-11-20T17:05:56Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -556,25 +556,86 @@
    "id": "chef",
    "name": "Chef Wei",
    "handle": "cheff.wei",
-   "format": "Vault only: posts whatever is added to its vault",
-   "writer": "None",
+   "format": "Cheap student recipe carousels, 3 a day (11:30, 17:00, 21:00 UK), food photos from Higgsfield",
+   "writer": "Made in batches (vault)",
    "platforms": [
     "instagram"
    ],
    "instagram": "cheff.wei",
    "tiktok": "",
-   "per_day": 1,
+   "per_day": 3,
    "has_writer": false,
-   "active": false,
+   "active": true,
    "paused": false,
-   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 0,
-   "vault_waiting": 0,
+   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "waiting": 21,
+   "vault_waiting": 21,
    "posted": 0,
    "manual": false,
    "off": false,
    "mirror": false,
-   "next": [],
+   "next": [
+    {
+     "id": "vault/20261121-1130-ig-egg-fried-rice",
+     "title": "The takeaway classic for under \u00a31, in 10 minutes. \ud83c\udf73",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-1130-ig-egg-fried-rice_1.jpg",
+     "at": "2026-11-21T11:30:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261121-1700-ig-one-pan-chickpea-curry",
+     "title": "One pan, three dinners, about \u00a31 each. \ud83c\udf5b",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-1700-ig-one-pan-chickpea-curry_1.jpg",
+     "at": "2026-11-21T17:00:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261121-2100-ig-overnight-oats",
+     "title": "Five minutes tonight, breakfast sorted tomorrow. \ud83e\udd63",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-2100-ig-overnight-oats_1.jpg",
+     "at": "2026-11-21T21:00:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261122-1130-ig-cheesy-bean-quesadilla",
+     "title": "Crispy, melty and ready in 10 minutes. \ud83e\uddc0",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_1.jpg",
+     "at": "2026-11-22T11:30:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261122-1700-ig-chicken-thigh-tray-bake",
+     "title": "Chuck it in a tray, walk away, dinner done. \ud83c\udf57",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_1.jpg",
+     "at": "2026-11-22T17:00:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261122-2100-ig-batch-tomato-soup",
+     "title": "Four bowls of soup for less than one meal deal. \ud83c\udf45",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg",
+     "at": "2026-11-22T21:00:00Z",
+     "platform": "instagram"
+    }
+   ],
    "hand": [],
    "recent": [],
    "connected": {
