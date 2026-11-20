@@ -11,7 +11,7 @@ on:
         description: "What to do"
         type: choice
         default: run
-        options: [run, post_now, write_more, pause, resume, refresh]
+        options: [run, post_now, write_more, pause, resume, refresh, analytics]
       account:
         description: "Account id from accounts.json, or all"
         type: string
@@ -30,6 +30,8 @@ jobs:
       ACCOUNT: ${{ inputs.account || 'all' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main          # always the newest state, never the commit the run was queued on (stale state caused the 20 Nov clash)
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -77,7 +79,22 @@ jobs:
           BUFFER_API_KEY_4: ${{ secrets.BUFFER_API_KEY_4 }}
           BUFFER_API_KEY_5: ${{ secrets.BUFFER_API_KEY_5 }}
           FORCE_POST: ${{ inputs.action == 'post_now' && '1' || '0' }}
-        run: python post.py
+        run: |
+          git pull -q --rebase origin main || true
+          python post.py
+      - name: Read analytics from Buffer
+        if: env.ACTION == 'analytics' || env.ACTION == 'refresh' || (env.ACTION == 'run' && github.event_name == 'schedule')
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_API_KEY_2: ${{ secrets.BUFFER_API_KEY_2 }}
+          BUFFER_API_KEY_3: ${{ secrets.BUFFER_API_KEY_3 }}
+          BUFFER_API_KEY_4: ${{ secrets.BUFFER_API_KEY_4 }}
+          BUFFER_API_KEY_5: ${{ secrets.BUFFER_API_KEY_5 }}
+        run: |
+          if [ "$ACTION" = "run" ] && [ $(( $(date -u +%H) % 3 )) -ne 0 ]; then echo "Analytics are read every 3 hours."; exit 0; fi
+          python analytics.py
       - name: Save what was posted
         if: always()
         env:
@@ -91,7 +108,7 @@ jobs:
           git config user.name "hacker-wei-bot"
           git config user.email "hacker-wei-bot@users.noreply.github.com"
           python gallery.py || true
-          git add state QUEUE.md status.json 2>/dev/null || true
+          git add state QUEUE.md status.json analytics.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "Update post record and queue page"
           for i in 1 2 3 4; do
