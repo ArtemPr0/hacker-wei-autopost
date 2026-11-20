@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:05:56Z",
+ "updated": "2026-11-20T17:24:00Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -23,21 +23,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 12,
+   "waiting": 11,
    "vault_waiting": 1,
-   "posted": 6,
+   "posted": 7,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "008",
-     "title": "Ten minutes is enough to make your LinkedIn work harder. \ud83d\udd27",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/008_1.jpg"
-    },
     {
      "id": "009",
      "title": "Video interviews are won in the setup. \ud83c\udfa5",
@@ -77,6 +69,14 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/014_1.jpg"
+    },
+    {
+     "id": "015",
+     "title": "Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/015_1.jpg"
     }
    ],
    "hand": [
@@ -105,6 +105,17 @@
     }
    ],
    "recent": [
+    {
+     "id": "008",
+     "title": "Ten minutes is enough to make your LinkedIn work harder. \ud83d\udd27",
+     "date": "2026-11-21",
+     "at": "2026-11-21T12:30:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-21T12:30:00.000Z, post 6b00822c44c361911349de73)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/008_1.jpg"
+    },
     {
      "id": "007",
      "title": "Your cover letter is judged in the first line. Make it count. \u270d\ufe0f",
@@ -181,17 +192,6 @@
      "timed": false,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/005_1.jpg"
-    },
-    {
-     "id": "003",
-     "title": "A robot often reads your CV before a human does. \ud83e\udd16",
-     "date": "manual",
-     "at": null,
-     "instagram": false,
-     "tiktok": null,
-     "timed": false,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/003_1.jpg"
     }
    ],
    "connected": {
@@ -425,7 +425,7 @@
      "title": "part 2. the cleaner left a list of rules",
      "date": "2026-11-20",
      "at": "2026-11-20T21:30:00Z",
-     "instagram": false,
+     "instagram": true,
      "tiktok": "sent (scheduled in Buffer for 2026-11-20T21:30:00.000Z, post 6aff7a5e5a09fa1760f3c1a1)",
      "timed": true,
      "by_hand": false,
@@ -436,7 +436,7 @@
      "title": "part 1. nobody should still be in the office at 3:31am",
      "date": "2026-11-20",
      "at": "2026-11-20T18:30:00Z",
-     "instagram": false,
+     "instagram": true,
      "tiktok": "sent (scheduled in Buffer for 2026-11-20T18:30:00.000Z, post 6aff7a5d00b0112893a9b542)",
      "timed": true,
      "by_hand": false,
@@ -444,7 +444,7 @@
     }
    ],
    "connected": {
-    "instagram": false,
+    "instagram": true,
     "tiktok": true
    }
   },
@@ -548,7 +548,7 @@
    ],
    "recent": [],
    "connected": {
-    "instagram": false,
+    "instagram": true,
     "tiktok": true
    }
   },
@@ -568,33 +568,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 21,
-   "vault_waiting": 21,
-   "posted": 0,
+   "waiting": 19,
+   "vault_waiting": 19,
+   "posted": 2,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261121-1130-ig-egg-fried-rice",
-     "title": "The takeaway classic for under \u00a31, in 10 minutes. \ud83c\udf73",
-     "slides": 4,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-1130-ig-egg-fried-rice_1.jpg",
-     "at": "2026-11-21T11:30:00Z",
-     "platform": "instagram"
-    },
-    {
-     "id": "vault/20261121-1700-ig-one-pan-chickpea-curry",
-     "title": "One pan, three dinners, about \u00a31 each. \ud83c\udf5b",
-     "slides": 4,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-1700-ig-one-pan-chickpea-curry_1.jpg",
-     "at": "2026-11-21T17:00:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261121-2100-ig-overnight-oats",
      "title": "Five minutes tonight, breakfast sorted tomorrow. \ud83e\udd63",
@@ -634,12 +614,55 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg",
      "at": "2026-11-22T21:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261123-1130-ig-tuna-sweetcorn-melt",
+     "title": "The lunch that beats every meal deal. \ud83e\udd6a",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_1.jpg",
+     "at": "2026-11-23T11:30:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261123-1700-ig-red-lentil-bolognese",
+     "title": "Bolognese for four, under \u00a31 a plate. \ud83c\udf5d",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261123-1700-ig-red-lentil-bolognese_1.jpg",
+     "at": "2026-11-23T17:00:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
-   "recent": [],
+   "recent": [
+    {
+     "id": "vault/20261121-1700-ig-one-pan-chickpea-curry",
+     "title": "One pan, three dinners, about \u00a31 each. \ud83c\udf5b",
+     "date": "2026-11-21",
+     "at": "2026-11-21T17:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-1700-ig-one-pan-chickpea-curry_1.jpg"
+    },
+    {
+     "id": "vault/20261121-1130-ig-egg-fried-rice",
+     "title": "The takeaway classic for under \u00a31, in 10 minutes. \ud83c\udf73",
+     "date": "2026-11-21",
+     "at": "2026-11-21T11:30:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-1130-ig-egg-fried-rice_1.jpg"
+    }
+   ],
    "connected": {
-    "instagram": false
+    "instagram": true
    }
   },
   {
@@ -701,7 +724,7 @@
    }
   }
  ],
- "buffer_accounts": 3,
+ "buffer_accounts": 4,
  "channels": [
   "tiktok the.only.wei",
   "tiktok hacker.wei",
@@ -711,6 +734,9 @@
   "tiktok wei.stories5",
   "instagram weigradjobs",
   "instagram pirate.wei",
-  "instagram hacker.weii"
+  "instagram hacker.weii",
+  "instagram pathwei.ai",
+  "instagram cheff.wei",
+  "instagram weistories"
  ]
 }

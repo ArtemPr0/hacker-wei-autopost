@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**12 waiting** (1 from the vault). 6 posted by the system so far.
+**11 waiting** (1 from the vault). 7 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,30 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 008
-
-<a href="posts/008_1.jpg"><img src="posts/008_1.jpg" width="110"></a> <a href="posts/008_2.jpg"><img src="posts/008_2.jpg" width="110"></a> <a href="posts/008_3.jpg"><img src="posts/008_3.jpg" width="110"></a> <a href="posts/008_4.jpg"><img src="posts/008_4.jpg" width="110"></a> <a href="posts/008_5.jpg"><img src="posts/008_5.jpg" width="110"></a> <a href="posts/008_6.jpg"><img src="posts/008_6.jpg" width="110"></a> <a href="posts/008_7.jpg"><img src="posts/008_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Ten minutes is enough to make your LinkedIn work harder. 🔧
-
-5 quick wins:
-1. Write a clear headline
-2. Add a clear, friendly photo
-3. Write About in plain English
-4. Turn on Open to work
-5. Add the skills from job ads
-
-Which quick win did you skip? Comment the number 👇
-Save this for tonight and send it to a friend with a blank profile.
-
-#linkedin #linkedintips #linkedinprofile #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #personalbranding #hackerwei
 ```
 
 </details>
@@ -394,45 +370,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**21 waiting** (21 from the vault). 0 posted by the system so far.
-
-### vault/20261121-1130-ig-egg-fried-rice
-
-<a href="vault/chef/20261121-1130-ig-egg-fried-rice_1.jpg"><img src="vault/chef/20261121-1130-ig-egg-fried-rice_1.jpg" width="110"></a> <a href="vault/chef/20261121-1130-ig-egg-fried-rice_2.jpg"><img src="vault/chef/20261121-1130-ig-egg-fried-rice_2.jpg" width="110"></a> <a href="vault/chef/20261121-1130-ig-egg-fried-rice_3.jpg"><img src="vault/chef/20261121-1130-ig-egg-fried-rice_3.jpg" width="110"></a> <a href="vault/chef/20261121-1130-ig-egg-fried-rice_4.jpg"><img src="vault/chef/20261121-1130-ig-egg-fried-rice_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-The takeaway classic for under £1, in 10 minutes. 🍳
-
-Egg fried rice: 10 mins, under £1 a portion, serves 1.
-You need 1 mug cooked rice, 2 eggs, handful of frozen peas, 1 spring onion, 1 tbsp soy sauce and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #friedrice
-```
-
-</details>
-
-### vault/20261121-1700-ig-one-pan-chickpea-curry
-
-<a href="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_1.jpg"><img src="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_1.jpg" width="110"></a> <a href="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_2.jpg"><img src="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_2.jpg" width="110"></a> <a href="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_3.jpg"><img src="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_3.jpg" width="110"></a> <a href="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_4.jpg"><img src="vault/chef/20261121-1700-ig-one-pan-chickpea-curry_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-One pan, three dinners, about £1 each. 🍛
-
-One-pan chickpea curry: 25 mins, about £1 a portion, serves 3.
-You need 1 onion, 2 garlic cloves, 2 tbsp curry paste, 1 tin chopped tomatoes, 1 tin chickpeas and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #chickpeacurry
-```
-
-</details>
+**19 waiting** (19 from the vault). 2 posted by the system so far.
 
 ### vault/20261121-2100-ig-overnight-oats
 
@@ -776,7 +714,24 @@ Save it for later and follow for 3 cheap recipes a day 👨‍🍳
 
 </details>
 
-...and 1 more after these.
+### vault/20261127-2100-ig-cheesy-pasta-bake
+
+<a href="vault/chef/20261127-2100-ig-cheesy-pasta-bake_1.jpg"><img src="vault/chef/20261127-2100-ig-cheesy-pasta-bake_1.jpg" width="110"></a> <a href="vault/chef/20261127-2100-ig-cheesy-pasta-bake_2.jpg"><img src="vault/chef/20261127-2100-ig-cheesy-pasta-bake_2.jpg" width="110"></a> <a href="vault/chef/20261127-2100-ig-cheesy-pasta-bake_3.jpg"><img src="vault/chef/20261127-2100-ig-cheesy-pasta-bake_3.jpg" width="110"></a> <a href="vault/chef/20261127-2100-ig-cheesy-pasta-bake_4.jpg"><img src="vault/chef/20261127-2100-ig-cheesy-pasta-bake_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Cook once on Friday, eat all weekend. 🧀
+
+Cheesy pasta bake: 40 mins, under £1.50 a portion, serves 4.
+You need 300g pasta, 1 onion, 2 garlic cloves, 1 jar tomato pasta sauce, 1 tsp dried herbs and a couple of cupboard basics. Full method in the slides.
+
+Save it for later and follow for 3 cheap recipes a day 👨‍🍳
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #pastabake
+```
+
+</details>
 
 ## Pathwei App
 
