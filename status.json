@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:37:03Z",
+ "updated": "2026-11-21T00:04:39Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,21 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 11,
+   "waiting": 10,
    "vault_waiting": 1,
-   "posted": 7,
+   "posted": 8,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "009",
-     "title": "Video interviews are won in the setup. \ud83c\udfa5",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/009_1.jpg"
-    },
     {
      "id": "010",
      "title": "The email after your interview matters more than you think. \ud83d\udce7",
@@ -78,6 +70,14 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/015_1.jpg"
+    },
+    {
+     "id": "016",
+     "title": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/016_1.jpg"
     }
    ],
    "hand": [
@@ -106,6 +106,17 @@
     }
    ],
    "recent": [
+    {
+     "id": "009",
+     "title": "Video interviews are won in the setup. \ud83c\udfa5",
+     "date": "2026-11-21",
+     "at": "2026-11-21T18:30:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-21T18:30:00.000Z, post 6b00e0109ffbc8503ce5d605)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/009_1.jpg"
+    },
     {
      "id": "008",
      "title": "Ten minutes is enough to make your LinkedIn work harder. \ud83d\udd27",
@@ -182,17 +193,6 @@
      "timed": false,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/001_1.jpg"
-    },
-    {
-     "id": "005",
-     "title": "Most students only apply through portals. The ones who message people get a head start. \ud83d\udce9",
-     "date": "manual",
-     "at": null,
-     "instagram": false,
-     "tiktok": null,
-     "timed": false,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/005_1.jpg"
     }
    ],
    "connected": {
@@ -575,23 +575,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 19,
-   "vault_waiting": 19,
-   "posted": 2,
+   "waiting": 18,
+   "vault_waiting": 18,
+   "posted": 3,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261121-2100-ig-overnight-oats",
-     "title": "Five minutes tonight, breakfast sorted tomorrow. \ud83e\udd63",
-     "slides": 4,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-2100-ig-overnight-oats_1.jpg",
-     "at": "2026-11-21T21:00:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261122-1130-ig-cheesy-bean-quesadilla",
      "title": "Crispy, melty and ready in 10 minutes. \ud83e\uddc0",
@@ -641,10 +631,31 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261123-1700-ig-red-lentil-bolognese_1.jpg",
      "at": "2026-11-23T17:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261123-2100-ig-banana-mug-cake",
+     "title": "Cake in 5 minutes, no oven needed. \ud83c\udf4c",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261123-2100-ig-banana-mug-cake_1.jpg",
+     "at": "2026-11-23T21:00:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261121-2100-ig-overnight-oats",
+     "title": "Five minutes tonight, breakfast sorted tomorrow. \ud83e\udd63",
+     "date": "2026-11-21",
+     "at": "2026-11-21T21:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-2100-ig-overnight-oats_1.jpg"
+    },
     {
      "id": "vault/20261121-1700-ig-one-pan-chickpea-curry",
      "title": "One pan, three dinners, about \u00a31 each. \ud83c\udf5b",

@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**11 waiting** (1 from the vault). 7 posted by the system so far.
+**10 waiting** (1 from the vault). 8 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,30 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 009
-
-<a href="posts/009_1.jpg"><img src="posts/009_1.jpg" width="110"></a> <a href="posts/009_2.jpg"><img src="posts/009_2.jpg" width="110"></a> <a href="posts/009_3.jpg"><img src="posts/009_3.jpg" width="110"></a> <a href="posts/009_4.jpg"><img src="posts/009_4.jpg" width="110"></a> <a href="posts/009_5.jpg"><img src="posts/009_5.jpg" width="110"></a> <a href="posts/009_6.jpg"><img src="posts/009_6.jpg" width="110"></a> <a href="posts/009_7.jpg"><img src="posts/009_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Video interviews are won in the setup. 🎥
-
-5 things to check first:
-1. Test your tech the day before
-2. Put the light in front of you
-3. Look at the camera, not the screen
-4. Keep notes where you can see them
-5. Close tabs and silence notifications
-
-Which one would you forget? Comment the number 👇
-Save this before your interview.
-
-#videointerview #interviewtips #zoominterview #ukgraduate #graduatejobs #ukstudents #careeradvice #jobinterview #interviewprep #hackerwei
 ```
 
 </details>
@@ -370,26 +346,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**19 waiting** (19 from the vault). 2 posted by the system so far.
-
-### vault/20261121-2100-ig-overnight-oats
-
-<a href="vault/chef/20261121-2100-ig-overnight-oats_1.jpg"><img src="vault/chef/20261121-2100-ig-overnight-oats_1.jpg" width="110"></a> <a href="vault/chef/20261121-2100-ig-overnight-oats_2.jpg"><img src="vault/chef/20261121-2100-ig-overnight-oats_2.jpg" width="110"></a> <a href="vault/chef/20261121-2100-ig-overnight-oats_3.jpg"><img src="vault/chef/20261121-2100-ig-overnight-oats_3.jpg" width="110"></a> <a href="vault/chef/20261121-2100-ig-overnight-oats_4.jpg"><img src="vault/chef/20261121-2100-ig-overnight-oats_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Five minutes tonight, breakfast sorted tomorrow. 🥣
-
-Overnight oats: 5 mins tonight, under £1 a jar, serves 1.
-You need 50g porridge oats (half a mug), 150ml milk, 2 tbsp yoghurt, 1 tsp honey, pinch of cinnamon and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #overnightoats
-```
-
-</details>
+**18 waiting** (18 from the vault). 3 posted by the system so far.
 
 ### vault/20261122-1130-ig-cheesy-bean-quesadilla
 

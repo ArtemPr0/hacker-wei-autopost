@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T18:36:56Z",
+"updated": "2026-11-21T00:04:33Z",
 "days": 90,
 "channels": [
 {
@@ -945,22 +945,40 @@
 "disconnected": false,
 "posts": [
 {
+"id": "6b00b0dc3429d1e8b00efd4b",
+"at": "2026-11-20T19:19:26.000Z",
+"text": "Most successful person: Spain Pt 2 #animation #career",
+"link": "https://www.tiktok.com/@pathwei_ai/video/7710335434953428246?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6b00b0dc3429d1e8b00efd4b_thumbnail.jpg",
+"metrics": {
+"reactions": 2,
+"comments": 1,
+"engagementRate": 13.92,
+"views": 79,
+"shares": 8,
+"reach": 0,
+"totalTimeWatched": 16.4,
+"averageTimeWatched": 10.71
+},
+"metrics_at": "2026-11-20T21:50:14.238Z"
+},
+{
 "id": "6b0073ae519c00cad8571871",
 "at": "2026-11-20T16:08:14.000Z",
 "text": "which one are you?",
 "link": "https://www.tiktok.com/@pathwei_ai/video/7710286160991390998?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6b0073ae519c00cad8571871_thumbnail.jpg",
 "metrics": {
-"reactions": 2,
-"comments": 1,
-"engagementRate": 42.86,
-"views": 7,
+"reactions": 8,
+"comments": 2,
+"engagementRate": 5.59,
+"views": 179,
 "shares": 0,
 "reach": 0,
-"totalTimeWatched": 0.73,
-"averageTimeWatched": 5.6
+"totalTimeWatched": 50.83,
+"averageTimeWatched": 13.99
 },
-"metrics_at": "2026-11-20T16:22:06.715Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6aff4b13d778a5b42d26f996",
@@ -969,16 +987,16 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7709961224443694358?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6aff4b13d778a5b42d26f996_thumbnail.jpg",
 "metrics": {
-"reactions": 27,
-"comments": 4,
-"engagementRate": 5.06,
-"views": 613,
+"reactions": 28,
+"comments": 5,
+"engagementRate": 5.28,
+"views": 625,
 "shares": 0,
-"reach": 0,
-"totalTimeWatched": 138.6,
-"averageTimeWatched": 11.76
+"reach": 613,
+"totalTimeWatched": 140.77,
+"averageTimeWatched": 11.68
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6aff2c1c597501ffa355c166",
@@ -987,16 +1005,16 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7709912193046760726?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6aff2c1c597501ffa355c166_thumbnail.jpg",
 "metrics": {
-"reactions": 39,
+"reactions": 40,
 "comments": 2,
-"engagementRate": 6.9,
-"views": 594,
+"engagementRate": 6.99,
+"views": 601,
 "shares": 0,
-"reach": 0,
-"totalTimeWatched": 95.68,
-"averageTimeWatched": 8.54
+"reach": 594,
+"totalTimeWatched": 97.63,
+"averageTimeWatched": 8.33
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874bb",
@@ -1005,16 +1023,16 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7709532518231330070?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6afe38f49cb077cbd98874bb_thumbnail.jpg",
 "metrics": {
-"reactions": 86,
-"comments": 7,
-"engagementRate": 6.62,
-"views": 1526,
+"reactions": 89,
+"comments": 8,
+"engagementRate": 6.49,
+"views": 1619,
 "shares": 8,
-"reach": 1066,
-"totalTimeWatched": 334.82,
-"averageTimeWatched": 10.77
+"reach": 1527,
+"totalTimeWatched": 355.4,
+"averageTimeWatched": 10.65
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874bd",
@@ -1023,16 +1041,16 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7709470576636693782?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6afe38f49cb077cbd98874bd_thumbnail.jpg",
 "metrics": {
-"reactions": 60,
+"reactions": 61,
 "comments": 2,
-"engagementRate": 7.14,
-"views": 910,
+"engagementRate": 7.23,
+"views": 913,
 "shares": 3,
-"reach": 755,
-"totalTimeWatched": 90.6,
-"averageTimeWatched": 5.25
+"reach": 898,
+"totalTimeWatched": 91.7,
+"averageTimeWatched": 5.26
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874c1",
@@ -1044,13 +1062,13 @@
 "reactions": 20,
 "comments": 0,
 "engagementRate": 2.79,
-"views": 717,
+"views": 718,
 "shares": 0,
 "reach": 660,
-"totalTimeWatched": 97.72,
-"averageTimeWatched": 7.92
+"totalTimeWatched": 97.73,
+"averageTimeWatched": 7.91
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874c3",
@@ -1061,14 +1079,14 @@
 "metrics": {
 "reactions": 32,
 "comments": 7,
-"engagementRate": 5.44,
-"views": 717,
+"engagementRate": 5.42,
+"views": 719,
 "shares": 0,
 "reach": 630,
-"totalTimeWatched": 71.32,
-"averageTimeWatched": 5.79
+"totalTimeWatched": 71.42,
+"averageTimeWatched": 5.78
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874c9",
@@ -1080,13 +1098,13 @@
 "reactions": 117,
 "comments": 4,
 "engagementRate": 3.33,
-"views": 3903,
+"views": 3906,
 "shares": 9,
-"reach": 3702,
-"totalTimeWatched": 1393.93,
-"averageTimeWatched": 20.56
+"reach": 3714,
+"totalTimeWatched": 1399.07,
+"averageTimeWatched": 20.57
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874c5",
@@ -1100,11 +1118,11 @@
 "engagementRate": 1.76,
 "views": 683,
 "shares": 0,
-"reach": 645,
+"reach": 646,
 "totalTimeWatched": 50.7,
 "averageTimeWatched": 4.24
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874bf",
@@ -1122,7 +1140,7 @@
 "totalTimeWatched": 163.83,
 "averageTimeWatched": 14.08
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874cb",
@@ -1140,7 +1158,7 @@
 "totalTimeWatched": 106.07,
 "averageTimeWatched": 9.56
 },
-"metrics_at": "2026-11-19T22:48:24.740Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd988756b",
@@ -1155,10 +1173,10 @@
 "views": 730,
 "shares": 1,
 "reach": 655,
-"totalTimeWatched": 63.58,
-"averageTimeWatched": 5.06
+"totalTimeWatched": 60.68,
+"averageTimeWatched": 4.83
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd988751a",
@@ -1169,14 +1187,14 @@
 "metrics": {
 "reactions": 31,
 "comments": 3,
-"engagementRate": 5.21,
-"views": 691,
+"engagementRate": 5.2,
+"views": 692,
 "shares": 2,
 "reach": 613,
-"totalTimeWatched": 133.12,
-"averageTimeWatched": 11.06
+"totalTimeWatched": 127.12,
+"averageTimeWatched": 10.56
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd988762c",
@@ -1188,13 +1206,13 @@
 "reactions": 3,
 "comments": 0,
 "engagementRate": 0.48,
-"views": 622,
+"views": 623,
 "shares": 0,
 "reach": 562,
 "totalTimeWatched": 58.65,
 "averageTimeWatched": 5.52
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887622",
@@ -1203,16 +1221,16 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7706944622320160022?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6afe38f49cb077cbd9887622_thumbnail.jpg",
 "metrics": {
-"reactions": 17,
+"reactions": 18,
 "comments": 2,
-"engagementRate": 2.63,
+"engagementRate": 2.76,
 "views": 761,
 "shares": 1,
 "reach": 688,
 "totalTimeWatched": 108.07,
-"averageTimeWatched": 8.26
+"averageTimeWatched": 8.25
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd988751c",
@@ -1224,13 +1242,13 @@
 "reactions": 97,
 "comments": 6,
 "engagementRate": 2.65,
-"views": 4109,
+"views": 4112,
 "shares": 6,
-"reach": 3880,
-"totalTimeWatched": 395.85,
+"reach": 3886,
+"totalTimeWatched": 396.33,
 "averageTimeWatched": 5.56
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887689",
@@ -1242,13 +1260,13 @@
 "reactions": 66,
 "comments": 4,
 "engagementRate": 1.66,
-"views": 4399,
+"views": 4402,
 "shares": 3,
-"reach": 4071,
-"totalTimeWatched": 721.23,
-"averageTimeWatched": 9.65
+"reach": 4160,
+"totalTimeWatched": 736.82,
+"averageTimeWatched": 9.67
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887632",
@@ -1257,16 +1275,16 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7706148669128576278?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6afe38f49cb077cbd9887632_thumbnail.jpg",
 "metrics": {
-"reactions": 82,
+"reactions": 83,
 "comments": 8,
-"engagementRate": 1.78,
-"views": 5612,
+"engagementRate": 1.8,
+"views": 5615,
 "shares": 10,
 "reach": 5353,
-"totalTimeWatched": 1011.07,
+"totalTimeWatched": 1011.23,
 "averageTimeWatched": 10.35
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd988762e",
@@ -1284,7 +1302,7 @@
 "totalTimeWatched": 111.28,
 "averageTimeWatched": 8.83
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd988751e",
@@ -1295,14 +1313,14 @@
 "metrics": {
 "reactions": 17,
 "comments": 5,
-"engagementRate": 2.41,
-"views": 912,
+"engagementRate": 2.31,
+"views": 952,
 "shares": 0,
 "reach": 767,
-"totalTimeWatched": 132.92,
-"averageTimeWatched": 8.58
+"totalTimeWatched": 133.37,
+"averageTimeWatched": 8.5
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887518",
@@ -1313,14 +1331,14 @@
 "metrics": {
 "reactions": 22,
 "comments": 4,
-"engagementRate": 3.66,
-"views": 738,
+"engagementRate": 3.65,
+"views": 739,
 "shares": 1,
 "reach": 673,
 "totalTimeWatched": 139.7,
 "averageTimeWatched": 11
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd98874c7",
@@ -1335,10 +1353,10 @@
 "views": 796,
 "shares": 2,
 "reach": 716,
-"totalTimeWatched": 134.33,
-"averageTimeWatched": 9.76
+"totalTimeWatched": 134.43,
+"averageTimeWatched": 9.74
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887636",
@@ -1356,7 +1374,7 @@
 "totalTimeWatched": 73.15,
 "averageTimeWatched": 5.99
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887634",
@@ -1365,16 +1383,16 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7704687931843153174?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6afe38f49cb077cbd9887634_thumbnail.jpg",
 "metrics": {
-"reactions": 12,
+"reactions": 13,
 "comments": 2,
-"engagementRate": 2.09,
+"engagementRate": 2.23,
 "views": 719,
 "shares": 1,
 "reach": 659,
 "totalTimeWatched": 78.93,
 "averageTimeWatched": 6.37
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887630",
@@ -1390,9 +1408,9 @@
 "shares": 2,
 "reach": 624,
 "totalTimeWatched": 114.45,
-"averageTimeWatched": 8.99
+"averageTimeWatched": 8.98
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd988756d",
@@ -1408,9 +1426,9 @@
 "shares": 1,
 "reach": 243,
 "totalTimeWatched": 51.07,
-"averageTimeWatched": 10.49
+"averageTimeWatched": 10.46
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887569",
@@ -1428,7 +1446,7 @@
 "totalTimeWatched": 48.18,
 "averageTimeWatched": 9.6
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 },
 {
 "id": "6afe38f49cb077cbd9887736",
@@ -1446,7 +1464,7 @@
 "totalTimeWatched": 30.58,
 "averageTimeWatched": 8.74
 },
-"metrics_at": "2026-11-19T22:48:24.741Z"
+"metrics_at": "2026-11-20T21:50:14.239Z"
 }
 ]
 },
@@ -1466,16 +1484,16 @@
 "link": "https://tiktok.com/@pirate.wei/video/7710222784877677857",
 "thumb": "https://images.buffer.com/thumbnail/JzGobLntjIxb6IHavN22a98doY2FLT4zHoMvWMX-PUg?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2F01627c34f323927007118727a64fe9a4424b80b8%2Fvault%2Fpirate%2F20261120-1200-tt-meme-gotfivemins.mp4",
 "metrics": {
-"reactions": 0,
+"reactions": 5,
 "comments": 0,
-"engagementRate": 0,
-"views": 0,
+"engagementRate": 0.76,
+"views": 654,
 "shares": 0,
 "reach": 0,
-"totalTimeWatched": 0,
-"averageTimeWatched": 0
+"totalTimeWatched": 44.03,
+"averageTimeWatched": 3.79
 },
-"metrics_at": "2026-11-19T22:38:18.908Z"
+"metrics_at": "2026-11-20T21:49:09.063Z"
 },
 {
 "id": "6aff29ca1bbbe06957e04640",
@@ -1505,13 +1523,13 @@
 "reactions": 1,
 "comments": 0,
 "engagementRate": 0.38,
-"views": 262,
+"views": 263,
 "shares": 0,
-"reach": 14,
-"totalTimeWatched": 9.57,
+"reach": 250,
+"totalTimeWatched": 9.62,
 "averageTimeWatched": 2.08
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.063Z"
 },
 {
 "id": "6afe388a9cb077cbd9886d95",
@@ -1529,7 +1547,7 @@
 "totalTimeWatched": 1.6,
 "averageTimeWatched": 1.4
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.063Z"
 },
 {
 "id": "6afe388a9cb077cbd9886d91",
@@ -1547,7 +1565,7 @@
 "totalTimeWatched": 3.65,
 "averageTimeWatched": 1.64
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.063Z"
 },
 {
 "id": "6afe388a9cb077cbd9886d93",
@@ -1558,14 +1576,14 @@
 "metrics": {
 "reactions": 1,
 "comments": 0,
-"engagementRate": 0.98,
-"views": 102,
+"engagementRate": 0.97,
+"views": 103,
 "shares": 0,
-"reach": 98,
-"totalTimeWatched": 3.47,
-"averageTimeWatched": 1.97
+"reach": 99,
+"totalTimeWatched": 3.5,
+"averageTimeWatched": 1.95
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886db3",
@@ -1583,7 +1601,7 @@
 "totalTimeWatched": 32.45,
 "averageTimeWatched": 6.56
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886d8f",
@@ -1601,7 +1619,7 @@
 "totalTimeWatched": 25.68,
 "averageTimeWatched": 5.55
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886d8d",
@@ -1616,10 +1634,10 @@
 "views": 682,
 "shares": 0,
 "reach": 594,
-"totalTimeWatched": 14.47,
-"averageTimeWatched": 1.26
+"totalTimeWatched": 14.15,
+"averageTimeWatched": 1.23
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886db7",
@@ -1634,10 +1652,10 @@
 "views": 669,
 "shares": 0,
 "reach": 613,
-"totalTimeWatched": 17.22,
-"averageTimeWatched": 1.51
+"totalTimeWatched": 16.52,
+"averageTimeWatched": 1.45
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886db5",
@@ -1655,7 +1673,7 @@
 "totalTimeWatched": 8.92,
 "averageTimeWatched": 1.19
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886db9",
@@ -1673,7 +1691,7 @@
 "totalTimeWatched": 3.05,
 "averageTimeWatched": 1.48
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886db1",
@@ -1691,7 +1709,7 @@
 "totalTimeWatched": 1.27,
 "averageTimeWatched": 1.27
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886dbb",
@@ -1709,7 +1727,7 @@
 "totalTimeWatched": 19.7,
 "averageTimeWatched": 1.73
 },
-"metrics_at": "2026-11-19T22:47:13.499Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886e53",
@@ -1727,7 +1745,7 @@
 "totalTimeWatched": 21.03,
 "averageTimeWatched": 1.45
 },
-"metrics_at": "2026-11-19T22:47:13.499Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 },
 {
 "id": "6afe388a9cb077cbd9886dd4",
@@ -1745,7 +1763,7 @@
 "totalTimeWatched": 3.1,
 "averageTimeWatched": 14.31
 },
-"metrics_at": "2026-11-19T22:47:13.499Z"
+"metrics_at": "2026-11-20T21:49:09.064Z"
 }
 ]
 },
@@ -1759,22 +1777,40 @@
 "disconnected": false,
 "posts": [
 {
+"id": "6aff7a5e5a09fa1760f3c1a1",
+"at": "2026-11-20T21:32:13.992Z",
+"text": "part 2. the cleaner left a list of rules",
+"link": "https://tiktok.com/@wei.stories5/video/7710369294135168289",
+"thumb": "https://images.buffer.com/thumbnail/Ju_FEXtRJAsbqjPQz3g4J2nmSUKGEeB4LhhholaFlig?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2F01627c34f323927007118727a64fe9a4424b80b8%2Fvault%2Fstories%2F20261120-2130-tt-afterhours-ep2-thecleanersrules.mp4",
+"metrics": {
+"reactions": 2,
+"comments": 1,
+"engagementRate": 9.38,
+"views": 32,
+"shares": 0,
+"reach": 0,
+"totalTimeWatched": 0.02,
+"averageTimeWatched": 1.06
+},
+"metrics_at": "2026-11-20T21:47:12.278Z"
+},
+{
 "id": "6aff7a5d00b0112893a9b542",
 "at": "2026-11-20T18:32:06.851Z",
 "text": "part 1. nobody should still be in the office at 3:31am",
 "link": "https://tiktok.com/@wei.stories5/video/7710323040336268576",
 "thumb": "https://images.buffer.com/thumbnail/38wLqNtrAsGnw67WDJ8bwkduC7AVS2dPlpAN80qylw0?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2F01627c34f323927007118727a64fe9a4424b80b8%2Fvault%2Fstories%2F20261120-1830-tt-afterhours-ep1-331.mp4",
 "metrics": {
-"reactions": 0,
-"comments": 0,
-"engagementRate": 0,
-"views": 0,
+"reactions": 4,
+"comments": 1,
+"engagementRate": 1.35,
+"views": 370,
 "shares": 0,
 "reach": 0,
-"totalTimeWatched": 0,
-"averageTimeWatched": 0
+"totalTimeWatched": 53.32,
+"averageTimeWatched": 7.73
 },
-"metrics_at": "2026-11-19T22:38:21.851Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac74e",
@@ -1788,11 +1824,11 @@
 "engagementRate": 0.77,
 "views": 649,
 "shares": 0,
-"reach": 478,
+"reach": 604,
 "totalTimeWatched": 62.28,
 "averageTimeWatched": 5.32
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac75a",
@@ -1804,13 +1840,13 @@
 "reactions": 7,
 "comments": 0,
 "engagementRate": 1.24,
-"views": 644,
+"views": 645,
 "shares": 1,
-"reach": 599,
-"totalTimeWatched": 63.82,
-"averageTimeWatched": 5.53
+"reach": 600,
+"totalTimeWatched": 63.83,
+"averageTimeWatched": 5.52
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac752",
@@ -1824,11 +1860,11 @@
 "engagementRate": 1.19,
 "views": 670,
 "shares": 1,
-"reach": 609,
+"reach": 612,
 "totalTimeWatched": 72.98,
 "averageTimeWatched": 6.32
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac758",
@@ -1842,11 +1878,11 @@
 "engagementRate": 4.23,
 "views": 709,
 "shares": 5,
-"reach": 626,
+"reach": 627,
 "totalTimeWatched": 104.28,
 "averageTimeWatched": 8.57
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac760",
@@ -1864,7 +1900,7 @@
 "totalTimeWatched": 37.92,
 "averageTimeWatched": 9.85
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac750",
@@ -1878,11 +1914,11 @@
 "engagementRate": 1.3,
 "views": 230,
 "shares": 0,
-"reach": 219,
+"reach": 221,
 "totalTimeWatched": 23.47,
 "averageTimeWatched": 5.66
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac75c",
@@ -1896,11 +1932,11 @@
 "engagementRate": 1.8,
 "views": 723,
 "shares": 0,
-"reach": 651,
-"totalTimeWatched": 60.58,
-"averageTimeWatched": 4.88
+"reach": 652,
+"totalTimeWatched": 58.17,
+"averageTimeWatched": 4.68
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac74c",
@@ -1914,11 +1950,11 @@
 "engagementRate": 5.94,
 "views": 623,
 "shares": 14,
-"reach": 552,
-"totalTimeWatched": 116.73,
-"averageTimeWatched": 10.88
+"reach": 553,
+"totalTimeWatched": 117.92,
+"averageTimeWatched": 10.95
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac75e",
@@ -1929,14 +1965,14 @@
 "metrics": {
 "reactions": 19,
 "comments": 2,
-"engagementRate": 3.29,
-"views": 760,
+"engagementRate": 3.28,
+"views": 762,
 "shares": 4,
 "reach": 663,
 "totalTimeWatched": 74.35,
-"averageTimeWatched": 5.73
+"averageTimeWatched": 5.72
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac8ac",
@@ -1954,7 +1990,7 @@
 "totalTimeWatched": 88.38,
 "averageTimeWatched": 6.81
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac8ae",
@@ -1965,14 +2001,14 @@
 "metrics": {
 "reactions": 12,
 "comments": 7,
-"engagementRate": 2.83,
-"views": 777,
+"engagementRate": 2.82,
+"views": 781,
 "shares": 3,
-"reach": 655,
-"totalTimeWatched": 90.45,
-"averageTimeWatched": 6.98
+"reach": 670,
+"totalTimeWatched": 91.08,
+"averageTimeWatched": 6.92
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac756",
@@ -1984,13 +2020,13 @@
 "reactions": 7,
 "comments": 3,
 "engagementRate": 2.38,
-"views": 672,
+"views": 673,
 "shares": 6,
 "reach": 598,
-"totalTimeWatched": 69.98,
+"totalTimeWatched": 70.02,
 "averageTimeWatched": 5.96
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 },
 {
 "id": "6afe382a6a297179eabac754",
@@ -2001,14 +2037,14 @@
 "metrics": {
 "reactions": 7,
 "comments": 6,
-"engagementRate": 19.27,
-"views": 109,
+"engagementRate": 19.09,
+"views": 110,
 "shares": 8,
 "reach": 94,
 "totalTimeWatched": 31.03,
 "averageTimeWatched": 14.66
 },
-"metrics_at": "2026-11-19T22:45:26.284Z"
+"metrics_at": "2026-11-20T21:47:12.278Z"
 }
 ]
 },
@@ -2028,17 +2064,17 @@
 "link": "https://www.instagram.com/reel/Df8OMIKRAOe/",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6aff84130f153e8caeba2407/6aff84dcece6dfde5f27bd98/6aff84df92ac96f0493b0bfa_thumbnail.jpg",
 "metrics": {
-"reactions": 0,
+"reactions": 3,
 "comments": 0,
-"engagementRate": 0,
-"views": 2,
+"engagementRate": 4.42,
+"views": 163,
 "shares": 0,
-"saves": 0,
-"totalTimeWatched": 0.06,
-"averageTimeWatched": 3.75,
-"reach": 0
+"saves": 1,
+"totalTimeWatched": 18.36,
+"averageTimeWatched": 9.34,
+"reach": 113
 },
-"metrics_at": "2026-11-19T23:23:11.247Z"
+"metrics_at": "2026-11-20T22:23:42.187Z"
 },
 {
 "id": "6aff84de92ac96f0493b0bec",
@@ -2049,15 +2085,15 @@
 "metrics": {
 "reactions": 2,
 "comments": 0,
-"engagementRate": 6.78,
-"views": 58,
+"engagementRate": 6.67,
+"views": 60,
 "shares": 0,
 "saves": 2,
-"totalTimeWatched": 4.22,
-"averageTimeWatched": 4.87,
-"reach": 59
+"totalTimeWatched": 4.29,
+"averageTimeWatched": 4.86,
+"reach": 60
 },
-"metrics_at": "2026-11-19T23:23:11.231Z"
+"metrics_at": "2026-11-20T22:23:42.184Z"
 },
 {
 "id": "6aff84df92ac96f0493b0bee",
@@ -2076,7 +2112,7 @@
 "averageTimeWatched": 8.75,
 "reach": 118
 },
-"metrics_at": "2026-11-19T23:23:11.205Z"
+"metrics_at": "2026-11-20T22:23:42.262Z"
 },
 {
 "id": "6aff84df92ac96f0493b0bf0",
@@ -2095,7 +2131,7 @@
 "averageTimeWatched": 4.91,
 "reach": 105
 },
-"metrics_at": "2026-11-19T23:23:11.031Z"
+"metrics_at": "2026-11-20T22:23:42.251Z"
 },
 {
 "id": "6aff84df92ac96f0493b0bf4",
@@ -2114,7 +2150,7 @@
 "averageTimeWatched": 3.89,
 "reach": 100
 },
-"metrics_at": "2026-11-19T23:23:11.249Z"
+"metrics_at": "2026-11-20T22:23:42.199Z"
 },
 {
 "id": "6aff84df92ac96f0493b0bf6",
@@ -2133,7 +2169,7 @@
 "averageTimeWatched": 14.13,
 "reach": 44
 },
-"metrics_at": "2026-11-19T23:23:11.035Z"
+"metrics_at": "2026-11-20T22:23:42.222Z"
 },
 {
 "id": "6aff84df92ac96f0493b0bfe",
@@ -2152,7 +2188,7 @@
 "averageTimeWatched": 8.08,
 "reach": 114
 },
-"metrics_at": "2026-11-19T23:23:11.244Z"
+"metrics_at": "2026-11-20T22:23:42.246Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c22",
@@ -2171,7 +2207,7 @@
 "averageTimeWatched": 1.51,
 "reach": 101
 },
-"metrics_at": "2026-11-19T23:23:11.212Z"
+"metrics_at": "2026-11-20T22:23:42.237Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c17",
@@ -2190,7 +2226,7 @@
 "averageTimeWatched": 4.06,
 "reach": 110
 },
-"metrics_at": "2026-11-19T23:23:11.097Z"
+"metrics_at": "2026-11-20T22:23:42.212Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c04",
@@ -2209,7 +2245,7 @@
 "averageTimeWatched": 3.06,
 "reach": 108
 },
-"metrics_at": "2026-11-19T23:23:11.065Z"
+"metrics_at": "2026-11-20T22:23:42.250Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c1e",
@@ -2228,7 +2264,7 @@
 "averageTimeWatched": 9.12,
 "reach": 113
 },
-"metrics_at": "2026-11-19T23:23:11.128Z"
+"metrics_at": "2026-11-20T22:23:42.192Z"
 },
 {
 "id": "6aff84df92ac96f0493b0bf2",
@@ -2247,7 +2283,7 @@
 "averageTimeWatched": 3.93,
 "reach": 112
 },
-"metrics_at": "2026-11-19T23:23:11.062Z"
+"metrics_at": "2026-11-20T22:23:42.214Z"
 },
 {
 "id": "6aff84df92ac96f0493b0bfc",
@@ -2266,7 +2302,7 @@
 "averageTimeWatched": 5.68,
 "reach": 49
 },
-"metrics_at": "2026-11-19T23:23:11.057Z"
+"metrics_at": "2026-11-20T22:23:42.194Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c08",
@@ -2285,7 +2321,7 @@
 "averageTimeWatched": 5.37,
 "reach": 141
 },
-"metrics_at": "2026-11-19T23:23:11.265Z"
+"metrics_at": "2026-11-20T22:23:42.224Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c0a",
@@ -2304,7 +2340,7 @@
 "averageTimeWatched": 6.23,
 "reach": 84
 },
-"metrics_at": "2026-11-19T23:23:11.114Z"
+"metrics_at": "2026-11-20T22:23:42.231Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c02",
@@ -2323,7 +2359,7 @@
 "averageTimeWatched": 6.88,
 "reach": 114
 },
-"metrics_at": "2026-11-19T23:23:11.055Z"
+"metrics_at": "2026-11-20T22:23:42.200Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c2f",
@@ -2342,7 +2378,7 @@
 "averageTimeWatched": 5.43,
 "reach": 109
 },
-"metrics_at": "2026-11-19T23:23:11.236Z"
+"metrics_at": "2026-11-20T22:23:42.253Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c24",
@@ -2361,7 +2397,7 @@
 "averageTimeWatched": 10.75,
 "reach": 195
 },
-"metrics_at": "2026-11-19T23:23:11.214Z"
+"metrics_at": "2026-11-20T22:23:42.196Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c0c",
@@ -2379,7 +2415,7 @@
 "follows": 0,
 "reach": 11
 },
-"metrics_at": "2026-11-19T23:23:11.105Z"
+"metrics_at": "2026-11-20T22:23:42.243Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c00",
@@ -2398,7 +2434,7 @@
 "averageTimeWatched": 7.84,
 "reach": 111
 },
-"metrics_at": "2026-11-19T23:23:11.074Z"
+"metrics_at": "2026-11-20T22:23:42.225Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c35",
@@ -2410,14 +2446,14 @@
 "reactions": 6,
 "comments": 5,
 "engagementRate": 10.27,
-"views": 161,
+"views": 162,
 "shares": 2,
 "saves": 1,
-"totalTimeWatched": 7.49,
-"averageTimeWatched": 2.88,
+"totalTimeWatched": 7.52,
+"averageTimeWatched": 2.87,
 "reach": 146
 },
-"metrics_at": "2026-11-19T23:23:11.226Z"
+"metrics_at": "2026-11-20T22:23:42.221Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c26",
@@ -2436,7 +2472,7 @@
 "averageTimeWatched": 8.48,
 "reach": 140
 },
-"metrics_at": "2026-11-19T23:23:11.200Z"
+"metrics_at": "2026-11-20T22:23:42.202Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c06",
@@ -2455,7 +2491,7 @@
 "averageTimeWatched": 3.95,
 "reach": 101
 },
-"metrics_at": "2026-11-19T23:23:11.068Z"
+"metrics_at": "2026-11-20T22:23:42.241Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c2a",
@@ -2473,7 +2509,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-19T23:23:11.219Z"
+"metrics_at": "2026-11-20T22:23:42.239Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c3f",
@@ -2491,7 +2527,7 @@
 "follows": 0,
 "reach": 7
 },
-"metrics_at": "2026-11-19T23:23:11.260Z"
+"metrics_at": "2026-11-20T22:23:42.204Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c31",
@@ -2509,7 +2545,7 @@
 "follows": 0,
 "reach": 6
 },
-"metrics_at": "2026-11-19T23:23:11.223Z"
+"metrics_at": "2026-11-20T22:23:42.190Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c28",
@@ -2527,7 +2563,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-19T23:23:11.202Z"
+"metrics_at": "2026-11-20T22:23:42.234Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c10",
@@ -2545,7 +2581,7 @@
 "follows": 0,
 "reach": 8
 },
-"metrics_at": "2026-11-19T23:23:11.092Z"
+"metrics_at": "2026-11-20T22:23:42.215Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c13",
@@ -2564,7 +2600,7 @@
 "averageTimeWatched": 3,
 "reach": 129
 },
-"metrics_at": "2026-11-19T23:23:11.101Z"
+"metrics_at": "2026-11-20T22:23:42.245Z"
 },
 {
 "id": "6aff84df92ac96f0493b0c33",
@@ -2582,7 +2618,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-19T23:23:11.238Z"
+"metrics_at": "2026-11-20T22:23:42.189Z"
 }
 ]
 },
@@ -2601,8 +2637,18 @@
 "text": "it is never 5 minutes",
 "link": "https://www.instagram.com/reel/Df9nCMoMsh3/",
 "thumb": "https://images.buffer.com/thumbnail/GZnkFFIftYX9kCYC-lZ2P4NRqUF1hSmVAhPiuh1y0fs?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2Fc142da4866b80c3f9330876e104e45a0d5edc3c2%2Fvault%2Fpirate%2F20261120-1200-tt-meme-gotfivemins.mp4",
-"metrics": {},
-"metrics_at": "2026-11-19T23:32:30.657Z"
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 139,
+"shares": 0,
+"saves": 0,
+"totalTimeWatched": 7.9,
+"averageTimeWatched": 4.31,
+"reach": 111
+},
+"metrics_at": "2026-11-20T22:22:22.491Z"
 },
 {
 "id": "6aff84a71c29bc32984fffaa",
@@ -2611,17 +2657,17 @@
 "link": "https://www.instagram.com/reel/Df8N7qzNMxy/",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6aff84130f153e8caeba2407/6aff84a5ece6dfde5f27b707/6aff84a71c29bc32984fffaa_thumbnail.jpg",
 "metrics": {
-"reactions": 0,
+"reactions": 3,
 "comments": 0,
-"engagementRate": 0,
-"views": 1,
+"engagementRate": 0.28,
+"views": 1474,
 "shares": 0,
 "saves": 0,
-"totalTimeWatched": 0,
-"averageTimeWatched": 0,
-"reach": 0
+"totalTimeWatched": 174.35,
+"averageTimeWatched": 9.85,
+"reach": 1077
 },
-"metrics_at": "2026-11-19T23:22:15.230Z"
+"metrics_at": "2026-11-20T22:22:22.513Z"
 },
 {
 "id": "6aff84a71c29bc32984fffb6",
@@ -2640,7 +2686,7 @@
 "averageTimeWatched": 1.3,
 "reach": 0
 },
-"metrics_at": "2026-11-19T23:22:15.252Z"
+"metrics_at": "2026-11-20T22:22:22.535Z"
 },
 {
 "id": "6aff84a71c29bc32984fffbe",
@@ -2655,11 +2701,11 @@
 "views": 155,
 "shares": 0,
 "saves": 1,
-"totalTimeWatched": 17.69,
-"averageTimeWatched": 9.23,
+"totalTimeWatched": 17.73,
+"averageTimeWatched": 9.17,
 "reach": 115
 },
-"metrics_at": "2026-11-19T23:22:15.244Z"
+"metrics_at": "2026-11-20T22:22:22.504Z"
 },
 {
 "id": "6aff84a71c29bc32984fffc2",
@@ -2678,7 +2724,7 @@
 "averageTimeWatched": 4.97,
 "reach": 61
 },
-"metrics_at": "2026-11-19T23:22:15.246Z"
+"metrics_at": "2026-11-20T22:22:22.516Z"
 },
 {
 "id": "6aff84a71c29bc32984fffba",
@@ -2697,7 +2743,7 @@
 "averageTimeWatched": 3.03,
 "reach": 49
 },
-"metrics_at": "2026-11-19T23:22:15.259Z"
+"metrics_at": "2026-11-20T22:22:22.495Z"
 },
 {
 "id": "6aff84a71c29bc32984fffc0",
@@ -2716,7 +2762,7 @@
 "averageTimeWatched": 21.46,
 "reach": 4
 },
-"metrics_at": "2026-11-19T23:22:15.265Z"
+"metrics_at": "2026-11-20T22:22:22.499Z"
 },
 {
 "id": "6aff84a71c29bc32984fffb0",
@@ -2735,7 +2781,7 @@
 "averageTimeWatched": 12.58,
 "reach": 123
 },
-"metrics_at": "2026-11-19T23:22:15.240Z"
+"metrics_at": "2026-11-20T22:22:22.522Z"
 },
 {
 "id": "6aff84a71c29bc32984fffb2",
@@ -2754,7 +2800,7 @@
 "averageTimeWatched": 1.8,
 "reach": 85
 },
-"metrics_at": "2026-11-19T23:22:15.242Z"
+"metrics_at": "2026-11-20T22:22:22.532Z"
 },
 {
 "id": "6aff84a71c29bc32984fffac",
@@ -2773,7 +2819,7 @@
 "averageTimeWatched": 4.62,
 "reach": 103
 },
-"metrics_at": "2026-11-19T23:22:15.234Z"
+"metrics_at": "2026-11-20T22:22:22.519Z"
 },
 {
 "id": "6aff84a71c29bc32984fffcf",
@@ -2792,7 +2838,7 @@
 "averageTimeWatched": 3.41,
 "reach": 103
 },
-"metrics_at": "2026-11-19T23:22:15.277Z"
+"metrics_at": "2026-11-20T22:22:22.529Z"
 },
 {
 "id": "6aff84a71c29bc32984fffc5",
@@ -2811,7 +2857,7 @@
 "averageTimeWatched": 7.9,
 "reach": 1270
 },
-"metrics_at": "2026-11-19T23:22:15.269Z"
+"metrics_at": "2026-11-20T22:22:22.510Z"
 },
 {
 "id": "6aff84a71c29bc32984fffb4",
@@ -2830,7 +2876,7 @@
 "averageTimeWatched": 4.09,
 "reach": 119
 },
-"metrics_at": "2026-11-19T23:22:15.250Z"
+"metrics_at": "2026-11-20T22:22:22.507Z"
 },
 {
 "id": "6aff84a71c29bc32984fffbc",
@@ -2849,7 +2895,7 @@
 "averageTimeWatched": 2.79,
 "reach": 99
 },
-"metrics_at": "2026-11-19T23:22:15.262Z"
+"metrics_at": "2026-11-20T22:22:22.537Z"
 },
 {
 "id": "6aff84a71c29bc32984fffae",
@@ -2868,7 +2914,7 @@
 "averageTimeWatched": 5.09,
 "reach": 108
 },
-"metrics_at": "2026-11-19T23:22:15.237Z"
+"metrics_at": "2026-11-20T22:22:22.501Z"
 },
 {
 "id": "6aff84a71c29bc32984fffb8",
@@ -2887,7 +2933,7 @@
 "averageTimeWatched": 7.52,
 "reach": 408
 },
-"metrics_at": "2026-11-19T23:22:15.256Z"
+"metrics_at": "2026-11-20T22:22:22.540Z"
 }
 ]
 },
@@ -2901,13 +2947,59 @@
 "disconnected": false,
 "posts": [
 {
+"id": "6b00c7d8993207094de3c6cf",
+"at": "2026-11-20T18:32:58.000Z",
+"text": "Spring weeks fill up early. Here is how to get ahead of it. 🌱",
+"link": "https://www.instagram.com/p/Df-Tmupib-6/",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6aff84130f153e8caeba2407/6aff845bece6dfde5f27ad78/6b00c7d8993207094de3c6cf_thumbnail.jpg",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 0,
+"shares": 0,
+"saves": 0,
+"follows": 0,
+"reach": 0
+},
+"metrics_at": "2026-11-20T22:21:12.261Z"
+},
+{
+"id": "6b00c7d8993207094de3c6c7",
+"at": "2026-11-20T12:31:57.000Z",
+"text": "Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. 🏆",
+"link": "https://www.instagram.com/p/Df9qTGtlIQ6/",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6aff84130f153e8caeba2407/6aff845bece6dfde5f27ad78/6b00c7d8993207094de3c6c7_thumbnail.jpg",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 1,
+"shares": 0,
+"saves": 0,
+"follows": 0,
+"reach": 0
+},
+"metrics_at": "2026-11-20T22:21:12.257Z"
+},
+{
 "id": "6aff870dca85ebefb0dce36d",
 "at": "2026-11-20T10:01:52.203Z",
 "text": "the google search most grads never use",
 "link": "https://www.instagram.com/reel/Df9ZH_MFIkn/",
 "thumb": "https://images.buffer.com/thumbnail/qRXaspGqgWhRXVEW1jZ7-_rI4Rm-BqVbpVHuNyLvK6Y?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2Fc142da4866b80c3f9330876e104e45a0d5edc3c2%2Fvault%2Fhacker%2F20261120-1000-tt-hack-hiddengradjobsgoogle.mp4",
-"metrics": {},
-"metrics_at": "2026-11-19T23:32:29.305Z"
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 2.56,
+"views": 43,
+"shares": 0,
+"saves": 1,
+"totalTimeWatched": 1.49,
+"averageTimeWatched": 2.23,
+"reach": 39
+},
+"metrics_at": "2026-11-20T22:21:12.252Z"
 },
 {
 "id": "6aff845c9db7788618c7bed8",
@@ -2925,7 +3017,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-19T23:21:00.686Z"
+"metrics_at": "2026-11-20T22:21:12.293Z"
 },
 {
 "id": "6aff845c9db7788618c7bebe",
@@ -2940,11 +3032,11 @@
 "views": 3,
 "shares": 0,
 "saves": 1,
-"totalTimeWatched": 0.6,
-"averageTimeWatched": 11.92,
+"totalTimeWatched": 0.64,
+"averageTimeWatched": 9.53,
 "reach": 2
 },
-"metrics_at": "2026-11-19T23:21:00.674Z"
+"metrics_at": "2026-11-20T22:21:12.338Z"
 },
 {
 "id": "6aff845c9db7788618c7bed1",
@@ -2962,7 +3054,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-19T23:21:00.667Z"
+"metrics_at": "2026-11-20T22:21:12.450Z"
 },
 {
 "id": "6aff845c9db7788618c7bed3",
@@ -2980,7 +3072,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-19T23:21:00.671Z"
+"metrics_at": "2026-11-20T22:21:12.291Z"
 },
 {
 "id": "6aff845c9db7788618c7bebc",
@@ -2992,13 +3084,13 @@
 "reactions": 0,
 "comments": 0,
 "engagementRate": 0,
-"views": 4,
+"views": 5,
 "shares": 0,
 "saves": 0,
 "follows": 0,
 "reach": 2
 },
-"metrics_at": "2026-11-19T23:21:00.605Z"
+"metrics_at": "2026-11-20T22:21:12.284Z"
 },
 {
 "id": "6aff845c9db7788618c7bec4",
@@ -3016,7 +3108,7 @@
 "follows": 0,
 "reach": 3
 },
-"metrics_at": "2026-11-19T23:21:00.721Z"
+"metrics_at": "2026-11-20T22:21:12.431Z"
 },
 {
 "id": "6aff845c9db7788618c7beb8",
@@ -3035,7 +3127,7 @@
 "averageTimeWatched": 9.1,
 "reach": 2
 },
-"metrics_at": "2026-11-19T23:21:00.601Z"
+"metrics_at": "2026-11-20T22:21:12.274Z"
 },
 {
 "id": "6aff845c9db7788618c7bec0",
@@ -3054,7 +3146,7 @@
 "averageTimeWatched": 9.36,
 "reach": 3
 },
-"metrics_at": "2026-11-19T23:21:00.608Z"
+"metrics_at": "2026-11-20T22:21:12.347Z"
 },
 {
 "id": "6aff845c9db7788618c7bec6",
@@ -3072,7 +3164,7 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-19T23:21:00.618Z"
+"metrics_at": "2026-11-20T22:21:12.286Z"
 },
 {
 "id": "6aff845c9db7788618c7bec2",
@@ -3090,7 +3182,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-19T23:21:00.611Z"
+"metrics_at": "2026-11-20T22:21:12.296Z"
 },
 {
 "id": "6aff845c9db7788618c7beba",
@@ -3108,7 +3200,7 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-19T23:21:00.614Z"
+"metrics_at": "2026-11-20T22:21:12.316Z"
 },
 {
 "id": "6aff845c9db7788618c7bece",
@@ -3126,7 +3218,7 @@
 "follows": 0,
 "reach": 10
 },
-"metrics_at": "2026-11-19T23:21:00.647Z"
+"metrics_at": "2026-11-20T22:21:12.307Z"
 }
 ]
 },
@@ -4044,6 +4136,15 @@
 "mode": "auto",
 "disconnected": false,
 "posts": [
+{
+"id": "6b00822e44c361911349df24",
+"at": "2026-11-20T21:31:35.068Z",
+"text": "part 2. the cleaner left a list of rules",
+"link": "https://www.instagram.com/reel/Df-oA3InAfh/",
+"thumb": "https://images.buffer.com/thumbnail/bpey3iP5jEkJV4taUW2tFdqcOx8_fa6uZhhbx2OBJc0?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2Ff044fb6746d1b90f6a0d707c1e78c6b15db0f75d%2Fvault%2Fstories%2F20261120-2130-tt-afterhours-ep2-thecleanersrules.mp4",
+"metrics": {},
+"metrics_at": "2026-11-20T17:23:58.012Z"
+},
 {
 "id": "6b00822d861298c9b13b6eac",
 "at": "2026-11-20T18:31:49.857Z",
