@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T00:04:39Z",
+ "updated": "2026-11-21T07:42:17Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,21 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 10,
+   "waiting": 11,
    "vault_waiting": 1,
-   "posted": 8,
+   "posted": 9,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "010",
-     "title": "The email after your interview matters more than you think. \ud83d\udce7",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/010_1.jpg"
-    },
     {
      "id": "012",
      "title": "Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool.",
@@ -78,6 +70,14 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/016_1.jpg"
+    },
+    {
+     "id": "017",
+     "title": "Starting your first job can feel overwhelming. Here is how to nail your first week.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/017_1.jpg"
     }
    ],
    "hand": [
@@ -106,6 +106,17 @@
     }
    ],
    "recent": [
+    {
+     "id": "010",
+     "title": "The email after your interview matters more than you think. \ud83d\udce7",
+     "date": "2026-11-22",
+     "at": "2026-11-22T07:30:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-22T07:30:00.000Z, post 6b014b56d9cbb430a12aef01)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/010_1.jpg"
+    },
     {
      "id": "009",
      "title": "Video interviews are won in the setup. \ud83c\udfa5",
@@ -182,17 +193,6 @@
      "timed": false,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/002_1.jpg"
-    },
-    {
-     "id": "001",
-     "title": "Online tests can end your application before a human reads it. \ud83d\ude2c",
-     "date": "2026-11-18",
-     "at": null,
-     "instagram": true,
-     "tiktok": null,
-     "timed": false,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/001_1.jpg"
     }
    ],
    "connected": {

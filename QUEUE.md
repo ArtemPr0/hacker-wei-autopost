@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**10 waiting** (1 from the vault). 8 posted by the system so far.
+**11 waiting** (1 from the vault). 9 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,30 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 010
-
-<a href="posts/010_1.jpg"><img src="posts/010_1.jpg" width="110"></a> <a href="posts/010_2.jpg"><img src="posts/010_2.jpg" width="110"></a> <a href="posts/010_3.jpg"><img src="posts/010_3.jpg" width="110"></a> <a href="posts/010_4.jpg"><img src="posts/010_4.jpg" width="110"></a> <a href="posts/010_5.jpg"><img src="posts/010_5.jpg" width="110"></a> <a href="posts/010_6.jpg"><img src="posts/010_6.jpg" width="110"></a> <a href="posts/010_7.jpg"><img src="posts/010_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-The email after your interview matters more than you think. 📧
-
-5 lines that help you stand out:
-1. Send it within 24 hours
-2. Thank them by name
-3. Mention one thing you discussed
-4. Restate why you want the role
-5. Keep it short and warm
-
-Did you send one last time? Comment the number 👇
-Save this for after your interview.
-
-#thankyouemail #interviewtips #followup #ukgraduate #graduatejobs #ukstudents #careeradvice #jobinterview #jobsearchuk #hackerwei
 ```
 
 </details>
@@ -232,6 +208,54 @@ Which one will you try? Comment the number 👇
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #placementyear #internship #unilife #jobsearchuk #hackerwei
+```
+
+</details>
+
+### 020
+
+<a href="posts/020_1.jpg"><img src="posts/020_1.jpg" width="110"></a> <a href="posts/020_2.jpg"><img src="posts/020_2.jpg" width="110"></a> <a href="posts/020_3.jpg"><img src="posts/020_3.jpg" width="110"></a> <a href="posts/020_4.jpg"><img src="posts/020_4.jpg" width="110"></a> <a href="posts/020_5.jpg"><img src="posts/020_5.jpg" width="110"></a> <a href="posts/020_6.jpg"><img src="posts/020_6.jpg" width="110"></a> <a href="posts/020_7.jpg"><img src="posts/020_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+The presentation task at an assessment centre can feel tough. Here is how to structure your talk and win marks.
+
+5 fixes for your 5-minute talk:
+1. Start with your main answer
+2. Use a simple three-part frame
+3. Write three prompt cards
+4. Time your delivery at home
+5. Plan for follow-up questions
+
+Which tip will you try? Comment the number 👇
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #assessmentcentre #presentationtips #graduatescheme #interviewprep #hackerwei
+```
+
+</details>
+
+### 021
+
+<a href="posts/021_1.jpg"><img src="posts/021_1.jpg" width="110"></a> <a href="posts/021_2.jpg"><img src="posts/021_2.jpg" width="110"></a> <a href="posts/021_3.jpg"><img src="posts/021_3.jpg" width="110"></a> <a href="posts/021_4.jpg"><img src="posts/021_4.jpg" width="110"></a> <a href="posts/021_5.jpg"><img src="posts/021_5.jpg" width="110"></a> <a href="posts/021_6.jpg"><img src="posts/021_6.jpg" width="110"></a> <a href="posts/021_7.jpg"><img src="posts/021_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.
+
+5 ways to stay on top of both:
+1. Block out application slots
+2. Reuse your core STAR answers
+3. Finish quick online tests early
+4. Track your active stages
+5. Limit weekly submissions
+
+Which hack will you try? Comment the number 👇
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #graduatescheme #gradscheme #unilife #studenttips #hackerwei
 ```
 
 </details>
