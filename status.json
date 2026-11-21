@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:42:17Z",
+ "updated": "2026-11-21T15:30:29Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,21 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 11,
+   "waiting": 10,
    "vault_waiting": 1,
-   "posted": 9,
+   "posted": 10,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "012",
-     "title": "Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool.",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/012_1.jpg"
-    },
     {
      "id": "013",
      "title": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.",
@@ -78,6 +70,14 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/017_1.jpg"
+    },
+    {
+     "id": "018",
+     "title": "An employment contract is more than just a starting date and a salary. Here is what to check before you sign.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/018_1.jpg"
     }
    ],
    "hand": [
@@ -106,6 +106,17 @@
     }
    ],
    "recent": [
+    {
+     "id": "012",
+     "title": "Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool.",
+     "date": "2026-11-22",
+     "at": "2026-11-22T12:30:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-22T12:30:00.000Z, post 6b01b90e0247969092e1bece)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/012_1.jpg"
+    },
     {
      "id": "010",
      "title": "The email after your interview matters more than you think. \ud83d\udce7",
@@ -182,17 +193,6 @@
      "timed": true,
      "by_hand": false,
      "cover": null
-    },
-    {
-     "id": "002",
-     "title": "A rejection is not the end. It can be a lead. \ud83d\udca1",
-     "date": "2026-11-19",
-     "at": "2026-11-19T16:53:46Z",
-     "instagram": true,
-     "tiktok": "sent (shareNow, Buffer post 6aff29bebe5295ac8b6d0fc6)",
-     "timed": false,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/002_1.jpg"
     }
    ],
    "connected": {
@@ -575,23 +575,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 18,
-   "vault_waiting": 18,
-   "posted": 3,
+   "waiting": 17,
+   "vault_waiting": 17,
+   "posted": 4,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261122-1130-ig-cheesy-bean-quesadilla",
-     "title": "Crispy, melty and ready in 10 minutes. \ud83e\uddc0",
-     "slides": 4,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_1.jpg",
-     "at": "2026-11-22T11:30:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261122-1700-ig-chicken-thigh-tray-bake",
      "title": "Chuck it in a tray, walk away, dinner done. \ud83c\udf57",
@@ -641,10 +631,31 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261123-2100-ig-banana-mug-cake_1.jpg",
      "at": "2026-11-23T21:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261124-1130-ig-chickpea-smash-wrap",
+     "title": "No cooking, two lunches, under \u00a31 each. \ud83c\udf2f",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg",
+     "at": "2026-11-24T11:30:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261122-1130-ig-cheesy-bean-quesadilla",
+     "title": "Crispy, melty and ready in 10 minutes. \ud83e\uddc0",
+     "date": "2026-11-22",
+     "at": "2026-11-22T11:30:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_1.jpg"
+    },
     {
      "id": "vault/20261121-2100-ig-overnight-oats",
      "title": "Five minutes tonight, breakfast sorted tomorrow. \ud83e\udd63",

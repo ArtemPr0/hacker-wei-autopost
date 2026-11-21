@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T00:04:33Z",
+"updated": "2026-11-21T15:30:23Z",
 "days": 90,
 "channels": [
 {
@@ -490,6 +490,42 @@
 "mode": "auto",
 "disconnected": false,
 "posts": [
+{
+"id": "6b00822c44c361911349de73",
+"at": "2026-11-21T12:31:45.232Z",
+"text": "Ten minutes is enough to make your LinkedIn work harder. 🔧",
+"link": "https://tiktok.com/@hacker.wei/video/7710601127984663841",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b00822c44c361911349de73_thumbnail.jpg",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 0,
+"shares": 0,
+"reach": 0,
+"totalTimeWatched": 0,
+"averageTimeWatched": 0
+},
+"metrics_at": "2026-11-20T17:23:56.362Z"
+},
+{
+"id": "6b000834d5f8acdd0d84ddcd",
+"at": "2026-11-21T07:31:51.938Z",
+"text": "Your cover letter is judged in the first line. Make it count. ✍️",
+"link": "https://tiktok.com/@hacker.wei/video/7710523712218484000",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b000834d5f8acdd0d84ddcd_thumbnail.jpg",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 0,
+"shares": 0,
+"reach": 0,
+"totalTimeWatched": 0,
+"averageTimeWatched": 0
+},
+"metrics_at": "2026-11-20T08:43:32.221Z"
+},
 {
 "id": "6aff7ab4b3e65522f835b499",
 "at": "2026-11-20T18:32:23.345Z",
@@ -3973,6 +4009,15 @@
 "mode": "auto",
 "disconnected": false,
 "posts": [
+{
+"id": "6b00822ed425f1473afd65f6",
+"at": "2026-11-21T11:31:46.765Z",
+"text": "The takeaway classic for under £1, in 10 minutes. 🍳",
+"link": "https://www.instagram.com/p/DgAIOMTEbnL/",
+"thumb": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/f044fb6746d1b90f6a0d707c1e78c6b15db0f75d/vault/chef/20261121-1130-ig-egg-fried-rice_1.jpg",
+"metrics": {},
+"metrics_at": "2026-11-20T17:23:58.466Z"
+},
 {
 "id": "6b0075d6f6d6ed18a7205de1",
 "at": "2026-11-19T21:48:39.000Z",

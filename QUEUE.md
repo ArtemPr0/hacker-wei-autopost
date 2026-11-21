@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**11 waiting** (1 from the vault). 9 posted by the system so far.
+**10 waiting** (1 from the vault). 10 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,30 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 012
-
-<a href="posts/012_1.jpg"><img src="posts/012_1.jpg" width="110"></a> <a href="posts/012_2.jpg"><img src="posts/012_2.jpg" width="110"></a> <a href="posts/012_3.jpg"><img src="posts/012_3.jpg" width="110"></a> <a href="posts/012_4.jpg"><img src="posts/012_4.jpg" width="110"></a> <a href="posts/012_5.jpg"><img src="posts/012_5.jpg" width="110"></a> <a href="posts/012_6.jpg"><img src="posts/012_6.jpg" width="110"></a> <a href="posts/012_7.jpg"><img src="posts/012_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool.
-
-5 hacks to stay clear:
-1. Read the prompt twice
-2. Prioritise the facts first
-3. Manage your time strictly
-4. Be ready to justify why
-5. Stay focused on the prompt
-
-Which hack will you use? Comment the number 👇
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearch #assessmentcentre #casestudy #interviewprep #jobinterview #hackerwei
 ```
 
 </details>
@@ -370,26 +346,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**18 waiting** (18 from the vault). 3 posted by the system so far.
-
-### vault/20261122-1130-ig-cheesy-bean-quesadilla
-
-<a href="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_1.jpg"><img src="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_1.jpg" width="110"></a> <a href="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_2.jpg"><img src="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_2.jpg" width="110"></a> <a href="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_3.jpg"><img src="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_3.jpg" width="110"></a> <a href="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_4.jpg"><img src="vault/chef/20261122-1130-ig-cheesy-bean-quesadilla_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Crispy, melty and ready in 10 minutes. 🧀
-
-Cheesy bean quesadilla: 10 mins, under £1.50 a portion, serves 1.
-You need 2 tortilla wraps, half a tin kidney or black beans, handful of grated cheddar, half tsp smoked paprika or chilli powder, 1 tbsp salsa or ketchup and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #quesadilla
-```
-
-</details>
+**17 waiting** (17 from the vault). 4 posted by the system so far.
 
 ### vault/20261122-1700-ig-chicken-thigh-tray-bake
 
