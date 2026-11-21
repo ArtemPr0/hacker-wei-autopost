@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:30:29Z",
+ "updated": "2026-11-21T21:44:08Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,21 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 10,
+   "waiting": 9,
    "vault_waiting": 1,
-   "posted": 10,
+   "posted": 11,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "013",
-     "title": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/013_1.jpg"
-    },
     {
      "id": "014",
      "title": "Feeling lost after graduation is normal. Stop overthinking and start testing your way to a clear answer.",
@@ -78,6 +70,14 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/018_1.jpg"
+    },
+    {
+     "id": "019",
+     "title": "Finding a placement year is tough when everyone else is applying too. Here is how to stand out.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/019_1.jpg"
     }
    ],
    "hand": [
@@ -106,6 +106,17 @@
     }
    ],
    "recent": [
+    {
+     "id": "013",
+     "title": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.",
+     "date": "2026-11-22",
+     "at": "2026-11-22T18:30:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-22T18:30:00.000Z, post 6b0210a0846b0ee9073d2db3)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/013_1.jpg"
+    },
     {
      "id": "012",
      "title": "Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool.",
@@ -182,17 +193,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/004_1.jpg"
-    },
-    {
-     "id": "vault/20261120-1000-tt-hack-hiddengradjobsgoogle",
-     "title": "the google search most grads never use",
-     "date": "2026-11-20",
-     "at": "2026-11-20T10:00:00Z",
-     "instagram": true,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-20T10:00:00.000Z, post 6aff7a5ab3e65522f8358d14)",
-     "timed": true,
-     "by_hand": false,
-     "cover": null
     }
    ],
    "connected": {
@@ -575,33 +575,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 17,
-   "vault_waiting": 17,
-   "posted": 4,
+   "waiting": 15,
+   "vault_waiting": 15,
+   "posted": 6,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261122-1700-ig-chicken-thigh-tray-bake",
-     "title": "Chuck it in a tray, walk away, dinner done. \ud83c\udf57",
-     "slides": 4,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_1.jpg",
-     "at": "2026-11-22T17:00:00Z",
-     "platform": "instagram"
-    },
-    {
-     "id": "vault/20261122-2100-ig-batch-tomato-soup",
-     "title": "Four bowls of soup for less than one meal deal. \ud83c\udf45",
-     "slides": 4,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg",
-     "at": "2026-11-22T21:00:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261123-1130-ig-tuna-sweetcorn-melt",
      "title": "The lunch that beats every meal deal. \ud83e\udd6a",
@@ -641,10 +621,52 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg",
      "at": "2026-11-24T11:30:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261124-1700-ig-creamy-garlic-mushroom-pasta",
+     "title": "Tastes like a restaurant, costs like a sandwich. \ud83c\udf44",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_1.jpg",
+     "at": "2026-11-24T17:00:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261124-2100-ig-big-batch-red-lentil-dal",
+     "title": "Four warm bowls for the price of a coffee. \ud83e\uded5",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_1.jpg",
+     "at": "2026-11-24T21:00:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261122-2100-ig-batch-tomato-soup",
+     "title": "Four bowls of soup for less than one meal deal. \ud83c\udf45",
+     "date": "2026-11-22",
+     "at": "2026-11-22T21:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg"
+    },
+    {
+     "id": "vault/20261122-1700-ig-chicken-thigh-tray-bake",
+     "title": "Chuck it in a tray, walk away, dinner done. \ud83c\udf57",
+     "date": "2026-11-22",
+     "at": "2026-11-22T17:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_1.jpg"
+    },
     {
      "id": "vault/20261122-1130-ig-cheesy-bean-quesadilla",
      "title": "Crispy, melty and ready in 10 minutes. \ud83e\uddc0",

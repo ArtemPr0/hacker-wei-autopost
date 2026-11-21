@@ -31,6 +31,22 @@
    "media_id": "sent (scheduled in Buffer for 2026-11-22T11:30:00.000Z, post 6b01b90f0247969092e1bf8f)",
    "title": "Crispy, melty and ready in 10 minutes. \ud83e\uddc0",
    "timed": true
+  },
+  {
+   "post": "vault/20261122-1700-ig-chicken-thigh-tray-bake",
+   "date": "2026-11-22",
+   "at": "2026-11-22T17:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-22T17:00:00.000Z, post 6b0210a1d864a01105788917)",
+   "title": "Chuck it in a tray, walk away, dinner done. \ud83c\udf57",
+   "timed": true
+  },
+  {
+   "post": "vault/20261122-2100-ig-batch-tomato-soup",
+   "date": "2026-11-22",
+   "at": "2026-11-22T21:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-22T21:00:00.000Z, post 6b0210a2024796909203d716)",
+   "title": "Four bowls of soup for less than one meal deal. \ud83c\udf45",
+   "timed": true
   }
  ]
 }

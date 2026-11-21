@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**10 waiting** (1 from the vault). 10 posted by the system so far.
+**9 waiting** (1 from the vault). 11 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,30 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 013
-
-<a href="posts/013_1.jpg"><img src="posts/013_1.jpg" width="110"></a> <a href="posts/013_2.jpg"><img src="posts/013_2.jpg" width="110"></a> <a href="posts/013_3.jpg"><img src="posts/013_3.jpg" width="110"></a> <a href="posts/013_4.jpg"><img src="posts/013_4.jpg" width="110"></a> <a href="posts/013_5.jpg"><img src="posts/013_5.jpg" width="110"></a> <a href="posts/013_6.jpg"><img src="posts/013_6.jpg" width="110"></a> <a href="posts/013_7.jpg"><img src="posts/013_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.
-
-5 ways to write a better answer:
-1. State your spark immediately
-2. Link to their current projects
-3. Connect your values to theirs
-4. Keep the focus on them
-5. Review your own examples
-
-Which one will you try? Comment the number 👇
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunt #coverletter #applicationtips #jobapplication #graduatescheme #hackerwei
 ```
 
 </details>
@@ -346,45 +322,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**17 waiting** (17 from the vault). 4 posted by the system so far.
-
-### vault/20261122-1700-ig-chicken-thigh-tray-bake
-
-<a href="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_1.jpg"><img src="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_1.jpg" width="110"></a> <a href="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_2.jpg"><img src="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_2.jpg" width="110"></a> <a href="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_3.jpg"><img src="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_3.jpg" width="110"></a> <a href="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_4.jpg"><img src="vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Chuck it in a tray, walk away, dinner done. 🍗
-
-Chicken thigh tray bake: 45 mins, under £2 a portion, serves 2.
-You need 4 chicken thighs, 3 medium potatoes, 1 red onion, 1 pepper, 2 tbsp oil and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #traybake
-```
-
-</details>
-
-### vault/20261122-2100-ig-batch-tomato-soup
-
-<a href="vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg"><img src="vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg" width="110"></a> <a href="vault/chef/20261122-2100-ig-batch-tomato-soup_2.jpg"><img src="vault/chef/20261122-2100-ig-batch-tomato-soup_2.jpg" width="110"></a> <a href="vault/chef/20261122-2100-ig-batch-tomato-soup_3.jpg"><img src="vault/chef/20261122-2100-ig-batch-tomato-soup_3.jpg" width="110"></a> <a href="vault/chef/20261122-2100-ig-batch-tomato-soup_4.jpg"><img src="vault/chef/20261122-2100-ig-batch-tomato-soup_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Four bowls of soup for less than one meal deal. 🍅
-
-Batch tomato soup: 30 mins, under £1 a portion, serves 4.
-You need 1 onion, 1 carrot, 2 garlic cloves, 2 tins chopped tomatoes, 1 stock cube in 500ml hot water and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #tomatosoup
-```
-
-</details>
+**15 waiting** (15 from the vault). 6 posted by the system so far.
 
 ### vault/20261123-1130-ig-tuna-sweetcorn-melt
 
