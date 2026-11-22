@@ -42,6 +42,13 @@ def main():
     PF = fields("Post", keys[0][1]); CF = fields("Channel", keys[0][1])
     if "--schema" in sys.argv or os.environ.get("DEBUG"):
         print("Post:", sorted(PF)); print("Channel:", sorted(CF))
+        try:   # every input type about TikTok or post metadata, with its fields (to see what createPost accepts)
+            T = common.gql('query { __schema { types { name kind inputFields { name type { kind name ofType { kind name ofType { kind name } } } } enumValues { name } } } }', keys[0][1])["__schema"]["types"]
+            for t in T:
+                n = t["name"].lower()
+                if ("tiktok" in n or "metadata" in n or "music" in n or "sound" in n) and (t.get("inputFields") or t.get("enumValues")):
+                    print("TYPE", t["name"], [ (f["name"], (f["type"].get("name") or (f["type"].get("ofType") or {}).get("name") or ((f["type"].get("ofType") or {}).get("ofType") or {}).get("name"))) for f in (t.get("inputFields") or [])], [v["name"] for v in (t.get("enumValues") or [])])
+        except Exception as e: print("schema read failed:", str(e)[:300])
         if not os.environ.get("DEBUG"): return 0
     want_post = [f for f in ("id", "text", "sentAt", "dueAt", "createdAt", "status", "externalLink", "serviceLink", "permalink", "link", "type", "postType") if f in PF and scalar(PF[f])]
     want_chan = [f for f in ("id", "name", "displayName", "service", "avatar", "serviceId", "externalLink", "serviceLink", "url", "type", "isDisconnected", "isLocked") if f in CF and scalar(CF[f])]
