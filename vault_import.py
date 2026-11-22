@@ -69,7 +69,7 @@ def main():
                 if os.path.isdir(slides):
                     pics = sorted((f for f in os.listdir(slides) if re.match(r"slide_\d+\.(png|jpe?g)$", f, re.I)), key=lambda f: int(re.search(r"\d+", f)[0]))
                     kind = f"carousel, {len(pics)} slides"
-                    if re.match(r"add in-?app", sound, re.I): meta["hold"] = "song"
+                    # Buffer cannot add TikTok music, so carousels are posted without a song rather than held for one
                 elif video:
                     pics = []; kind = "video" + (" (BACKUP, the planned video was not in the batch)" if "BACKUP_" in video else "")
                     if "BACKUP_" in video: meta["note"] = "Backup video. The plan was to film this one; see the script in the batch."

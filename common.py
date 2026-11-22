@@ -1,5 +1,5 @@
 """A vault item may carry NAME_meta.json: {"at": "2026-11-20T18:30:00Z" (post at this time), "platform": "tiktok" or "instagram" (only there),
-"hold": "song" (do not auto-post; a founder posts it by hand), "sound": "...", "title": "..."}.
+"hold": "..." (do not auto-post; a founder posts it by hand; "song" is ignored, carousels go without one), "sound": "...", "title": "..."}.
 Shared helpers: the list of accounts, where each account keeps its queue, vault and record of what was posted."""
 import os, re, json, urllib.request, urllib.error
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -35,7 +35,7 @@ def _items(folder, prefix):
         if not media: continue
         try: meta = json.load(open(os.path.join(folder, name + "_meta.json"), encoding="utf8"))
         except Exception: meta = {}
-        out.append({"meta": meta, "at": meta.get("at") or "", "platform": meta.get("platform") or "", "hold": meta.get("hold") or "",
+        out.append({"meta": meta, "at": meta.get("at") or "", "platform": meta.get("platform") or "", "hold": "" if meta.get("hold") == "song" else (meta.get("hold") or ""),   # carousels no longer wait for a song: TikTok's music cannot be added through Buffer
                     "key": prefix + name, "name": name, "folder": folder, "rel": os.path.relpath(folder, ROOT).replace(os.sep, "/"),
                     "media": media, "video": bool(vids), "vault": bool(prefix),
                     "caption": open(os.path.join(folder, cap), encoding="utf8").read().strip()})
