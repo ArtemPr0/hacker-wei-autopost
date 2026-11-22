@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**9 waiting** (1 from the vault). 11 posted by the system so far.
+**8 waiting** (1 from the vault). 12 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,30 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 014
-
-<a href="posts/014_1.jpg"><img src="posts/014_1.jpg" width="110"></a> <a href="posts/014_2.jpg"><img src="posts/014_2.jpg" width="110"></a> <a href="posts/014_3.jpg"><img src="posts/014_3.jpg" width="110"></a> <a href="posts/014_4.jpg"><img src="posts/014_4.jpg" width="110"></a> <a href="posts/014_5.jpg"><img src="posts/014_5.jpg" width="110"></a> <a href="posts/014_6.jpg"><img src="posts/014_6.jpg" width="110"></a> <a href="posts/014_7.jpg"><img src="posts/014_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Feeling lost after graduation is normal. Stop overthinking and start testing your way to a clear answer.
-
-5 ways to find your path:
-1. List your daily non negotiables
-2. Check your search history
-3. Shadow a professional for a day
-4. Match your skills to sectors
-5. Talk to a recent graduate
-
-Which step will you try? Comment the number 👇
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #careergoals #careertips #graduatescheme #studentlife #hackerwei
 ```
 
 </details>

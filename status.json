@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:24:16Z",
+ "updated": "2026-11-22T09:58:04Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,21 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 9,
+   "waiting": 8,
    "vault_waiting": 1,
-   "posted": 11,
+   "posted": 12,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "014",
-     "title": "Feeling lost after graduation is normal. Stop overthinking and start testing your way to a clear answer.",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/014_1.jpg"
-    },
     {
      "id": "015",
      "title": "Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment.",
@@ -78,6 +70,14 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/019_1.jpg"
+    },
+    {
+     "id": "020",
+     "title": "The presentation task at an assessment centre can feel tough. Here is how to structure your talk and win marks.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/020_1.jpg"
     }
    ],
    "hand": [
@@ -106,6 +106,17 @@
     }
    ],
    "recent": [
+    {
+     "id": "014",
+     "title": "Feeling lost after graduation is normal. Stop overthinking and start testing your way to a clear answer.",
+     "date": "2026-11-23",
+     "at": "2026-11-23T07:30:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-23T07:30:00.000Z, post 6b02bca5846b0ee907765ae4)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/014_1.jpg"
+    },
     {
      "id": "013",
      "title": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.",
@@ -182,17 +193,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/006_1.jpg"
-    },
-    {
-     "id": "004",
-     "title": "Assessment centres are a team sport. Here is how to stand out without being the loudest in the room. \ud83c\udfc6",
-     "date": "2026-11-20",
-     "at": "2026-11-20T12:30:00Z",
-     "instagram": true,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-20T12:30:00.000Z, post 6aff7ab3ef915da8dbc57483)",
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/004_1.jpg"
     }
    ],
    "connected": {
