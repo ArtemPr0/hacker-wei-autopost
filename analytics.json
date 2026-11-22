@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T20:00:38Z",
+"updated": "2026-11-22T20:01:09Z",
 "days": 90,
 "channels": [
 {
@@ -293,7 +293,7 @@
 "averageTimeWatched": 3.41
 },
 "metrics_at": "2026-11-22T15:32:34.051Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "",
 "tagged": false
@@ -469,7 +469,7 @@
 "averageTimeWatched": 3.36
 },
 "metrics_at": "2026-11-22T15:32:34.051Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -513,7 +513,7 @@
 "averageTimeWatched": 4.5
 },
 "metrics_at": "2026-11-22T15:32:34.051Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "question",
 "tagged": false
@@ -557,7 +557,7 @@
 "averageTimeWatched": 11.92
 },
 "metrics_at": "2026-11-22T15:32:34.051Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -623,7 +623,7 @@
 "averageTimeWatched": 6.6
 },
 "metrics_at": "2026-11-22T15:32:34.051Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -711,7 +711,7 @@
 "averageTimeWatched": 7.87
 },
 "metrics_at": "2026-11-22T15:32:34.051Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -755,7 +755,7 @@
 "averageTimeWatched": 4.44
 },
 "metrics_at": "2026-11-22T15:32:34.051Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -777,7 +777,7 @@
 "averageTimeWatched": 1.55
 },
 "metrics_at": "2026-11-22T15:32:34.051Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "",
 "tagged": false
@@ -799,7 +799,7 @@
 "averageTimeWatched": 10.41
 },
 "metrics_at": "2026-11-22T15:32:34.052Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "",
 "tagged": false
@@ -821,7 +821,7 @@
 "averageTimeWatched": 6.64
 },
 "metrics_at": "2026-11-22T15:32:34.052Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "",
 "tagged": false
@@ -843,7 +843,7 @@
 "averageTimeWatched": 7.69
 },
 "metrics_at": "2026-11-22T15:32:34.052Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -1141,7 +1141,7 @@
 "averageTimeWatched": 2.7
 },
 "metrics_at": "2026-11-22T15:30:56.541Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -1163,7 +1163,7 @@
 "averageTimeWatched": 2.14
 },
 "metrics_at": "2026-11-22T15:30:56.541Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -1185,7 +1185,7 @@
 "averageTimeWatched": 7.37
 },
 "metrics_at": "2026-11-22T15:30:56.541Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "number",
 "tagged": false
@@ -1207,7 +1207,7 @@
 "averageTimeWatched": 2.48
 },
 "metrics_at": "2026-11-22T15:30:56.541Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "number",
 "tagged": false
@@ -1273,7 +1273,7 @@
 "averageTimeWatched": 2.6
 },
 "metrics_at": "2026-11-22T15:30:56.542Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -1295,7 +1295,7 @@
 "averageTimeWatched": 2.88
 },
 "metrics_at": "2026-11-22T15:30:56.542Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "number",
 "tagged": false
@@ -1317,7 +1317,7 @@
 "averageTimeWatched": 5.17
 },
 "metrics_at": "2026-11-22T15:30:56.542Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -1339,7 +1339,7 @@
 "averageTimeWatched": 6.48
 },
 "metrics_at": "2026-11-22T15:30:56.542Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "number",
 "tagged": false
@@ -1759,7 +1759,7 @@
 "averageTimeWatched": 5.79
 },
 "metrics_at": "2026-11-22T19:54:05.344Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "",
 "tagged": false
@@ -1957,7 +1957,7 @@
 "averageTimeWatched": 5.55
 },
 "metrics_at": "2026-11-22T19:54:05.345Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "",
 "tagged": false
@@ -2199,7 +2199,7 @@
 "averageTimeWatched": 9.6
 },
 "metrics_at": "2026-11-22T19:54:05.345Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -2309,7 +2309,7 @@
 "averageTimeWatched": 5.77
 },
 "metrics_at": "2026-11-22T19:54:05.345Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "",
 "tagged": false
@@ -2375,7 +2375,7 @@
 "averageTimeWatched": 9.28
 },
 "metrics_at": "2026-11-22T19:54:05.346Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -2419,7 +2419,7 @@
 "averageTimeWatched": 5.72
 },
 "metrics_at": "2026-11-22T19:54:05.346Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -3341,7 +3341,7 @@
 "reach": 44
 },
 "metrics_at": "2026-11-21T22:23:53.472Z",
-"fmt": "photo",
+"fmt": "video",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -4059,7 +4059,7 @@
 "reach": 4
 },
 "metrics_at": "2026-11-21T22:22:31.657Z",
-"fmt": "photo",
+"fmt": "video",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -4617,7 +4617,7 @@
 "reach": 2
 },
 "metrics_at": "2026-11-21T22:21:21.340Z",
-"fmt": "photo",
+"fmt": "video",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -5740,7 +5740,7 @@
 "reach": 12
 },
 "metrics_at": "2026-11-22T15:38:56.448Z",
-"fmt": "photo",
+"fmt": "video",
 "series": "",
 "hook": "",
 "tagged": false
@@ -5763,7 +5763,7 @@
 "reach": 8
 },
 "metrics_at": "2026-11-22T15:38:56.456Z",
-"fmt": "photo",
+"fmt": "video",
 "series": "",
 "hook": "",
 "tagged": false
@@ -5901,7 +5901,7 @@
 "reach": 95
 },
 "metrics_at": "2026-11-22T15:38:56.441Z",
-"fmt": "photo",
+"fmt": "video",
 "series": "",
 "hook": "",
 "tagged": false
@@ -6097,7 +6097,7 @@
 "reach": 3
 },
 "metrics_at": "2026-11-22T15:31:55.450Z",
-"fmt": "photo",
+"fmt": "video",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -6331,7 +6331,7 @@
 "reach": 2916
 },
 "metrics_at": "2026-11-22T17:52:26.003Z",
-"fmt": "photo",
+"fmt": "",
 "series": "",
 "hook": "statement",
 "tagged": false
@@ -6628,7 +6628,7 @@
 "reach": 151
 },
 "metrics_at": "2026-11-22T17:46:42.868Z",
-"fmt": "photo",
+"fmt": "video",
 "series": "",
 "hook": "statement",
 "tagged": false
