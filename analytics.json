@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T15:45:18Z",
+"updated": "2026-11-22T15:56:46Z",
 "days": 90,
 "channels": [
 {
@@ -5186,13 +5186,13 @@
 "link": "https://www.linkedin.com/feed/update/urn:li:share:7527762238326292482",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6b008581eb618d8d2ca363b4/6b0088b5ece6dfde5f358417/6b0088b6d674cecf9634bfa4_thumbnail.jpg",
 "metrics": {
-"reactions": 19,
+"reactions": 20,
 "comments": 0,
 "engagementRate": 0.42,
-"impressions": 4565,
-"reach": 2823
+"impressions": 4709,
+"reach": 2916
 },
-"metrics_at": "2026-11-21T17:52:00.787Z"
+"metrics_at": "2026-11-22T15:54:34.717Z"
 }
 ]
 },
@@ -5215,15 +5215,15 @@
 "metrics": {
 "reactions": 24,
 "comments": 3,
-"engagementRate": 15.88,
-"views": 470,
+"engagementRate": 15.83,
+"views": 471,
 "shares": 2,
 "saves": 5,
-"totalTimeWatched": 54.53,
-"averageTimeWatched": 9.37,
-"reach": 277
+"totalTimeWatched": 54.59,
+"averageTimeWatched": 9.36,
+"reach": 278
 },
-"metrics_at": "2026-11-21T17:47:21.353Z"
+"metrics_at": "2026-11-22T15:47:01.440Z"
 }
 ]
 },
@@ -5254,7 +5254,7 @@
 "averageTimeWatched": 4.15,
 "reach": 310
 },
-"metrics_at": "2026-11-21T17:46:23.955Z"
+"metrics_at": "2026-11-22T15:46:11.542Z"
 },
 {
 "id": "6b00874f8413e93f5e7362c3",
@@ -5273,7 +5273,7 @@
 "averageTimeWatched": 5.25,
 "reach": 177
 },
-"metrics_at": "2026-11-21T17:46:23.963Z"
+"metrics_at": "2026-11-22T15:46:11.542Z"
 },
 {
 "id": "6b00874f8413e93f5e7362c9",
@@ -5292,7 +5292,7 @@
 "averageTimeWatched": 8.55,
 "reach": 1141
 },
-"metrics_at": "2026-11-21T17:46:23.965Z"
+"metrics_at": "2026-11-22T15:46:11.542Z"
 },
 {
 "id": "6b00874f8413e93f5e7362cf",
@@ -5310,7 +5310,7 @@
 "follows": 0,
 "reach": 39
 },
-"metrics_at": "2026-11-21T17:46:23.959Z"
+"metrics_at": "2026-11-22T15:46:11.542Z"
 },
 {
 "id": "6b00874f8413e93f5e7362cb",
@@ -5329,7 +5329,7 @@
 "averageTimeWatched": 5.37,
 "reach": 162
 },
-"metrics_at": "2026-11-21T17:46:23.966Z"
+"metrics_at": "2026-11-22T15:46:11.542Z"
 },
 {
 "id": "6b00874f8413e93f5e7362d7",
