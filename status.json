@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:06:54Z",
+ "updated": "2026-11-22T16:07:13Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,23 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 7,
-   "vault_waiting": 1,
-   "posted": 13,
+   "waiting": 6,
+   "vault_waiting": 0,
+   "posted": 14,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "vault/20261120-1730-tt-carousel-cv-7seconds",
-     "title": "where recruiters actually look on your cv, in order",
-     "slides": 6,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg",
-     "at": "2026-11-23T15:30:00Z",
-     "platform": "tiktok"
-    },
     {
      "id": "016",
      "title": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
@@ -80,10 +70,29 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/020_1.jpg"
+    },
+    {
+     "id": "021",
+     "title": "Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/021_1.jpg"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261120-1730-tt-carousel-cv-7seconds",
+     "title": "where recruiters actually look on your cv, in order",
+     "date": "2026-11-23",
+     "at": "2026-11-23T15:30:00Z",
+     "instagram": false,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-23T15:30:00.000Z, post 6b03132dd864a01105d82cc8)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg"
+    },
     {
      "id": "015",
      "title": "Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment.",
@@ -160,17 +169,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/008_1.jpg"
-    },
-    {
-     "id": "007",
-     "title": "Your cover letter is judged in the first line. Make it count. \u270d\ufe0f",
-     "date": "2026-11-21",
-     "at": "2026-11-21T07:30:00Z",
-     "instagram": true,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-21T07:30:00.000Z, post 6b000834d5f8acdd0d84ddcd)",
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/007_1.jpg"
     }
    ],
    "connected": {
@@ -193,29 +191,29 @@
    "linkedin": "",
    "per_day": 3,
    "has_writer": false,
-   "active": true,
+   "active": false,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 1,
-   "vault_waiting": 1,
-   "posted": 2,
+   "waiting": 0,
+   "vault_waiting": 0,
+   "posted": 3,
    "manual": false,
    "off": false,
    "mirror": true,
-   "next": [
+   "next": [],
+   "hand": [],
+   "recent": [
     {
      "id": "vault/20261120-1800-tt-carousel-emailstory-notenoughexperience",
      "title": "they said i didn't have enough experience",
-     "slides": 5,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg",
+     "date": "2026-11-23",
      "at": "2026-11-23T12:30:00Z",
-     "platform": "tiktok"
-    }
-   ],
-   "hand": [],
-   "recent": [
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-23T12:30:00.000Z, post 6b03132ed864a01105d82d50)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg"
+    },
     {
      "id": "vault/20261120-1200-tt-meme-gotfivemins",
      "title": "it is never 5 minutes",
@@ -529,23 +527,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 15,
-   "vault_waiting": 15,
-   "posted": 6,
+   "waiting": 14,
+   "vault_waiting": 14,
+   "posted": 7,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261123-1130-ig-tuna-sweetcorn-melt",
-     "title": "The lunch that beats every meal deal. \ud83e\udd6a",
-     "slides": 4,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_1.jpg",
-     "at": "2026-11-23T11:30:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261123-1700-ig-red-lentil-bolognese",
      "title": "Bolognese for four, under \u00a31 a plate. \ud83c\udf5d",
@@ -595,10 +583,31 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_1.jpg",
      "at": "2026-11-24T21:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261125-1130-ig-10-minute-peanut-noodles",
+     "title": "Better than the takeaway, ready before the delivery app loads. \ud83e\udd5c",
+     "slides": 4,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261125-1130-ig-10-minute-peanut-noodles_1.jpg",
+     "at": "2026-11-25T11:30:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261123-1130-ig-tuna-sweetcorn-melt",
+     "title": "The lunch that beats every meal deal. \ud83e\udd6a",
+     "date": "2026-11-23",
+     "at": "2026-11-23T11:30:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261123-1130-ig-tuna-sweetcorn-melt_1.jpg"
+    },
     {
      "id": "vault/20261122-2100-ig-batch-tomato-soup",
      "title": "Four bowls of soup for less than one meal deal. \ud83c\udf45",
