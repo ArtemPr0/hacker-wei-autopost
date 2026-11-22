@@ -22,7 +22,7 @@ Worked in retail or at a bar? Here is how to make your part-time uni job look im
 4. Start bullets with action verbs
 5. Link your duties to the role
 
-Which tip helps you most? Comment the number 👇
+Which tip helps you most?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #cvtips #parttimejob #cvhelp #studentcv #hackerwei
@@ -46,7 +46,7 @@ Starting your first job can feel overwhelming. Here is how to nail your first we
 4. Eat lunch with the team
 5. Send a Friday recap
 
-Which habit will you start? Comment the number 👇
+Which habit will you start?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #graduatelife #firstjob #graduatescheme #officeetiquette #hackerwei
@@ -70,7 +70,7 @@ An employment contract is more than just a starting date and a salary. Here is w
 4. Check the standard working hours
 5. Find the place of work clause
 
-Which clause will you check? Comment the number 👇
+Which clause will you check?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #employmentlaw #graduatescheme #careerstart #jobsearchuk #hackerwei
@@ -94,7 +94,7 @@ Finding a placement year is tough when everyone else is applying too. Here is ho
 4. Treat applications like a module
 5. Practise recorded video interviews
 
-Which one will you try? Comment the number 👇
+Which one will you try?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #placementyear #internship #unilife #jobsearchuk #hackerwei
@@ -118,7 +118,7 @@ The presentation task at an assessment centre can feel tough. Here is how to str
 4. Time your delivery at home
 5. Plan for follow-up questions
 
-Which tip will you try? Comment the number 👇
+Which tip will you try?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #assessmentcentre #presentationtips #graduatescheme #interviewprep #hackerwei
@@ -142,7 +142,7 @@ Balancing graduate scheme forms with your degree is tough. Here is how to keep o
 4. Track your active stages
 5. Limit weekly submissions
 
-Which hack will you try? Comment the number 👇
+Which hack will you try?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #graduatescheme #gradscheme #unilife #studenttips #hackerwei
