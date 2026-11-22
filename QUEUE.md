@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**8 waiting** (1 from the vault). 12 posted by the system so far.
+**7 waiting** (1 from the vault). 13 posted by the system so far.
 
 ### vault/20261120-1730-tt-carousel-cv-7seconds
 
@@ -16,30 +16,6 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 where recruiters actually look on your cv, in order
 
 #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs
-```
-
-</details>
-
-### 015
-
-<a href="posts/015_1.jpg"><img src="posts/015_1.jpg" width="110"></a> <a href="posts/015_2.jpg"><img src="posts/015_2.jpg" width="110"></a> <a href="posts/015_3.jpg"><img src="posts/015_3.jpg" width="110"></a> <a href="posts/015_4.jpg"><img src="posts/015_4.jpg" width="110"></a> <a href="posts/015_5.jpg"><img src="posts/015_5.jpg" width="110"></a> <a href="posts/015_6.jpg"><img src="posts/015_6.jpg" width="110"></a> <a href="posts/015_7.jpg"><img src="posts/015_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment.
-
-5 rules for situational tests:
-1. Put team goals before your own
-2. Address issues directly and early
-3. Never pass your duties upwards
-4. Align choices with company values
-5. Avoid extreme or blunt responses
-
-Which rule will you use? Comment the number 👇
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #sjt #onlineassessment #psychometric #gradschemes #hackerwei
 ```
 
 </details>

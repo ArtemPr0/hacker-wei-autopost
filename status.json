@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T15:56:55Z",
+ "updated": "2026-11-22T15:57:11Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,21 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
-   "waiting": 8,
+   "waiting": 7,
    "vault_waiting": 1,
-   "posted": 12,
+   "posted": 13,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "015",
-     "title": "Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment.",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/015_1.jpg"
-    },
     {
      "id": "016",
      "title": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
@@ -78,6 +70,14 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/020_1.jpg"
+    },
+    {
+     "id": "021",
+     "title": "Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.",
+     "slides": 7,
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/021_1.jpg"
     }
    ],
    "hand": [
@@ -107,11 +107,22 @@
    ],
    "recent": [
     {
+     "id": "015",
+     "title": "Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment.",
+     "date": "2026-11-23",
+     "at": "2026-11-23T12:30:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-23T12:30:00.000Z, post 6b0310d5bf5d5a73b6a0ffed)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/015_1.jpg"
+    },
+    {
      "id": "014",
      "title": "Feeling lost after graduation is normal. Stop overthinking and start testing your way to a clear answer.",
      "date": "2026-11-23",
      "at": "2026-11-23T07:30:00Z",
-     "instagram": true,
+     "instagram": false,
      "tiktok": "sent (scheduled in Buffer for 2026-11-23T07:30:00.000Z, post 6b02bca5846b0ee907765ae4)",
      "timed": true,
      "by_hand": false,
@@ -122,7 +133,7 @@
      "title": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.",
      "date": "2026-11-22",
      "at": "2026-11-22T18:30:00Z",
-     "instagram": true,
+     "instagram": false,
      "tiktok": "sent (scheduled in Buffer for 2026-11-22T18:30:00.000Z, post 6b0210a0846b0ee9073d2db3)",
      "timed": true,
      "by_hand": false,
@@ -182,17 +193,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/007_1.jpg"
-    },
-    {
-     "id": "006",
-     "title": "Spring weeks fill up early. Here is how to get ahead of it. \ud83c\udf31",
-     "date": "2026-11-20",
-     "at": "2026-11-20T18:30:00Z",
-     "instagram": true,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-20T18:30:00.000Z, post 6aff7ab4b3e65522f835b499)",
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/006_1.jpg"
     }
    ],
    "connected": {
