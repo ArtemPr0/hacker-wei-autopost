@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T20:10:16Z",
+"updated": "2026-11-22T23:41:29Z",
 "days": 90,
 "channels": [
 {
@@ -3225,7 +3225,7 @@
 "averageTimeWatched": 9.34,
 "reach": 113
 },
-"metrics_at": "2026-11-21T22:23:53.494Z",
+"metrics_at": "2026-11-22T22:24:03.132Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -3248,7 +3248,7 @@
 "averageTimeWatched": 4.86,
 "reach": 60
 },
-"metrics_at": "2026-11-21T22:23:53.498Z",
+"metrics_at": "2026-11-22T22:24:03.124Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -3271,7 +3271,7 @@
 "averageTimeWatched": 8.75,
 "reach": 118
 },
-"metrics_at": "2026-11-21T22:23:53.535Z",
+"metrics_at": "2026-11-22T22:24:03.058Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -3294,7 +3294,7 @@
 "averageTimeWatched": 4.91,
 "reach": 105
 },
-"metrics_at": "2026-11-21T22:23:53.537Z",
+"metrics_at": "2026-11-22T22:24:03.096Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -3317,7 +3317,7 @@
 "averageTimeWatched": 3.89,
 "reach": 100
 },
-"metrics_at": "2026-11-21T22:23:53.518Z",
+"metrics_at": "2026-11-22T22:24:03.157Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3340,7 +3340,7 @@
 "averageTimeWatched": 14.13,
 "reach": 44
 },
-"metrics_at": "2026-11-21T22:23:53.472Z",
+"metrics_at": "2026-11-22T22:24:03.055Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3363,7 +3363,7 @@
 "averageTimeWatched": 8.08,
 "reach": 114
 },
-"metrics_at": "2026-11-21T22:23:53.474Z",
+"metrics_at": "2026-11-22T22:24:03.160Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3386,7 +3386,7 @@
 "averageTimeWatched": 1.51,
 "reach": 101
 },
-"metrics_at": "2026-11-21T22:23:53.477Z",
+"metrics_at": "2026-11-22T22:24:03.098Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -3409,7 +3409,7 @@
 "averageTimeWatched": 4.06,
 "reach": 110
 },
-"metrics_at": "2026-11-21T22:23:53.517Z",
+"metrics_at": "2026-11-22T22:24:03.114Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3432,7 +3432,7 @@
 "averageTimeWatched": 3.06,
 "reach": 108
 },
-"metrics_at": "2026-11-21T22:23:53.492Z",
+"metrics_at": "2026-11-22T22:24:03.172Z",
 "fmt": "video",
 "series": "",
 "hook": "confession",
@@ -3455,7 +3455,7 @@
 "averageTimeWatched": 9.12,
 "reach": 113
 },
-"metrics_at": "2026-11-21T22:23:53.533Z",
+"metrics_at": "2026-11-22T22:24:03.075Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3478,7 +3478,7 @@
 "averageTimeWatched": 3.93,
 "reach": 112
 },
-"metrics_at": "2026-11-21T22:23:53.509Z",
+"metrics_at": "2026-11-22T22:24:03.129Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -3501,7 +3501,7 @@
 "averageTimeWatched": 5.68,
 "reach": 49
 },
-"metrics_at": "2026-11-21T22:23:53.489Z",
+"metrics_at": "2026-11-22T22:24:03.090Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -3524,7 +3524,7 @@
 "averageTimeWatched": 5.37,
 "reach": 141
 },
-"metrics_at": "2026-11-21T22:23:53.510Z",
+"metrics_at": "2026-11-22T22:24:03.077Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -3547,7 +3547,7 @@
 "averageTimeWatched": 6.23,
 "reach": 84
 },
-"metrics_at": "2026-11-21T22:23:53.476Z",
+"metrics_at": "2026-11-22T22:24:03.139Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3570,7 +3570,7 @@
 "averageTimeWatched": 6.88,
 "reach": 114
 },
-"metrics_at": "2026-11-21T22:23:53.496Z",
+"metrics_at": "2026-11-22T22:24:03.104Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3593,7 +3593,7 @@
 "averageTimeWatched": 5.43,
 "reach": 109
 },
-"metrics_at": "2026-11-21T22:23:53.515Z",
+"metrics_at": "2026-11-22T22:24:03.106Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -3616,7 +3616,7 @@
 "averageTimeWatched": 10.72,
 "reach": 195
 },
-"metrics_at": "2026-11-21T22:23:53.502Z",
+"metrics_at": "2026-11-22T22:24:03.059Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -3638,7 +3638,7 @@
 "follows": 0,
 "reach": 11
 },
-"metrics_at": "2026-11-21T22:23:53.526Z",
+"metrics_at": "2026-11-22T22:24:03.136Z",
 "fmt": "carousel",
 "series": "",
 "hook": "question",
@@ -3661,7 +3661,7 @@
 "averageTimeWatched": 7.84,
 "reach": 111
 },
-"metrics_at": "2026-11-21T22:23:53.491Z",
+"metrics_at": "2026-11-22T22:24:03.111Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3684,7 +3684,7 @@
 "averageTimeWatched": 2.87,
 "reach": 146
 },
-"metrics_at": "2026-11-21T22:23:53.505Z",
+"metrics_at": "2026-11-22T22:24:03.109Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -3707,7 +3707,7 @@
 "averageTimeWatched": 8.48,
 "reach": 140
 },
-"metrics_at": "2026-11-21T22:23:53.468Z",
+"metrics_at": "2026-11-22T22:24:03.101Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -3730,7 +3730,7 @@
 "averageTimeWatched": 3.95,
 "reach": 101
 },
-"metrics_at": "2026-11-21T22:23:53.524Z",
+"metrics_at": "2026-11-22T22:24:03.093Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3752,7 +3752,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-21T22:23:53.522Z",
+"metrics_at": "2026-11-22T22:24:03.065Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -3774,7 +3774,7 @@
 "follows": 0,
 "reach": 7
 },
-"metrics_at": "2026-11-21T22:23:53.470Z",
+"metrics_at": "2026-11-22T22:24:03.068Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -3796,7 +3796,7 @@
 "follows": 0,
 "reach": 6
 },
-"metrics_at": "2026-11-21T22:23:53.512Z",
+"metrics_at": "2026-11-22T22:24:03.147Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -3818,7 +3818,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-21T22:23:53.466Z",
+"metrics_at": "2026-11-22T22:24:03.169Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -3840,7 +3840,7 @@
 "follows": 0,
 "reach": 8
 },
-"metrics_at": "2026-11-21T22:23:53.499Z",
+"metrics_at": "2026-11-22T22:24:03.061Z",
 "fmt": "carousel",
 "series": "",
 "hook": "question",
@@ -3863,7 +3863,7 @@
 "averageTimeWatched": 3,
 "reach": 129
 },
-"metrics_at": "2026-11-21T22:23:53.479Z",
+"metrics_at": "2026-11-22T22:24:03.142Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3885,7 +3885,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:23:53.520Z",
+"metrics_at": "2026-11-22T22:24:03.072Z",
 "fmt": "photo",
 "series": "",
 "hook": "",
@@ -3920,7 +3920,7 @@
 "averageTimeWatched": 4.31,
 "reach": 111
 },
-"metrics_at": "2026-11-21T22:22:31.662Z",
+"metrics_at": "2026-11-22T22:22:42.049Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -3936,14 +3936,14 @@
 "reactions": 3,
 "comments": 0,
 "engagementRate": 0.28,
-"views": 1480,
+"views": 1482,
 "shares": 0,
 "saves": 0,
-"totalTimeWatched": 174.88,
-"averageTimeWatched": 9.83,
-"reach": 1081
+"totalTimeWatched": 174.97,
+"averageTimeWatched": 9.82,
+"reach": 1083
 },
-"metrics_at": "2026-11-21T22:22:31.669Z",
+"metrics_at": "2026-11-22T22:22:42.041Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -3966,7 +3966,7 @@
 "averageTimeWatched": 4.08,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:22:31.660Z",
+"metrics_at": "2026-11-22T22:22:42.039Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -3989,7 +3989,7 @@
 "averageTimeWatched": 9.17,
 "reach": 115
 },
-"metrics_at": "2026-11-21T22:22:31.664Z",
+"metrics_at": "2026-11-22T22:22:42.058Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4012,7 +4012,7 @@
 "averageTimeWatched": 4.97,
 "reach": 61
 },
-"metrics_at": "2026-11-21T22:22:31.655Z",
+"metrics_at": "2026-11-22T22:22:42.046Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4035,7 +4035,7 @@
 "averageTimeWatched": 3.03,
 "reach": 49
 },
-"metrics_at": "2026-11-21T22:22:31.638Z",
+"metrics_at": "2026-11-22T22:22:42.036Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4058,7 +4058,7 @@
 "averageTimeWatched": 21.46,
 "reach": 4
 },
-"metrics_at": "2026-11-21T22:22:31.657Z",
+"metrics_at": "2026-11-22T22:22:42.034Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4081,7 +4081,7 @@
 "averageTimeWatched": 12.58,
 "reach": 123
 },
-"metrics_at": "2026-11-21T22:22:31.675Z",
+"metrics_at": "2026-11-22T22:22:42.065Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4104,7 +4104,7 @@
 "averageTimeWatched": 1.8,
 "reach": 85
 },
-"metrics_at": "2026-11-21T22:22:31.650Z",
+"metrics_at": "2026-11-22T22:22:42.047Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4127,7 +4127,7 @@
 "averageTimeWatched": 4.62,
 "reach": 103
 },
-"metrics_at": "2026-11-21T22:22:31.673Z",
+"metrics_at": "2026-11-22T22:22:42.051Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4150,7 +4150,7 @@
 "averageTimeWatched": 3.41,
 "reach": 103
 },
-"metrics_at": "2026-11-21T22:22:31.678Z",
+"metrics_at": "2026-11-22T22:22:42.043Z",
 "fmt": "video",
 "series": "",
 "hook": "confession",
@@ -4173,7 +4173,7 @@
 "averageTimeWatched": 7.9,
 "reach": 1270
 },
-"metrics_at": "2026-11-21T22:22:31.658Z",
+"metrics_at": "2026-11-22T22:22:42.044Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4196,7 +4196,7 @@
 "averageTimeWatched": 4.09,
 "reach": 119
 },
-"metrics_at": "2026-11-21T22:22:31.653Z",
+"metrics_at": "2026-11-22T22:22:42.052Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4219,7 +4219,7 @@
 "averageTimeWatched": 2.79,
 "reach": 99
 },
-"metrics_at": "2026-11-21T22:22:31.640Z",
+"metrics_at": "2026-11-22T22:22:42.031Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4242,7 +4242,7 @@
 "averageTimeWatched": 5.09,
 "reach": 108
 },
-"metrics_at": "2026-11-21T22:22:31.680Z",
+"metrics_at": "2026-11-22T22:22:42.061Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4265,7 +4265,7 @@
 "averageTimeWatched": 7.52,
 "reach": 408
 },
-"metrics_at": "2026-11-21T22:22:31.667Z",
+"metrics_at": "2026-11-22T22:22:42.060Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4334,11 +4334,11 @@
 ],
 "posts": [
 {
-"id": "6b02196139da6882e9a2acd5",
-"at": "2026-11-21T18:32:04.000Z",
-"text": "Video interviews are won in the setup. 🎥",
-"link": "https://www.instagram.com/p/DgA4VYdFOfb/",
-"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6aff84130f153e8caeba2407/6aff845bece6dfde5f27ad78/6b02196139da6882e9a2acd5_thumbnail.jpg",
+"id": "6b036aeb85df24fe15232db4",
+"at": "2026-11-22T12:31:35.000Z",
+"text": "Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool.",
+"link": "https://www.instagram.com/p/DgCz6oukVjQ/",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6aff84130f153e8caeba2407/6aff845bece6dfde5f27ad78/6b036aeb85df24fe15232db4_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
 "comments": 0,
@@ -4349,7 +4349,51 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.375Z",
+"metrics_at": "2026-11-22T22:21:31.676Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
+},
+{
+"id": "6b036aeb85df24fe15232db2",
+"at": "2026-11-22T07:30:55.000Z",
+"text": "The email after your interview matters more than you think. 📧",
+"link": "https://www.instagram.com/p/DgCRgFOkVnK/",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6aff84130f153e8caeba2407/6aff845bece6dfde5f27ad78/6b036aeb85df24fe15232db2_thumbnail.jpg",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 0,
+"shares": 0,
+"saves": 0,
+"follows": 0,
+"reach": 0
+},
+"metrics_at": "2026-11-22T22:21:31.672Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
+},
+{
+"id": "6b02196139da6882e9a2acd5",
+"at": "2026-11-21T18:32:04.000Z",
+"text": "Video interviews are won in the setup. 🎥",
+"link": "https://www.instagram.com/p/DgA4VYdFOfb/",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6aff84130f153e8caeba2407/6aff845bece6dfde5f27ad78/6b02196139da6882e9a2acd5_thumbnail.jpg",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 3,
+"shares": 0,
+"saves": 0,
+"follows": 0,
+"reach": 1
+},
+"metrics_at": "2026-11-22T22:21:31.666Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4371,7 +4415,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.361Z",
+"metrics_at": "2026-11-22T22:21:31.662Z",
 "fmt": "carousel",
 "series": "",
 "hook": "number",
@@ -4393,7 +4437,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.336Z",
+"metrics_at": "2026-11-22T22:21:31.659Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4415,7 +4459,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.354Z",
+"metrics_at": "2026-11-22T22:21:31.655Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4437,7 +4481,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.409Z",
+"metrics_at": "2026-11-22T22:21:31.630Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4460,7 +4504,7 @@
 "averageTimeWatched": 2.21,
 "reach": 48
 },
-"metrics_at": "2026-11-21T22:21:21.363Z",
+"metrics_at": "2026-11-22T22:21:31.699Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4482,7 +4526,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.367Z",
+"metrics_at": "2026-11-22T22:21:31.641Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4505,7 +4549,7 @@
 "averageTimeWatched": 9.53,
 "reach": 2
 },
-"metrics_at": "2026-11-21T22:21:21.370Z",
+"metrics_at": "2026-11-22T22:21:31.669Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4527,7 +4571,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-21T22:21:21.395Z",
+"metrics_at": "2026-11-22T22:21:31.634Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4549,7 +4593,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.398Z",
+"metrics_at": "2026-11-22T22:21:31.637Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4571,7 +4615,7 @@
 "follows": 0,
 "reach": 2
 },
-"metrics_at": "2026-11-21T22:21:21.387Z",
+"metrics_at": "2026-11-22T22:21:31.694Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4593,7 +4637,7 @@
 "follows": 0,
 "reach": 3
 },
-"metrics_at": "2026-11-21T22:21:21.406Z",
+"metrics_at": "2026-11-22T22:21:31.697Z",
 "fmt": "carousel",
 "series": "",
 "hook": "number",
@@ -4616,7 +4660,7 @@
 "averageTimeWatched": 9.1,
 "reach": 2
 },
-"metrics_at": "2026-11-21T22:21:21.340Z",
+"metrics_at": "2026-11-22T22:21:31.644Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4639,7 +4683,7 @@
 "averageTimeWatched": 9.36,
 "reach": 3
 },
-"metrics_at": "2026-11-21T22:21:21.383Z",
+"metrics_at": "2026-11-22T22:21:31.702Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4661,7 +4705,7 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-21T22:21:21.380Z",
+"metrics_at": "2026-11-22T22:21:31.710Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4683,7 +4727,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-21T22:21:21.350Z",
+"metrics_at": "2026-11-22T22:21:31.691Z",
 "fmt": "carousel",
 "series": "",
 "hook": "number",
@@ -4705,7 +4749,7 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-21T22:21:21.378Z",
+"metrics_at": "2026-11-22T22:21:31.647Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4727,7 +4771,7 @@
 "follows": 0,
 "reach": 10
 },
-"metrics_at": "2026-11-21T22:21:21.358Z",
+"metrics_at": "2026-11-22T22:21:31.650Z",
 "fmt": "carousel",
 "series": "",
 "hook": "number",
@@ -5621,6 +5665,19 @@
 "disconnected": false,
 "problems": [],
 "posts": [
+{
+"id": "6b0210a2024796909203d716",
+"at": "2026-11-22T21:02:33.966Z",
+"text": "Four bowls of soup for less than one meal deal. 🍅",
+"link": "https://www.instagram.com/p/DgDuTI4o4Wv/",
+"thumb": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/6c041ee23fe4151581abc6a4c54d864190761df1/vault/chef/20261122-2100-ig-batch-tomato-soup_1.jpg",
+"metrics": {},
+"metrics_at": "2026-11-21T21:44:02.112Z",
+"fmt": "carousel",
+"series": "Batch",
+"hook": "number",
+"tagged": true
+},
 {
 "id": "6b0210a1d864a01105788917",
 "at": "2026-11-22T17:06:33.604Z",

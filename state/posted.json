@@ -119,10 +119,11 @@
    "post": "015",
    "date": "2026-11-23",
    "at": "2026-11-23T12:30:00Z",
-   "media_id": "sent (scheduled in Buffer for 2026-11-23T12:30:00.000Z, post 6b0310d6cc364169c167124c)",
+   "media_id": null,
    "title": "Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment.",
    "timed": true,
-   "tiktok": "sent (scheduled in Buffer for 2026-11-23T12:30:00.000Z, post 6b0310d5bf5d5a73b6a0ffed)"
+   "tiktok": "sent (scheduled in Buffer for 2026-11-23T12:30:00.000Z, post 6b0310d5bf5d5a73b6a0ffed)",
+   "instagram_skipped": "outside the Instagram times"
   },
   {
    "post": "vault/20261120-1730-tt-carousel-cv-7seconds",

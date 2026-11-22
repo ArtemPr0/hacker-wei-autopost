@@ -158,21 +158,9 @@ Nothing waiting.
 
 ## The Only Wei
 
-**1 waiting** (1 from the vault). 1 posted by the system so far.
+**0 waiting** (0 from the vault). 2 posted by the system so far.
 
-### vault/20261120-0730-tt-carousel-stevemartin-tenyears
-
-<a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_2.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_2.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_3.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_3.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_4.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_4.jpg" width="110"></a> <a href="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_5.jpg"><img src="vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_5.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-it took him 10 years to get good. then everything changed.
-
-#stevemartin #discipline #careeradvice #mindset #quotes #ukjobs
-```
-
-</details>
+Nothing waiting.
 
 ## You Are Unemployed
 
@@ -248,26 +236,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**13 waiting** (13 from the vault). 8 posted by the system so far.
-
-### vault/20261123-2100-ig-banana-mug-cake
-
-<a href="vault/chef/20261123-2100-ig-banana-mug-cake_1.jpg"><img src="vault/chef/20261123-2100-ig-banana-mug-cake_1.jpg" width="110"></a> <a href="vault/chef/20261123-2100-ig-banana-mug-cake_2.jpg"><img src="vault/chef/20261123-2100-ig-banana-mug-cake_2.jpg" width="110"></a> <a href="vault/chef/20261123-2100-ig-banana-mug-cake_3.jpg"><img src="vault/chef/20261123-2100-ig-banana-mug-cake_3.jpg" width="110"></a> <a href="vault/chef/20261123-2100-ig-banana-mug-cake_4.jpg"><img src="vault/chef/20261123-2100-ig-banana-mug-cake_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Cake in 5 minutes, no oven needed. 🍌
-
-Banana mug cake: 5 mins, under £1 a mug, serves 1.
-You need half a ripe banana, 4 tbsp self-raising flour, 1 tbsp sugar, 3 tbsp milk, 1 tbsp oil and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #mugcake
-```
-
-</details>
+**12 waiting** (12 from the vault). 9 posted by the system so far.
 
 ### vault/20261124-1130-ig-chickpea-smash-wrap
 
