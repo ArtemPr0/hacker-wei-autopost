@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:59:03Z",
+ "updated": "2026-11-22T20:00:47Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -23,7 +23,7 @@
    "has_writer": true,
    "active": true,
    "paused": false,
-   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 07:30, 12:30, 18:30)",
    "waiting": 6,
    "vault_waiting": 0,
    "posted": 14,
@@ -35,6 +35,11 @@
      "id": "016",
      "title": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
      "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "question"
+     },
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/016_1.jpg"
@@ -43,6 +48,11 @@
      "id": "017",
      "title": "Starting your first job can feel overwhelming. Here is how to nail your first week.",
      "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "statement"
+     },
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/017_1.jpg"
@@ -51,6 +61,11 @@
      "id": "018",
      "title": "An employment contract is more than just a starting date and a salary. Here is what to check before you sign.",
      "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "statement"
+     },
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/018_1.jpg"
@@ -59,6 +74,11 @@
      "id": "019",
      "title": "Finding a placement year is tough when everyone else is applying too. Here is how to stand out.",
      "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "statement"
+     },
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/019_1.jpg"
@@ -67,6 +87,11 @@
      "id": "020",
      "title": "The presentation task at an assessment centre can feel tough. Here is how to structure your talk and win marks.",
      "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "statement"
+     },
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/020_1.jpg"
@@ -75,6 +100,11 @@
      "id": "021",
      "title": "Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.",
      "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "statement"
+     },
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/021_1.jpg"
@@ -193,7 +223,7 @@
    "has_writer": false,
    "active": false,
    "paused": false,
-   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 07:30, 12:30, 18:30)",
    "waiting": 0,
    "vault_waiting": 0,
    "posted": 3,
@@ -259,7 +289,7 @@
    "has_writer": false,
    "active": true,
    "paused": false,
-   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 07:30, 12:30, 18:30)",
    "waiting": 1,
    "vault_waiting": 1,
    "posted": 1,
@@ -271,6 +301,11 @@
      "id": "vault/20261120-0730-tt-carousel-stevemartin-tenyears",
      "title": "it took him 10 years to get good. then everything changed.",
      "slides": 5,
+     "tags": {
+      "format": "carousel",
+      "series": "Steve Martin",
+      "hook": "statement"
+     },
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg",
@@ -313,7 +348,7 @@
    "has_writer": false,
    "active": false,
    "paused": false,
-   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 07:30, 12:30, 18:30)",
    "waiting": 0,
    "vault_waiting": 0,
    "posted": 2,
@@ -367,7 +402,7 @@
    "has_writer": false,
    "active": false,
    "paused": false,
-   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 1 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 18:30)",
    "waiting": 0,
    "vault_waiting": 0,
    "posted": 2,
@@ -422,7 +457,7 @@
    "has_writer": false,
    "active": false,
    "paused": false,
-   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 07:30, 12:30, 18:30)",
    "waiting": 4,
    "vault_waiting": 4,
    "posted": 0,
@@ -435,6 +470,11 @@
      "id": "vault/20261120-1000-tt-thepromotion",
      "title": "ego took the credit. obsession took the company.",
      "slides": 1,
+     "tags": {
+      "format": "video",
+      "series": "",
+      "hook": "statement"
+     },
      "video": true,
      "vault": true,
      "cover": null,
@@ -453,6 +493,11 @@
      "id": "vault/20261120-1230-tt-mostsuccessful-pt2-spain-amancioortega",
      "title": "every country's most successful person. part 2: spain",
      "slides": 1,
+     "tags": {
+      "format": "video",
+      "series": "Most Successful",
+      "hook": "statement"
+     },
      "video": true,
      "vault": true,
      "cover": null,
@@ -471,6 +516,11 @@
      "id": "vault/20261120-1800-ig-thepromotion",
      "title": "ego took the credit. obsession took the company.",
      "slides": 1,
+     "tags": {
+      "format": "video",
+      "series": "",
+      "hook": "statement"
+     },
      "video": true,
      "vault": true,
      "cover": null,
@@ -489,6 +539,11 @@
      "id": "vault/20261120-1900-tt-founder-skit-newruleeveryweek",
      "title": "recruiters every single week with a new rule",
      "slides": 1,
+     "tags": {
+      "format": "video",
+      "series": "Founder",
+      "hook": "statement"
+     },
      "video": true,
      "vault": true,
      "cover": null,
@@ -526,7 +581,7 @@
    "has_writer": false,
    "active": true,
    "paused": false,
-   "schedule": "Up to 3 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 07:30, 12:30, 18:30)",
    "waiting": 13,
    "vault_waiting": 13,
    "posted": 8,
@@ -538,6 +593,11 @@
      "id": "vault/20261123-2100-ig-banana-mug-cake",
      "title": "Cake in 5 minutes, no oven needed. \ud83c\udf4c",
      "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Banana",
+      "hook": "statement"
+     },
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261123-2100-ig-banana-mug-cake_1.jpg",
@@ -548,6 +608,11 @@
      "id": "vault/20261124-1130-ig-chickpea-smash-wrap",
      "title": "No cooking, two lunches, under \u00a31 each. \ud83c\udf2f",
      "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Chickpea",
+      "hook": "statement"
+     },
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg",
@@ -558,6 +623,11 @@
      "id": "vault/20261124-1700-ig-creamy-garlic-mushroom-pasta",
      "title": "Tastes like a restaurant, costs like a sandwich. \ud83c\udf44",
      "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Creamy",
+      "hook": "statement"
+     },
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1700-ig-creamy-garlic-mushroom-pasta_1.jpg",
@@ -568,6 +638,11 @@
      "id": "vault/20261124-2100-ig-big-batch-red-lentil-dal",
      "title": "Four warm bowls for the price of a coffee. \ud83e\uded5",
      "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Big",
+      "hook": "number"
+     },
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-2100-ig-big-batch-red-lentil-dal_1.jpg",
@@ -578,6 +653,11 @@
      "id": "vault/20261125-1130-ig-10-minute-peanut-noodles",
      "title": "Better than the takeaway, ready before the delivery app loads. \ud83e\udd5c",
      "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "10",
+      "hook": "statement"
+     },
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261125-1130-ig-10-minute-peanut-noodles_1.jpg",
@@ -588,6 +668,11 @@
      "id": "vault/20261125-1700-ig-sausage-and-bean-casserole",
      "title": "Proper comfort food for a cold Wednesday. \ud83c\udf2d",
      "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Sausage",
+      "hook": "statement"
+     },
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261125-1700-ig-sausage-and-bean-casserole_1.jpg",
@@ -706,7 +791,7 @@
    "has_writer": false,
    "active": false,
    "paused": false,
-   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 1 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 18:30)",
    "waiting": 0,
    "vault_waiting": 0,
    "posted": 0,
@@ -737,7 +822,7 @@
    "has_writer": false,
    "active": false,
    "paused": false,
-   "schedule": "Up to 1 a day (07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times)",
+   "schedule": "Up to 1 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 18:30)",
    "waiting": 0,
    "vault_waiting": 0,
    "posted": 0,
@@ -750,6 +835,36 @@
    "connected": {
     "instagram": true,
     "linkedin": true
+   }
+  },
+  {
+   "id": "pathweili",
+   "name": "Pathwei LinkedIn",
+   "handle": "pathwei",
+   "format": "Company page text posts, 3 a week (Tuesday to Thursday, 08:30 UK), link in the first comment",
+   "writer": "",
+   "platforms": [
+    "linkedin"
+   ],
+   "instagram": "",
+   "tiktok": "",
+   "linkedin": "pathwei",
+   "per_day": 1,
+   "has_writer": false,
+   "active": false,
+   "paused": false,
+   "schedule": "08:30 UK, Tuesday to Thursday",
+   "waiting": 0,
+   "vault_waiting": 0,
+   "posted": 0,
+   "manual": false,
+   "off": false,
+   "mirror": false,
+   "next": [],
+   "hand": [],
+   "recent": [],
+   "connected": {
+    "linkedin": false
    }
   }
  ],
