@@ -10,7 +10,7 @@ FORCE_POST=1 (ignore the daily limit, the gap and pause), GRAPH_BASE, GRAPH_VERS
 Flags: --dry-run, --force, --pause ID|all, --resume ID|all.
 Exit codes: 0 ok, 1 failure. A nearly empty AI-written queue is a warning in the log and shows on the dashboard.
 """
-import os, sys, json, time, datetime, subprocess, urllib.request, urllib.parse, urllib.error
+import re, os, sys, json, time, datetime, subprocess, urllib.request, urllib.parse, urllib.error
 import common
 
 ROOT = common.ROOT
@@ -197,6 +197,28 @@ def retry_instagram(a, img_base, dry):
             if "PUBLISH_UNCONFIRMED" in str(e): p.pop("instagram_pending", None)
         common.save_state(a, st); return
 
+def ig_slot_ok(a, p):
+    """"instagram_slots": ["12:30"] limits an account's Instagram to those UTC times (TikTok keeps its full schedule)."""
+    slots = a.get("instagram_slots")
+    return not slots or p.get("at", "")[11:16] in slots
+
+def unqueue_instagram(a, dry):
+    """Instagram posts already handed to Buffer at a time the account no longer uses are taken back out of Buffer's queue."""
+    if dry or not a.get("instagram_slots"): return
+    st = common.load_state(a); now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()); changed = False
+    ch = common.buffer_channel("instagram", a["instagram"])
+    if not ch: return
+    for p in st["posted"]:
+        m = re.search(r"post ([0-9a-f]{12,})", str(p.get("media_id", "")))
+        if not m or p.get("at", "") <= now or ig_slot_ok(a, p): continue
+        try:
+            r = common.gql('mutation { deletePost(input: {id: "%s"}) { __typename ... on MutationError { message } } }' % m.group(1), ch["key"])["deletePost"]
+            ok = not (r or {}).get("message")
+        except Exception as e: ok = False; r = str(e)[:200]
+        log(f"{a['name']}: Instagram post {p['post']} at {p['at']} taken out of Buffer's queue: {'done' if ok else r}")
+        if ok: p["media_id"] = None; p["instagram_skipped"] = "outside the Instagram times"; changed = True
+    if changed: common.save_state(a, st)
+
 def mirror_instagram(a, img_base, dry):
     """Accounts with "mirror": true send every automatic TikTok post to their Instagram account as well, through Buffer.
     Posts still in the future are scheduled there for the same time; ones whose time has passed (within two days) go at once."""
@@ -210,6 +232,7 @@ def mirror_instagram(a, img_base, dry):
         it = items.get(p["post"])
         if not it or p.get("media_id") or p.get("by_hand") or p.get("instagram_tries", 0) >= 3 or p.get("at", "") < cutoff: continue
         if not str(p.get("tiktok", "")).startswith("sent"): continue
+        if not ig_slot_ok(a, p): continue
         urls = [f"{img_base}/{it['rel']}/{urllib.parse.quote(m)}" for m in it["media"]]
         try: r = via_buffer("instagram", a["instagram"], urls, it["caption"], it["video"], when=(p["at"][:19] + ".000Z") if p["at"] > soon else None)
         except Exception as e: r = f"failed: {e}"[:300]
@@ -347,7 +370,7 @@ def main():
         if only != "all" and a["id"] != only: continue
         try:
             results[a["id"]] = post_account(a, force, dry, img_base)
-            if not a.get("manual") and not a.get("off"): mirror_instagram(a, img_base, dry)
+            if not a.get("manual") and not a.get("off"): unqueue_instagram(a, dry); mirror_instagram(a, img_base, dry)
         except Exception as e:
             log(f"::error::{a['name']}: {e}"); results[a["id"]] = "failed"
     log("Summary:", json.dumps(results))
