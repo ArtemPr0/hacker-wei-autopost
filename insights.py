@@ -58,7 +58,8 @@ def main():
     out = {"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "days": DAYS, "min_posts": MIN, "windows": WINDOWS, "accounts": [], "lines": []}
     cands = []
     for c in d.get("channels", []):
-        posts = [p for p in c.get("posts", []) if (p.get("at") or "") >= since]
+        young = (now - datetime.timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%S")      # numbers come in about a day late
+        posts = [p for p in c.get("posts", []) if since <= (p.get("at") or "") <= young]
         if not posts: continue
         who = f'{c.get("brand") or "@" + c["handle"]} {c["service"].capitalize().replace("Tiktok", "TikTok").replace("Linkedin", "LinkedIn")}'
         acc = {"brand": c.get("brand"), "brand_id": c.get("brand_id"), "service": c["service"], "handle": c["handle"], "posts": len(posts)}

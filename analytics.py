@@ -94,8 +94,11 @@ def main():
                         thumb = next((a.get("thumbnail") for a in (n.get("assets") or []) if a and a.get("thumbnail")), None)
                         kinds = [a.get("__typename") for a in (n.get("assets") or []) if a]
                         tg = TAGS.get(n.get("id"))
-                        tg = common.tags(*tg) if tg else {"format": "video" if "VideoAsset" in kinds else "carousel" if len(kinds) > 1 else "photo" if kinds else "",
-                                                          "series": "", "hook": common.hook_of(n.get("text"))}
+                        lk = n.get("externalLink") or ""
+                        # posts made straight in the apps: tag the format only where Buffer's data shows it (a reel link, a video file,
+                        # several images); a single thumbnail could be a video or a photo, so it stays untagged
+                        tg = common.tags(*tg) if tg else {"format": "video" if ("/reel/" in lk or "VideoAsset" in kinds) else "carousel" if len(kinds) > 1
+                                                          else "photo" if "/p/" in lk and kinds else "", "series": "", "hook": common.hook_of(n.get("text"))}
                         at = n.get("sentAt") or n.get("dueAt") or n.get("createdAt")
                         if at and at < since: old = True; continue
                         posts.append({"id": n.get("id"), "at": n.get("sentAt") or n.get("dueAt") or n.get("createdAt"),
