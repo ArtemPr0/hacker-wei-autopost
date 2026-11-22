@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Writes QUEUE.md (every waiting post for every account, with thumbnails) and status.json (what the Pathwei admin dashboard reads)."""
 import os, json, datetime
-import common
+import common, post
 ROOT = common.ROOT
 repo = os.environ.get("GITHUB_REPOSITORY", "ArtemPr0/hacker-wei-autopost")
 raw = f"https://raw.githubusercontent.com/{repo}/main"
@@ -11,8 +11,22 @@ except Exception: pz = {}
 
 HAVE_BUFFER = any(k.startswith("BUFFER_API_KEY") for k in common.secrets())
 
+def schedule(a):
+    """Plain words for when an account posts, including the time test."""
+    n = a.get("per_day", 1)
+    if a.get("slots_uk"):
+        days = a.get("days"); names = "Monday Tuesday Wednesday Thursday Friday Saturday Sunday".split()
+        return f"{', '.join(a['slots_uk'])} UK" + (f", {names[days[0]]} to {names[days[-1]]}" if days else ", every day")
+    start = datetime.date.fromisoformat(a.get("time_test_from") or post.TEST_FROM)
+    end = start + datetime.timedelta(days=post.TEST_DAYS - 1)
+    today = datetime.date.today()
+    if a.get("time_test") is not False and today <= end:
+        return (f"Up to {n} a day. Time test {start:%-d %b} to {end:%-d %b}: posts rotate through {', '.join(post.WINDOWS)} UK"
+                + (f" (until then {', '.join(post.SLOTS[-min(3, n):])})" if today < start else ""))
+    return f"Up to {n} a day at {', '.join(post.slots_for(a, today.isoformat()))} UTC today (best two windows plus one new time)"
+
 def item(i, a=None):
-    d = {"id": i["key"], "title": i["caption"].splitlines()[0][:160], "slides": len(i["media"]), "video": i["video"], "vault": i["vault"],
+    d = {"id": i["key"], "title": i["caption"].splitlines()[0][:160], "slides": len(i["media"]), "tags": common.tags(a, i) if a else None, "video": i["video"], "vault": i["vault"],
          "cover": None if i["video"] else f"{raw}/{i['rel']}/{i['media'][0]}"}
     if i["at"]: d["at"] = i["at"]
     if i["platform"]: d["platform"] = i["platform"]
@@ -37,7 +51,7 @@ for a in common.accounts():
             "platforms": platforms, "instagram": a.get("instagram") or "", "tiktok": a.get("tiktok") or "", "linkedin": a.get("linkedin") or "", "per_day": a.get("per_day", 1),
             "has_writer": bool(a.get("profile")), "active": bool(platforms) and not a.get("manual") and not a.get("off") and (bool(a.get("profile")) or bool(todo)),
             "paused": bool(pz.get("paused")) or bool((pz.get("accounts") or {}).get(a["id"])),
-            "schedule": f"Up to {a.get('per_day', 1)} a day ({cfg.get('slots', '')})" if platforms else "No platform connected",
+            "schedule": schedule(a) if platforms else "No platform connected",
             "waiting": len(todo), "vault_waiting": len([t for t in todo if t["vault"]]),
             "posted": len([p for p in st if p.get("date") != "manual"]), "manual": bool(a.get("manual")), "off": bool(a.get("off")), "mirror": bool(a.get("mirror")),
             "next": [item(i, a) for i in todo if not common.by_hand(a, i)][:6], "hand": [item(i, a) for i in todo if common.by_hand(a, i)][:8], "recent": recent}

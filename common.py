@@ -32,9 +32,9 @@ def _items(folder, prefix):
         pics = [f for f in files if re.fullmatch(re.escape(name) + r"_\d+\.(jpe?g|png)", f, re.I)]
         pics.sort(key=lambda f: int(re.search(r"_(\d+)\.\w+$", f).group(1)))
         media = vids[:1] or pics
-        if not media: continue
         try: meta = json.load(open(os.path.join(folder, name + "_meta.json"), encoding="utf8"))
         except Exception: meta = {}
+        if not media and meta.get("format") != "text": continue      # a text post (LinkedIn) is a caption with format "text"
         out.append({"meta": meta, "at": meta.get("at") or "", "platform": meta.get("platform") or "", "hold": "" if meta.get("hold") == "song" else (meta.get("hold") or ""),   # carousels no longer wait for a song: TikTok's music cannot be added through Buffer
                     "key": prefix + name, "name": name, "folder": folder, "rel": os.path.relpath(folder, ROOT).replace(os.sep, "/"),
                     "media": media, "video": bool(vids), "vault": bool(prefix),
@@ -129,7 +129,7 @@ def series_of(title):
 def tags(a, i):
     """format (carousel, video, photo), series and hook for one queue or vault item. A meta.json value always wins."""
     m = i.get("meta") or {}
-    fmt = m.get("format") or ("video" if i.get("video") else "carousel" if len(i.get("media") or []) > 1 else "photo")
+    fmt = m.get("format") or ("video" if i.get("video") else "carousel" if len(i.get("media") or []) > 1 else "photo" if i.get("media") else "text")
     series = m.get("series") or (series_of(m.get("title") or i.get("name", "").split("-", 3)[-1]) if i.get("vault") else a.get("series") or "")
     return {"format": fmt, "series": series, "hook": m.get("hook") or hook_of(i.get("caption"))}
 

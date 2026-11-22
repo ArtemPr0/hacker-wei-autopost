@@ -8,6 +8,7 @@ The batch folder is what the MARKETING chat produces:
     TikTok/<N>_<Account_Name>/<HHMM>_TikTok_<Account>_<DayDDMon>_<Title>/slide_1.png    a carousel (a folder of slides)
     .../<same name>_CAPTION.txt     the caption; anything after a line of "---" is notes, and a "Sound:" note is kept
     Instagram/<handle>/<HHMM>_Instagram_<handle>_<DayDDMon>_<Title>.mp4
+    LinkedIn/<account>/<HHMM>_LinkedIn_<account>_<DayDDMon>_<Title>_CAPTION.txt   a text post ("Link: <url>" after "---" goes in the first comment)
     BACKUP_if_not_filmed_<name>.mp4 is used when <name> has a caption but no video.
 Times are UK time. Each post becomes vault/<account>/<YYYYMMDD-HHMM-platform-title>.* with a _meta.json holding its time.
 Carousels go out without a song (Buffer cannot add TikTok music). Each post's meta.json gets "format" (carousel, video, photo),
@@ -29,7 +30,7 @@ def account_for(folder_name, accounts):
     return None
 
 def parse(stem):
-    m = re.match(r"(\d{2})(\d{2})_(TikTok|Instagram)_[^_]+_[A-Za-z]{3}(\d{1,2})([A-Za-z]{3})_(.+)$", stem)
+    m = re.match(r"(\d{2})(\d{2})_(TikTok|Instagram|LinkedIn)_[^_]+_[A-Za-z]{3}(\d{1,2})([A-Za-z]{3})_(.+)$", stem)
     if not m: return None
     hh, mm, plat, day, mon, title = m.groups()
     now = datetime.datetime.now(UK)
@@ -42,13 +43,13 @@ def main():
     dry, replace = "--dry-run" in sys.argv, "--replace" in sys.argv
     if not args: print(__doc__); return 1
     batch = args[0]; accounts = common.accounts(); cleared = set(); n = 0
-    for plat_dir in ("TikTok", "Instagram"):
+    for plat_dir in ("TikTok", "Instagram", "LinkedIn"):
         base = os.path.join(batch, plat_dir)
         if not os.path.isdir(base): continue
         for acc_dir in sorted(os.listdir(base)):
             folder = os.path.join(base, acc_dir)
             if not os.path.isdir(folder): continue
-            a = account_for(acc_dir, accounts)
+            a = account_for(acc_dir, [x for x in accounts if x.get("auto_linkedin")] if plat_dir == "LinkedIn" else accounts) or (None if plat_dir == "LinkedIn" else None)
             if not a: print(f"SKIPPED {plat_dir}/{acc_dir}: no account with that name in accounts.json"); continue
             vdir = common.vault_dir(a)
             if replace and a["id"] not in cleared and not dry:
@@ -68,7 +69,7 @@ def main():
                 hook = (re.search(r"^Hook:\s*(.+)$", notes, re.M) or [None, ""])[1].strip().lower()
                 slides = os.path.join(folder, stem)
                 video = next((os.path.join(folder, f) for f in (stem + ".mp4", stem + ".mov", "BACKUP_if_not_filmed_" + stem + ".mp4") if os.path.exists(os.path.join(folder, f))), None)
-                name = f"{when:%Y%m%d-%H%M}-{'tt' if plat == 'tiktok' else 'ig'}-{re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:40]}"
+                name = f"{when:%Y%m%d-%H%M}-{ {'tiktok': 'tt', 'instagram': 'ig', 'linkedin': 'li'}[plat]}-{re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:40]}"
                 meta = {"at": when.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "platform": plat, "title": title, "sound": sound}
                 meta["series"] = series or common.series_of(title)
                 meta["hook"] = hook or common.hook_of(text)
@@ -79,6 +80,10 @@ def main():
                 elif video:
                     pics = []; meta["format"] = "video"; kind = "video" + (" (BACKUP, the planned video was not in the batch)" if "BACKUP_" in video else "")
                     if "BACKUP_" in video: meta["note"] = "Backup video. The plan was to film this one; see the script in the batch."
+                elif plat == "linkedin":
+                    pics = []; meta["format"] = "text"; kind = "text post"
+                    link = (re.search(r"^Link:\s*(\S+)", notes, re.M) or [None, ""])[1]
+                    if link: meta["link"] = link
                 else:
                     print(f"SKIPPED {stem}: caption but no video or slides"); continue
                 print(f"{a['name']:<20} {when:%a %d %b %H:%M} UK  {plat:<9} {kind:<24} {'HELD for a song: ' + sound if meta.get('hold') else ''}")
@@ -91,7 +96,7 @@ def main():
                         im = Image.open(os.path.join(slides, f)).convert("RGB")
                         if max(im.size) > 1920: im.thumbnail((1920, 1920))
                         im.save(os.path.join(vdir, f"{name}_{k}.jpg"), "JPEG", quality=92)
-                else:
+                elif video:
                     shutil.copy(video, os.path.join(vdir, name + os.path.splitext(video)[1].lower()))
                 open(os.path.join(vdir, name + "_caption.txt"), "w", encoding="utf8").write(text.strip() + "\n")
                 json.dump(meta, open(os.path.join(vdir, name + "_meta.json"), "w", encoding="utf8"), indent=1, ensure_ascii=False)

@@ -1,106 +1,141 @@
 {
- "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
- "accounts": [
-  {
-   "id": "hacker",
-   "name": "Hacker Wei",
-   "handle": "hacker.wei",
-   "dir": "posts",
-   "profile": "hacker",
+  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
+  "accounts": [
+    {
+      "id": "hacker",
+      "name": "Hacker Wei",
+      "handle": "hacker.wei",
+      "dir": "posts",
+      "profile": "hacker",
       "series": "Job hacks",
-   "per_day": 3,
-   "instagram": "hacker.weii",
-   "instagram_slots": ["12:30"],
-   "tiktok": "hacker.wei",
-   "format": "AI job hack carousels, plus vault posts from the MARKETING chat",
-   "writer": "Free AI writes 5 hacks per carousel",
-   "instagram_via": "buffer",
-   "mirror": true
-  },
-  {
-   "id": "pirate",
-   "name": "Pirate Wei",
-   "handle": "pirate.wei",
-   "per_day": 3,
-   "tiktok": "pirate.wei",
-   "format": "Vault only: videos and carousels made in the MARKETING chat",
-   "writer": "None (AI writer switched off)",
-   "queue": false,
-   "instagram": "pirate.wei",
-   "mirror": true
-  },
-  {
-   "id": "only",
-   "name": "The Only Wei",
-   "handle": "the.only.wei",
-   "per_day": 3,
-   "tiktok": "the.only.wei",
-   "format": "Vault only: videos and carousels made in the MARKETING chat",
-   "writer": "None (AI writer switched off)",
-   "queue": false,
-   "instagram": "weigradjobs",
-   "mirror": true
-  },
-  {
-   "id": "unemployed",
-   "name": "You Are Unemployed",
-   "handle": "yourareunemployed",
-   "per_day": 3,
-   "tiktok": "yourareunemployed",
-   "format": "Vault only: videos made in the MARKETING chat",
-   "writer": "None"
-  },
-  {
-   "id": "stories",
-   "name": "Wei Stories",
-   "handle": "wei.stories5",
-   "per_day": 1,
-   "tiktok": "wei.stories5",
-   "instagram": "weistories",
-   "format": "Vault only: videos made in the MARKETING chat",
-   "writer": "None",
-   "mirror": true
-  },
-  {
-   "id": "pathwei",
-   "name": "Pathwei",
-   "handle": "pathwei_ai",
-   "per_day": 3,
-   "tiktok": "pathwei_ai",
-   "format": "Main account. Posted by hand from the dashboard, never automatically",
-   "writer": "None",
-   "manual": true,
-   "instagram": "pathwei.ai"
-  },
-  {
-   "id": "chef",
-   "name": "Chef Wei",
-   "handle": "cheff.wei",
-   "per_day": 3,
-   "instagram": "cheff.wei",
-   "format": "Cheap student recipe carousels, 3 a day (11:30, 17:00, 21:00 UK), food photos from Higgsfield",
-   "writer": "Made in batches (vault)"
-  },
-  {
-   "id": "pathweiapp",
-   "name": "Pathwei App",
-   "handle": "pathwei.app",
-   "per_day": 1,
-   "instagram": "pathwei.app",
-   "off": true,
-   "format": "Listed only. Not automated yet",
-   "writer": "None"
-  },
-  {
-   "id": "mrpathwei",
-   "name": "Mr Wei",
-   "handle": "mr.pathwei",
-   "per_day": 1,
-   "instagram": "mr.pathwei",
-   "off": true,
-   "format": "Listed only. Not automated yet (Instagram and LinkedIn)",
-   "writer": "None",
-   "linkedin": "mr-wei"
-  }
- ]
+      "per_day": 3,
+      "instagram": "hacker.weii",
+      "instagram_slots": [
+        "11:00"
+      ],
+      "tiktok": "hacker.wei",
+      "format": "AI job hack carousels, plus vault posts from the MARKETING chat",
+      "writer": "Free AI writes 5 hacks per carousel",
+      "instagram_via": "buffer",
+      "mirror": true
+    },
+    {
+      "id": "pirate",
+      "name": "Pirate Wei",
+      "handle": "pirate.wei",
+      "per_day": 3,
+      "tiktok": "pirate.wei",
+      "format": "Vault only: videos and carousels made in the MARKETING chat",
+      "writer": "None (AI writer switched off)",
+      "queue": false,
+      "instagram": "pirate.wei",
+      "mirror": true
+    },
+    {
+      "id": "only",
+      "name": "The Only Wei",
+      "handle": "the.only.wei",
+      "per_day": 3,
+      "tiktok": "the.only.wei",
+      "format": "Vault only: videos and carousels made in the MARKETING chat",
+      "writer": "None (AI writer switched off)",
+      "queue": false,
+      "instagram": "weigradjobs",
+      "mirror": true
+    },
+    {
+      "id": "unemployed",
+      "name": "You Are Unemployed",
+      "handle": "yourareunemployed",
+      "per_day": 3,
+      "tiktok": "yourareunemployed",
+      "format": "Vault only: videos made in the MARKETING chat",
+      "writer": "None"
+    },
+    {
+      "id": "stories",
+      "name": "Wei Stories",
+      "handle": "wei.stories5",
+      "per_day": 1,
+      "tiktok": "wei.stories5",
+      "instagram": "weistories",
+      "format": "Vault only: videos made in the MARKETING chat",
+      "writer": "None",
+      "mirror": true
+    },
+    {
+      "id": "pathwei",
+      "name": "Pathwei",
+      "handle": "pathwei_ai",
+      "per_day": 3,
+      "tiktok": "pathwei_ai",
+      "format": "Main account. Posted by hand from the dashboard, never automatically",
+      "writer": "None",
+      "manual": true,
+      "instagram": "pathwei.ai"
+    },
+    {
+      "id": "chef",
+      "name": "Chef Wei",
+      "handle": "cheff.wei",
+      "per_day": 3,
+      "instagram": "cheff.wei",
+      "format": "Cheap student recipe carousels, 3 a day (11:30, 17:00, 21:00 UK), food photos from Higgsfield",
+      "writer": "Made in batches (vault)"
+    },
+    {
+      "id": "pathweiapp",
+      "name": "Pathwei App",
+      "handle": "pathwei.app",
+      "per_day": 1,
+      "instagram": "pathwei.app",
+      "off": true,
+      "format": "Listed only. Not automated yet",
+      "writer": "None"
+    },
+    {
+      "id": "mrpathwei",
+      "name": "Mr Wei",
+      "handle": "mr.pathwei",
+      "per_day": 1,
+      "instagram": "mr.pathwei",
+      "off": true,
+      "format": "Listed only. Not automated yet (Instagram and LinkedIn)",
+      "writer": "None",
+      "linkedin": "mr-wei",
+      "when_approved": {
+        "instagram_per_day": 1,
+        "linkedin_days": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "linkedin_slots_uk": [
+          "08:45"
+        ]
+      }
+    },
+    {
+      "id": "pathweili",
+      "name": "Pathwei LinkedIn",
+      "handle": "pathwei",
+      "linkedin": "pathwei",
+      "auto_linkedin": true,
+      "format": "Company page text posts, 3 a week (Tuesday to Thursday, 08:30 UK), link in the first comment",
+      "per_day": 1,
+      "days": [
+        1,
+        2,
+        3
+      ],
+      "slots_uk": [
+        "08:30"
+      ],
+      "time_test": false,
+      "queue": false,
+      "link": "https://pathwei.ai"
+    }
+  ]
 }

@@ -22,6 +22,56 @@ AHEAD_H = 24     # a timed vault post is handed to Buffer this many hours before
 LATE_H = 6       # and is dropped (left in the vault, flagged) if it could not be scheduled within this many hours after it
 SLOTS = ["07:30", "12:30", "18:30"]   # UTC. The workflow wakes every hour; an account posts when a slot has passed that it has not used yet,
                                       # so a late or missed run only delays a post, it never loses one.
+# Time testing: for TEST_DAYS from an account's time_test_from date every automatic account rotates its posts through these
+# UK-time windows; afterwards it keeps its best two windows (median views, 4+ posts each) and one post a day explores another time.
+WINDOWS = ["07:30", "11:00", "15:00", "19:00"]
+EXPLORE = ["09:00", "13:00", "17:00", "21:00"] + WINDOWS
+TEST_FROM = "2026-11-24"
+TEST_DAYS = 14
+UK = __import__("zoneinfo").ZoneInfo("Europe/London")
+
+def uk_to_utc(day, hhmm):
+    """'2026-11-24', '07:30' (UK time) -> '07:30' in UTC on that day."""
+    t = datetime.datetime.strptime(f"{day} {hhmm}", "%Y-%m-%d %H:%M").replace(tzinfo=UK).astimezone(datetime.timezone.utc)
+    return t.strftime("%H:%M")
+
+_window_stats = None
+def window_stats(a):
+    """{window: [views, ...]} for an account's posts, read from analytics.json (its TikTok first, else any channel)."""
+    global _window_stats
+    if _window_stats is None:
+        try: _window_stats = json.load(open(os.path.join(ROOT, "analytics.json"))).get("channels", [])
+        except Exception: _window_stats = []
+    import insights
+    chans = sorted((c for c in _window_stats if c.get("brand_id") == a["id"]), key=lambda c: c.get("service") != "tiktok")
+    out = {}
+    for c in chans[:1]:
+        for p in c.get("posts", []):
+            w = insights.window(p["at"]) if p.get("at") else None
+            if w: out.setdefault(w, []).append(insights.views(p))
+    return out
+
+def slots_for(a, day):
+    """The UTC times an account posts on a day (YYYY-MM-DD), in order."""
+    d = datetime.date.fromisoformat(day)
+    if a.get("days") is not None and d.weekday() not in a["days"]: return []
+    n = max(1, int(a.get("per_day", 1)))
+    if a.get("slots_uk"): return sorted(uk_to_utc(day, t) for t in a["slots_uk"][:n])
+    if a.get("time_test") is False: return SLOTS[-min(len(SLOTS), n):]
+    k = (d - datetime.date.fromisoformat(a.get("time_test_from") or TEST_FROM)).days
+    if k < 0: return SLOTS[-min(len(SLOTS), n):]
+    if k < TEST_DAYS:
+        uk = [WINDOWS[(k * n + i) % len(WINDOWS)] for i in range(min(n, len(WINDOWS)))]
+    else:
+        import statistics
+        st = window_stats(a)
+        ranked = sorted((w for w in WINDOWS if len(st.get(w, [])) >= 4), key=lambda w: -statistics.median(st[w]))
+        ranked += [w for w in WINDOWS if w not in ranked]        # windows still short of 4 posts come after the proven ones
+        keep = ranked[:min(2, n - 1)] if n >= 2 else [ranked[0]] if k % 2 else []
+        others = [t for t in EXPLORE if t not in keep]
+        uk = (keep + [others[k % len(others)]])[:max(n, 1)]
+    return sorted(uk_to_utc(day, t) for t in uk)
+
 DEFAULT_IG_ID = "17841413475185588"  # hacker.weii, used only on graph.facebook.com
 
 def log(*a): print(*a, flush=True)
@@ -51,7 +101,11 @@ def call(method, path, params, tries=3):
 
 gql = common.gql
 
-def via_buffer(service, handle, urls, caption, video=False, when=None):
+def link_for(a, it):
+    """The link a LinkedIn post puts in its first comment: the post's own meta "link", else the account's tracked link."""
+    return (it.get("meta") or {}).get("link") or a.get("link") or None
+
+def via_buffer(service, handle, urls, caption, video=False, when=None, link=None):
     """Sends a carousel or a video to a channel connected in Buffer (an approved partner of TikTok and Instagram). Returns a short status."""
     if not any(k.startswith("BUFFER_API_KEY") for k in common.secrets()): return "not set up"
     ch = common.buffer_channel(service, handle)
@@ -62,6 +116,8 @@ def via_buffer(service, handle, urls, caption, video=False, when=None):
     meta = ""
     if service == "instagram":
         meta = ', metadata: {instagram: {type: %s, shouldShareToFeed: true}}' % ("reel" if video else "post")
+    if service == "linkedin" and link:
+        meta = ', metadata: {linkedin: {firstComment: %s}}' % json.dumps(link)
     soon = time.strftime("%Y-%m-%dT%H:%M:%S.000Z", time.gmtime(time.time() + 180))
     last = ""
     modes = ['customScheduled, dueAt: "%s"' % when] if when else ["shareNow", 'customScheduled, dueAt: "%s"' % soon, "addToQueue"]
@@ -250,8 +306,9 @@ def post_account(a, force, dry, img_base):
         log(f"{name}: listed only, not automated yet."); return "skipped"
     if a.get("manual"):
         log(f"{name}: posted by hand from the dashboard, never automatically."); return "skipped"
-    if not a.get("instagram") and not a.get("tiktok"):
+    if not a.get("instagram") and not a.get("tiktok") and not a.get("linkedin"):
         log(f"{name}: no connected platform yet."); return "skipped"
+    lead = "tiktok" if a.get("tiktok") else "linkedin" if a.get("linkedin") and not a.get("instagram") else None
     retry_instagram(a, img_base, dry)
     st = common.load_state(a)
     todo = [t for t in common.waiting(a) if not t["hold"]]
@@ -261,6 +318,15 @@ def post_account(a, force, dry, img_base):
     timed = [t for t in todo if t["at"]]
     todo = [t for t in todo if not t["at"]]
     handed = 0
+    if a.get("time_test") is not False and not a.get("slots_uk"):
+        by_day = {}
+        for it in sorted(timed, key=lambda i: i["at"]): by_day.setdefault(it["at"][:10], []).append(it)
+        for day, its in by_day.items():
+            sl = slots_for(a, day)
+            k = (datetime.date.fromisoformat(day) - datetime.date.fromisoformat(a.get("time_test_from") or TEST_FROM)).days
+            if not sl or k < 0: continue
+            for j, it in enumerate(its):
+                it["planned_at"] = it["at"]; it["at"] = f"{day}T{sl[j % len(sl)]}:00Z"
     for it in timed:
         if it["at"] > iso(now + datetime.timedelta(hours=AHEAD_H)): continue
         if it["at"] < iso(now - datetime.timedelta(hours=LATE_H)):
@@ -270,17 +336,19 @@ def post_account(a, force, dry, img_base):
         log(f"{name}: timed post {it['key']} for {it['at']}")
         if dry: continue
         entry = {"post": it["key"], "date": it["at"][:10], "at": it["at"], "media_id": None, "title": it["caption"].splitlines()[0][:160], "timed": True}
-        for plat in ("tiktok", "instagram"):
+        for plat in ("tiktok", "instagram", "linkedin"):
+            if plat == "linkedin" and not a.get("auto_linkedin"): continue
             if not a.get(plat) or (it["platform"] and it["platform"] != plat and not (plat == "instagram" and a.get("mirror"))): continue
             if plat == "instagram" and not common.buffer_channel("instagram", a["instagram"]): continue
             if plat == "instagram" and not ig_slot_ok(a, it): continue
-            try: r = via_buffer(plat, a[plat], urls, it["caption"], it["video"], when=when)
+            try: r = via_buffer(plat, a[plat], urls, it["caption"], it["video"], when=when, link=link_for(a, it))
             except Exception as e: r = f"failed: {e}"[:300]
             log(f"{name}: {plat}: {r}")
-            if plat == "tiktok": entry["tiktok"] = r
+            if plat in ("tiktok", "linkedin"): entry[plat] = r
             elif r.startswith("sent"): entry["media_id"] = r
             else: entry["instagram_error"] = r
-        if str(entry.get("tiktok", "")).startswith("sent") or entry["media_id"]:
+        if it.get("planned_at"): entry["planned_at"] = it["planned_at"]
+        if str(entry.get("tiktok", "")).startswith("sent") or str(entry.get("linkedin", "")).startswith("sent") or entry["media_id"]:
             st["posted"].append(entry); common.save_state(a, st); handed += 1
         else:
             log(f"::warning::{name}: {it['key']} could not be scheduled, it will be tried again on the next wake-up.")
@@ -288,30 +356,31 @@ def post_account(a, force, dry, img_base):
         log(f"{name}: nothing else waiting."); return "posted" if handed else "empty"
     # Untimed posts (the AI queue, and vault posts without a time): each coming slot is also handed to Buffer ahead of time,
     # so one wake-up a day is enough. Instagram's own connection cannot schedule ahead; it catches up once the slot has passed.
-    if a.get("tiktok") and not force and not dry and common.buffer_channel("tiktok", a["tiktok"]):
-        slots = SLOTS[-max(1, min(len(SLOTS), int(a.get("per_day", 1)))):]
+    if lead and not force and not dry and common.buffer_channel(lead, a[lead]):
         for day in (now, now + datetime.timedelta(days=1)):
             d = day.strftime("%Y-%m-%d")
+            slots = slots_for(a, d)
             have = len([p for p in st["posted"] if p.get("date") == d])
             for t in slots[have:]:
                 at = f"{d}T{t}:00Z"
                 if not todo or at <= iso(now + datetime.timedelta(minutes=5)) or at > iso(now + datetime.timedelta(hours=AHEAD_H)): continue
                 it = todo[0]
                 urls = [f"{img_base}/{it['rel']}/{urllib.parse.quote(m)}" for m in it["media"]]
-                try: r = via_buffer("tiktok", a["tiktok"], urls, it["caption"], it["video"], when=at[:19] + ".000Z")
+                try: r = via_buffer(lead, a[lead], urls, it["caption"], it["video"], when=at[:19] + ".000Z", link=link_for(a, it))
                 except Exception as e: r = f"failed: {e}"[:300]
                 log(f"{name}: slot {at}: {it['key']}: {r}")
                 if not r.startswith("sent"): break
-                entry = {"post": it["key"], "date": d, "at": at, "media_id": None, "title": it["caption"].splitlines()[0][:160], "timed": True, "tiktok": r}
+                entry = {"post": it["key"], "date": d, "at": at, "media_id": None, "title": it["caption"].splitlines()[0][:160], "timed": True, lead: r}
                 if a.get("instagram") and not a.get("mirror"): entry["instagram_pending"] = True
                 st["posted"].append(entry); common.save_state(a, st); todo.pop(0); handed += 1
-        if not todo: return "posted"
+        if not todo or lead == "linkedin": return "posted" if handed else "skipped"
+    if lead == "linkedin": return "posted" if handed else "skipped"
     today = now.strftime("%Y-%m-%d")
     mine = [p for p in st["posted"] if p.get("date") == today]
     if not force:
         if now.hour >= 22 or now.hour < 6:
             log(f"{name}: quiet hours, no catch-up posts between 22:00 and 06:00."); return "posted" if handed else "skipped"
-        slots = SLOTS[-max(1, min(len(SLOTS), int(a.get("per_day", 1)))):]
+        slots = slots_for(a, today)
         due = len([t for t in slots if now.strftime("%H:%M") >= t])
         if len(mine) >= due:
             log(f"{name}: {len(mine)} posted today, {due} slot(s) passed, nothing due."); return "skipped"
