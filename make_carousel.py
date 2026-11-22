@@ -15,7 +15,7 @@ def b64(name):
 T = {
  "hacker": dict(name="HACKER WEI", bg="#0c0a17", glow="rgba(66,36,112,.75)", ink="#fff", soft="#c9c3e6", acc="#b8ff4f", pill="#a259d9", pilltx="#fff",
                 box="#1f1838", boxline="#a259d9", baroff="#3c345b", dot="#ec6fc3", grid="rgba(6,4,14,.38)", label="&gt; hack_0{n}", boxlabel="DO THIS",
-                cta="Comment the number. Follow for a new hack every day.", font="'Inter'", headw=900, assets="asset_"),
+                cta="Follow for a new hack every day.", font="'Inter'", headw=900, assets="asset_"),
  "pirate": dict(name="PIRATE WEI", bg="#0a1118", glow="rgba(150,28,36,.55)", ink="#fdf6e3", soft="#b9c4cf", acc="#ffc83d", pill="#d7263d", pilltx="#fff",
                 box="#141f2b", boxline="#ffc83d", baroff="#26323f", dot="#d7263d", grid="rgba(255,255,255,.035)", label="EXHIBIT {n}", boxlabel="THE TRUTH",
                 cta="Comment the number. Follow for a daily rant.", font="'Inter'", headw=900, assets="asset_pirate_"),
@@ -46,7 +46,8 @@ def img(data, style, cls=""):
 def bars(n):
     return "".join(f'<div class="bar" style="left:{60+i*139}px;background:{T["acc"] if i < n else T["baroff"]}"></div>' for i in range(7))
 def top():
-    return f'<div class=bg></div><div class=grid></div><div class=pill><span class=d></span>{T["name"]}</div>'
+    """Background only: no account name or handle on any slide (the profile already shows who posted it)."""
+    return '<div class=bg></div><div class=grid></div>'
 def subpill(text, y):
     return f'<div class=pill style="top:{y}px;height:68px;border-radius:34px;font-size:34px;padding:0 22px"><span class=d style="width:14px;height:14px"></span>{text}</div>'
 

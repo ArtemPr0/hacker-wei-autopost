@@ -470,7 +470,7 @@ def caption(sp):
     if sp.get("quote"):
         q = sp["quote"]; lines += [f'"{q["text"]}" {q["who"]} ({q["source"]})', ""]
     lines += [sp["hook"], "", sp["pill"] + ":"] + [f"{i+1}. {h[0].rstrip('.')}" for i, h in enumerate(sp["hacks"])]
-    lines += ["", sp["out"][0] + " Comment the number \U0001F447", P["follow"], "",
+    lines += ["", sp["out"][0] + (" Comment the number \U0001F447" if P["id"] != "hacker" else ""), P["follow"], "",
               " ".join("#" + t for t in sp["hashtags"] + [P["tag"]])]
     return "\n".join(lines)
 
@@ -537,6 +537,7 @@ def run_account(acct, ai, src, dry, budget):
         if not dry:
             for i in range(1, 8): shutil.copy(os.path.join(tmp, "Post 1", f"{i}.jpg"), os.path.join(POSTS, f"{new}_{i}.jpg"))
             open(os.path.join(POSTS, f"{new}_caption.txt"), "w", encoding="utf8").write(caption(sp))
+            shutil.copy(os.path.join(tmp, "spec.json"), os.path.join(ROOT, "state", f"spec_{P['id']}_{new}.json"))   # kept so it can be re-rendered
             topics["used"].append(sp["topic"])
             if P["id"] == "only": topics.setdefault("quotes", []).append(sp["quote"]["text"])
             else: topics.setdefault("areas", []).append(area)
