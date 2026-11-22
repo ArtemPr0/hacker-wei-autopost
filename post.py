@@ -273,6 +273,7 @@ def post_account(a, force, dry, img_base):
         for plat in ("tiktok", "instagram"):
             if not a.get(plat) or (it["platform"] and it["platform"] != plat and not (plat == "instagram" and a.get("mirror"))): continue
             if plat == "instagram" and not common.buffer_channel("instagram", a["instagram"]): continue
+            if plat == "instagram" and not ig_slot_ok(a, it): continue
             try: r = via_buffer(plat, a[plat], urls, it["caption"], it["video"], when=when)
             except Exception as e: r = f"failed: {e}"[:300]
             log(f"{name}: {plat}: {r}")
