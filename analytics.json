@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T16:06:45Z",
+"updated": "2026-11-22T19:58:36Z",
 "days": 90,
 "channels": [
 {
@@ -28,7 +28,11 @@
 "totalTimeWatched": 7.25,
 "averageTimeWatched": 4.78
 },
-"metrics_at": "2026-11-22T15:32:34.050Z"
+"metrics_at": "2026-11-22T15:32:34.050Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff29d61bbbe06957e04b8c",
@@ -46,7 +50,11 @@
 "totalTimeWatched": 23.35,
 "averageTimeWatched": 4.3
 },
-"metrics_at": "2026-11-22T15:32:34.050Z"
+"metrics_at": "2026-11-22T15:32:34.050Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896627f8",
@@ -64,7 +72,11 @@
 "totalTimeWatched": 5.52,
 "averageTimeWatched": 1.95
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896627fc",
@@ -82,7 +94,11 @@
 "totalTimeWatched": 6.9,
 "averageTimeWatched": 2.21
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896628c1",
@@ -100,7 +116,11 @@
 "totalTimeWatched": 1.15,
 "averageTimeWatched": 1.88
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e8966281b",
@@ -118,7 +138,11 @@
 "totalTimeWatched": 15.27,
 "averageTimeWatched": 1.33
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896627fa",
@@ -136,7 +160,11 @@
 "totalTimeWatched": 379.33,
 "averageTimeWatched": 11.61
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896627fe",
@@ -154,7 +182,11 @@
 "totalTimeWatched": 39.57,
 "averageTimeWatched": 8.7
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662819",
@@ -172,7 +204,11 @@
 "totalTimeWatched": 3.6,
 "averageTimeWatched": 1.16
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662817",
@@ -190,7 +226,11 @@
 "totalTimeWatched": 4.42,
 "averageTimeWatched": 1.39
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896628bd",
@@ -208,7 +248,11 @@
 "totalTimeWatched": 4.9,
 "averageTimeWatched": 1.2
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662890",
@@ -226,7 +270,11 @@
 "totalTimeWatched": 6.32,
 "averageTimeWatched": 1.64
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896628bf",
@@ -244,7 +292,11 @@
 "totalTimeWatched": 14.28,
 "averageTimeWatched": 3.41
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e8966288e",
@@ -262,7 +314,11 @@
 "totalTimeWatched": 5.75,
 "averageTimeWatched": 1.57
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e8966289c",
@@ -280,7 +336,11 @@
 "totalTimeWatched": 6.13,
 "averageTimeWatched": 1.59
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662898",
@@ -298,7 +358,11 @@
 "totalTimeWatched": 6.93,
 "averageTimeWatched": 1.73
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662892",
@@ -316,7 +380,11 @@
 "totalTimeWatched": 40.53,
 "averageTimeWatched": 3.46
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662894",
@@ -334,7 +402,11 @@
 "totalTimeWatched": 12.63,
 "averageTimeWatched": 2.79
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662a1d",
@@ -352,7 +424,11 @@
 "totalTimeWatched": 3.58,
 "averageTimeWatched": 2.13
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896628b9",
@@ -370,7 +446,11 @@
 "totalTimeWatched": 7.62,
 "averageTimeWatched": 2.93
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e8966288c",
@@ -388,7 +468,11 @@
 "totalTimeWatched": 14.27,
 "averageTimeWatched": 3.36
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662815",
@@ -406,7 +490,11 @@
 "totalTimeWatched": 13.5,
 "averageTimeWatched": 8.44
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e896628bb",
@@ -424,7 +512,11 @@
 "totalTimeWatched": 0.9,
 "averageTimeWatched": 4.5
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "photo",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e8966289a",
@@ -442,7 +534,11 @@
 "totalTimeWatched": 2.42,
 "averageTimeWatched": 7.63
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662896",
@@ -460,7 +556,11 @@
 "totalTimeWatched": 2.38,
 "averageTimeWatched": 11.92
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662837",
@@ -478,7 +578,11 @@
 "totalTimeWatched": 0.42,
 "averageTimeWatched": 1.47
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfc79d7f54a2e89662813",
@@ -496,7 +600,11 @@
 "totalTimeWatched": 1.12,
 "averageTimeWatched": 6.7
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459fac",
@@ -514,7 +622,11 @@
 "totalTimeWatched": 0.55,
 "averageTimeWatched": 6.6
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459f68",
@@ -532,7 +644,11 @@
 "totalTimeWatched": 26.15,
 "averageTimeWatched": 7.73
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459fa3",
@@ -550,7 +666,11 @@
 "totalTimeWatched": 0.8,
 "averageTimeWatched": 2.82
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459f66",
@@ -568,7 +688,11 @@
 "totalTimeWatched": 3,
 "averageTimeWatched": 10.59
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02b74ef0bfac002a45a33a",
@@ -586,7 +710,11 @@
 "totalTimeWatched": 25.3,
 "averageTimeWatched": 7.87
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459f9d",
@@ -604,7 +732,11 @@
 "totalTimeWatched": 0.8,
 "averageTimeWatched": 5.33
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459f6a",
@@ -622,7 +754,11 @@
 "totalTimeWatched": 0.67,
 "averageTimeWatched": 4.44
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459f63",
@@ -640,7 +776,11 @@
 "totalTimeWatched": 0.28,
 "averageTimeWatched": 1.55
 },
-"metrics_at": "2026-11-22T15:32:34.051Z"
+"metrics_at": "2026-11-22T15:32:34.051Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459f93",
@@ -658,7 +798,11 @@
 "totalTimeWatched": 108.12,
 "averageTimeWatched": 10.41
 },
-"metrics_at": "2026-11-22T15:32:34.052Z"
+"metrics_at": "2026-11-22T15:32:34.052Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b02b74ef0bfac002a45a338",
@@ -676,7 +820,11 @@
 "totalTimeWatched": 80.3,
 "averageTimeWatched": 6.64
 },
-"metrics_at": "2026-11-22T15:32:34.052Z"
+"metrics_at": "2026-11-22T15:32:34.052Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459fa8",
@@ -694,7 +842,11 @@
 "totalTimeWatched": 33.33,
 "averageTimeWatched": 7.69
 },
-"metrics_at": "2026-11-22T15:32:34.052Z"
+"metrics_at": "2026-11-22T15:32:34.052Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02b74df0bfac002a459f5f",
@@ -712,7 +864,11 @@
 "totalTimeWatched": 4.97,
 "averageTimeWatched": 11.04
 },
-"metrics_at": "2026-11-22T15:32:34.052Z"
+"metrics_at": "2026-11-22T15:32:34.052Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 },
@@ -726,6 +882,28 @@
 "disconnected": false,
 "problems": [],
 "posts": [
+{
+"id": "6b0210a0846b0ee9073d2db3",
+"at": "2026-11-22T18:32:39.646Z",
+"text": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.",
+"link": "https://tiktok.com/@hacker.wei/video/7711065063561497889",
+"thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b0210a0846b0ee9073d2db3_thumbnail.jpg",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 0,
+"shares": 0,
+"reach": 0,
+"totalTimeWatched": 0,
+"averageTimeWatched": 0
+},
+"metrics_at": "2026-11-21T21:44:00.917Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "statement",
+"tagged": true
+},
 {
 "id": "6b01b90e0247969092e1bece",
 "at": "2026-11-22T12:32:04.020Z",
@@ -742,7 +920,11 @@
 "totalTimeWatched": 0.58,
 "averageTimeWatched": 1.88
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b014b56d9cbb430a12aef01",
@@ -760,7 +942,11 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b00e0109ffbc8503ce5d605",
@@ -778,7 +964,11 @@
 "totalTimeWatched": 0.72,
 "averageTimeWatched": 2.93
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b00822c44c361911349de73",
@@ -796,7 +986,11 @@
 "totalTimeWatched": 16.92,
 "averageTimeWatched": 8.13
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "number",
+"tagged": true
 },
 {
 "id": "6b000834d5f8acdd0d84ddcd",
@@ -814,7 +1008,11 @@
 "totalTimeWatched": 0.12,
 "averageTimeWatched": 7.04
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6aff7ab4b3e65522f835b499",
@@ -832,7 +1030,11 @@
 "totalTimeWatched": 1.13,
 "averageTimeWatched": 2.72
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6aff7ab3ef915da8dbc57483",
@@ -850,7 +1052,11 @@
 "totalTimeWatched": 0.03,
 "averageTimeWatched": 2.7
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6aff7a5ab3e65522f8358d14",
@@ -868,7 +1074,11 @@
 "totalTimeWatched": 22.87,
 "averageTimeWatched": 1.96
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6aff29bebe5295ac8b6d0fc6",
@@ -886,7 +1096,11 @@
 "totalTimeWatched": 0.32,
 "averageTimeWatched": 1.37
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "Job hacks",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6afdfcf2f83633dc1bab82ba",
@@ -904,7 +1118,11 @@
 "totalTimeWatched": 0.45,
 "averageTimeWatched": 1.44
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e89662671",
@@ -922,7 +1140,11 @@
 "totalTimeWatched": 35.95,
 "averageTimeWatched": 2.7
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e89662679",
@@ -940,7 +1162,11 @@
 "totalTimeWatched": 25.63,
 "averageTimeWatched": 2.14
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e8966266f",
@@ -958,7 +1184,11 @@
 "totalTimeWatched": 90.12,
 "averageTimeWatched": 7.37
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "photo",
+"series": "",
+"hook": "number",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e89662673",
@@ -976,7 +1206,11 @@
 "totalTimeWatched": 8.87,
 "averageTimeWatched": 2.48
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "photo",
+"series": "",
+"hook": "number",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e896626af",
@@ -994,7 +1228,11 @@
 "totalTimeWatched": 128.62,
 "averageTimeWatched": 11.32
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e89662690",
@@ -1012,7 +1250,11 @@
 "totalTimeWatched": 24.77,
 "averageTimeWatched": 6.38
 },
-"metrics_at": "2026-11-22T15:30:56.541Z"
+"metrics_at": "2026-11-22T15:30:56.541Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e89662677",
@@ -1030,7 +1272,11 @@
 "totalTimeWatched": 32.45,
 "averageTimeWatched": 2.6
 },
-"metrics_at": "2026-11-22T15:30:56.542Z"
+"metrics_at": "2026-11-22T15:30:56.542Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e896626ad",
@@ -1048,7 +1294,11 @@
 "totalTimeWatched": 0.38,
 "averageTimeWatched": 2.88
 },
-"metrics_at": "2026-11-22T15:30:56.542Z"
+"metrics_at": "2026-11-22T15:30:56.542Z",
+"fmt": "photo",
+"series": "",
+"hook": "number",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e89662675",
@@ -1066,7 +1316,11 @@
 "totalTimeWatched": 3.62,
 "averageTimeWatched": 5.17
 },
-"metrics_at": "2026-11-22T15:30:56.542Z"
+"metrics_at": "2026-11-22T15:30:56.542Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdfbf1d7f54a2e8966268e",
@@ -1084,7 +1338,11 @@
 "totalTimeWatched": 11.45,
 "averageTimeWatched": 6.48
 },
-"metrics_at": "2026-11-22T15:30:56.542Z"
+"metrics_at": "2026-11-22T15:30:56.542Z",
+"fmt": "photo",
+"series": "",
+"hook": "number",
+"tagged": false
 }
 ]
 },
@@ -1114,7 +1372,11 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "Most Successful",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6aff7a5b1a1724ac8f558991",
@@ -1132,7 +1394,11 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6afdf6b60b9dbf88e1113b29",
@@ -1150,7 +1416,11 @@
 "totalTimeWatched": 28.2,
 "averageTimeWatched": 4.62
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdf6b60b9dbf88e1113b18",
@@ -1168,7 +1438,11 @@
 "totalTimeWatched": 36.88,
 "averageTimeWatched": 5.23
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdf6b60b9dbf88e1113b16",
@@ -1186,7 +1460,11 @@
 "totalTimeWatched": 15.85,
 "averageTimeWatched": 3.09
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdf6b60b9dbf88e1113b2b",
@@ -1204,7 +1482,11 @@
 "totalTimeWatched": 61.67,
 "averageTimeWatched": 11.42
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afdf6b70b9dbf88e1113bb8",
@@ -1222,7 +1504,11 @@
 "totalTimeWatched": 16.6,
 "averageTimeWatched": 5.66
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdf6b60b9dbf88e1113b2f",
@@ -1240,7 +1526,11 @@
 "totalTimeWatched": 21.63,
 "averageTimeWatched": 7.46
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afdf6b60b9dbf88e1113b2d",
@@ -1258,7 +1548,11 @@
 "totalTimeWatched": 40.08,
 "averageTimeWatched": 12.4
 },
-"metrics_at": "2026-11-22T15:10:07.884Z"
+"metrics_at": "2026-11-22T15:10:07.884Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 }
 ]
 },
@@ -1279,16 +1573,20 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7710990017904119062?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6b02f5a0fd1ce721d1548247_thumbnail.jpg",
 "metrics": {
-"reactions": 0,
+"reactions": 4,
 "comments": 0,
-"engagementRate": 0,
-"views": 6,
+"engagementRate": 2.19,
+"views": 183,
 "shares": 0,
 "reach": 0,
-"totalTimeWatched": 1.08,
-"averageTimeWatched": 32.78
+"totalTimeWatched": 25.37,
+"averageTimeWatched": 7.58
 },
-"metrics_at": "2026-11-22T14:01:04.397Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b00b0dc3429d1e8b00efd4b",
@@ -1299,14 +1597,18 @@
 "metrics": {
 "reactions": 16,
 "comments": 2,
-"engagementRate": 6.88,
-"views": 378,
+"engagementRate": 6.86,
+"views": 379,
 "shares": 8,
 "reach": 170,
-"totalTimeWatched": 75.95,
-"averageTimeWatched": 10.4
+"totalTimeWatched": 77.88,
+"averageTimeWatched": 10.53
 },
-"metrics_at": "2026-11-22T14:01:04.390Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0073ae519c00cad8571871",
@@ -1317,14 +1619,18 @@
 "metrics": {
 "reactions": 32,
 "comments": 4,
-"engagementRate": 6.53,
-"views": 551,
+"engagementRate": 6.33,
+"views": 569,
 "shares": 0,
 "reach": 217,
-"totalTimeWatched": 196.98,
-"averageTimeWatched": 16.62
+"totalTimeWatched": 206.98,
+"averageTimeWatched": 16.85
 },
-"metrics_at": "2026-11-22T14:01:04.424Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff4b13d778a5b42d26f996",
@@ -1336,13 +1642,17 @@
 "reactions": 28,
 "comments": 5,
 "engagementRate": 5.21,
-"views": 633,
+"views": 634,
 "shares": 0,
 "reach": 626,
-"totalTimeWatched": 142.48,
-"averageTimeWatched": 11.7
+"totalTimeWatched": 142.55,
+"averageTimeWatched": 11.67
 },
-"metrics_at": "2026-11-22T14:01:04.501Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff2c1c597501ffa355c166",
@@ -1353,14 +1663,18 @@
 "metrics": {
 "reactions": 40,
 "comments": 2,
-"engagementRate": 6.93,
-"views": 606,
+"engagementRate": 6.92,
+"views": 607,
 "shares": 0,
 "reach": 601,
-"totalTimeWatched": 98.43,
-"averageTimeWatched": 8.32
+"totalTimeWatched": 98.48,
+"averageTimeWatched": 8.3
 },
-"metrics_at": "2026-11-22T14:01:04.452Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "pov",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874bb",
@@ -1369,16 +1683,20 @@
 "link": "https://www.tiktok.com/@pathwei_ai/video/7709532518231330070?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afe34aed1466d64a86236dd/6afe38f2ece6dfde5f14e346/6afe38f49cb077cbd98874bb_thumbnail.jpg",
 "metrics": {
-"reactions": 90,
+"reactions": 92,
 "comments": 8,
-"engagementRate": 6.05,
-"views": 1753,
+"engagementRate": 6.03,
+"views": 1791,
 "shares": 8,
 "reach": 1625,
-"totalTimeWatched": 380.02,
-"averageTimeWatched": 10.45
+"totalTimeWatched": 384.93,
+"averageTimeWatched": 10.37
 },
-"metrics_at": "2026-11-22T14:01:04.353Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874bd",
@@ -1389,14 +1707,18 @@
 "metrics": {
 "reactions": 61,
 "comments": 2,
-"engagementRate": 7.21,
-"views": 916,
+"engagementRate": 7.2,
+"views": 917,
 "shares": 3,
 "reach": 908,
-"totalTimeWatched": 92.12,
-"averageTimeWatched": 5.26
+"totalTimeWatched": 92.38,
+"averageTimeWatched": 5.27
 },
-"metrics_at": "2026-11-22T14:01:04.461Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874c1",
@@ -1411,10 +1733,14 @@
 "views": 719,
 "shares": 0,
 "reach": 660,
-"totalTimeWatched": 97.73,
+"totalTimeWatched": 97.77,
 "averageTimeWatched": 7.9
 },
-"metrics_at": "2026-11-22T14:01:04.408Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874c3",
@@ -1432,7 +1758,11 @@
 "totalTimeWatched": 71.82,
 "averageTimeWatched": 5.79
 },
-"metrics_at": "2026-11-22T14:01:04.410Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874c9",
@@ -1444,13 +1774,17 @@
 "reactions": 117,
 "comments": 4,
 "engagementRate": 3.32,
-"views": 3914,
+"views": 3916,
 "shares": 9,
 "reach": 3714,
 "totalTimeWatched": 1405.7,
 "averageTimeWatched": 20.61
 },
-"metrics_at": "2026-11-22T14:01:04.474Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874c5",
@@ -1468,7 +1802,11 @@
 "totalTimeWatched": 50.7,
 "averageTimeWatched": 4.24
 },
-"metrics_at": "2026-11-22T14:01:04.478Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874bf",
@@ -1483,10 +1821,14 @@
 "views": 672,
 "shares": 2,
 "reach": 622,
-"totalTimeWatched": 163.83,
-"averageTimeWatched": 14.08
+"totalTimeWatched": 156.95,
+"averageTimeWatched": 13.49
 },
-"metrics_at": "2026-11-22T14:01:04.471Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874cb",
@@ -1504,7 +1846,11 @@
 "totalTimeWatched": 103.42,
 "averageTimeWatched": 9.32
 },
-"metrics_at": "2026-11-22T14:01:04.417Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd988756b",
@@ -1522,7 +1868,11 @@
 "totalTimeWatched": 60.68,
 "averageTimeWatched": 4.83
 },
-"metrics_at": "2026-11-22T14:01:04.430Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd988751a",
@@ -1534,13 +1884,17 @@
 "reactions": 31,
 "comments": 3,
 "engagementRate": 5.19,
-"views": 693,
+"views": 694,
 "shares": 2,
 "reach": 613,
 "totalTimeWatched": 127.38,
 "averageTimeWatched": 10.56
 },
-"metrics_at": "2026-11-22T14:01:04.383Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd988762c",
@@ -1552,13 +1906,17 @@
 "reactions": 3,
 "comments": 0,
 "engagementRate": 0.45,
-"views": 668,
+"views": 672,
 "shares": 0,
 "reach": 562,
 "totalTimeWatched": 58.67,
 "averageTimeWatched": 5.51
 },
-"metrics_at": "2026-11-22T14:01:04.456Z"
+"metrics_at": "2026-11-22T19:54:05.344Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887622",
@@ -1576,7 +1934,11 @@
 "totalTimeWatched": 108.07,
 "averageTimeWatched": 8.24
 },
-"metrics_at": "2026-11-22T14:01:04.363Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd988751c",
@@ -1588,13 +1950,17 @@
 "reactions": 97,
 "comments": 6,
 "engagementRate": 2.65,
-"views": 4116,
+"views": 4118,
 "shares": 6,
 "reach": 3890,
 "totalTimeWatched": 396.57,
 "averageTimeWatched": 5.55
 },
-"metrics_at": "2026-11-22T14:01:04.482Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887689",
@@ -1612,7 +1978,11 @@
 "totalTimeWatched": 737.28,
 "averageTimeWatched": 9.67
 },
-"metrics_at": "2026-11-22T14:01:04.445Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887632",
@@ -1630,7 +2000,11 @@
 "totalTimeWatched": 1011.5,
 "averageTimeWatched": 10.34
 },
-"metrics_at": "2026-11-22T14:01:04.344Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd988762e",
@@ -1648,7 +2022,11 @@
 "totalTimeWatched": 111.28,
 "averageTimeWatched": 8.83
 },
-"metrics_at": "2026-11-22T14:01:04.381Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd988751e",
@@ -1659,14 +2037,18 @@
 "metrics": {
 "reactions": 17,
 "comments": 5,
-"engagementRate": 2.09,
-"views": 1055,
+"engagementRate": 2.04,
+"views": 1081,
 "shares": 0,
 "reach": 855,
 "totalTimeWatched": 140.48,
 "averageTimeWatched": 8.43
 },
-"metrics_at": "2026-11-22T14:01:04.413Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887518",
@@ -1684,7 +2066,11 @@
 "totalTimeWatched": 139.75,
 "averageTimeWatched": 10.99
 },
-"metrics_at": "2026-11-22T14:01:04.376Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd98874c7",
@@ -1702,7 +2088,11 @@
 "totalTimeWatched": 134.43,
 "averageTimeWatched": 9.74
 },
-"metrics_at": "2026-11-22T14:01:04.373Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887636",
@@ -1720,7 +2110,11 @@
 "totalTimeWatched": 73.15,
 "averageTimeWatched": 5.99
 },
-"metrics_at": "2026-11-22T14:01:04.401Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887634",
@@ -1738,7 +2132,11 @@
 "totalTimeWatched": 78.93,
 "averageTimeWatched": 6.37
 },
-"metrics_at": "2026-11-22T14:01:04.386Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887630",
@@ -1750,13 +2148,17 @@
 "reactions": 13,
 "comments": 5,
 "engagementRate": 2.79,
-"views": 717,
+"views": 718,
 "shares": 2,
 "reach": 624,
 "totalTimeWatched": 114.45,
 "averageTimeWatched": 8.95
 },
-"metrics_at": "2026-11-22T14:01:04.406Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd988756d",
@@ -1774,7 +2176,11 @@
 "totalTimeWatched": 51.07,
 "averageTimeWatched": 10.46
 },
-"metrics_at": "2026-11-22T14:01:04.368Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887569",
@@ -1792,7 +2198,11 @@
 "totalTimeWatched": 48.18,
 "averageTimeWatched": 9.6
 },
-"metrics_at": "2026-11-22T14:01:04.351Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe38f49cb077cbd9887736",
@@ -1810,7 +2220,11 @@
 "totalTimeWatched": 30.58,
 "averageTimeWatched": 8.74
 },
-"metrics_at": "2026-11-22T14:01:04.366Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d154839a",
@@ -1828,7 +2242,11 @@
 "totalTimeWatched": 19.1,
 "averageTimeWatched": 4.06
 },
-"metrics_at": "2026-11-22T14:01:04.465Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d1548255",
@@ -1846,7 +2264,11 @@
 "totalTimeWatched": 25.02,
 "averageTimeWatched": 6.1
 },
-"metrics_at": "2026-11-22T14:01:04.360Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d154838b",
@@ -1864,7 +2286,11 @@
 "totalTimeWatched": 25.05,
 "averageTimeWatched": 5.99
 },
-"metrics_at": "2026-11-22T14:01:04.498Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d1548245",
@@ -1882,7 +2308,11 @@
 "totalTimeWatched": 30.27,
 "averageTimeWatched": 5.77
 },
-"metrics_at": "2026-11-22T14:01:04.403Z"
+"metrics_at": "2026-11-22T19:54:05.345Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d1548259",
@@ -1900,7 +2330,11 @@
 "totalTimeWatched": 13.93,
 "averageTimeWatched": 3.53
 },
-"metrics_at": "2026-11-22T14:01:04.549Z"
+"metrics_at": "2026-11-22T19:54:05.346Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d154824c",
@@ -1918,7 +2352,11 @@
 "totalTimeWatched": 35.08,
 "averageTimeWatched": 5.91
 },
-"metrics_at": "2026-11-22T14:01:04.348Z"
+"metrics_at": "2026-11-22T19:54:05.346Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d154825f",
@@ -1936,7 +2374,11 @@
 "totalTimeWatched": 84.17,
 "averageTimeWatched": 9.28
 },
-"metrics_at": "2026-11-22T14:01:04.378Z"
+"metrics_at": "2026-11-22T19:54:05.346Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d15487a9",
@@ -1954,7 +2396,11 @@
 "totalTimeWatched": 59.67,
 "averageTimeWatched": 10.75
 },
-"metrics_at": "2026-11-22T14:01:04.545Z"
+"metrics_at": "2026-11-22T19:54:05.346Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d154839c",
@@ -1972,7 +2418,11 @@
 "totalTimeWatched": 23.37,
 "averageTimeWatched": 5.72
 },
-"metrics_at": "2026-11-22T14:01:04.449Z"
+"metrics_at": "2026-11-22T19:54:05.346Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02f5a0fd1ce721d1548250",
@@ -1983,14 +2433,18 @@
 "metrics": {
 "reactions": 11,
 "comments": 0,
-"engagementRate": 3.83,
-"views": 287,
+"engagementRate": 3.82,
+"views": 288,
 "shares": 0,
 "reach": 265,
 "totalTimeWatched": 39.47,
 "averageTimeWatched": 7.71
 },
-"metrics_at": "2026-11-22T14:01:04.357Z"
+"metrics_at": "2026-11-22T19:54:05.346Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 },
@@ -2020,7 +2474,11 @@
 "totalTimeWatched": 44.4,
 "averageTimeWatched": 3.78
 },
-"metrics_at": "2026-11-22T14:00:05.621Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b02f5651a608a0d063c978d",
@@ -2038,7 +2496,11 @@
 "totalTimeWatched": 41.43,
 "averageTimeWatched": 2.78
 },
-"metrics_at": "2026-11-22T14:00:05.596Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff29ca1bbbe06957e04640",
@@ -2056,7 +2518,11 @@
 "totalTimeWatched": 0.02,
 "averageTimeWatched": 1.83
 },
-"metrics_at": "2026-11-19T22:47:13.498Z"
+"metrics_at": "2026-11-19T22:47:13.498Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886d8b",
@@ -2074,7 +2540,11 @@
 "totalTimeWatched": 9.62,
 "averageTimeWatched": 2.08
 },
-"metrics_at": "2026-11-22T14:00:05.555Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886d95",
@@ -2092,7 +2562,11 @@
 "totalTimeWatched": 1.6,
 "averageTimeWatched": 1.4
 },
-"metrics_at": "2026-11-22T14:00:05.569Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886d91",
@@ -2110,7 +2584,11 @@
 "totalTimeWatched": 3.65,
 "averageTimeWatched": 1.64
 },
-"metrics_at": "2026-11-22T14:00:05.564Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886d93",
@@ -2128,7 +2606,11 @@
 "totalTimeWatched": 3.5,
 "averageTimeWatched": 1.95
 },
-"metrics_at": "2026-11-22T14:00:05.573Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886db3",
@@ -2143,10 +2625,14 @@
 "views": 291,
 "shares": 0,
 "reach": 253,
-"totalTimeWatched": 32.45,
-"averageTimeWatched": 6.56
+"totalTimeWatched": 31.73,
+"averageTimeWatched": 6.41
 },
-"metrics_at": "2026-11-22T14:00:05.566Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886d8f",
@@ -2164,7 +2650,11 @@
 "totalTimeWatched": 25.18,
 "averageTimeWatched": 5.44
 },
-"metrics_at": "2026-11-22T14:00:05.575Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886d8d",
@@ -2182,7 +2672,11 @@
 "totalTimeWatched": 14.15,
 "averageTimeWatched": 1.23
 },
-"metrics_at": "2026-11-22T14:00:05.600Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886db7",
@@ -2200,7 +2694,11 @@
 "totalTimeWatched": 16.52,
 "averageTimeWatched": 1.45
 },
-"metrics_at": "2026-11-22T14:00:05.561Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886db5",
@@ -2218,7 +2716,11 @@
 "totalTimeWatched": 8.92,
 "averageTimeWatched": 1.19
 },
-"metrics_at": "2026-11-22T14:00:05.558Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886db9",
@@ -2236,7 +2738,11 @@
 "totalTimeWatched": 3.05,
 "averageTimeWatched": 1.48
 },
-"metrics_at": "2026-11-22T14:00:05.578Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886db1",
@@ -2254,7 +2760,11 @@
 "totalTimeWatched": 1.27,
 "averageTimeWatched": 1.27
 },
-"metrics_at": "2026-11-22T14:00:05.606Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886dbb",
@@ -2272,7 +2782,11 @@
 "totalTimeWatched": 19.7,
 "averageTimeWatched": 1.73
 },
-"metrics_at": "2026-11-22T14:00:05.584Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886e53",
@@ -2290,7 +2804,11 @@
 "totalTimeWatched": 21.03,
 "averageTimeWatched": 1.45
 },
-"metrics_at": "2026-11-22T14:00:05.592Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe388a9cb077cbd9886dd4",
@@ -2308,7 +2826,11 @@
 "totalTimeWatched": 3.1,
 "averageTimeWatched": 14.31
 },
-"metrics_at": "2026-11-22T14:00:05.582Z"
+"metrics_at": "2026-11-22T19:53:03.253Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 },
@@ -2335,10 +2857,14 @@
 "views": 628,
 "shares": 1,
 "reach": 322,
-"totalTimeWatched": 102.75,
-"averageTimeWatched": 8.54
+"totalTimeWatched": 102.82,
+"averageTimeWatched": 8.52
 },
-"metrics_at": "2026-11-22T13:58:03.911Z"
+"metrics_at": "2026-11-22T19:51:03.098Z",
+"fmt": "video",
+"series": "After Hours",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6aff7a5d00b0112893a9b542",
@@ -2356,7 +2882,11 @@
 "totalTimeWatched": 93.3,
 "averageTimeWatched": 8.11
 },
-"metrics_at": "2026-11-22T13:58:03.858Z"
+"metrics_at": "2026-11-22T19:51:03.098Z",
+"fmt": "video",
+"series": "After Hours",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b02f4ebdd9365cf267d9398",
@@ -2374,7 +2904,11 @@
 "totalTimeWatched": 19.18,
 "averageTimeWatched": 4.72
 },
-"metrics_at": "2026-11-22T13:58:03.888Z"
+"metrics_at": "2026-11-22T19:51:03.098Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac74e",
@@ -2392,7 +2926,11 @@
 "totalTimeWatched": 63.13,
 "averageTimeWatched": 5.36
 },
-"metrics_at": "2026-11-22T13:58:03.861Z"
+"metrics_at": "2026-11-22T19:51:03.098Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac75a",
@@ -2410,7 +2948,11 @@
 "totalTimeWatched": 64.88,
 "averageTimeWatched": 5.59
 },
-"metrics_at": "2026-11-22T13:58:03.892Z"
+"metrics_at": "2026-11-22T19:51:03.098Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac752",
@@ -2428,7 +2970,11 @@
 "totalTimeWatched": 73.82,
 "averageTimeWatched": 6.37
 },
-"metrics_at": "2026-11-22T13:58:03.871Z"
+"metrics_at": "2026-11-22T19:51:03.098Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac758",
@@ -2446,7 +2992,11 @@
 "totalTimeWatched": 106.25,
 "averageTimeWatched": 8.69
 },
-"metrics_at": "2026-11-22T13:58:03.873Z"
+"metrics_at": "2026-11-22T19:51:03.098Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac760",
@@ -2458,13 +3008,17 @@
 "reactions": 0,
 "comments": 0,
 "engagementRate": 0,
-"views": 225,
+"views": 226,
 "shares": 0,
 "reach": 214,
-"totalTimeWatched": 37.93,
-"averageTimeWatched": 9.81
+"totalTimeWatched": 36.27,
+"averageTimeWatched": 9.42
 },
-"metrics_at": "2026-11-22T13:58:03.877Z"
+"metrics_at": "2026-11-22T19:51:03.098Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac750",
@@ -2482,7 +3036,11 @@
 "totalTimeWatched": 21.73,
 "averageTimeWatched": 5.24
 },
-"metrics_at": "2026-11-22T13:58:03.865Z"
+"metrics_at": "2026-11-22T19:51:03.099Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac75c",
@@ -2500,7 +3058,11 @@
 "totalTimeWatched": 58.17,
 "averageTimeWatched": 4.67
 },
-"metrics_at": "2026-11-22T13:58:03.919Z"
+"metrics_at": "2026-11-22T19:51:03.099Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac74c",
@@ -2518,7 +3080,11 @@
 "totalTimeWatched": 117.92,
 "averageTimeWatched": 10.95
 },
-"metrics_at": "2026-11-22T13:58:03.882Z"
+"metrics_at": "2026-11-22T19:51:03.099Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac75e",
@@ -2536,7 +3102,11 @@
 "totalTimeWatched": 74.37,
 "averageTimeWatched": 5.71
 },
-"metrics_at": "2026-11-22T13:58:03.868Z"
+"metrics_at": "2026-11-22T19:51:03.099Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac8ac",
@@ -2547,14 +3117,18 @@
 "metrics": {
 "reactions": 23,
 "comments": 4,
-"engagementRate": 3.3,
-"views": 818,
+"engagementRate": 3.28,
+"views": 823,
 "shares": 0,
 "reach": 673,
 "totalTimeWatched": 88.38,
 "averageTimeWatched": 6.81
 },
-"metrics_at": "2026-11-22T13:58:03.895Z"
+"metrics_at": "2026-11-22T19:51:03.099Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac8ae",
@@ -2566,13 +3140,17 @@
 "reactions": 12,
 "comments": 7,
 "engagementRate": 2.71,
-"views": 812,
+"views": 813,
 "shares": 3,
 "reach": 675,
 "totalTimeWatched": 91.18,
 "averageTimeWatched": 6.87
 },
-"metrics_at": "2026-11-22T13:58:03.885Z"
+"metrics_at": "2026-11-22T19:51:03.099Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac756",
@@ -2590,7 +3168,11 @@
 "totalTimeWatched": 70.08,
 "averageTimeWatched": 5.96
 },
-"metrics_at": "2026-11-22T13:58:03.880Z"
+"metrics_at": "2026-11-22T19:51:03.099Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6afe382a6a297179eabac754",
@@ -2608,7 +3190,11 @@
 "totalTimeWatched": 31.03,
 "averageTimeWatched": 14.55
 },
-"metrics_at": "2026-11-22T13:58:03.890Z"
+"metrics_at": "2026-11-22T19:51:03.099Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 },
@@ -2639,7 +3225,11 @@
 "averageTimeWatched": 9.34,
 "reach": 113
 },
-"metrics_at": "2026-11-21T22:23:53.494Z"
+"metrics_at": "2026-11-21T22:23:53.494Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84de92ac96f0493b0bec",
@@ -2658,7 +3248,11 @@
 "averageTimeWatched": 4.86,
 "reach": 60
 },
-"metrics_at": "2026-11-21T22:23:53.498Z"
+"metrics_at": "2026-11-21T22:23:53.498Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0bee",
@@ -2677,7 +3271,11 @@
 "averageTimeWatched": 8.75,
 "reach": 118
 },
-"metrics_at": "2026-11-21T22:23:53.535Z"
+"metrics_at": "2026-11-21T22:23:53.535Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0bf0",
@@ -2696,7 +3294,11 @@
 "averageTimeWatched": 4.91,
 "reach": 105
 },
-"metrics_at": "2026-11-21T22:23:53.537Z"
+"metrics_at": "2026-11-21T22:23:53.537Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0bf4",
@@ -2715,7 +3317,11 @@
 "averageTimeWatched": 3.89,
 "reach": 100
 },
-"metrics_at": "2026-11-21T22:23:53.518Z"
+"metrics_at": "2026-11-21T22:23:53.518Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0bf6",
@@ -2734,7 +3340,11 @@
 "averageTimeWatched": 14.13,
 "reach": 44
 },
-"metrics_at": "2026-11-21T22:23:53.472Z"
+"metrics_at": "2026-11-21T22:23:53.472Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0bfe",
@@ -2753,7 +3363,11 @@
 "averageTimeWatched": 8.08,
 "reach": 114
 },
-"metrics_at": "2026-11-21T22:23:53.474Z"
+"metrics_at": "2026-11-21T22:23:53.474Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c22",
@@ -2772,7 +3386,11 @@
 "averageTimeWatched": 1.51,
 "reach": 101
 },
-"metrics_at": "2026-11-21T22:23:53.477Z"
+"metrics_at": "2026-11-21T22:23:53.477Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c17",
@@ -2791,7 +3409,11 @@
 "averageTimeWatched": 4.06,
 "reach": 110
 },
-"metrics_at": "2026-11-21T22:23:53.517Z"
+"metrics_at": "2026-11-21T22:23:53.517Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c04",
@@ -2810,7 +3432,11 @@
 "averageTimeWatched": 3.06,
 "reach": 108
 },
-"metrics_at": "2026-11-21T22:23:53.492Z"
+"metrics_at": "2026-11-21T22:23:53.492Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c1e",
@@ -2829,7 +3455,11 @@
 "averageTimeWatched": 9.12,
 "reach": 113
 },
-"metrics_at": "2026-11-21T22:23:53.533Z"
+"metrics_at": "2026-11-21T22:23:53.533Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0bf2",
@@ -2848,7 +3478,11 @@
 "averageTimeWatched": 3.93,
 "reach": 112
 },
-"metrics_at": "2026-11-21T22:23:53.509Z"
+"metrics_at": "2026-11-21T22:23:53.509Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0bfc",
@@ -2867,7 +3501,11 @@
 "averageTimeWatched": 5.68,
 "reach": 49
 },
-"metrics_at": "2026-11-21T22:23:53.489Z"
+"metrics_at": "2026-11-21T22:23:53.489Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c08",
@@ -2886,7 +3524,11 @@
 "averageTimeWatched": 5.37,
 "reach": 141
 },
-"metrics_at": "2026-11-21T22:23:53.510Z"
+"metrics_at": "2026-11-21T22:23:53.510Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c0a",
@@ -2905,7 +3547,11 @@
 "averageTimeWatched": 6.23,
 "reach": 84
 },
-"metrics_at": "2026-11-21T22:23:53.476Z"
+"metrics_at": "2026-11-21T22:23:53.476Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c02",
@@ -2924,7 +3570,11 @@
 "averageTimeWatched": 6.88,
 "reach": 114
 },
-"metrics_at": "2026-11-21T22:23:53.496Z"
+"metrics_at": "2026-11-21T22:23:53.496Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c2f",
@@ -2943,7 +3593,11 @@
 "averageTimeWatched": 5.43,
 "reach": 109
 },
-"metrics_at": "2026-11-21T22:23:53.515Z"
+"metrics_at": "2026-11-21T22:23:53.515Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c24",
@@ -2962,7 +3616,11 @@
 "averageTimeWatched": 10.72,
 "reach": 195
 },
-"metrics_at": "2026-11-21T22:23:53.502Z"
+"metrics_at": "2026-11-21T22:23:53.502Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c0c",
@@ -2980,7 +3638,11 @@
 "follows": 0,
 "reach": 11
 },
-"metrics_at": "2026-11-21T22:23:53.526Z"
+"metrics_at": "2026-11-21T22:23:53.526Z",
+"fmt": "carousel",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c00",
@@ -2999,7 +3661,11 @@
 "averageTimeWatched": 7.84,
 "reach": 111
 },
-"metrics_at": "2026-11-21T22:23:53.491Z"
+"metrics_at": "2026-11-21T22:23:53.491Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c35",
@@ -3018,7 +3684,11 @@
 "averageTimeWatched": 2.87,
 "reach": 146
 },
-"metrics_at": "2026-11-21T22:23:53.505Z"
+"metrics_at": "2026-11-21T22:23:53.505Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c26",
@@ -3037,7 +3707,11 @@
 "averageTimeWatched": 8.48,
 "reach": 140
 },
-"metrics_at": "2026-11-21T22:23:53.468Z"
+"metrics_at": "2026-11-21T22:23:53.468Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c06",
@@ -3056,7 +3730,11 @@
 "averageTimeWatched": 3.95,
 "reach": 101
 },
-"metrics_at": "2026-11-21T22:23:53.524Z"
+"metrics_at": "2026-11-21T22:23:53.524Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c2a",
@@ -3074,7 +3752,11 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-21T22:23:53.522Z"
+"metrics_at": "2026-11-21T22:23:53.522Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c3f",
@@ -3092,7 +3774,11 @@
 "follows": 0,
 "reach": 7
 },
-"metrics_at": "2026-11-21T22:23:53.470Z"
+"metrics_at": "2026-11-21T22:23:53.470Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c31",
@@ -3110,7 +3796,11 @@
 "follows": 0,
 "reach": 6
 },
-"metrics_at": "2026-11-21T22:23:53.512Z"
+"metrics_at": "2026-11-21T22:23:53.512Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c28",
@@ -3128,7 +3818,11 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-21T22:23:53.466Z"
+"metrics_at": "2026-11-21T22:23:53.466Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c10",
@@ -3146,7 +3840,11 @@
 "follows": 0,
 "reach": 8
 },
-"metrics_at": "2026-11-21T22:23:53.499Z"
+"metrics_at": "2026-11-21T22:23:53.499Z",
+"fmt": "carousel",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c13",
@@ -3165,7 +3863,11 @@
 "averageTimeWatched": 3,
 "reach": 129
 },
-"metrics_at": "2026-11-21T22:23:53.479Z"
+"metrics_at": "2026-11-21T22:23:53.479Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84df92ac96f0493b0c33",
@@ -3183,7 +3885,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:23:53.520Z"
+"metrics_at": "2026-11-21T22:23:53.520Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 }
 ]
 },
@@ -3214,7 +3920,11 @@
 "averageTimeWatched": 4.31,
 "reach": 111
 },
-"metrics_at": "2026-11-21T22:22:31.662Z"
+"metrics_at": "2026-11-21T22:22:31.662Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6aff84a71c29bc32984fffaa",
@@ -3233,7 +3943,11 @@
 "averageTimeWatched": 9.83,
 "reach": 1081
 },
-"metrics_at": "2026-11-21T22:22:31.669Z"
+"metrics_at": "2026-11-21T22:22:31.669Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffb6",
@@ -3252,7 +3966,11 @@
 "averageTimeWatched": 4.08,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:22:31.660Z"
+"metrics_at": "2026-11-21T22:22:31.660Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffbe",
@@ -3271,7 +3989,11 @@
 "averageTimeWatched": 9.17,
 "reach": 115
 },
-"metrics_at": "2026-11-21T22:22:31.664Z"
+"metrics_at": "2026-11-21T22:22:31.664Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffc2",
@@ -3290,7 +4012,11 @@
 "averageTimeWatched": 4.97,
 "reach": 61
 },
-"metrics_at": "2026-11-21T22:22:31.655Z"
+"metrics_at": "2026-11-21T22:22:31.655Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffba",
@@ -3309,7 +4035,11 @@
 "averageTimeWatched": 3.03,
 "reach": 49
 },
-"metrics_at": "2026-11-21T22:22:31.638Z"
+"metrics_at": "2026-11-21T22:22:31.638Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffc0",
@@ -3328,7 +4058,11 @@
 "averageTimeWatched": 21.46,
 "reach": 4
 },
-"metrics_at": "2026-11-21T22:22:31.657Z"
+"metrics_at": "2026-11-21T22:22:31.657Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffb0",
@@ -3347,7 +4081,11 @@
 "averageTimeWatched": 12.58,
 "reach": 123
 },
-"metrics_at": "2026-11-21T22:22:31.675Z"
+"metrics_at": "2026-11-21T22:22:31.675Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffb2",
@@ -3366,7 +4104,11 @@
 "averageTimeWatched": 1.8,
 "reach": 85
 },
-"metrics_at": "2026-11-21T22:22:31.650Z"
+"metrics_at": "2026-11-21T22:22:31.650Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffac",
@@ -3385,7 +4127,11 @@
 "averageTimeWatched": 4.62,
 "reach": 103
 },
-"metrics_at": "2026-11-21T22:22:31.673Z"
+"metrics_at": "2026-11-21T22:22:31.673Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffcf",
@@ -3404,7 +4150,11 @@
 "averageTimeWatched": 3.41,
 "reach": 103
 },
-"metrics_at": "2026-11-21T22:22:31.678Z"
+"metrics_at": "2026-11-21T22:22:31.678Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffc5",
@@ -3423,7 +4173,11 @@
 "averageTimeWatched": 7.9,
 "reach": 1270
 },
-"metrics_at": "2026-11-21T22:22:31.658Z"
+"metrics_at": "2026-11-21T22:22:31.658Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffb4",
@@ -3442,7 +4196,11 @@
 "averageTimeWatched": 4.09,
 "reach": 119
 },
-"metrics_at": "2026-11-21T22:22:31.653Z"
+"metrics_at": "2026-11-21T22:22:31.653Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffbc",
@@ -3461,7 +4219,11 @@
 "averageTimeWatched": 2.79,
 "reach": 99
 },
-"metrics_at": "2026-11-21T22:22:31.640Z"
+"metrics_at": "2026-11-21T22:22:31.640Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffae",
@@ -3480,7 +4242,11 @@
 "averageTimeWatched": 5.09,
 "reach": 108
 },
-"metrics_at": "2026-11-21T22:22:31.680Z"
+"metrics_at": "2026-11-21T22:22:31.680Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6aff84a71c29bc32984fffb8",
@@ -3499,7 +4265,11 @@
 "averageTimeWatched": 7.52,
 "reach": 408
 },
-"metrics_at": "2026-11-21T22:22:31.667Z"
+"metrics_at": "2026-11-21T22:22:31.667Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 },
@@ -3579,7 +4349,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.375Z"
+"metrics_at": "2026-11-21T22:21:21.375Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b02196139da6882e9a2acc9",
@@ -3597,7 +4371,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.361Z"
+"metrics_at": "2026-11-21T22:21:21.361Z",
+"fmt": "carousel",
+"series": "",
+"hook": "number",
+"tagged": false
 },
 {
 "id": "6b02196139da6882e9a2accc",
@@ -3615,7 +4393,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.336Z"
+"metrics_at": "2026-11-21T22:21:21.336Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00c7d8993207094de3c6cf",
@@ -3633,7 +4415,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.354Z"
+"metrics_at": "2026-11-21T22:21:21.354Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00c7d8993207094de3c6c7",
@@ -3651,7 +4437,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.409Z"
+"metrics_at": "2026-11-21T22:21:21.409Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff870dca85ebefb0dce36d",
@@ -3670,7 +4460,11 @@
 "averageTimeWatched": 2.21,
 "reach": 48
 },
-"metrics_at": "2026-11-21T22:21:21.363Z"
+"metrics_at": "2026-11-21T22:21:21.363Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6aff845c9db7788618c7bed8",
@@ -3688,7 +4482,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.367Z"
+"metrics_at": "2026-11-21T22:21:21.367Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bebe",
@@ -3707,7 +4505,11 @@
 "averageTimeWatched": 9.53,
 "reach": 2
 },
-"metrics_at": "2026-11-21T22:21:21.370Z"
+"metrics_at": "2026-11-21T22:21:21.370Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bed1",
@@ -3725,7 +4527,11 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-21T22:21:21.395Z"
+"metrics_at": "2026-11-21T22:21:21.395Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bed3",
@@ -3743,7 +4549,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-21T22:21:21.398Z"
+"metrics_at": "2026-11-21T22:21:21.398Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bebc",
@@ -3761,7 +4571,11 @@
 "follows": 0,
 "reach": 2
 },
-"metrics_at": "2026-11-21T22:21:21.387Z"
+"metrics_at": "2026-11-21T22:21:21.387Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bec4",
@@ -3779,7 +4593,11 @@
 "follows": 0,
 "reach": 3
 },
-"metrics_at": "2026-11-21T22:21:21.406Z"
+"metrics_at": "2026-11-21T22:21:21.406Z",
+"fmt": "carousel",
+"series": "",
+"hook": "number",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7beb8",
@@ -3798,7 +4616,11 @@
 "averageTimeWatched": 9.1,
 "reach": 2
 },
-"metrics_at": "2026-11-21T22:21:21.340Z"
+"metrics_at": "2026-11-21T22:21:21.340Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bec0",
@@ -3817,7 +4639,11 @@
 "averageTimeWatched": 9.36,
 "reach": 3
 },
-"metrics_at": "2026-11-21T22:21:21.383Z"
+"metrics_at": "2026-11-21T22:21:21.383Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bec6",
@@ -3835,7 +4661,11 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-21T22:21:21.380Z"
+"metrics_at": "2026-11-21T22:21:21.380Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bec2",
@@ -3853,7 +4683,11 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-21T22:21:21.350Z"
+"metrics_at": "2026-11-21T22:21:21.350Z",
+"fmt": "carousel",
+"series": "",
+"hook": "number",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7beba",
@@ -3871,7 +4705,11 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-21T22:21:21.378Z"
+"metrics_at": "2026-11-21T22:21:21.378Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6aff845c9db7788618c7bece",
@@ -3889,7 +4727,11 @@
 "follows": 0,
 "reach": 10
 },
-"metrics_at": "2026-11-21T22:21:21.358Z"
+"metrics_at": "2026-11-21T22:21:21.358Z",
+"fmt": "carousel",
+"series": "",
+"hook": "number",
+"tagged": false
 }
 ]
 },
@@ -3920,7 +4762,11 @@
 "averageTimeWatched": 9.35,
 "reach": 164
 },
-"metrics_at": "2026-11-22T15:39:06.251Z"
+"metrics_at": "2026-11-22T15:39:06.251Z",
+"fmt": "video",
+"series": "",
+"hook": "pov",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5c98",
@@ -3939,7 +4785,11 @@
 "averageTimeWatched": 10.45,
 "reach": 213
 },
-"metrics_at": "2026-11-22T15:39:06.254Z"
+"metrics_at": "2026-11-22T15:39:06.254Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5c94",
@@ -3957,7 +4807,11 @@
 "follows": 0,
 "reach": 114
 },
-"metrics_at": "2026-11-22T15:39:06.299Z"
+"metrics_at": "2026-11-22T15:39:06.299Z",
+"fmt": "carousel",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cb0",
@@ -3976,7 +4830,11 @@
 "averageTimeWatched": 6.99,
 "reach": 338
 },
-"metrics_at": "2026-11-22T15:39:06.258Z"
+"metrics_at": "2026-11-22T15:39:06.258Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5c9a",
@@ -3995,7 +4853,11 @@
 "averageTimeWatched": 9.76,
 "reach": 328
 },
-"metrics_at": "2026-11-22T15:39:06.314Z"
+"metrics_at": "2026-11-22T15:39:06.314Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5c90",
@@ -4014,7 +4876,11 @@
 "averageTimeWatched": 4.35,
 "reach": 32
 },
-"metrics_at": "2026-11-22T15:39:06.310Z"
+"metrics_at": "2026-11-22T15:39:06.310Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5c9c",
@@ -4033,7 +4899,11 @@
 "averageTimeWatched": 11.45,
 "reach": 568
 },
-"metrics_at": "2026-11-22T15:39:06.301Z"
+"metrics_at": "2026-11-22T15:39:06.301Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cb6",
@@ -4052,7 +4922,11 @@
 "averageTimeWatched": 6.72,
 "reach": 1024
 },
-"metrics_at": "2026-11-22T15:39:06.294Z"
+"metrics_at": "2026-11-22T15:39:06.294Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cbe",
@@ -4071,7 +4945,11 @@
 "averageTimeWatched": 6.78,
 "reach": 414
 },
-"metrics_at": "2026-11-22T15:39:06.249Z"
+"metrics_at": "2026-11-22T15:39:06.249Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cb4",
@@ -4090,7 +4968,11 @@
 "averageTimeWatched": 7.12,
 "reach": 400
 },
-"metrics_at": "2026-11-22T15:39:06.256Z"
+"metrics_at": "2026-11-22T15:39:06.256Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cb2",
@@ -4108,7 +4990,11 @@
 "follows": 1,
 "reach": 915
 },
-"metrics_at": "2026-11-22T15:39:06.313Z"
+"metrics_at": "2026-11-22T15:39:06.313Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5d10",
@@ -4127,7 +5013,11 @@
 "averageTimeWatched": 5.65,
 "reach": 401
 },
-"metrics_at": "2026-11-22T15:39:06.311Z"
+"metrics_at": "2026-11-22T15:39:06.311Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5c96",
@@ -4146,7 +5036,11 @@
 "averageTimeWatched": 9.56,
 "reach": 653
 },
-"metrics_at": "2026-11-22T15:39:06.316Z"
+"metrics_at": "2026-11-22T15:39:06.316Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cf6",
@@ -4165,7 +5059,11 @@
 "averageTimeWatched": 155.68,
 "reach": 188
 },
-"metrics_at": "2026-11-22T15:39:06.283Z"
+"metrics_at": "2026-11-22T15:39:06.283Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5d17",
@@ -4184,7 +5082,11 @@
 "averageTimeWatched": 8.56,
 "reach": 167
 },
-"metrics_at": "2026-11-22T15:39:06.264Z"
+"metrics_at": "2026-11-22T15:39:06.264Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5c92",
@@ -4203,7 +5105,11 @@
 "averageTimeWatched": 9.5,
 "reach": 130
 },
-"metrics_at": "2026-11-22T15:39:06.243Z"
+"metrics_at": "2026-11-22T15:39:06.243Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5d00",
@@ -4222,7 +5128,11 @@
 "averageTimeWatched": 12.3,
 "reach": 196
 },
-"metrics_at": "2026-11-22T15:39:06.292Z"
+"metrics_at": "2026-11-22T15:39:06.292Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5d0e",
@@ -4241,7 +5151,11 @@
 "averageTimeWatched": 26.53,
 "reach": 1288
 },
-"metrics_at": "2026-11-22T15:39:06.267Z"
+"metrics_at": "2026-11-22T15:39:06.267Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5d12",
@@ -4260,7 +5174,11 @@
 "averageTimeWatched": 13.27,
 "reach": 418
 },
-"metrics_at": "2026-11-22T15:39:06.253Z"
+"metrics_at": "2026-11-22T15:39:06.253Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cfc",
@@ -4279,7 +5197,11 @@
 "averageTimeWatched": 9.3,
 "reach": 193
 },
-"metrics_at": "2026-11-22T15:39:06.320Z"
+"metrics_at": "2026-11-22T15:39:06.320Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cf8",
@@ -4298,7 +5220,11 @@
 "averageTimeWatched": 10.49,
 "reach": 177
 },
-"metrics_at": "2026-11-22T15:39:06.291Z"
+"metrics_at": "2026-11-22T15:39:06.291Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cc4",
@@ -4317,7 +5243,11 @@
 "averageTimeWatched": 6.68,
 "reach": 317
 },
-"metrics_at": "2026-11-22T15:39:06.247Z"
+"metrics_at": "2026-11-22T15:39:06.247Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5ca1",
@@ -4336,7 +5266,11 @@
 "averageTimeWatched": 19.17,
 "reach": 1510
 },
-"metrics_at": "2026-11-22T15:39:06.303Z"
+"metrics_at": "2026-11-22T15:39:06.303Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cc6",
@@ -4354,7 +5288,11 @@
 "follows": 0,
 "reach": 261
 },
-"metrics_at": "2026-11-22T15:39:06.265Z"
+"metrics_at": "2026-11-22T15:39:06.265Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cca",
@@ -4372,7 +5310,11 @@
 "follows": 0,
 "reach": 94
 },
-"metrics_at": "2026-11-22T15:39:06.276Z"
+"metrics_at": "2026-11-22T15:39:06.276Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5d02",
@@ -4391,7 +5333,11 @@
 "averageTimeWatched": 8.18,
 "reach": 98
 },
-"metrics_at": "2026-11-22T15:39:06.268Z"
+"metrics_at": "2026-11-22T15:39:06.268Z",
+"fmt": "video",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cd8",
@@ -4410,7 +5356,11 @@
 "averageTimeWatched": 6.11,
 "reach": 474
 },
-"metrics_at": "2026-11-22T15:39:06.246Z"
+"metrics_at": "2026-11-22T15:39:06.246Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cc8",
@@ -4429,7 +5379,11 @@
 "averageTimeWatched": 12.27,
 "reach": 643
 },
-"metrics_at": "2026-11-22T15:39:06.335Z"
+"metrics_at": "2026-11-22T15:39:06.335Z",
+"fmt": "video",
+"series": "",
+"hook": "question",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cb8",
@@ -4448,7 +5402,11 @@
 "averageTimeWatched": 12.28,
 "reach": 1211
 },
-"metrics_at": "2026-11-22T15:39:06.288Z"
+"metrics_at": "2026-11-22T15:39:06.288Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cfe",
@@ -4466,7 +5424,11 @@
 "follows": 0,
 "reach": 214
 },
-"metrics_at": "2026-11-22T15:39:06.305Z"
+"metrics_at": "2026-11-22T15:39:06.305Z",
+"fmt": "carousel",
+"series": "",
+"hook": "confession",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5ca3",
@@ -4485,7 +5447,11 @@
 "averageTimeWatched": 9.65,
 "reach": 355
 },
-"metrics_at": "2026-11-22T15:39:06.317Z"
+"metrics_at": "2026-11-22T15:39:06.317Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cba",
@@ -4503,7 +5469,11 @@
 "follows": 2,
 "reach": 461
 },
-"metrics_at": "2026-11-22T15:39:06.285Z"
+"metrics_at": "2026-11-22T15:39:06.285Z",
+"fmt": "carousel",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cfa",
@@ -4521,7 +5491,11 @@
 "follows": 0,
 "reach": 596
 },
-"metrics_at": "2026-11-22T15:39:06.272Z"
+"metrics_at": "2026-11-22T15:39:06.272Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5ce2",
@@ -4540,7 +5514,11 @@
 "averageTimeWatched": 2.74,
 "reach": 178
 },
-"metrics_at": "2026-11-22T15:39:06.270Z"
+"metrics_at": "2026-11-22T15:39:06.270Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5ce0",
@@ -4558,7 +5536,11 @@
 "follows": 0,
 "reach": 144
 },
-"metrics_at": "2026-11-22T15:39:06.262Z"
+"metrics_at": "2026-11-22T15:39:06.262Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007613c406c308499d5c9f",
@@ -4576,7 +5558,11 @@
 "follows": 0,
 "reach": 143
 },
-"metrics_at": "2026-11-22T15:39:06.260Z"
+"metrics_at": "2026-11-22T15:39:06.260Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cac",
@@ -4594,7 +5580,11 @@
 "follows": 0,
 "reach": 145
 },
-"metrics_at": "2026-11-22T15:39:06.308Z"
+"metrics_at": "2026-11-22T15:39:06.308Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b007614c406c308499d5cd6",
@@ -4613,7 +5603,11 @@
 "averageTimeWatched": 15.81,
 "reach": 281
 },
-"metrics_at": "2026-11-22T15:39:06.298Z"
+"metrics_at": "2026-11-22T15:39:06.298Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 }
 ]
 },
@@ -4627,6 +5621,19 @@
 "disconnected": false,
 "problems": [],
 "posts": [
+{
+"id": "6b0210a1d864a01105788917",
+"at": "2026-11-22T17:06:33.604Z",
+"text": "Chuck it in a tray, walk away, dinner done. 🍗",
+"link": "https://www.instagram.com/p/DgDTJLWlKIl/",
+"thumb": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/6c041ee23fe4151581abc6a4c54d864190761df1/vault/chef/20261122-1700-ig-chicken-thigh-tray-bake_1.jpg",
+"metrics": {},
+"metrics_at": "2026-11-21T21:44:01.641Z",
+"fmt": "carousel",
+"series": "Chicken",
+"hook": "statement",
+"tagged": true
+},
 {
 "id": "6b01b90f0247969092e1bf8f",
 "at": "2026-11-22T11:31:23.784Z",
@@ -4643,7 +5650,11 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-22T15:38:56.444Z"
+"metrics_at": "2026-11-22T15:38:56.444Z",
+"fmt": "carousel",
+"series": "Cheesy",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b00e0115102766245e20d88",
@@ -4661,7 +5672,11 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-22T15:38:56.438Z"
+"metrics_at": "2026-11-22T15:38:56.438Z",
+"fmt": "carousel",
+"series": "Overnight",
+"hook": "number",
+"tagged": true
 },
 {
 "id": "6b00822e63ab5fef673feec8",
@@ -4679,7 +5694,11 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-22T15:38:56.452Z"
+"metrics_at": "2026-11-22T15:38:56.452Z",
+"fmt": "carousel",
+"series": "One",
+"hook": "number",
+"tagged": true
 },
 {
 "id": "6b00822ed425f1473afd65f6",
@@ -4697,7 +5716,11 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-22T15:38:56.450Z"
+"metrics_at": "2026-11-22T15:38:56.450Z",
+"fmt": "carousel",
+"series": "Egg",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b0075d6f6d6ed18a7205de1",
@@ -4716,7 +5739,11 @@
 "averageTimeWatched": 1.39,
 "reach": 12
 },
-"metrics_at": "2026-11-22T15:38:56.448Z"
+"metrics_at": "2026-11-22T15:38:56.448Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b0075d6f6d6ed18a7205de7",
@@ -4735,7 +5762,11 @@
 "averageTimeWatched": 2.92,
 "reach": 8
 },
-"metrics_at": "2026-11-22T15:38:56.456Z"
+"metrics_at": "2026-11-22T15:38:56.456Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b0075d6f6d6ed18a7205de5",
@@ -4754,7 +5785,11 @@
 "averageTimeWatched": 7,
 "reach": 141
 },
-"metrics_at": "2026-11-22T15:38:56.440Z"
+"metrics_at": "2026-11-22T15:38:56.440Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b0075d6f6d6ed18a7205de3",
@@ -4773,7 +5808,11 @@
 "averageTimeWatched": 4.29,
 "reach": 128
 },
-"metrics_at": "2026-11-22T15:38:56.436Z"
+"metrics_at": "2026-11-22T15:38:56.436Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b0075d6f6d6ed18a7205df6",
@@ -4792,7 +5831,11 @@
 "averageTimeWatched": 8.36,
 "reach": 168
 },
-"metrics_at": "2026-11-22T15:38:56.455Z"
+"metrics_at": "2026-11-22T15:38:56.455Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b0075d6f6d6ed18a7205de9",
@@ -4811,7 +5854,11 @@
 "averageTimeWatched": 2.22,
 "reach": 1
 },
-"metrics_at": "2026-11-22T15:38:56.447Z"
+"metrics_at": "2026-11-22T15:38:56.447Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075d6f6d6ed18a7205deb",
@@ -4830,7 +5877,11 @@
 "averageTimeWatched": 10.63,
 "reach": 2
 },
-"metrics_at": "2026-11-22T15:38:56.445Z"
+"metrics_at": "2026-11-22T15:38:56.445Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075d6f6d6ed18a7205ded",
@@ -4849,7 +5900,11 @@
 "averageTimeWatched": 5.32,
 "reach": 95
 },
-"metrics_at": "2026-11-22T15:38:56.441Z"
+"metrics_at": "2026-11-22T15:38:56.441Z",
+"fmt": "photo",
+"series": "",
+"hook": "",
+"tagged": false
 }
 ]
 },
@@ -4880,7 +5935,11 @@
 "averageTimeWatched": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-22T15:31:55.434Z"
+"metrics_at": "2026-11-22T15:31:55.434Z",
+"fmt": "video",
+"series": "After Hours",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b00822d861298c9b13b6eac",
@@ -4899,7 +5958,11 @@
 "averageTimeWatched": 6.04,
 "reach": 1
 },
-"metrics_at": "2026-11-22T15:31:55.431Z"
+"metrics_at": "2026-11-22T15:31:55.431Z",
+"fmt": "video",
+"series": "After Hours",
+"hook": "statement",
+"tagged": true
 },
 {
 "id": "6b0075a4f6d6ed18a7205d3a",
@@ -4918,7 +5981,11 @@
 "averageTimeWatched": 4.35,
 "reach": 35
 },
-"metrics_at": "2026-11-22T15:31:55.479Z"
+"metrics_at": "2026-11-22T15:31:55.479Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d4a",
@@ -4937,7 +6004,11 @@
 "averageTimeWatched": 19.83,
 "reach": 143
 },
-"metrics_at": "2026-11-22T15:31:55.461Z"
+"metrics_at": "2026-11-22T15:31:55.461Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d45",
@@ -4956,7 +6027,11 @@
 "averageTimeWatched": 5.21,
 "reach": 41
 },
-"metrics_at": "2026-11-22T15:31:55.445Z"
+"metrics_at": "2026-11-22T15:31:55.445Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d48",
@@ -4975,7 +6050,11 @@
 "averageTimeWatched": 6.38,
 "reach": 105
 },
-"metrics_at": "2026-11-22T15:31:55.436Z"
+"metrics_at": "2026-11-22T15:31:55.436Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d50",
@@ -4994,7 +6073,11 @@
 "averageTimeWatched": 14.67,
 "reach": 130
 },
-"metrics_at": "2026-11-22T15:31:55.448Z"
+"metrics_at": "2026-11-22T15:31:55.448Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d43",
@@ -5013,7 +6096,11 @@
 "averageTimeWatched": 7.23,
 "reach": 3
 },
-"metrics_at": "2026-11-22T15:31:55.450Z"
+"metrics_at": "2026-11-22T15:31:55.450Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d4e",
@@ -5032,7 +6119,11 @@
 "averageTimeWatched": 10.56,
 "reach": 5
 },
-"metrics_at": "2026-11-22T15:31:55.441Z"
+"metrics_at": "2026-11-22T15:31:55.441Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d40",
@@ -5051,7 +6142,11 @@
 "averageTimeWatched": 8.5,
 "reach": 102
 },
-"metrics_at": "2026-11-22T15:31:55.459Z"
+"metrics_at": "2026-11-22T15:31:55.459Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d3e",
@@ -5070,7 +6165,11 @@
 "averageTimeWatched": 15.77,
 "reach": 122
 },
-"metrics_at": "2026-11-22T15:31:55.470Z"
+"metrics_at": "2026-11-22T15:31:55.470Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d33",
@@ -5089,7 +6188,11 @@
 "averageTimeWatched": 12.47,
 "reach": 119
 },
-"metrics_at": "2026-11-22T15:31:55.425Z"
+"metrics_at": "2026-11-22T15:31:55.425Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d37",
@@ -5108,7 +6211,11 @@
 "averageTimeWatched": 6.68,
 "reach": 127
 },
-"metrics_at": "2026-11-22T15:31:55.466Z"
+"metrics_at": "2026-11-22T15:31:55.466Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d3c",
@@ -5127,7 +6234,11 @@
 "averageTimeWatched": 20.65,
 "reach": 8
 },
-"metrics_at": "2026-11-22T15:31:55.439Z"
+"metrics_at": "2026-11-22T15:31:55.439Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d35",
@@ -5146,7 +6257,11 @@
 "averageTimeWatched": 15.64,
 "reach": 8
 },
-"metrics_at": "2026-11-22T15:31:55.452Z"
+"metrics_at": "2026-11-22T15:31:55.452Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b0075a4f6d6ed18a7205d4c",
@@ -5165,7 +6280,11 @@
 "averageTimeWatched": 12.64,
 "reach": 152
 },
-"metrics_at": "2026-11-22T15:31:55.443Z"
+"metrics_at": "2026-11-22T15:31:55.443Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 },
@@ -5180,6 +6299,25 @@
 "problems": [],
 "posts": [
 {
+"id": "6b032bd970b2c267e6fcd075",
+"at": "2026-11-22T14:08:57.389Z",
+"text": "A recruiter called me and said I am a great fit for the job, and she will stay in touch.",
+"link": "https://www.linkedin.com/feed/update/urn:li:share:7530271105698242562",
+"thumb": null,
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"impressions": 23,
+"reach": 9
+},
+"metrics_at": "2026-11-22T17:52:26.008Z",
+"fmt": "",
+"series": "",
+"hook": "statement",
+"tagged": false
+},
+{
 "id": "6b0088b6d674cecf9634bfa4",
 "at": "2026-11-15T15:59:36.865Z",
 "text": "Hello LinkedIn.",
@@ -5192,7 +6330,11 @@
 "impressions": 4709,
 "reach": 2916
 },
-"metrics_at": "2026-11-22T15:54:34.717Z"
+"metrics_at": "2026-11-22T17:52:26.003Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 },
@@ -5223,7 +6365,11 @@
 "averageTimeWatched": 9.36,
 "reach": 278
 },
-"metrics_at": "2026-11-22T15:47:01.440Z"
+"metrics_at": "2026-11-22T17:47:36.402Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 },
@@ -5254,7 +6400,11 @@
 "averageTimeWatched": 4.15,
 "reach": 310
 },
-"metrics_at": "2026-11-22T15:46:11.542Z"
+"metrics_at": "2026-11-22T17:46:42.837Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362c3",
@@ -5273,7 +6423,11 @@
 "averageTimeWatched": 5.25,
 "reach": 177
 },
-"metrics_at": "2026-11-22T15:46:11.542Z"
+"metrics_at": "2026-11-22T17:46:42.854Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362c9",
@@ -5292,7 +6446,11 @@
 "averageTimeWatched": 8.55,
 "reach": 1141
 },
-"metrics_at": "2026-11-22T15:46:11.542Z"
+"metrics_at": "2026-11-22T17:46:42.852Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362cf",
@@ -5310,7 +6468,11 @@
 "follows": 0,
 "reach": 39
 },
-"metrics_at": "2026-11-22T15:46:11.542Z"
+"metrics_at": "2026-11-22T17:46:42.856Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362cb",
@@ -5329,7 +6491,11 @@
 "averageTimeWatched": 5.37,
 "reach": 162
 },
-"metrics_at": "2026-11-22T15:46:11.542Z"
+"metrics_at": "2026-11-22T17:46:42.872Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362d7",
@@ -5348,7 +6514,11 @@
 "averageTimeWatched": 4.25,
 "reach": 191
 },
-"metrics_at": "2026-11-21T17:46:23.961Z"
+"metrics_at": "2026-11-22T17:46:42.844Z",
+"fmt": "video",
+"series": "",
+"hook": "",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362db",
@@ -5367,7 +6537,11 @@
 "averageTimeWatched": 6.31,
 "reach": 1267
 },
-"metrics_at": "2026-11-21T17:46:23.948Z"
+"metrics_at": "2026-11-22T17:46:42.848Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362c1",
@@ -5385,7 +6559,11 @@
 "follows": 0,
 "reach": 25
 },
-"metrics_at": "2026-11-21T17:46:23.988Z"
+"metrics_at": "2026-11-22T17:46:42.859Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362df",
@@ -5404,7 +6582,11 @@
 "averageTimeWatched": 15.71,
 "reach": 167
 },
-"metrics_at": "2026-11-21T17:46:23.950Z"
+"metrics_at": "2026-11-22T17:46:42.866Z",
+"fmt": "video",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362bd",
@@ -5422,7 +6604,11 @@
 "follows": 0,
 "reach": 21
 },
-"metrics_at": "2026-11-21T17:46:23.956Z"
+"metrics_at": "2026-11-22T17:46:42.834Z",
+"fmt": "carousel",
+"series": "",
+"hook": "statement",
+"tagged": false
 },
 {
 "id": "6b00874f8413e93f5e7362e1",
@@ -5441,7 +6627,11 @@
 "averageTimeWatched": 10.02,
 "reach": 151
 },
-"metrics_at": "2026-11-21T17:46:23.951Z"
+"metrics_at": "2026-11-22T17:46:42.868Z",
+"fmt": "photo",
+"series": "",
+"hook": "statement",
+"tagged": false
 }
 ]
 }

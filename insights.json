@@ -1,0 +1,1082 @@
+{
+ "updated": "2026-11-22T19:58:39Z",
+ "days": 28,
+ "min_posts": 5,
+ "windows": [
+  "07:30",
+  "11:00",
+  "15:00",
+  "19:00"
+ ],
+ "accounts": [
+  {
+   "brand": "The Only Wei",
+   "brand_id": "only",
+   "service": "tiktok",
+   "handle": "the.only.wei",
+   "posts": 39,
+   "format": {
+    "status": "known",
+    "best": {
+     "value": "photo",
+     "median": 177,
+     "posts": 11
+    },
+    "runner_up": {
+     "value": "video",
+     "median": 170,
+     "posts": 27
+    },
+    "groups": [
+     {
+      "value": "carousel",
+      "median": 303,
+      "posts": 1
+     },
+     {
+      "value": "photo",
+      "median": 177,
+      "posts": 11
+     },
+     {
+      "value": "video",
+      "median": 170,
+      "posts": 27
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "07:30",
+      "median": 219,
+      "posts": 1
+     },
+     {
+      "value": "19:00",
+      "median": 172,
+      "posts": 8
+     },
+     {
+      "value": "15:00",
+      "median": 90,
+      "posts": 2
+     },
+     {
+      "value": "11:00",
+      "median": 4,
+      "posts": 2
+     }
+    ]
+   },
+   "hook": {
+    "status": "known",
+    "best": {
+     "value": "question",
+     "median": 189,
+     "posts": 9
+    },
+    "runner_up": {
+     "value": "statement",
+     "median": 134,
+     "posts": 20
+    },
+    "groups": [
+     {
+      "value": "confession",
+      "median": 236,
+      "posts": 1
+     },
+     {
+      "value": "question",
+      "median": 189,
+      "posts": 9
+     },
+     {
+      "value": "statement",
+      "median": 134,
+      "posts": 20
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Hacker Wei",
+   "brand_id": "hacker",
+   "service": "tiktok",
+   "handle": "hacker.wei",
+   "posts": 21,
+   "format": {
+    "status": "known",
+    "best": {
+     "value": "photo",
+     "median": 448,
+     "posts": 8
+    },
+    "runner_up": {
+     "value": "carousel",
+     "median": 12,
+     "posts": 10
+    },
+    "groups": [
+     {
+      "value": "video",
+      "median": 655,
+      "posts": 3
+     },
+     {
+      "value": "photo",
+      "median": 448,
+      "posts": 8
+     },
+     {
+      "value": "carousel",
+      "median": 12,
+      "posts": 10
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "11:00",
+      "median": 655,
+      "posts": 1
+     },
+     {
+      "value": "19:00",
+      "median": 32,
+      "posts": 8
+     },
+     {
+      "value": "07:30",
+      "median": 0,
+      "posts": 2
+     }
+    ]
+   },
+   "hook": {
+    "status": "known",
+    "best": {
+     "value": "number",
+     "median": 113,
+     "posts": 5
+    },
+    "runner_up": {
+     "value": "statement",
+     "median": 20,
+     "posts": 15
+    },
+    "groups": [
+     {
+      "value": "question",
+      "median": 231,
+      "posts": 1
+     },
+     {
+      "value": "number",
+      "median": 113,
+      "posts": 5
+     },
+     {
+      "value": "statement",
+      "median": 20,
+      "posts": 15
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "Job hacks",
+      "median": 12,
+      "posts": 9
+     }
+    ]
+   }
+  },
+  {
+   "brand": "You Are Unemployed",
+   "brand_id": "unemployed",
+   "service": "tiktok",
+   "handle": "yourareunemployed",
+   "posts": 9,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "video",
+      "median": 187,
+      "posts": 9
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "15:00",
+      "median": 278,
+      "posts": 2
+     },
+     {
+      "value": "19:00",
+      "median": 0,
+      "posts": 1
+     },
+     {
+      "value": "07:30",
+      "median": 0,
+      "posts": 1
+     }
+    ]
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "question",
+      "median": 322,
+      "posts": 3
+     },
+     {
+      "value": "statement",
+      "median": 170,
+      "posts": 6
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "Most Successful",
+      "median": 0,
+      "posts": 1
+     }
+    ]
+   }
+  },
+  {
+   "brand": "Pathwei",
+   "brand_id": "pathwei",
+   "service": "tiktok",
+   "handle": "pathwei_ai",
+   "posts": 40,
+   "format": {
+    "status": "known",
+    "best": {
+     "value": "video",
+     "median": 678,
+     "posts": 34
+    },
+    "runner_up": {
+     "value": "photo",
+     "median": 411,
+     "posts": 6
+    },
+    "groups": [
+     {
+      "value": "video",
+      "median": 678,
+      "posts": 34
+     },
+     {
+      "value": "photo",
+      "median": 411,
+      "posts": 6
+     }
+    ]
+   },
+   "window": {
+    "status": "known",
+    "best": {
+     "value": "15:00",
+     "median": 650,
+     "posts": 10
+    },
+    "runner_up": {
+     "value": "19:00",
+     "median": 634,
+     "posts": 7
+    },
+    "groups": [
+     {
+      "value": "11:00",
+      "median": 818,
+      "posts": 2
+     },
+     {
+      "value": "15:00",
+      "median": 650,
+      "posts": 10
+     },
+     {
+      "value": "19:00",
+      "median": 634,
+      "posts": 7
+     }
+    ]
+   },
+   "hook": {
+    "status": "known",
+    "best": {
+     "value": "statement",
+     "median": 672,
+     "posts": 24
+    },
+    "runner_up": {
+     "value": "question",
+     "median": 611,
+     "posts": 8
+    },
+    "groups": [
+     {
+      "value": "confession",
+      "median": 3916,
+      "posts": 3
+     },
+     {
+      "value": "statement",
+      "median": 672,
+      "posts": 24
+     },
+     {
+      "value": "question",
+      "median": 611,
+      "posts": 8
+     },
+     {
+      "value": "pov",
+      "median": 607,
+      "posts": 1
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Pirate Wei",
+   "brand_id": "pirate",
+   "service": "tiktok",
+   "handle": "pirate.wei",
+   "posts": 17,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "video",
+      "median": 283,
+      "posts": 16
+     },
+     {
+      "value": "carousel",
+      "median": 0,
+      "posts": 1
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "19:00",
+      "median": 291,
+      "posts": 5
+     },
+     {
+      "value": "07:30",
+      "median": 60,
+      "posts": 1
+     }
+    ]
+   },
+   "hook": {
+    "status": "known",
+    "best": {
+     "value": "question",
+     "median": 275,
+     "posts": 5
+    },
+    "runner_up": {
+     "value": "statement",
+     "median": 121,
+     "posts": 7
+    },
+    "groups": [
+     {
+      "value": "confession",
+      "median": 440,
+      "posts": 1
+     },
+     {
+      "value": "question",
+      "median": 275,
+      "posts": 5
+     },
+     {
+      "value": "statement",
+      "median": 121,
+      "posts": 7
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Wei Stories",
+   "brand_id": "stories",
+   "service": "tiktok",
+   "handle": "wei.stories5",
+   "posts": 16,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "video",
+      "median": 650,
+      "posts": 16
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "19:00",
+      "median": 653,
+      "posts": 5
+     }
+    ]
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "statement",
+      "median": 653,
+      "posts": 15
+     },
+     {
+      "value": "question",
+      "median": 231,
+      "posts": 1
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "After Hours",
+      "median": 612,
+      "posts": 2
+     }
+    ]
+   }
+  },
+  {
+   "brand": "The Only Wei",
+   "brand_id": "only",
+   "service": "instagram",
+   "handle": "weigradjobs",
+   "posts": 30,
+   "format": {
+    "status": "known",
+    "best": {
+     "value": "video",
+     "median": 132,
+     "posts": 22
+    },
+    "runner_up": {
+     "value": "carousel",
+     "median": 18,
+     "posts": 6
+    },
+    "groups": [
+     {
+      "value": "video",
+      "median": 132,
+      "posts": 22
+     },
+     {
+      "value": "photo",
+      "median": 26,
+      "posts": 2
+     },
+     {
+      "value": "carousel",
+      "median": 18,
+      "posts": 6
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "07:30",
+      "median": 119,
+      "posts": 1
+     },
+     {
+      "value": "19:00",
+      "median": 116,
+      "posts": 7
+     },
+     {
+      "value": "15:00",
+      "median": 111,
+      "posts": 1
+     }
+    ]
+   },
+   "hook": {
+    "status": "known",
+    "best": {
+     "value": "question",
+     "median": 116,
+     "posts": 8
+    },
+    "runner_up": {
+     "value": "statement",
+     "median": 116,
+     "posts": 14
+    },
+    "groups": [
+     {
+      "value": "confession",
+      "median": 137,
+      "posts": 1
+     },
+     {
+      "value": "question",
+      "median": 116,
+      "posts": 8
+     },
+     {
+      "value": "statement",
+      "median": 116,
+      "posts": 14
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Pirate Wei",
+   "brand_id": "pirate",
+   "service": "instagram",
+   "handle": "pirate.wei",
+   "posts": 16,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "video",
+      "median": 130,
+      "posts": 15
+     },
+     {
+      "value": "photo",
+      "median": 9,
+      "posts": 1
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "07:30",
+      "median": 137,
+      "posts": 1
+     },
+     {
+      "value": "19:00",
+      "median": 114,
+      "posts": 4
+     }
+    ]
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "statement",
+      "median": 139,
+      "posts": 7
+     },
+     {
+      "value": "confession",
+      "median": 120,
+      "posts": 1
+     },
+     {
+      "value": "question",
+      "median": 118,
+      "posts": 4
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Hacker Wei",
+   "brand_id": "hacker",
+   "service": "instagram",
+   "handle": "hacker.weii",
+   "posts": 18,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "video",
+      "median": 3,
+      "posts": 3
+     },
+     {
+      "value": "photo",
+      "median": 3,
+      "posts": 1
+     },
+     {
+      "value": "carousel",
+      "median": 2,
+      "posts": 14
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "11:00",
+      "median": 53,
+      "posts": 1
+     },
+     {
+      "value": "19:00",
+      "median": 3,
+      "posts": 6
+     },
+     {
+      "value": "07:30",
+      "median": 0,
+      "posts": 1
+     }
+    ]
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "number",
+      "median": 10,
+      "posts": 4
+     },
+     {
+      "value": "statement",
+      "median": 2,
+      "posts": 13
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Pathwei",
+   "brand_id": "pathwei",
+   "service": "instagram",
+   "handle": "pathwei.ai",
+   "posts": 33,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "carousel",
+      "median": 822,
+      "posts": 4
+     },
+     {
+      "value": "video",
+      "median": 514,
+      "posts": 26
+     },
+     {
+      "value": "photo",
+      "median": 428,
+      "posts": 3
+     }
+    ]
+   },
+   "window": {
+    "status": "known",
+    "best": {
+     "value": "19:00",
+     "median": 663,
+     "posts": 5
+    },
+    "runner_up": {
+     "value": "15:00",
+     "median": 268,
+     "posts": 6
+    },
+    "groups": [
+     {
+      "value": "19:00",
+      "median": 663,
+      "posts": 5
+     },
+     {
+      "value": "11:00",
+      "median": 359,
+      "posts": 4
+     },
+     {
+      "value": "15:00",
+      "median": 268,
+      "posts": 6
+     }
+    ]
+   },
+   "hook": {
+    "status": "known",
+    "best": {
+     "value": "statement",
+     "median": 665,
+     "posts": 18
+    },
+    "runner_up": {
+     "value": "question",
+     "median": 293,
+     "posts": 9
+    },
+    "groups": [
+     {
+      "value": "statement",
+      "median": 665,
+      "posts": 18
+     },
+     {
+      "value": "confession",
+      "median": 640,
+      "posts": 3
+     },
+     {
+      "value": "question",
+      "median": 293,
+      "posts": 9
+     },
+     {
+      "value": "pov",
+      "median": 207,
+      "posts": 1
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Chef Wei",
+   "brand_id": "chef",
+   "service": "instagram",
+   "handle": "cheff.wei",
+   "posts": 13,
+   "format": {
+    "status": "known",
+    "best": {
+     "value": "video",
+     "median": 146,
+     "posts": 5
+    },
+    "runner_up": {
+     "value": "carousel",
+     "median": 1,
+     "posts": 5
+    },
+    "groups": [
+     {
+      "value": "video",
+      "median": 146,
+      "posts": 5
+     },
+     {
+      "value": "photo",
+      "median": 12,
+      "posts": 3
+     },
+     {
+      "value": "carousel",
+      "median": 1,
+      "posts": 5
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "19:00",
+      "median": 6,
+      "posts": 2
+     },
+     {
+      "value": "11:00",
+      "median": 0,
+      "posts": 2
+     }
+    ]
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "number",
+      "median": 2,
+      "posts": 2
+     },
+     {
+      "value": "statement",
+      "median": 1,
+      "posts": 5
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "One",
+      "median": 2,
+      "posts": 1
+     },
+     {
+      "value": "Overnight",
+      "median": 1,
+      "posts": 1
+     },
+     {
+      "value": "Egg",
+      "median": 1,
+      "posts": 1
+     },
+     {
+      "value": "Chicken",
+      "median": 0,
+      "posts": 1
+     },
+     {
+      "value": "Cheesy",
+      "median": 0,
+      "posts": 1
+     }
+    ]
+   }
+  },
+  {
+   "brand": "Wei Stories",
+   "brand_id": "stories",
+   "service": "instagram",
+   "handle": "weistories",
+   "posts": 16,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "video",
+      "median": 113,
+      "posts": 15
+     },
+     {
+      "value": "photo",
+      "median": 3,
+      "posts": 1
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "19:00",
+      "median": 11,
+      "posts": 6
+     }
+    ]
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "statement",
+      "median": 79,
+      "posts": 16
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "After Hours",
+      "median": 0,
+      "posts": 2
+     }
+    ]
+   }
+  },
+  {
+   "brand": "Mr Wei",
+   "brand_id": "mrpathwei",
+   "service": "linkedin",
+   "handle": "mr-wei",
+   "posts": 2,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "photo",
+      "median": 4709,
+      "posts": 1
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "15:00",
+      "median": 2366,
+      "posts": 2
+     }
+    ]
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "statement",
+      "median": 2366,
+      "posts": 2
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Mr Wei",
+   "brand_id": "mrpathwei",
+   "service": "instagram",
+   "handle": "mr.pathwei",
+   "posts": 1,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "video",
+      "median": 471,
+      "posts": 1
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": []
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "statement",
+      "median": 471,
+      "posts": 1
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  },
+  {
+   "brand": "Pathwei App",
+   "brand_id": "pathweiapp",
+   "service": "instagram",
+   "handle": "pathwei.app",
+   "posts": 5,
+   "format": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "video",
+      "median": 292,
+      "posts": 4
+     },
+     {
+      "value": "carousel",
+      "median": 98,
+      "posts": 1
+     }
+    ]
+   },
+   "window": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "15:00",
+      "median": 205,
+      "posts": 3
+     }
+    ]
+   },
+   "hook": {
+    "status": "testing",
+    "groups": [
+     {
+      "value": "statement",
+      "median": 212,
+      "posts": 5
+     }
+    ]
+   },
+   "series": {
+    "status": "testing",
+    "groups": []
+   }
+  }
+ ],
+ "lines": [
+  "Videos beat carousels on Chef Wei Instagram (146 vs 1 median views a post, 5 vs 5 posts)",
+  "Photos beat carousels on Hacker Wei TikTok (448 vs 12 median views a post, 8 vs 10 posts)",
+  "Videos beat carousels on The Only Wei Instagram (132 vs 18 median views a post, 22 vs 6 posts)"
+ ]
+}
