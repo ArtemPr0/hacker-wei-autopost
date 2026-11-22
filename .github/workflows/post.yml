@@ -93,7 +93,11 @@ jobs:
           BUFFER_API_KEY_4: ${{ secrets.BUFFER_API_KEY_4 }}
           BUFFER_API_KEY_5: ${{ secrets.BUFFER_API_KEY_5 }}
         run: |
-          if [ "$ACTION" = "run" ] && [ $(( $(date -u +%H) % 3 )) -ne 0 ]; then echo "Analytics are read every 3 hours."; exit 0; fi
+          # On timed runs, read again once the numbers are 2.5 hours old (GitHub often skips timed runs, so no fixed hours)
+          if [ "$ACTION" = "run" ]; then
+            AGE=$(python -c "import json,datetime as d;u=json.load(open('analytics.json'))['updated'];print(int((d.datetime.now(d.timezone.utc)-d.datetime.fromisoformat(u.replace('Z','+00:00'))).total_seconds()))" 2>/dev/null || echo 99999)
+            if [ "$AGE" -lt 9000 ]; then echo "Analytics read $((AGE/60)) minutes ago."; exit 0; fi
+          fi
           DEBUG=${{ inputs.account == 'debug' && '1' || '' }} python analytics.py
       - name: Save what was posted
         if: always()
