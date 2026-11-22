@@ -42,6 +42,19 @@ def main():
     want_post = [f for f in ("id", "text", "sentAt", "dueAt", "createdAt", "status", "externalLink", "serviceLink", "permalink", "link", "type", "postType") if f in PF and scalar(PF[f])]
     want_chan = [f for f in ("id", "name", "displayName", "service", "avatar", "serviceId", "externalLink", "serviceLink", "url", "type", "isDisconnected", "isLocked") if f in CF and scalar(CF[f])]
     assets = " assets { __typename ... on ImageAsset { thumbnail } ... on VideoAsset { thumbnail } }" if "assets" in PF else ""
+    # Which post statuses mean "not published": everything except sent, drafts and ones still waiting for their time
+    try:
+        st_t = common.gql('query { __type(name: "Post") { fields { name type { kind name ofType { kind name ofType { kind name } } } } } }', keys[0][1])
+        en = next((f["type"] for f in st_t["__type"]["fields"] if f["name"] == "status"), None)
+        while en and en.get("kind") in ("NON_NULL", "LIST"): en = en.get("ofType")
+        vals = [v["name"] for v in common.gql('query { __type(name: "%s") { enumValues { name } } }' % en["name"], keys[0][1])["__type"]["enumValues"]]
+    except Exception as e: vals = []; log(f"could not read the post statuses: {str(e)[:160]}")
+    bad_status = [v for v in vals if v.lower() in ("error", "failed", "failure", "rejected")]
+    log("post statuses:", vals, "-> problems:", bad_status)
+    err_f = [f for f in ("error", "errorMessage", "failedReason") if f in PF]
+    err_q = ""
+    for f in err_f:
+        err_q += " " + f if scalar(PF[f]) else " %s { message }" % f
     out = {"updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "days": DAYS, "channels": [], "errors": []}
     seen = set()
     for kname, key in keys:
@@ -75,11 +88,23 @@ def main():
                     pages += 1
                     if old or not r["pageInfo"]["hasNextPage"]: break
                     after = r["pageInfo"]["endCursor"]; time.sleep(0.3)
+                # Posts Buffer could not publish (or that are still stuck), with Buffer's reason, so they show on the dashboard
+                problems = []
+                if bad_status:
+                    try:
+                        q = ('query { posts(input: {organizationId: "%s", filter: {channelIds: ["%s"], status: [%s]}}, first: 20) '
+                             '{ edges { node { %s%s } } } }') % (org["id"], ch["id"], ", ".join(bad_status), " ".join(want_post), err_q)
+                        for ed in common.gql(q, key)["posts"]["edges"]:
+                            n = ed["node"]; at = n.get("dueAt") or n.get("createdAt") or ""
+                            if at and at < since: continue
+                            problems.append({"id": n.get("id"), "at": at, "status": n.get("status"), "text": (n.get("text") or "").split("\n")[0][:140],
+                                             "reason": str(n.get("error") or n.get("errorMessage") or n.get("failedReason") or "")[:300] or None})
+                    except Exception as e: out["errors"].append(f"{ch.get('service')} {ch.get('name')} problems: {str(e)[:200]}")
                 b = brand_for(ch.get("service"), ch.get("name")) or brand_for(ch.get("service"), ch.get("displayName"))
                 out["channels"].append({"service": ch.get("service"), "handle": ch.get("name") or ch.get("displayName"), "avatar": ch.get("avatar"),
                                         "brand": b["name"] if b else None, "brand_id": b["id"] if b else None,
                                         "mode": ("manual" if b and b.get("manual") else "off" if b and b.get("off") else "auto" if b else "unlisted"),
-                                        "disconnected": bool(ch.get("isDisconnected")), "posts": sorted(posts, key=lambda p: p["at"] or "", reverse=True)})
+                                        "disconnected": bool(ch.get("isDisconnected")), "problems": sorted(problems, key=lambda p: p["at"], reverse=True), "posts": sorted(posts, key=lambda p: p["at"] or "", reverse=True)})
                 log(f"{ch.get('service')} {ch.get('name')}: {len(posts)} sent posts in the last {DAYS} days")
     json.dump(out, open(os.path.join(ROOT, "analytics.json"), "w"), indent=0, ensure_ascii=False)
     log(f"analytics.json written: {len(out['channels'])} channels, {sum(len(c['posts']) for c in out['channels'])} posts, {len(out['errors'])} errors")
