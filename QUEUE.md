@@ -248,26 +248,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**14 waiting** (14 from the vault). 7 posted by the system so far.
-
-### vault/20261123-1700-ig-red-lentil-bolognese
-
-<a href="vault/chef/20261123-1700-ig-red-lentil-bolognese_1.jpg"><img src="vault/chef/20261123-1700-ig-red-lentil-bolognese_1.jpg" width="110"></a> <a href="vault/chef/20261123-1700-ig-red-lentil-bolognese_2.jpg"><img src="vault/chef/20261123-1700-ig-red-lentil-bolognese_2.jpg" width="110"></a> <a href="vault/chef/20261123-1700-ig-red-lentil-bolognese_3.jpg"><img src="vault/chef/20261123-1700-ig-red-lentil-bolognese_3.jpg" width="110"></a> <a href="vault/chef/20261123-1700-ig-red-lentil-bolognese_4.jpg"><img src="vault/chef/20261123-1700-ig-red-lentil-bolognese_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Bolognese for four, under £1 a plate. 🍝
-
-Red lentil bolognese: 30 mins, under £1 a portion, serves 4.
-You need 1 onion, 1 carrot, 2 garlic cloves, 150g red lentils, 1 tin chopped tomatoes and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #lentilbolognese
-```
-
-</details>
+**13 waiting** (13 from the vault). 8 posted by the system so far.
 
 ### vault/20261123-2100-ig-banana-mug-cake
 
