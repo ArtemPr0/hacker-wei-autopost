@@ -25,6 +25,10 @@ def scalar(t):
     while t and t.get("kind") in ("NON_NULL", "LIST"): t = t.get("ofType")
     return t and t.get("kind") in ("SCALAR", "ENUM")
 
+def reason(e):
+    if isinstance(e, dict): e = e.get("message")
+    return str(e)[:300] if e else None
+
 def brand_for(service, name):
     n = (name or "").lower().lstrip("@")
     for a in common.accounts():
@@ -98,7 +102,7 @@ def main():
                             n = ed["node"]; at = n.get("dueAt") or n.get("createdAt") or ""
                             if at and at < since: continue
                             problems.append({"id": n.get("id"), "at": at, "status": n.get("status"), "text": (n.get("text") or "").split("\n")[0][:140],
-                                             "reason": str(n.get("error") or n.get("errorMessage") or n.get("failedReason") or "")[:300] or None})
+                                             "reason": reason(n.get("error") or n.get("errorMessage") or n.get("failedReason"))})
                     except Exception as e: out["errors"].append(f"{ch.get('service')} {ch.get('name')} problems: {str(e)[:200]}")
                 b = brand_for(ch.get("service"), ch.get("name")) or brand_for(ch.get("service"), ch.get("displayName"))
                 out["channels"].append({"service": ch.get("service"), "handle": ch.get("name") or ch.get("displayName"), "avatar": ch.get("avatar"),
