@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:05:30Z",
+ "updated": "2026-11-22T16:06:54Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -31,6 +31,16 @@
    "off": false,
    "mirror": true,
    "next": [
+    {
+     "id": "vault/20261120-1730-tt-carousel-cv-7seconds",
+     "title": "where recruiters actually look on your cv, in order",
+     "slides": 6,
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg",
+     "at": "2026-11-23T15:30:00Z",
+     "platform": "tiktok"
+    },
     {
      "id": "016",
      "title": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
@@ -70,41 +80,9 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/020_1.jpg"
-    },
-    {
-     "id": "021",
-     "title": "Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.",
-     "slides": 7,
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/021_1.jpg"
     }
    ],
-   "hand": [
-    {
-     "id": "vault/20261120-1730-tt-carousel-cv-7seconds",
-     "title": "where recruiters actually look on your cv, in order",
-     "slides": 6,
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg",
-     "at": "2026-11-20T17:30:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "song",
-     "caption": "where recruiters actually look on your cv, in order\n\n#cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs",
-     "sound": "Add in-app: \"Snowfall\" (\u00d8neheart x reidenshi), low volume.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_2.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_3.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_4.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_5.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_6.jpg"
-     ]
-    }
-   ],
+   "hand": [],
    "recent": [
     {
      "id": "015",
@@ -224,8 +202,7 @@
    "manual": false,
    "off": false,
    "mirror": true,
-   "next": [],
-   "hand": [
+   "next": [
     {
      "id": "vault/20261120-1800-tt-carousel-emailstory-notenoughexperience",
      "title": "they said i didn't have enough experience",
@@ -233,22 +210,11 @@
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg",
-     "at": "2026-11-20T18:00:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "song",
-     "caption": "they said i didn't have enough experience\n\n#jobsearch #rejection #emails #graduatejobs #corporatelife #storytime",
-     "sound": "Add in-app: \"Oh No\" (Kreepa), low volume.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_1.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_2.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_3.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_4.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261120-1800-tt-carousel-emailstory-notenoughexperience_5.jpg"
-     ]
+     "at": "2026-11-23T12:30:00Z",
+     "platform": "tiktok"
     }
    ],
+   "hand": [],
    "recent": [
     {
      "id": "vault/20261120-1200-tt-meme-gotfivemins",
@@ -302,8 +268,7 @@
    "manual": false,
    "off": false,
    "mirror": true,
-   "next": [],
-   "hand": [
+   "next": [
     {
      "id": "vault/20261120-0730-tt-carousel-stevemartin-tenyears",
      "title": "it took him 10 years to get good. then everything changed.",
@@ -311,22 +276,11 @@
      "video": false,
      "vault": true,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg",
-     "at": "2026-11-20T07:30:00Z",
-     "platform": "tiktok",
-     "hand": true,
-     "hold": "song",
-     "caption": "it took him 10 years to get good. then everything changed.\n\n#stevemartin #discipline #careeradvice #mindset #quotes #ukjobs",
-     "sound": "Add in-app: \"Experience\" by Ludovico Einaudi, low volume.",
-     "note": "",
-     "media": [
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_1.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_2.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_3.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_4.jpg",
-      "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/only/20261120-0730-tt-carousel-stevemartin-tenyears_5.jpg"
-     ]
+     "at": "2026-11-23T18:30:00Z",
+     "platform": "tiktok"
     }
    ],
+   "hand": [],
    "recent": [
     {
      "id": "001",
