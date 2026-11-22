@@ -3,5 +3,8 @@
  "platform": "tiktok",
  "title": "Carousel-EmailStory-NotEnoughExperience",
  "sound": "Add in-app: \"Oh No\" (Kreepa), low volume.",
- "note": "Was held for a song; now posted without one."
+ "note": "Was held for a song; now posted without one.",
+ "format": "carousel",
+ "hook": "statement",
+ "series": "Email Story"
 }

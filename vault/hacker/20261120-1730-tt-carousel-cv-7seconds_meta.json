@@ -3,5 +3,8 @@
  "platform": "tiktok",
  "title": "Carousel-CV-7Seconds",
  "sound": "Add in-app: \"Snowfall\" (Øneheart x reidenshi), low volume.",
- "note": "Was held for a song; now posted without one."
+ "note": "Was held for a song; now posted without one.",
+ "format": "carousel",
+ "hook": "statement",
+ "series": "Cv"
 }

@@ -10,7 +10,9 @@ The batch folder is what the MARKETING chat produces:
     Instagram/<handle>/<HHMM>_Instagram_<handle>_<DayDDMon>_<Title>.mp4
     BACKUP_if_not_filmed_<name>.mp4 is used when <name> has a caption but no video.
 Times are UK time. Each post becomes vault/<account>/<YYYYMMDD-HHMM-platform-title>.* with a _meta.json holding its time.
-A carousel whose sound note starts with "Add in-app" is held for a founder to post by hand with that song (TikTok songs cannot be attached automatically).
+Carousels go out without a song (Buffer cannot add TikTok music). Each post's meta.json gets "format" (carousel, video, photo),
+"series" and "hook": a "Series:" or "Hook:" note after the "---" line wins; otherwise the series is the title before " Part"/" Ep"
+and the hook is read from the caption's first line (question, number, confession, pov, statement).
 --replace first removes that account's vault posts that have not gone out yet."""
 import os, re, sys, json, shutil, datetime
 from zoneinfo import ZoneInfo
@@ -62,16 +64,20 @@ def main():
                 raw = open(os.path.join(folder, cap), encoding="utf8").read()
                 text, _, notes = raw.partition("\n---")
                 sound = (re.search(r"^Sound:\s*(.+)$", notes, re.M) or [None, ""])[1].strip()
+                series = (re.search(r"^Series:\s*(.+)$", notes, re.M) or [None, ""])[1].strip()
+                hook = (re.search(r"^Hook:\s*(.+)$", notes, re.M) or [None, ""])[1].strip().lower()
                 slides = os.path.join(folder, stem)
                 video = next((os.path.join(folder, f) for f in (stem + ".mp4", stem + ".mov", "BACKUP_if_not_filmed_" + stem + ".mp4") if os.path.exists(os.path.join(folder, f))), None)
                 name = f"{when:%Y%m%d-%H%M}-{'tt' if plat == 'tiktok' else 'ig'}-{re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:40]}"
                 meta = {"at": when.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "platform": plat, "title": title, "sound": sound}
+                meta["series"] = series or common.series_of(title)
+                meta["hook"] = hook or common.hook_of(text)
                 if os.path.isdir(slides):
                     pics = sorted((f for f in os.listdir(slides) if re.match(r"slide_\d+\.(png|jpe?g)$", f, re.I)), key=lambda f: int(re.search(r"\d+", f)[0]))
-                    kind = f"carousel, {len(pics)} slides"
+                    kind = f"carousel, {len(pics)} slides"; meta["format"] = "carousel" if len(pics) > 1 else "photo"
                     # Buffer cannot add TikTok music, so carousels are posted without a song rather than held for one
                 elif video:
-                    pics = []; kind = "video" + (" (BACKUP, the planned video was not in the batch)" if "BACKUP_" in video else "")
+                    pics = []; meta["format"] = "video"; kind = "video" + (" (BACKUP, the planned video was not in the batch)" if "BACKUP_" in video else "")
                     if "BACKUP_" in video: meta["note"] = "Backup video. The plan was to film this one; see the script in the batch."
                 else:
                     print(f"SKIPPED {stem}: caption but no video or slides"); continue

@@ -2,5 +2,8 @@
  "at": "2026-11-20T18:30:00Z",
  "platform": "tiktok",
  "title": "AfterHours-Ep1-331",
- "sound": "Original audio baked in. Keep it."
+ "sound": "Original audio baked in. Keep it.",
+ "format": "video",
+ "hook": "statement",
+ "series": "After Hours"
 }

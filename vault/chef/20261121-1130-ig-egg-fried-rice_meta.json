@@ -2,5 +2,8 @@
  "at": "2026-11-21T11:30:00Z",
  "platform": "instagram",
  "title": "Egg-fried-rice",
- "sound": "none attached. Instagram carousels posted through Buffer cannot carry music."
+ "sound": "none attached. Instagram carousels posted through Buffer cannot carry music.",
+ "format": "carousel",
+ "hook": "statement",
+ "series": "Egg"
 }

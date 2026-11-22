@@ -78,6 +78,7 @@ jobs:
           BUFFER_API_KEY_3: ${{ secrets.BUFFER_API_KEY_3 }}
           BUFFER_API_KEY_4: ${{ secrets.BUFFER_API_KEY_4 }}
           BUFFER_API_KEY_5: ${{ secrets.BUFFER_API_KEY_5 }}
+          BUFFER_API_KEY_6: ${{ secrets.BUFFER_API_KEY_6 }}
           FORCE_POST: ${{ inputs.action == 'post_now' && '1' || '0' }}
         run: |
           git pull -q --rebase origin main || true
@@ -92,6 +93,7 @@ jobs:
           BUFFER_API_KEY_3: ${{ secrets.BUFFER_API_KEY_3 }}
           BUFFER_API_KEY_4: ${{ secrets.BUFFER_API_KEY_4 }}
           BUFFER_API_KEY_5: ${{ secrets.BUFFER_API_KEY_5 }}
+          BUFFER_API_KEY_6: ${{ secrets.BUFFER_API_KEY_6 }}
         run: |
           # On timed runs, read again once the numbers are 2.5 hours old (GitHub often skips timed runs, so no fixed hours)
           if [ "$ACTION" = "run" ]; then
@@ -99,6 +101,7 @@ jobs:
             if [ "$AGE" -lt 9000 ]; then echo "Analytics read $((AGE/60)) minutes ago."; exit 0; fi
           fi
           DEBUG=${{ inputs.account == 'debug' && '1' || '' }} python analytics.py
+          FORCE_INSIGHTS=${{ inputs.action == 'analytics' && '1' || '' }} python insights.py || true
       - name: Save what was posted
         if: always()
         env:
@@ -108,11 +111,12 @@ jobs:
           BUFFER_API_KEY_3: ${{ secrets.BUFFER_API_KEY_3 }}
           BUFFER_API_KEY_4: ${{ secrets.BUFFER_API_KEY_4 }}
           BUFFER_API_KEY_5: ${{ secrets.BUFFER_API_KEY_5 }}
+          BUFFER_API_KEY_6: ${{ secrets.BUFFER_API_KEY_6 }}
         run: |
           git config user.name "hacker-wei-bot"
           git config user.email "hacker-wei-bot@users.noreply.github.com"
           python gallery.py || true
-          git add state QUEUE.md status.json analytics.json 2>/dev/null || true
+          git add state QUEUE.md status.json analytics.json insights.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "Update post record and queue page"
           for i in 1 2 3 4; do

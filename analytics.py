@@ -66,6 +66,7 @@ def main():
     err_q = ""
     for f in err_f:
         err_q += " " + f if scalar(PF[f]) else " %s { message }" % f
+    TAGS = common.buffer_ids()
     out = {"updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "days": DAYS, "channels": [], "errors": []}
     seen = set()
     for kname, key in keys:
@@ -91,11 +92,16 @@ def main():
                     for ed in r["edges"]:
                         n = ed["node"]; m = {x["type"]: x["value"] for x in (n.get("metrics") or [])}
                         thumb = next((a.get("thumbnail") for a in (n.get("assets") or []) if a and a.get("thumbnail")), None)
+                        kinds = [a.get("__typename") for a in (n.get("assets") or []) if a]
+                        tg = TAGS.get(n.get("id"))
+                        tg = common.tags(*tg) if tg else {"format": "video" if "VideoAsset" in kinds else "carousel" if len(kinds) > 1 else "photo" if kinds else "",
+                                                          "series": "", "hook": common.hook_of(n.get("text"))}
                         at = n.get("sentAt") or n.get("dueAt") or n.get("createdAt")
                         if at and at < since: old = True; continue
                         posts.append({"id": n.get("id"), "at": n.get("sentAt") or n.get("dueAt") or n.get("createdAt"),
                                       "text": (n.get("text") or "").split("\n")[0][:140], "link": n.get("externalLink") or n.get("serviceLink") or n.get("permalink") or n.get("link"),
-                                      "thumb": thumb, "metrics": m, "metrics_at": n.get("metricsUpdatedAt")})
+                                      "thumb": thumb, "metrics": m, "metrics_at": n.get("metricsUpdatedAt"),
+                                      "fmt": tg["format"], "series": tg["series"], "hook": tg["hook"], "tagged": bool(TAGS.get(n.get("id")))})
                     pages += 1
                     if old or not r["pageInfo"]["hasNextPage"]: break
                     after = r["pageInfo"]["endCursor"]; time.sleep(0.3)

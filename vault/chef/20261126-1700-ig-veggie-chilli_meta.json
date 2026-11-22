@@ -2,5 +2,8 @@
  "at": "2026-11-26T17:00:00Z",
  "platform": "instagram",
  "title": "Veggie-chilli",
- "sound": "none attached. Instagram carousels posted through Buffer cannot carry music."
+ "sound": "none attached. Instagram carousels posted through Buffer cannot carry music.",
+ "format": "carousel",
+ "hook": "statement",
+ "series": "Veggie"
 }

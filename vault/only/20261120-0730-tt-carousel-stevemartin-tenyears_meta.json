@@ -3,5 +3,8 @@
  "platform": "tiktok",
  "title": "Carousel-SteveMartin-TenYears",
  "sound": "Add in-app: \"Experience\" by Ludovico Einaudi, low volume.",
- "note": "Was held for a song; now posted without one."
+ "note": "Was held for a song; now posted without one.",
+ "format": "carousel",
+ "hook": "statement",
+ "series": "Steve Martin"
 }

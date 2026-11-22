@@ -2,5 +2,8 @@
  "at": "2026-11-20T10:00:00Z",
  "platform": "tiktok",
  "title": "ThePromotion",
- "sound": "Song baked in. If TikTok mutes it, re-add the same sound in-app."
+ "sound": "Song baked in. If TikTok mutes it, re-add the same sound in-app.",
+ "format": "video",
+ "hook": "statement",
+ "series": ""
 }

@@ -103,3 +103,45 @@ def buffer_channel(service, handle):
         if ch.get("service") == service and want and want in ((ch.get("name") or "").lower().lstrip("@"), (ch.get("displayName") or "").lower().lstrip("@")):
             return ch
     return None
+
+# ---- Format tags: what kind of post it is, which series it belongs to and how its first line hooks ----
+def hook_of(text):
+    """The hook type of a caption's first line: pov, question, number, confession or statement (a fixed rule, no AI)."""
+    s = re.sub(r"#\S+", "", (text or "").strip().split("\n")[0]).strip()
+    low = s.lower()
+    if not s: return ""
+    if low.startswith("pov"): return "pov"
+    first = re.split(r"(?<=[.!?])\s", s)[0]
+    if "?" in first: return "question"
+    if re.match(r"^(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\b", low): return "number"
+    if re.match(r"^(i|i'm|i've|i was|me|my)\b", low): return "confession"
+    return "statement"
+
+FORMAT_WORDS = {"carousel", "meme", "hack", "video", "reel", "skit", "photo"}
+def series_of(title):
+    """A series name from a batch title such as "AfterHours-Ep2-TheCleanersRules" -> "After Hours" or
+    "Carousel-EmailStory-NotEnoughExperience" -> "Email Story". Empty when the title has no series part."""
+    toks = [t for t in re.split(r"[-_]", title or "") if t]
+    while toks and toks[0].lower() in FORMAT_WORDS: toks = toks[1:]
+    if len(toks) < 2: return ""
+    return re.sub(r"(?<=[a-z])(?=[A-Z])", " ", toks[0]).strip().capitalize() if toks[0].isupper() else re.sub(r"(?<=[a-z])(?=[A-Z])", " ", toks[0]).strip()
+
+def tags(a, i):
+    """format (carousel, video, photo), series and hook for one queue or vault item. A meta.json value always wins."""
+    m = i.get("meta") or {}
+    fmt = m.get("format") or ("video" if i.get("video") else "carousel" if len(i.get("media") or []) > 1 else "photo")
+    series = m.get("series") or (series_of(m.get("title") or i.get("name", "").split("-", 3)[-1]) if i.get("vault") else a.get("series") or "")
+    return {"format": fmt, "series": series, "hook": m.get("hook") or hook_of(i.get("caption"))}
+
+def buffer_ids():
+    """Buffer post ID -> (account, item) for every post the engine handed to Buffer, read from state/posted*.json."""
+    out = {}
+    for a in accounts():
+        items = {i["key"]: i for i in all_items(a)}
+        for p in load_state(a).get("posted", []):
+            it = items.get(p.get("post"))
+            if not it: continue
+            for f in ("tiktok", "media_id", "linkedin"):
+                for bid in re.findall(r"post ([0-9a-f]{20,})", str(p.get(f) or "")):
+                    out[bid] = (a, it)
+    return out

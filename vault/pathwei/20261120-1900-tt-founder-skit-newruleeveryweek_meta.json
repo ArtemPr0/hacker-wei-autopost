@@ -3,5 +3,8 @@
  "platform": "tiktok",
  "title": "FOUNDER-SKIT-NewRuleEveryWeek",
  "sound": "Film with your own audio.",
- "note": "Backup video. The plan was to film this one; see the script in the batch."
+ "note": "Backup video. The plan was to film this one; see the script in the batch.",
+ "format": "video",
+ "hook": "statement",
+ "series": "Founder"
 }

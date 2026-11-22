@@ -2,5 +2,8 @@
  "at": "2026-11-21T21:00:00Z",
  "platform": "instagram",
  "title": "Overnight-oats",
- "sound": "none attached. Instagram carousels posted through Buffer cannot carry music."
+ "sound": "none attached. Instagram carousels posted through Buffer cannot carry music.",
+ "format": "carousel",
+ "hook": "number",
+ "series": "Overnight"
 }
