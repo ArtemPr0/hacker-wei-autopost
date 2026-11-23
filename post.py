@@ -254,13 +254,20 @@ def retry_instagram(a, img_base, dry):
         common.save_state(a, st); return
 
 def ig_slot_ok(a, p):
-    """"instagram_slots": ["12:30"] limits an account's Instagram to those UTC times (TikTok keeps its full schedule)."""
+    """Limits a mirrored account's Instagram while its TikTok keeps the full schedule:
+    "instagram_first": N  -> only the first N posts of each day go to Instagram (whatever times the time test picks);
+    "instagram_slots": [..] -> only posts at those UTC times."""
+    at = p.get("at", "")
+    n = a.get("instagram_first")
+    if n:
+        day = slots_for(a, at[:10])
+        return not day or at[11:16] <= day[min(n, len(day)) - 1]
     slots = a.get("instagram_slots")
-    return not slots or p.get("at", "")[11:16] in slots
+    return not slots or at[11:16] in slots
 
 def unqueue_instagram(a, dry):
     """Instagram posts already handed to Buffer at a time the account no longer uses are taken back out of Buffer's queue."""
-    if dry or not a.get("instagram_slots"): return
+    if dry or not (a.get("instagram_slots") or a.get("instagram_first")): return
     st = common.load_state(a); now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()); changed = False
     ch = common.buffer_channel("instagram", a["instagram"])
     if not ch: return
