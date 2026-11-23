@@ -24,9 +24,11 @@ MONTHS = {m: i + 1 for i, m in enumerate("jan feb mar apr may jun jul aug sep oc
 
 def account_for(folder_name, accounts):
     key = re.sub(r"[^a-z0-9]", "", re.sub(r"^\d+_", "", folder_name).lower())
+    names_of = lambda a: {re.sub(r"[^a-z0-9]", "", str(a.get(k, "")).lower()) for k in ("id", "name", "handle", "tiktok", "instagram")} - {""}
+    for a in accounts:      # an exact name wins first, so "pathwei.app" never lands on the main "pathwei" account
+        if key in names_of(a): return a
     for a in accounts:
-        names = {re.sub(r"[^a-z0-9]", "", str(a.get(k, "")).lower()) for k in ("id", "name", "handle", "tiktok", "instagram")} - {""}
-        if key in names or any(key.startswith(n) or n.startswith(key) for n in names if len(n) > 5): return a
+        if any(key.startswith(n) or n.startswith(key) for n in names_of(a) if len(n) > 5): return a
     return None
 
 def parse(stem):

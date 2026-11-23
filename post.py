@@ -297,6 +297,25 @@ def mirror_instagram(a, img_base, dry):
         else: p["instagram_error"] = r; p["instagram_tries"] = p.get("instagram_tries", 0) + 1
         common.save_state(a, st)
 
+def cancel_buffer(dry):
+    """state/cancel.json lists posts already handed to Buffer that must not go out (for example a post replaced by a new design):
+    [{"service": "instagram", "handle": "cheff.wei", "id": "<Buffer post id>", "why": "..."}]. Each is deleted from Buffer's queue once."""
+    path = os.path.join(ROOT, "state", "cancel.json")
+    if dry or not os.path.exists(path): return
+    items = json.load(open(path)); changed = False
+    for c in items:
+        if c.get("done"): continue
+        ch = common.buffer_channel(c["service"], c["handle"])
+        if not ch: c["error"] = "channel not found in Buffer"; changed = True; continue
+        try:
+            r = common.gql('mutation { deletePost(input: {id: "%s"}) { __typename ... on MutationError { message } } }' % c["id"], ch["key"])["deletePost"]
+            ok = not (r or {}).get("message"); msg = (r or {}).get("message", "")
+        except Exception as e: ok, msg = False, str(e)[:200]
+        if ok: c["done"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()); c.pop("error", None)
+        else: c["error"] = msg
+        log(f"Cancelled Buffer post {c['id']} on {c['service']} {c['handle']}: {'done' if ok else msg}"); changed = True
+    if changed: json.dump(items, open(path, "w"), indent=1)
+
 def post_account(a, force, dry, img_base):
     """Posts one item for one account. Returns 'posted', 'skipped', 'empty', 'low' or 'failed'."""
     name = a["name"]
@@ -325,8 +344,12 @@ def post_account(a, force, dry, img_base):
             sl = slots_for(a, day)
             k = (datetime.date.fromisoformat(day) - datetime.date.fromisoformat(a.get("time_test_from") or TEST_FROM)).days
             if not sl or k < 0: continue
+            # windows already used that day (by a post handed over on an earlier run, or an AI post) are skipped, so two posts
+            # never share a time and a post handed early does not shift the rest of the day onto its window
+            used = {p.get("at") for p in st["posted"] if p.get("date") == day and not p.get("cancelled")}
+            free = [s for s in sl if f"{day}T{s}:00Z" not in used] or sl
             for j, it in enumerate(its):
-                it["planned_at"] = it["at"]; it["at"] = f"{day}T{sl[j % len(sl)]}:00Z"
+                it["planned_at"] = it["at"]; it["at"] = f"{day}T{free[j % len(free)]}:00Z"
     for it in timed:
         if it["at"] > iso(now + datetime.timedelta(hours=AHEAD_H)): continue
         if it["at"] < iso(now - datetime.timedelta(hours=LATE_H)):
@@ -436,6 +459,8 @@ def main():
     except Exception: sha = "main"
     img_base = os.environ.get("IMAGE_BASE", f"https://raw.githubusercontent.com/{repo}/{sha}").rstrip("/")
     results = {}
+    try: cancel_buffer(dry)
+    except Exception as e: log(f"::warning::Cancelling Buffer posts failed: {e}")
     for a in common.accounts():
         if only != "all" and a["id"] != only: continue
         try:

@@ -5,7 +5,7 @@
    "date": "2026-11-21",
    "at": "2026-11-21T11:30:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-21T11:30:00.000Z, post 6b00822ed425f1473afd65f6)",
-   "title": "The takeaway classic for under \u00a31, in 10 minutes. \ud83c\udf73",
+   "title": "The takeaway classic for under £1, in 10 minutes. 🍳",
    "timed": true
   },
   {
@@ -13,7 +13,7 @@
    "date": "2026-11-21",
    "at": "2026-11-21T17:00:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-21T17:00:00.000Z, post 6b00822e63ab5fef673feec8)",
-   "title": "One pan, three dinners, about \u00a31 each. \ud83c\udf5b",
+   "title": "One pan, three dinners, about £1 each. 🍛",
    "timed": true
   },
   {
@@ -21,7 +21,7 @@
    "date": "2026-11-21",
    "at": "2026-11-21T21:00:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-21T21:00:00.000Z, post 6b00e0115102766245e20d88)",
-   "title": "Five minutes tonight, breakfast sorted tomorrow. \ud83e\udd63",
+   "title": "Five minutes tonight, breakfast sorted tomorrow. 🥣",
    "timed": true
   },
   {
@@ -29,7 +29,7 @@
    "date": "2026-11-22",
    "at": "2026-11-22T11:30:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-22T11:30:00.000Z, post 6b01b90f0247969092e1bf8f)",
-   "title": "Crispy, melty and ready in 10 minutes. \ud83e\uddc0",
+   "title": "Crispy, melty and ready in 10 minutes. 🧀",
    "timed": true
   },
   {
@@ -37,7 +37,7 @@
    "date": "2026-11-22",
    "at": "2026-11-22T17:00:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-22T17:00:00.000Z, post 6b0210a1d864a01105788917)",
-   "title": "Chuck it in a tray, walk away, dinner done. \ud83c\udf57",
+   "title": "Chuck it in a tray, walk away, dinner done. 🍗",
    "timed": true
   },
   {
@@ -45,7 +45,7 @@
    "date": "2026-11-22",
    "at": "2026-11-22T21:00:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-22T21:00:00.000Z, post 6b0210a2024796909203d716)",
-   "title": "Four bowls of soup for less than one meal deal. \ud83c\udf45",
+   "title": "Four bowls of soup for less than one meal deal. 🍅",
    "timed": true
   },
   {
@@ -53,7 +53,7 @@
    "date": "2026-11-23",
    "at": "2026-11-23T11:30:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-23T11:30:00.000Z, post 6b03132fd5eabfb8ccbef3bd)",
-   "title": "The lunch that beats every meal deal. \ud83e\udd6a",
+   "title": "The lunch that beats every meal deal. 🥪",
    "timed": true
   },
   {
@@ -61,7 +61,7 @@
    "date": "2026-11-23",
    "at": "2026-11-23T17:00:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-23T17:00:00.000Z, post 6b032ca4bf5d5a73b6ad89a1)",
-   "title": "Bolognese for four, under \u00a31 a plate. \ud83c\udf5d",
+   "title": "Bolognese for four, under £1 a plate. 🍝",
    "timed": true
   },
   {
@@ -69,17 +69,18 @@
    "date": "2026-11-23",
    "at": "2026-11-23T21:00:00Z",
    "media_id": "sent (scheduled in Buffer for 2026-11-23T21:00:00.000Z, post 6b037da9cc364169c194428d)",
-   "title": "Cake in 5 minutes, no oven needed. \ud83c\udf4c",
+   "title": "Cake in 5 minutes, no oven needed. 🍌",
    "timed": true
   },
   {
    "post": "vault/20261124-1130-ig-chickpea-smash-wrap",
    "date": "2026-11-24",
    "at": "2026-11-24T07:30:00Z",
-   "media_id": "sent (scheduled in Buffer for 2026-11-24T07:30:00.000Z, post 6b03f20051038c931ba1a6e8)",
-   "title": "No cooking, two lunches, under \u00a31 each. \ud83c\udf2f",
+   "media_id": "cancelled (replaced by the new design in the 24 to 30 Nov batch; Buffer post 6b03f20051038c931ba1a6e8)",
+   "title": "No cooking, two lunches, under £1 each. 🌯",
    "timed": true,
-   "planned_at": "2026-11-24T11:30:00Z"
+   "planned_at": "2026-11-24T11:30:00Z",
+   "cancelled": true
   }
  ]
 }

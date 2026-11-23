@@ -23,7 +23,7 @@
       "id": "pirate",
       "name": "Pirate Wei",
       "handle": "pirate.wei",
-      "per_day": 3,
+      "per_day": 2,
       "tiktok": "pirate.wei",
       "format": "Vault only: videos and carousels made in the MARKETING chat",
       "writer": "None (AI writer switched off)",
@@ -35,7 +35,7 @@
       "id": "only",
       "name": "The Only Wei",
       "handle": "the.only.wei",
-      "per_day": 3,
+      "per_day": 1,
       "tiktok": "the.only.wei",
       "format": "Vault only: videos and carousels made in the MARKETING chat",
       "writer": "None (AI writer switched off)",
@@ -47,7 +47,7 @@
       "id": "unemployed",
       "name": "You Are Unemployed",
       "handle": "yourareunemployed",
-      "per_day": 3,
+      "per_day": 2,
       "tiktok": "yourareunemployed",
       "format": "Vault only: videos made in the MARKETING chat",
       "writer": "None"
@@ -89,9 +89,8 @@
       "handle": "pathwei.app",
       "per_day": 1,
       "instagram": "pathwei.app",
-      "off": true,
-      "format": "Listed only. Not automated yet",
-      "writer": "None"
+      "format": "Value carousels (app features, app shown at the end), Mon, Wed and Fri, made in batches (vault)",
+      "writer": "Made in batches (vault)"
     },
     {
       "id": "mrpathwei",
@@ -99,9 +98,8 @@
       "handle": "mr.pathwei",
       "per_day": 1,
       "instagram": "mr.pathwei",
-      "off": true,
-      "format": "Listed only. Not automated yet (Instagram and LinkedIn)",
-      "writer": "None",
+      "format": "Relatable job seeker: photos, carousels and reels on Instagram (max 1 a day), text and photo posts on LinkedIn on weekdays, link in the first comment",
+      "writer": "Made in batches (vault)",
       "linkedin": "mr-wei",
       "when_approved": {
         "instagram_per_day": 1,
@@ -115,7 +113,9 @@
         "linkedin_slots_uk": [
           "08:45"
         ]
-      }
+      },
+      "auto_linkedin": true,
+      "link": "https://pathwei.ai/?src=li-mrwei"
     },
     {
       "id": "pathweili",

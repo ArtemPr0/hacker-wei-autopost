@@ -27,7 +27,7 @@ def schedule(a):
 
 def item(i, a=None):
     d = {"id": i["key"], "title": i["caption"].splitlines()[0][:160], "slides": len(i["media"]), "tags": common.tags(a, i) if a else None, "video": i["video"], "vault": i["vault"],
-         "cover": None if i["video"] else f"{raw}/{i['rel']}/{i['media'][0]}"}
+         "cover": None if i["video"] or not i["media"] else f"{raw}/{i['rel']}/{i['media'][0]}"}
     if i["at"]: d["at"] = i["at"]
     if i["platform"]: d["platform"] = i["platform"]
     if a and common.by_hand(a, i):      # a founder posts this one: the dashboard needs the files and the caption
