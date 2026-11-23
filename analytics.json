@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T20:24:53Z",
+"updated": "2026-11-23T22:00:19Z",
 "days": 90,
 "channels": [
 {
@@ -5818,6 +5818,19 @@
 "disconnected": false,
 "problems": [],
 "posts": [
+{
+"id": "6b037da9cc364169c194428d",
+"at": "2026-11-23T21:02:52.363Z",
+"text": "Cake in 5 minutes, no oven needed. 🍌",
+"link": "https://www.instagram.com/p/DgGTL9riX1h/",
+"thumb": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/2bba225bbfdb7736e8c68205767a86bf4f6dcf02/vault/chef/20261123-2100-ig-banana-mug-cake_1.jpg",
+"metrics": {},
+"metrics_at": "2026-11-22T23:41:29.436Z",
+"fmt": "carousel",
+"series": "Banana",
+"hook": "statement",
+"tagged": true
+},
 {
 "id": "6b032ca4bf5d5a73b6ad89a1",
 "at": "2026-11-23T17:07:09.549Z",

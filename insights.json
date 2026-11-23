@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:01:17Z",
+ "updated": "2026-11-23T22:00:28Z",
  "days": 28,
  "min_posts": 5,
  "windows": [
@@ -20,7 +20,7 @@
     "groups": [
      {
       "value": "carousel",
-      "median": 303,
+      "median": 304,
       "posts": 1
      },
      {
@@ -95,7 +95,7 @@
    "brand_id": "hacker",
    "service": "tiktok",
    "handle": "hacker.wei",
-   "posts": 15,
+   "posts": 18,
    "format": {
     "status": "testing",
     "groups": [
@@ -106,8 +106,8 @@
      },
      {
       "value": "carousel",
-      "median": 14,
-      "posts": 4
+      "median": 12,
+      "posts": 7
      }
     ]
    },
@@ -121,19 +121,29 @@
      },
      {
       "value": "19:00",
-      "median": 356,
-      "posts": 6
+      "median": 42,
+      "posts": 7
+     },
+     {
+      "value": "07:30",
+      "median": 1,
+      "posts": 1
      }
     ]
    },
    "hook": {
-    "status": "testing",
+    "status": "known",
+    "best": {
+     "value": "number",
+     "median": 113,
+     "posts": 5
+    },
+    "runner_up": {
+     "value": "statement",
+     "median": 32,
+     "posts": 12
+    },
     "groups": [
-     {
-      "value": "statement",
-      "median": 348,
-      "posts": 10
-     },
      {
       "value": "question",
       "median": 231,
@@ -141,8 +151,13 @@
      },
      {
       "value": "number",
-      "median": 153,
-      "posts": 4
+      "median": 113,
+      "posts": 5
+     },
+     {
+      "value": "statement",
+      "median": 32,
+      "posts": 12
      }
     ]
    },
@@ -152,7 +167,7 @@
      {
       "value": "Job hacks",
       "median": 12,
-      "posts": 3
+      "posts": 6
      }
     ]
    }
@@ -168,7 +183,7 @@
     "groups": [
      {
       "value": "video",
-      "median": 187,
+      "median": 189,
       "posts": 9
      }
     ]
@@ -178,7 +193,7 @@
     "groups": [
      {
       "value": "15:00",
-      "median": 278,
+      "median": 280,
       "posts": 2
      },
      {
@@ -224,14 +239,14 @@
    "brand_id": "pathwei",
    "service": "tiktok",
    "handle": "pathwei_ai",
-   "posts": 39,
+   "posts": 40,
    "format": {
     "status": "testing",
     "groups": [
      {
       "value": "video",
-      "median": 683,
-      "posts": 33
+      "median": 681,
+      "posts": 34
      }
     ]
    },
@@ -239,7 +254,7 @@
     "status": "known",
     "best": {
      "value": "15:00",
-     "median": 650,
+     "median": 651,
      "posts": 10
     },
     "runner_up": {
@@ -255,7 +270,7 @@
      },
      {
       "value": "15:00",
-      "median": 650,
+      "median": 651,
       "posts": 10
      },
      {
@@ -269,33 +284,33 @@
     "status": "known",
     "best": {
      "value": "statement",
-     "median": 672,
+     "median": 676,
      "posts": 24
     },
     "runner_up": {
      "value": "question",
-     "median": 653,
-     "posts": 7
+     "median": 628,
+     "posts": 8
     },
     "groups": [
      {
       "value": "confession",
-      "median": 3916,
+      "median": 3923,
       "posts": 3
      },
      {
       "value": "statement",
-      "median": 672,
+      "median": 676,
       "posts": 24
      },
      {
       "value": "question",
-      "median": 653,
-      "posts": 7
+      "median": 628,
+      "posts": 8
      },
      {
       "value": "pov",
-      "median": 607,
+      "median": 608,
       "posts": 1
      }
     ]
@@ -381,14 +396,14 @@
    "brand_id": "stories",
    "service": "tiktok",
    "handle": "wei.stories5",
-   "posts": 15,
+   "posts": 16,
    "format": {
     "status": "testing",
     "groups": [
      {
       "value": "video",
-      "median": 653,
-      "posts": 15
+      "median": 650,
+      "posts": 16
      }
     ]
    },
@@ -407,8 +422,8 @@
     "groups": [
      {
       "value": "statement",
-      "median": 662,
-      "posts": 14
+      "median": 653,
+      "posts": 15
      },
      {
       "value": "question",
@@ -422,8 +437,8 @@
     "groups": [
      {
       "value": "After Hours",
-      "median": 597,
-      "posts": 1
+      "median": 612,
+      "posts": 2
      }
     ]
    }
@@ -580,19 +595,19 @@
    "brand_id": "hacker",
    "service": "instagram",
    "handle": "hacker.weii",
-   "posts": 15,
+   "posts": 18,
    "format": {
     "status": "testing",
     "groups": [
      {
-      "value": "carousel",
-      "median": 5,
-      "posts": 11
-     },
-     {
       "value": "video",
       "median": 3,
       "posts": 4
+     },
+     {
+      "value": "carousel",
+      "median": 2,
+      "posts": 14
      }
     ]
    },
@@ -607,7 +622,12 @@
      {
       "value": "19:00",
       "median": 3,
-      "posts": 5
+      "posts": 6
+     },
+     {
+      "value": "07:30",
+      "median": 0,
+      "posts": 1
      }
     ]
    },
@@ -616,13 +636,13 @@
     "groups": [
      {
       "value": "number",
-      "median": 13,
-      "posts": 3
+      "median": 10,
+      "posts": 4
      },
      {
       "value": "statement",
       "median": 3,
-      "posts": 11
+      "posts": 13
      }
     ]
    },
@@ -666,7 +686,7 @@
     },
     "runner_up": {
      "value": "15:00",
-     "median": 268,
+     "median": 271,
      "posts": 6
     },
     "groups": [
@@ -682,7 +702,7 @@
      },
      {
       "value": "15:00",
-      "median": 268,
+      "median": 271,
       "posts": 6
      }
     ]
@@ -696,7 +716,7 @@
     },
     "runner_up": {
      "value": "question",
-     "median": 293,
+     "median": 298,
      "posts": 9
     },
     "groups": [
@@ -712,12 +732,12 @@
      },
      {
       "value": "question",
-      "median": 293,
+      "median": 298,
       "posts": 9
      },
      {
       "value": "pov",
-      "median": 207,
+      "median": 210,
       "posts": 1
      }
     ]
@@ -732,7 +752,7 @@
    "brand_id": "chef",
    "service": "instagram",
    "handle": "cheff.wei",
-   "posts": 8,
+   "posts": 11,
    "format": {
     "status": "testing",
     "groups": [
@@ -740,6 +760,11 @@
       "value": "video",
       "median": 59,
       "posts": 8
+     },
+     {
+      "value": "carousel",
+      "median": 1,
+      "posts": 3
      }
     ]
    },
@@ -750,6 +775,11 @@
       "value": "19:00",
       "median": 6,
       "posts": 2
+     },
+     {
+      "value": "11:00",
+      "median": 1,
+      "posts": 1
      }
     ]
    },
@@ -759,13 +789,34 @@
      {
       "value": "statement",
       "median": 3,
+      "posts": 3
+     },
+     {
+      "value": "number",
+      "median": 2,
       "posts": 2
      }
     ]
    },
    "series": {
     "status": "testing",
-    "groups": []
+    "groups": [
+     {
+      "value": "One",
+      "median": 3,
+      "posts": 1
+     },
+     {
+      "value": "Overnight",
+      "median": 1,
+      "posts": 1
+     },
+     {
+      "value": "Egg",
+      "median": 1,
+      "posts": 1
+     }
+    ]
    }
   },
   {
@@ -773,14 +824,14 @@
    "brand_id": "stories",
    "service": "instagram",
    "handle": "weistories",
-   "posts": 15,
+   "posts": 16,
    "format": {
     "status": "testing",
     "groups": [
      {
       "value": "video",
-      "median": 113,
-      "posts": 15
+      "median": 79,
+      "posts": 16
      }
     ]
    },
@@ -799,8 +850,8 @@
     "groups": [
      {
       "value": "statement",
-      "median": 113,
-      "posts": 15
+      "median": 79,
+      "posts": 16
      }
     ]
    },
@@ -809,8 +860,8 @@
     "groups": [
      {
       "value": "After Hours",
-      "median": 1,
-      "posts": 1
+      "median": 0,
+      "posts": 2
      }
     ]
    }
@@ -830,7 +881,7 @@
     "groups": [
      {
       "value": "15:00",
-      "median": 4709,
+      "median": 4873,
       "posts": 1
      }
     ]
@@ -840,7 +891,7 @@
     "groups": [
      {
       "value": "statement",
-      "median": 4709,
+      "median": 4873,
       "posts": 1
      }
     ]
@@ -861,7 +912,7 @@
     "groups": [
      {
       "value": "video",
-      "median": 471,
+      "median": 472,
       "posts": 1
      }
     ]
@@ -875,7 +926,7 @@
     "groups": [
      {
       "value": "statement",
-      "median": 471,
+      "median": 472,
       "posts": 1
      }
     ]
@@ -934,7 +985,7 @@
  ],
  "lines": [
   "Videos beat carousels on The Only Wei Instagram (130 vs 18 median views a post, 23 vs 6 posts)",
-  "Posting at 19:00 beats 15:00 on Pathwei Instagram (663 vs 268 median views a post, 5 vs 6 posts)",
-  "Question hooks beat statement hooks on Pirate Wei TikTok (275 vs 121 median views a post, 5 vs 7 posts)"
+  "Number hooks beat statement hooks on Hacker Wei TikTok (113 vs 32 median views a post, 5 vs 12 posts)",
+  "Posting at 19:00 beats 15:00 on Pathwei Instagram (663 vs 271 median views a post, 5 vs 6 posts)"
  ]
 }
