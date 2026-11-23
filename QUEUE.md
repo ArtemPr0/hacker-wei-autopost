@@ -4,21 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**14 waiting** (7 from the vault). 15 posted by the system so far.
-
-### vault/20261124-1100-tt-tiplinkedinlasthour
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-one number in the link changes everything
-
-#linkedintips #jobsearch #careertips #cvtips #interviewtips #graduatejobs
-```
-
-</details>
+**12 waiting** (6 from the vault). 17 posted by the system so far.
 
 ### vault/20261125-1500-tt-tiptellmeaboutyourself
 
@@ -100,30 +86,6 @@ use the advert's exact words on your cv
 find the real interview questions before you walk in
 
 #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
-
-### 017
-
-<a href="posts/017_1.jpg"><img src="posts/017_1.jpg" width="110"></a> <a href="posts/017_2.jpg"><img src="posts/017_2.jpg" width="110"></a> <a href="posts/017_3.jpg"><img src="posts/017_3.jpg" width="110"></a> <a href="posts/017_4.jpg"><img src="posts/017_4.jpg" width="110"></a> <a href="posts/017_5.jpg"><img src="posts/017_5.jpg" width="110"></a> <a href="posts/017_6.jpg"><img src="posts/017_6.jpg" width="110"></a> <a href="posts/017_7.jpg"><img src="posts/017_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Starting your first job can feel overwhelming. Here is how to nail your first week.
-
-5 habits that make you look pro:
-1. Write everything down
-2. Set up your tech early
-3. Ask questions in batches
-4. Eat lunch with the team
-5. Send a Friday recap
-
-Which habit will you start?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #graduatelife #firstjob #graduatescheme #officeetiquette #hackerwei
 ```
 
 </details>
@@ -274,35 +236,7 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**14 waiting** (14 from the vault). 3 posted by the system so far.
-
-### vault/20261124-1100-tt-inboxstorypt2negotiation
-
-<a href="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_1.jpg"><img src="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_1.jpg" width="110"></a> <a href="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_2.jpg"><img src="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_2.jpg" width="110"></a> <a href="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_3.jpg"><img src="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_3.jpg" width="110"></a> <a href="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_4.jpg"><img src="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_4.jpg" width="110"></a> <a href="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_5.jpg"><img src="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_5.jpg" width="110"></a> <a href="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_6.jpg"><img src="vault/pirate/20261124-1100-tt-inboxstorypt2negotiation_6.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-i asked for £3k more. by email.
-
-#salarynegotiation #jobsearch #graduatejobs #emails #careeradvice #storytime
-```
-
-</details>
-
-### vault/20261124-1900-tt-memeunemployed4pmtuesday
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-thriving honestly
-
-#unemployed #jobsearch #corporatelife #corporatehumor #workhumor #officememes
-```
-
-</details>
+**12 waiting** (12 from the vault). 5 posted by the system so far.
 
 ### vault/20261125-0730-tt-inboxstorypt3ghosted
 
@@ -474,21 +408,7 @@ reply all. goodbye.
 
 ## The Only Wei
 
-**7 waiting** (7 from the vault). 2 posted by the system so far.
-
-### vault/20261124-0730-tt-quotestoryjensenhuang
-
-<a href="vault/only/20261124-0730-tt-quotestoryjensenhuang_1.jpg"><img src="vault/only/20261124-0730-tt-quotestoryjensenhuang_1.jpg" width="110"></a> <a href="vault/only/20261124-0730-tt-quotestoryjensenhuang_2.jpg"><img src="vault/only/20261124-0730-tt-quotestoryjensenhuang_2.jpg" width="110"></a> <a href="vault/only/20261124-0730-tt-quotestoryjensenhuang_3.jpg"><img src="vault/only/20261124-0730-tt-quotestoryjensenhuang_3.jpg" width="110"></a> <a href="vault/only/20261124-0730-tt-quotestoryjensenhuang_4.jpg"><img src="vault/only/20261124-0730-tt-quotestoryjensenhuang_4.jpg" width="110"></a> <a href="vault/only/20261124-0730-tt-quotestoryjensenhuang_5.jpg"><img src="vault/only/20261124-0730-tt-quotestoryjensenhuang_5.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-the ceo of nvidia wished stanford students pain and suffering. he meant it kindly.
-
-#jensenhuang #nvidia #mindset #careeradvice #quotes #graduates
-```
-
-</details>
+**6 waiting** (6 from the vault). 3 posted by the system so far.
 
 ### vault/20261125-1100-tt-quotestorymichaeljordan
 
@@ -576,35 +496,7 @@ the unwritten rule of corporate life
 
 ## You Are Unemployed
 
-**14 waiting** (14 from the vault). 2 posted by the system so far.
-
-### vault/20261124-0730-tt-obsessionpostingvideos
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-obsession vs ego vs talent vs motivation. which one are you?
-
-#obsession #ego #motivation #mindset #careertok
-```
-
-</details>
-
-### vault/20261124-1500-tt-mostsuccessfulpt2spain
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the most successful person from every country. part 2: spain
-
-#amancioortega #zara #success #mentality #discipline #obsession
-```
-
-</details>
+**12 waiting** (12 from the vault). 4 posted by the system so far.
 
 ### vault/20261125-1100-tt-mostsuccessfulpt3uk
 
@@ -776,21 +668,7 @@ the most successful person from every country. part 8: japan
 
 ## Wei Stories
 
-**7 waiting** (7 from the vault). 2 posted by the system so far.
-
-### vault/20261124-1900-tt-afterhoursep3themeetingroom
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-part 3. the meeting room was booked. by who?
-
-#scarystories #officehorror #animation #story #corporatelife #horrorstory
-```
-
-</details>
+**6 waiting** (6 from the vault). 3 posted by the system so far.
 
 ### vault/20261125-0730-tt-afterhoursep4floor13
 
@@ -938,49 +816,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**21 waiting** (21 from the vault). 10 posted by the system so far.
-
-### vault/20261124-1100-ig-peanutnoodles
-
-<a href="vault/chef/20261124-1100-ig-peanutnoodles_1.jpg"><img src="vault/chef/20261124-1100-ig-peanutnoodles_1.jpg" width="110"></a> <a href="vault/chef/20261124-1100-ig-peanutnoodles_2.jpg"><img src="vault/chef/20261124-1100-ig-peanutnoodles_2.jpg" width="110"></a> <a href="vault/chef/20261124-1100-ig-peanutnoodles_3.jpg"><img src="vault/chef/20261124-1100-ig-peanutnoodles_3.jpg" width="110"></a> <a href="vault/chef/20261124-1100-ig-peanutnoodles_4.jpg"><img src="vault/chef/20261124-1100-ig-peanutnoodles_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Better than the takeaway and ready before the delivery app loads. 10-minute peanut noodles, under £1 a portion.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
-
-### vault/20261124-1500-ig-creamygarlicmushroompasta
-
-<a href="vault/chef/20261124-1500-ig-creamygarlicmushroompasta_1.jpg"><img src="vault/chef/20261124-1500-ig-creamygarlicmushroompasta_1.jpg" width="110"></a> <a href="vault/chef/20261124-1500-ig-creamygarlicmushroompasta_2.jpg"><img src="vault/chef/20261124-1500-ig-creamygarlicmushroompasta_2.jpg" width="110"></a> <a href="vault/chef/20261124-1500-ig-creamygarlicmushroompasta_3.jpg"><img src="vault/chef/20261124-1500-ig-creamygarlicmushroompasta_3.jpg" width="110"></a> <a href="vault/chef/20261124-1500-ig-creamygarlicmushroompasta_4.jpg"><img src="vault/chef/20261124-1500-ig-creamygarlicmushroompasta_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Tastes like a restaurant, costs like a sandwich. Creamy garlic mushroom pasta, 20 minutes.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
-
-### vault/20261124-1900-ig-bigbatchredlentildal
-
-<a href="vault/chef/20261124-1900-ig-bigbatchredlentildal_1.jpg"><img src="vault/chef/20261124-1900-ig-bigbatchredlentildal_1.jpg" width="110"></a> <a href="vault/chef/20261124-1900-ig-bigbatchredlentildal_2.jpg"><img src="vault/chef/20261124-1900-ig-bigbatchredlentildal_2.jpg" width="110"></a> <a href="vault/chef/20261124-1900-ig-bigbatchredlentildal_3.jpg"><img src="vault/chef/20261124-1900-ig-bigbatchredlentildal_3.jpg" width="110"></a> <a href="vault/chef/20261124-1900-ig-bigbatchredlentildal_4.jpg"><img src="vault/chef/20261124-1900-ig-bigbatchredlentildal_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Four warm bowls for the price of a coffee. Big-batch red lentil dal.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**18 waiting** (18 from the vault). 13 posted by the system so far.
 
 ### vault/20261125-0730-ig-chickpeasmashwrap
 
@@ -1220,7 +1056,19 @@ Two lunches for under £2 in total. Tuna sweetcorn pasta salad.
 
 </details>
 
-...and 1 more after these.
+### vault/20261130-1900-ig-chickpeacoconutcurry
+
+<a href="vault/chef/20261130-1900-ig-chickpeacoconutcurry_1.jpg"><img src="vault/chef/20261130-1900-ig-chickpeacoconutcurry_1.jpg" width="110"></a> <a href="vault/chef/20261130-1900-ig-chickpeacoconutcurry_2.jpg"><img src="vault/chef/20261130-1900-ig-chickpeacoconutcurry_2.jpg" width="110"></a> <a href="vault/chef/20261130-1900-ig-chickpeacoconutcurry_3.jpg"><img src="vault/chef/20261130-1900-ig-chickpeacoconutcurry_3.jpg" width="110"></a> <a href="vault/chef/20261130-1900-ig-chickpeacoconutcurry_4.jpg"><img src="vault/chef/20261130-1900-ig-chickpeacoconutcurry_4.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+A creamy curry from the cupboard, under £1 a portion.
+
+#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
+```
+
+</details>
 
 ## Pathwei App
 
@@ -1270,51 +1118,7 @@ Three checks to run on your CV tonight, and a quicker way to see where you stand
 
 ## Mr Wei
 
-**12 waiting** (12 from the vault). 0 posted by the system so far.
-
-### vault/20261124-0730-li-fourminuterejection
-
-<a href="vault/mrpathwei/20261124-0730-li-fourminuterejection_1.jpg"><img src="vault/mrpathwei/20261124-0730-li-fourminuterejection_1.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Update from my job search.
-
-Today I visited the investment bank in person.
-I thought this would show initiative.
-
-Security showed me the website.
-The website showed me the portal.
-The portal asked me to upload my CV, then type my CV into 14 boxes.
-
-I did this.
-
-The automated email arrived in 4 minutes.
-"After careful consideration."
-
-4 minutes.
-In my galaxy, careful consideration takes at least a lunch break.
-
-What is the fastest rejection you have ever had?
-
-Regards,
-Mr Wei
-```
-
-</details>
-
-### vault/20261124-1900-ig-photoitarrived
-
-<a href="vault/mrpathwei/20261124-1900-ig-photoitarrived_1.jpg"><img src="vault/mrpathwei/20261124-1900-ig-photoitarrived_1.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-it arrived. wearing it around london. wish me luck
-```
-
-</details>
+**10 waiting** (10 from the vault). 2 posted by the system so far.
 
 ### vault/20261125-1100-li-networkingtranslated
 
