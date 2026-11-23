@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:41:35Z",
+ "updated": "2026-11-23T07:57:58Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,26 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 07:30, 12:30, 18:30)",
-   "waiting": 6,
+   "waiting": 7,
    "vault_waiting": 0,
-   "posted": 14,
+   "posted": 15,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "016",
-     "title": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
-     "slides": 7,
-     "tags": {
-      "format": "carousel",
-      "series": "Job hacks",
-      "hook": "question"
-     },
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/016_1.jpg"
-    },
     {
      "id": "017",
      "title": "Starting your first job can feel overwhelming. Here is how to nail your first week.",
@@ -108,10 +95,34 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/021_1.jpg"
+    },
+    {
+     "id": "022",
+     "title": "Waiting for news after an interview or application? Here is how to chase a recruiter without sounding pushy.",
+     "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "question"
+     },
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/022_1.jpg"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "016",
+     "title": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
+     "date": "2026-11-24",
+     "at": "2026-11-24T07:30:00Z",
+     "instagram": false,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-24T07:30:00.000Z, post 6b03f20000ec56c26fe7e727)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/016_1.jpg"
+    },
     {
      "id": "vault/20261120-1730-tt-carousel-cv-7seconds",
      "title": "where recruiters actually look on your cv, in order",
@@ -188,17 +199,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/009_1.jpg"
-    },
-    {
-     "id": "008",
-     "title": "Ten minutes is enough to make your LinkedIn work harder. \ud83d\udd27",
-     "date": "2026-11-21",
-     "at": "2026-11-21T12:30:00Z",
-     "instagram": true,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-21T12:30:00.000Z, post 6b00822c44c361911349de73)",
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/008_1.jpg"
     }
    ],
    "connected": {
@@ -577,28 +577,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK (until then 07:30, 12:30, 18:30)",
-   "waiting": 12,
-   "vault_waiting": 12,
-   "posted": 9,
+   "waiting": 11,
+   "vault_waiting": 11,
+   "posted": 10,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261124-1130-ig-chickpea-smash-wrap",
-     "title": "No cooking, two lunches, under \u00a31 each. \ud83c\udf2f",
-     "slides": 4,
-     "tags": {
-      "format": "carousel",
-      "series": "Chickpea",
-      "hook": "statement"
-     },
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg",
-     "at": "2026-11-24T11:30:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261124-1700-ig-creamy-garlic-mushroom-pasta",
      "title": "Tastes like a restaurant, costs like a sandwich. \ud83c\udf44",
@@ -673,10 +658,36 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261125-2100-ig-tortilla-pizza_1.jpg",
      "at": "2026-11-25T21:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261126-1130-ig-pesto-pasta-with-peas",
+     "title": "Twelve minutes, three ingredients, zero effort. \ud83c\udf3f",
+     "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Pesto",
+      "hook": "number"
+     },
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261126-1130-ig-pesto-pasta-with-peas_1.jpg",
+     "at": "2026-11-26T11:30:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261124-1130-ig-chickpea-smash-wrap",
+     "title": "No cooking, two lunches, under \u00a31 each. \ud83c\udf2f",
+     "date": "2026-11-24",
+     "at": "2026-11-24T07:30:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg"
+    },
     {
      "id": "vault/20261123-2100-ig-banana-mug-cake",
      "title": "Cake in 5 minutes, no oven needed. \ud83c\udf4c",
@@ -753,17 +764,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-2100-ig-overnight-oats_1.jpg"
-    },
-    {
-     "id": "vault/20261121-1700-ig-one-pan-chickpea-curry",
-     "title": "One pan, three dinners, about \u00a31 each. \ud83c\udf5b",
-     "date": "2026-11-21",
-     "at": "2026-11-21T17:00:00Z",
-     "instagram": true,
-     "tiktok": null,
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-1700-ig-one-pan-chickpea-curry_1.jpg"
     }
    ],
    "connected": {

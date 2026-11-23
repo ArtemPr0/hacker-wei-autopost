@@ -4,31 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**6 waiting** (0 from the vault). 14 posted by the system so far.
-
-### 016
-
-<a href="posts/016_1.jpg"><img src="posts/016_1.jpg" width="110"></a> <a href="posts/016_2.jpg"><img src="posts/016_2.jpg" width="110"></a> <a href="posts/016_3.jpg"><img src="posts/016_3.jpg" width="110"></a> <a href="posts/016_4.jpg"><img src="posts/016_4.jpg" width="110"></a> <a href="posts/016_5.jpg"><img src="posts/016_5.jpg" width="110"></a> <a href="posts/016_6.jpg"><img src="posts/016_6.jpg" width="110"></a> <a href="posts/016_7.jpg"><img src="posts/016_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.
-
-5 ways to upgrade part-time work:
-1. Lead with transferable skills
-2. Show the scale of your work
-3. Show trust and responsibility
-4. Start bullets with action verbs
-5. Link your duties to the role
-
-Which tip helps you most?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #cvtips #parttimejob #cvhelp #studentcv #hackerwei
-```
-
-</details>
+**7 waiting** (0 from the vault). 15 posted by the system so far.
 
 ### 017
 
@@ -150,6 +126,54 @@ Save this and follow for a new hack every day.
 
 </details>
 
+### 022
+
+<a href="posts/022_1.jpg"><img src="posts/022_1.jpg" width="110"></a> <a href="posts/022_2.jpg"><img src="posts/022_2.jpg" width="110"></a> <a href="posts/022_3.jpg"><img src="posts/022_3.jpg" width="110"></a> <a href="posts/022_4.jpg"><img src="posts/022_4.jpg" width="110"></a> <a href="posts/022_5.jpg"><img src="posts/022_5.jpg" width="110"></a> <a href="posts/022_6.jpg"><img src="posts/022_6.jpg" width="110"></a> <a href="posts/022_7.jpg"><img src="posts/022_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Waiting for news after an interview or application? Here is how to chase a recruiter without sounding pushy.
+
+5 polite ways to follow up:
+1. Wait for the stated deadline
+2. Reply on the original thread
+3. Keep the message very short
+4. Reiterate your key fit
+5. Set a clear gentle closing
+
+Which step will you try?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #jobapplication #graduatecareers #emailtips #followups #hackerwei
+```
+
+</details>
+
+### 023
+
+<a href="posts/023_1.jpg"><img src="posts/023_1.jpg" width="110"></a> <a href="posts/023_2.jpg"><img src="posts/023_2.jpg" width="110"></a> <a href="posts/023_3.jpg"><img src="posts/023_3.jpg" width="110"></a> <a href="posts/023_4.jpg"><img src="posts/023_4.jpg" width="110"></a> <a href="posts/023_5.jpg"><img src="posts/023_5.jpg" width="110"></a> <a href="posts/023_6.jpg"><img src="posts/023_6.jpg" width="110"></a> <a href="posts/023_7.jpg"><img src="posts/023_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+University careers fairs can feel chaotic. Here is how to make real connections and land job leads.
+
+5 moves to land actual leads:
+1. Pick three target stalls
+2. Prepare a concise intro
+3. Ditch the generic questions
+4. Get specific contact details
+5. Send a note within 24 hours
+
+Which move will you try?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #careersfair #linkedin #networking #gradscheme #hackerwei
+```
+
+</details>
+
 ## Pirate Wei
 
 **0 waiting** (0 from the vault). 3 posted by the system so far.
@@ -236,26 +260,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**12 waiting** (12 from the vault). 9 posted by the system so far.
-
-### vault/20261124-1130-ig-chickpea-smash-wrap
-
-<a href="vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg"><img src="vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg" width="110"></a> <a href="vault/chef/20261124-1130-ig-chickpea-smash-wrap_2.jpg"><img src="vault/chef/20261124-1130-ig-chickpea-smash-wrap_2.jpg" width="110"></a> <a href="vault/chef/20261124-1130-ig-chickpea-smash-wrap_3.jpg"><img src="vault/chef/20261124-1130-ig-chickpea-smash-wrap_3.jpg" width="110"></a> <a href="vault/chef/20261124-1130-ig-chickpea-smash-wrap_4.jpg"><img src="vault/chef/20261124-1130-ig-chickpea-smash-wrap_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-No cooking, two lunches, under £1 each. 🌯
-
-Chickpea smash wrap: 10 mins, under £1 a wrap, makes 2.
-You need 1 tin chickpeas, 2 tbsp mayo or greek yoghurt, squeeze of lemon, quarter of a cucumber, pinch of paprika and a couple of cupboard basics. Full method in the slides.
-
-Save it for later and follow for 3 cheap recipes a day 👨‍🍳
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #studentcooking #ukstudents #uni #mealprep #chickpeawrap
-```
-
-</details>
+**11 waiting** (11 from the vault). 10 posted by the system so far.
 
 ### vault/20261124-1700-ig-creamy-garlic-mushroom-pasta
 
