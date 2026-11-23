@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:29:54Z",
+ "updated": "2026-11-23T17:33:09Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -212,7 +212,11 @@
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/009_1.jpg"
     }
-   ]
+   ],
+   "connected": {
+    "instagram": true,
+    "tiktok": true
+   }
   },
   {
    "id": "pirate",
@@ -365,7 +369,11 @@
      "by_hand": false,
      "cover": null
     }
-   ]
+   ],
+   "connected": {
+    "instagram": true,
+    "tiktok": true
+   }
   },
   {
    "id": "only",
@@ -507,7 +515,11 @@
      "by_hand": false,
      "cover": null
     }
-   ]
+   ],
+   "connected": {
+    "instagram": true,
+    "tiktok": true
+   }
   },
   {
    "id": "unemployed",
@@ -648,7 +660,10 @@
      "by_hand": false,
      "cover": null
     }
-   ]
+   ],
+   "connected": {
+    "tiktok": true
+   }
   },
   {
    "id": "stories",
@@ -790,7 +805,11 @@
      "by_hand": false,
      "cover": null
     }
-   ]
+   ],
+   "connected": {
+    "instagram": true,
+    "tiktok": true
+   }
   },
   {
    "id": "pathwei",
@@ -911,7 +930,11 @@
      ]
     }
    ],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "instagram": true,
+    "tiktok": true
+   }
   },
   {
    "id": "chef",
@@ -1118,7 +1141,10 @@
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261121-2100-ig-overnight-oats_1.jpg"
     }
-   ]
+   ],
+   "connected": {
+    "instagram": true
+   }
   },
   {
    "id": "pathweiapp",
@@ -1191,7 +1217,10 @@
     }
    ],
    "hand": [],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "instagram": true
+   }
   },
   {
    "id": "mrpathwei",
@@ -1310,7 +1339,11 @@
     }
    ],
    "hand": [],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "instagram": true,
+    "linkedin": true
+   }
   },
   {
    "id": "pathweili",
@@ -1383,9 +1416,28 @@
     }
    ],
    "hand": [],
-   "recent": []
+   "recent": [],
+   "connected": {
+    "linkedin": false
+   }
   }
  ],
- "buffer_accounts": 0,
- "channels": []
+ "buffer_accounts": 5,
+ "channels": [
+  "tiktok the.only.wei",
+  "tiktok hacker.wei",
+  "tiktok yourareunemployed",
+  "tiktok pathwei_ai",
+  "tiktok pirate.wei",
+  "tiktok wei.stories5",
+  "instagram weigradjobs",
+  "instagram pirate.wei",
+  "instagram hacker.weii",
+  "instagram pathwei.ai",
+  "instagram cheff.wei",
+  "instagram weistories",
+  "linkedin mr-wei",
+  "instagram mr.pathwei",
+  "instagram pathwei.app"
+ ]
 }
