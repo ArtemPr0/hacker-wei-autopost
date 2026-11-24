@@ -4,21 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**12 waiting** (6 from the vault). 17 posted by the system so far.
-
-### vault/20261125-1500-tt-tiptellmeaboutyourself
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the 3 part answer to "tell me about yourself"
-
-#jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
+**10 waiting** (5 from the vault). 19 posted by the system so far.
 
 ### vault/20261126-1900-tt-tipfollowupemail
 
@@ -86,30 +72,6 @@ use the advert's exact words on your cv
 find the real interview questions before you walk in
 
 #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
-
-### 018
-
-<a href="posts/018_1.jpg"><img src="posts/018_1.jpg" width="110"></a> <a href="posts/018_2.jpg"><img src="posts/018_2.jpg" width="110"></a> <a href="posts/018_3.jpg"><img src="posts/018_3.jpg" width="110"></a> <a href="posts/018_4.jpg"><img src="posts/018_4.jpg" width="110"></a> <a href="posts/018_5.jpg"><img src="posts/018_5.jpg" width="110"></a> <a href="posts/018_6.jpg"><img src="posts/018_6.jpg" width="110"></a> <a href="posts/018_7.jpg"><img src="posts/018_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-An employment contract is more than just a starting date and a salary. Here is what to check before you sign.
-
-5 clauses to check before you sign:
-1. Check the probation period length
-2. Look up notice period rules
-3. Read the training repayment clause
-4. Check the standard working hours
-5. Find the place of work clause
-
-Which clause will you check?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #employmentlaw #graduatescheme #careerstart #jobsearchuk #hackerwei
 ```
 
 </details>
@@ -236,21 +198,7 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**12 waiting** (12 from the vault). 5 posted by the system so far.
-
-### vault/20261125-0730-tt-inboxstorypt3ghosted
-
-<a href="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_1.jpg"><img src="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_1.jpg" width="110"></a> <a href="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_2.jpg"><img src="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_2.jpg" width="110"></a> <a href="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_3.jpg"><img src="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_3.jpg" width="110"></a> <a href="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_4.jpg"><img src="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_4.jpg" width="110"></a> <a href="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_5.jpg"><img src="vault/pirate/20261125-0730-tt-inboxstorypt3ghosted_5.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-ghosted for 3 weeks. then they wanted a chat.
-
-#ghosted #jobsearch #graduatejobs #emails #careeradvice #storytime
-```
-
-</details>
+**11 waiting** (11 from the vault). 6 posted by the system so far.
 
 ### vault/20261125-1500-tt-memeentrylevel
 
@@ -408,21 +356,7 @@ reply all. goodbye.
 
 ## The Only Wei
 
-**6 waiting** (6 from the vault). 3 posted by the system so far.
-
-### vault/20261125-1100-tt-quotestorymichaeljordan
-
-<a href="vault/only/20261125-1100-tt-quotestorymichaeljordan_1.jpg"><img src="vault/only/20261125-1100-tt-quotestorymichaeljordan_1.jpg" width="110"></a> <a href="vault/only/20261125-1100-tt-quotestorymichaeljordan_2.jpg"><img src="vault/only/20261125-1100-tt-quotestorymichaeljordan_2.jpg" width="110"></a> <a href="vault/only/20261125-1100-tt-quotestorymichaeljordan_3.jpg"><img src="vault/only/20261125-1100-tt-quotestorymichaeljordan_3.jpg" width="110"></a> <a href="vault/only/20261125-1100-tt-quotestorymichaeljordan_4.jpg"><img src="vault/only/20261125-1100-tt-quotestorymichaeljordan_4.jpg" width="110"></a> <a href="vault/only/20261125-1100-tt-quotestorymichaeljordan_5.jpg"><img src="vault/only/20261125-1100-tt-quotestorymichaeljordan_5.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-michael jordan made an advert about his misses
-
-#michaeljordan #nike #mindset #careeradvice #quotes #graduates #motivation
-```
-
-</details>
+**5 waiting** (5 from the vault). 4 posted by the system so far.
 
 ### vault/20261126-1500-tt-quotestevejobs
 
@@ -496,21 +430,7 @@ the unwritten rule of corporate life
 
 ## You Are Unemployed
 
-**12 waiting** (12 from the vault). 4 posted by the system so far.
-
-### vault/20261125-1100-tt-mostsuccessfulpt3uk
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the most successful person from every country. part 3: the uk
-
-#jamesdyson #dyson #success #mentality #discipline #obsession
-```
-
-</details>
+**11 waiting** (11 from the vault). 5 posted by the system so far.
 
 ### vault/20261125-1900-tt-obsessiongraduationday
 
@@ -668,21 +588,7 @@ the most successful person from every country. part 8: japan
 
 ## Wei Stories
 
-**6 waiting** (6 from the vault). 3 posted by the system so far.
-
-### vault/20261125-0730-tt-afterhoursep4floor13
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-part 4. floor 13. every desk belongs to someone who stayed late. one has your name on it.
-
-#scarystories #officehorror #animation #story #corporatelife #horrorstory
-```
-
-</details>
+**5 waiting** (5 from the vault). 4 posted by the system so far.
 
 ### vault/20261126-1100-tt-afterhoursep5nineam
 
@@ -816,35 +722,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**18 waiting** (18 from the vault). 13 posted by the system so far.
-
-### vault/20261125-0730-ig-chickpeasmashwrap
-
-<a href="vault/chef/20261125-0730-ig-chickpeasmashwrap_1.jpg"><img src="vault/chef/20261125-0730-ig-chickpeasmashwrap_1.jpg" width="110"></a> <a href="vault/chef/20261125-0730-ig-chickpeasmashwrap_2.jpg"><img src="vault/chef/20261125-0730-ig-chickpeasmashwrap_2.jpg" width="110"></a> <a href="vault/chef/20261125-0730-ig-chickpeasmashwrap_3.jpg"><img src="vault/chef/20261125-0730-ig-chickpeasmashwrap_3.jpg" width="110"></a> <a href="vault/chef/20261125-0730-ig-chickpeasmashwrap_4.jpg"><img src="vault/chef/20261125-0730-ig-chickpeasmashwrap_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-No cooking, two lunches, under £1 each. Chickpea smash wraps in 10 minutes.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
-
-### vault/20261125-1100-ig-tortillapizza
-
-<a href="vault/chef/20261125-1100-ig-tortillapizza_1.jpg"><img src="vault/chef/20261125-1100-ig-tortillapizza_1.jpg" width="110"></a> <a href="vault/chef/20261125-1100-ig-tortillapizza_2.jpg"><img src="vault/chef/20261125-1100-ig-tortillapizza_2.jpg" width="110"></a> <a href="vault/chef/20261125-1100-ig-tortillapizza_3.jpg"><img src="vault/chef/20261125-1100-ig-tortillapizza_3.jpg" width="110"></a> <a href="vault/chef/20261125-1100-ig-tortillapizza_4.jpg"><img src="vault/chef/20261125-1100-ig-tortillapizza_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Late-night pizza for under £1. Ready before a delivery would even leave.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**16 waiting** (16 from the vault). 15 posted by the system so far.
 
 ### vault/20261125-1500-ig-sausageandbeancasserole
 
@@ -1072,21 +950,7 @@ A creamy curry from the cupboard, under £1 a portion.
 
 ## Pathwei App
 
-**3 waiting** (3 from the vault). 0 posted by the system so far.
-
-### vault/20261125-1100-ig-cvnotwrittenforthisjob
-
-<a href="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_1.jpg"><img src="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_1.jpg" width="110"></a> <a href="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_2.jpg"><img src="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_2.jpg" width="110"></a> <a href="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_3.jpg"><img src="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_3.jpg" width="110"></a> <a href="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_4.jpg"><img src="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_4.jpg" width="110"></a> <a href="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_5.jpg"><img src="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_5.jpg" width="110"></a> <a href="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_6.jpg"><img src="vault/pathweiapp/20261125-1100-ig-cvnotwrittenforthisjob_6.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Your CV isn't bad. It just isn't written for the job you're applying to. Three fixes that take ten minutes, and the shortcut on the last slide.
-
-#cvtips #graduatejobs #jobsearch #ukstudents #careeradvice
-```
-
-</details>
+**2 waiting** (2 from the vault). 1 posted by the system so far.
 
 ### vault/20261127-1500-ig-interviewthisweek
 
@@ -1118,47 +982,7 @@ Three checks to run on your CV tonight, and a quicker way to see where you stand
 
 ## Mr Wei
 
-**10 waiting** (10 from the vault). 2 posted by the system so far.
-
-### vault/20261125-1100-li-networkingtranslated
-
-<a href="vault/mrpathwei/20261125-1100-li-networkingtranslated_1.jpg"><img src="vault/mrpathwei/20261125-1100-li-networkingtranslated_1.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-I have now attended 9 networking events.
-
-Here is what I have learned about networking on Earth.
-
-"Let's grab a coffee" means you will never grab a coffee.
-"Keep in touch" means goodbye.
-"I'll pass your CV on" means it is now in a drawer.
-"We should connect" means a request with no message.
-"Great question" means they do not know.
-
-I have accepted 41 connection requests.
-I have had 0 coffees.
-
-Which one did I miss?
-
-Regards,
-Mr Wei
-```
-
-</details>
-
-### vault/20261125-1500-ig-carouselmonday
-
-<a href="vault/mrpathwei/20261125-1500-ig-carouselmonday_1.jpg"><img src="vault/mrpathwei/20261125-1500-ig-carouselmonday_1.jpg" width="110"></a> <a href="vault/mrpathwei/20261125-1500-ig-carouselmonday_2.jpg"><img src="vault/mrpathwei/20261125-1500-ig-carouselmonday_2.jpg" width="110"></a> <a href="vault/mrpathwei/20261125-1500-ig-carouselmonday_3.jpg"><img src="vault/mrpathwei/20261125-1500-ig-carouselmonday_3.jpg" width="110"></a> <a href="vault/mrpathwei/20261125-1500-ig-carouselmonday_4.jpg"><img src="vault/mrpathwei/20261125-1500-ig-carouselmonday_4.jpg" width="110"></a> <a href="vault/mrpathwei/20261125-1500-ig-carouselmonday_5.jpg"><img src="vault/mrpathwei/20261125-1500-ig-carouselmonday_5.jpg" width="110"></a> <a href="vault/mrpathwei/20261125-1500-ig-carouselmonday_6.jpg"><img src="vault/mrpathwei/20261125-1500-ig-carouselmonday_6.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-monday
-```
-
-</details>
+**8 waiting** (8 from the vault). 4 posted by the system so far.
 
 ### vault/20261126-1100-ig-reelspottedinlondon
 

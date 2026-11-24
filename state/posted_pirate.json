@@ -45,6 +45,16 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-24T11:00:00.000Z, post 6b04793fcf4a65d4498f3c97)",
    "planned_at": "2026-11-24T19:00:00Z"
+  },
+  {
+   "post": "vault/20261125-0730-tt-inboxstorypt3ghosted",
+   "date": "2026-11-25",
+   "at": "2026-11-25T15:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-25T15:00:00.000Z, post 6b05b527ca966bd75f5f1042)",
+   "title": "ghosted for 3 weeks. then they wanted a chat.",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-25T15:00:00.000Z, post 6b05b527f031340fefbfd7be)",
+   "planned_at": "2026-11-25T07:30:00Z"
   }
  ]
 }

@@ -108,6 +108,24 @@
    "title": "Four warm bowls for the price of a coffee. Big-batch red lentil dal.",
    "timed": true,
    "planned_at": "2026-11-24T19:00:00Z"
+  },
+  {
+   "post": "vault/20261125-0730-ig-chickpeasmashwrap",
+   "date": "2026-11-25",
+   "at": "2026-11-25T07:30:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-25T07:30:00.000Z, post 6b05b52dc493056b4de989ac)",
+   "title": "No cooking, two lunches, under \u00a31 each. Chickpea smash wraps in 10 minutes.",
+   "timed": true,
+   "planned_at": "2026-11-25T07:30:00Z"
+  },
+  {
+   "post": "vault/20261125-1100-ig-tortillapizza",
+   "date": "2026-11-25",
+   "at": "2026-11-25T11:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-25T11:00:00.000Z, post 6b05b52e4181e8048fa66808)",
+   "title": "Late-night pizza for under \u00a31. Ready before a delivery would even leave.",
+   "timed": true,
+   "planned_at": "2026-11-25T11:00:00Z"
   }
  ]
 }
