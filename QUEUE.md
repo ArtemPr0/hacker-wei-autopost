@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**10 waiting** (4 from the vault). 21 posted by the system so far.
+**8 waiting** (4 from the vault). 23 posted by the system so far.
 
 ### vault/20261127-0730-tt-tipreplytorejection
 
@@ -58,54 +58,6 @@ use the advert's exact words on your cv
 find the real interview questions before you walk in
 
 #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
-
-### 020
-
-<a href="posts/020_1.jpg"><img src="posts/020_1.jpg" width="110"></a> <a href="posts/020_2.jpg"><img src="posts/020_2.jpg" width="110"></a> <a href="posts/020_3.jpg"><img src="posts/020_3.jpg" width="110"></a> <a href="posts/020_4.jpg"><img src="posts/020_4.jpg" width="110"></a> <a href="posts/020_5.jpg"><img src="posts/020_5.jpg" width="110"></a> <a href="posts/020_6.jpg"><img src="posts/020_6.jpg" width="110"></a> <a href="posts/020_7.jpg"><img src="posts/020_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-The presentation task at an assessment centre can feel tough. Here is how to structure your talk and win marks.
-
-5 fixes for your 5-minute talk:
-1. Start with your main answer
-2. Use a simple three-part frame
-3. Write three prompt cards
-4. Time your delivery at home
-5. Plan for follow-up questions
-
-Which tip will you try?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #assessmentcentre #presentationtips #graduatescheme #interviewprep #hackerwei
-```
-
-</details>
-
-### 021
-
-<a href="posts/021_1.jpg"><img src="posts/021_1.jpg" width="110"></a> <a href="posts/021_2.jpg"><img src="posts/021_2.jpg" width="110"></a> <a href="posts/021_3.jpg"><img src="posts/021_3.jpg" width="110"></a> <a href="posts/021_4.jpg"><img src="posts/021_4.jpg" width="110"></a> <a href="posts/021_5.jpg"><img src="posts/021_5.jpg" width="110"></a> <a href="posts/021_6.jpg"><img src="posts/021_6.jpg" width="110"></a> <a href="posts/021_7.jpg"><img src="posts/021_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.
-
-5 ways to stay on top of both:
-1. Block out application slots
-2. Reuse your core STAR answers
-3. Finish quick online tests early
-4. Track your active stages
-5. Limit weekly submissions
-
-Which hack will you try?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #graduatescheme #gradscheme #unilife #studenttips #hackerwei
 ```
 
 </details>
@@ -208,21 +160,7 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**9 waiting** (9 from the vault). 8 posted by the system so far.
-
-### vault/20261126-1900-tt-memeanyquestions
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-every interview. every time.
-
-#interview #unemployed #jobsearch #corporatelife #corporatehumor #workhumor #officememes
-```
-
-</details>
+**8 waiting** (8 from the vault). 9 posted by the system so far.
 
 ### vault/20261127-0730-tt-inboxstorypt4thequestion
 
@@ -338,21 +276,7 @@ reply all. goodbye.
 
 ## The Only Wei
 
-**5 waiting** (5 from the vault). 4 posted by the system so far.
-
-### vault/20261126-1500-tt-quotestevejobs
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the line steve jobs ended stanford with
-
-#stevejobs #stanford #mindset #careeradvice #quotes #graduates #motivation
-```
-
-</details>
+**4 waiting** (4 from the vault). 5 posted by the system so far.
 
 ### vault/20261127-1900-tt-quotesatyanadella
 
@@ -412,21 +336,7 @@ the unwritten rule of corporate life
 
 ## You Are Unemployed
 
-**9 waiting** (9 from the vault). 7 posted by the system so far.
-
-### vault/20261126-1500-tt-mostsuccessfulpt4china
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the most successful person from every country. part 4: china
-
-#jackma #alibaba #success #mentality #discipline #obsession
-```
-
-</details>
+**8 waiting** (8 from the vault). 8 posted by the system so far.
 
 ### vault/20261127-1100-tt-mostsuccessfulpt5india
 
@@ -542,21 +452,7 @@ the most successful person from every country. part 8: japan
 
 ## Wei Stories
 
-**5 waiting** (5 from the vault). 4 posted by the system so far.
-
-### vault/20261126-1100-tt-afterhoursep5nineam
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the finale. the doors open at 9. it is 8:57.
-
-#scarystories #officehorror #animation #story #corporatelife #horrorstory
-```
-
-</details>
+**4 waiting** (4 from the vault). 5 posted by the system so far.
 
 ### vault/20261127-1500-tt-theothercandidateep1dayone
 
@@ -676,35 +572,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**14 waiting** (14 from the vault). 17 posted by the system so far.
-
-### vault/20261126-1100-ig-pestopastawithpeas
-
-<a href="vault/chef/20261126-1100-ig-pestopastawithpeas_1.jpg"><img src="vault/chef/20261126-1100-ig-pestopastawithpeas_1.jpg" width="110"></a> <a href="vault/chef/20261126-1100-ig-pestopastawithpeas_2.jpg"><img src="vault/chef/20261126-1100-ig-pestopastawithpeas_2.jpg" width="110"></a> <a href="vault/chef/20261126-1100-ig-pestopastawithpeas_3.jpg"><img src="vault/chef/20261126-1100-ig-pestopastawithpeas_3.jpg" width="110"></a> <a href="vault/chef/20261126-1100-ig-pestopastawithpeas_4.jpg"><img src="vault/chef/20261126-1100-ig-pestopastawithpeas_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Twelve minutes, three main ingredients, zero effort. Pesto pasta with peas.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
-
-### vault/20261126-1900-ig-veggiechilli
-
-<a href="vault/chef/20261126-1900-ig-veggiechilli_1.jpg"><img src="vault/chef/20261126-1900-ig-veggiechilli_1.jpg" width="110"></a> <a href="vault/chef/20261126-1900-ig-veggiechilli_2.jpg"><img src="vault/chef/20261126-1900-ig-veggiechilli_2.jpg" width="110"></a> <a href="vault/chef/20261126-1900-ig-veggiechilli_3.jpg"><img src="vault/chef/20261126-1900-ig-veggiechilli_3.jpg" width="110"></a> <a href="vault/chef/20261126-1900-ig-veggiechilli_4.jpg"><img src="vault/chef/20261126-1900-ig-veggiechilli_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-A big pot of chilli for less than £1 a bowl.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**12 waiting** (12 from the vault). 19 posted by the system so far.
 
 ### vault/20261127-0730-ig-microwavejacketpotato
 
@@ -908,54 +776,7 @@ Three checks to run on your CV tonight, and a quicker way to see where you stand
 
 ## Mr Wei
 
-**8 waiting** (8 from the vault). 4 posted by the system so far.
-
-### vault/20261126-1100-ig-reelspottedinlondon
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-apparently i'm a sighting now
-```
-
-</details>
-
-### vault/20261126-1500-li-onewayvideointerview
-
-<a href="vault/mrpathwei/20261126-1500-li-onewayvideointerview_1.jpg"><img src="vault/mrpathwei/20261126-1500-li-onewayvideointerview_1.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Today I had my first one-way video interview.
-
-There was no interviewer.
-There was a camera, a question and a timer.
-
-30 seconds to think.
-2 minutes to answer.
-No second attempt.
-
-I answered "Why do you want this role?" to my own face.
-
-My own face did not react.
-
-At the end, a message said a human will "review my recording".
-
-I hope they enjoy it.
-I spent 412 years preparing and 2 minutes delivering.
-
-In my galaxy, we interview people by talking to them.
-
-Have you done one of these? How did it go?
-
-Regards,
-Mr Wei
-```
-
-</details>
+**6 waiting** (6 from the vault). 6 posted by the system so far.
 
 ### vault/20261127-0730-ig-phototowerbridge
 

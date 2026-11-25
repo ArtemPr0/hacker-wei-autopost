@@ -144,6 +144,24 @@
    "title": "Twelve flapjacks for the price of one from the campus shop.",
    "timed": true,
    "planned_at": "2026-11-26T07:30:00Z"
+  },
+  {
+   "post": "vault/20261126-1100-ig-pestopastawithpeas",
+   "date": "2026-11-26",
+   "at": "2026-11-26T15:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-26T15:00:00.000Z, post 6b073e581dafb303591fa0fb)",
+   "title": "Twelve minutes, three main ingredients, zero effort. Pesto pasta with peas.",
+   "timed": true,
+   "planned_at": "2026-11-26T11:00:00Z"
+  },
+  {
+   "post": "vault/20261126-1900-ig-veggiechilli",
+   "date": "2026-11-26",
+   "at": "2026-11-26T19:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-26T19:00:00.000Z, post 6b073e581dafb303591fa17d)",
+   "title": "A big pot of chilli for less than \u00a31 a bowl.",
+   "timed": true,
+   "planned_at": "2026-11-26T19:00:00Z"
   }
  ]
 }

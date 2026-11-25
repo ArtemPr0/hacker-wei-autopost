@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:58:06Z",
+ "updated": "2026-11-25T20:00:39Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,9 +24,9 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 10,
+   "waiting": 8,
    "vault_waiting": 4,
-   "posted": 21,
+   "posted": 23,
    "manual": false,
    "off": false,
    "mirror": true,
@@ -92,21 +92,21 @@
      "platform": "tiktok"
     },
     {
-     "id": "020",
-     "title": "The presentation task at an assessment centre can feel tough. Here is how to structure your talk and win marks.",
+     "id": "022",
+     "title": "Waiting for news after an interview or application? Here is how to chase a recruiter without sounding pushy.",
      "slides": 7,
      "tags": {
       "format": "carousel",
       "series": "Job hacks",
-      "hook": "statement"
+      "hook": "question"
      },
      "video": false,
      "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/020_1.jpg"
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/022_1.jpg"
     },
     {
-     "id": "021",
-     "title": "Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.",
+     "id": "023",
+     "title": "University careers fairs can feel chaotic. Here is how to make real connections and land job leads.",
      "slides": 7,
      "tags": {
       "format": "carousel",
@@ -115,11 +115,33 @@
      },
      "video": false,
      "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/021_1.jpg"
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/023_1.jpg"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "021",
+     "title": "Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.",
+     "date": "2026-11-26",
+     "at": "2026-11-26T19:00:00Z",
+     "instagram": false,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-26T19:00:00.000Z, post 6b073e4d37bb564f676589fa)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/021_1.jpg"
+    },
+    {
+     "id": "020",
+     "title": "The presentation task at an assessment centre can feel tough. Here is how to structure your talk and win marks.",
+     "date": "2026-11-26",
+     "at": "2026-11-26T15:00:00Z",
+     "instagram": false,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-26T15:00:00.000Z, post 6b073e4bdf7fc6365a28e491)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/020_1.jpg"
+    },
     {
      "id": "vault/20261126-1900-tt-tipfollowupemail",
      "title": "send this within 24 hours of every interview",
@@ -185,28 +207,6 @@
      "timed": true,
      "by_hand": false,
      "cover": null
-    },
-    {
-     "id": "016",
-     "title": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
-     "date": "2026-11-24",
-     "at": "2026-11-24T07:30:00Z",
-     "instagram": true,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-24T07:30:00.000Z, post 6b03f20000ec56c26fe7e727)",
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/016_1.jpg"
-    },
-    {
-     "id": "vault/20261120-1730-tt-carousel-cv-7seconds",
-     "title": "where recruiters actually look on your cv, in order",
-     "date": "2026-11-23",
-     "at": "2026-11-23T15:30:00Z",
-     "instagram": false,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-23T15:30:00.000Z, post 6b03132dd864a01105d82cc8)",
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/hacker/20261120-1730-tt-carousel-cv-7seconds_1.jpg"
     }
    ],
    "connected": {
@@ -232,28 +232,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 2 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 9,
-   "vault_waiting": 9,
-   "posted": 8,
+   "waiting": 8,
+   "vault_waiting": 8,
+   "posted": 9,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "vault/20261126-1900-tt-memeanyquestions",
-     "title": "every interview. every time.",
-     "slides": 1,
-     "tags": {
-      "format": "video",
-      "series": "Work memes",
-      "hook": "pov"
-     },
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-26T19:00:00Z",
-     "platform": "tiktok"
-    },
     {
      "id": "vault/20261127-0730-tt-inboxstorypt4thequestion",
      "title": "one question at the end of the interview did this",
@@ -328,10 +313,36 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/pirate/20261129-0730-tt-inboxstorypt5turningitdown_1.jpg",
      "at": "2026-11-29T07:30:00Z",
      "platform": "tiktok"
+    },
+    {
+     "id": "vault/20261129-1500-tt-memeadvancedexcel",
+     "title": "advanced excel (i can make a cell bold)",
+     "slides": 1,
+     "tags": {
+      "format": "video",
+      "series": "Work memes",
+      "hook": "confession"
+     },
+     "video": true,
+     "vault": true,
+     "cover": null,
+     "at": "2026-11-29T15:00:00Z",
+     "platform": "tiktok"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261126-1900-tt-memeanyquestions",
+     "title": "every interview. every time.",
+     "date": "2026-11-26",
+     "at": "2026-11-26T11:00:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-26T11:00:00.000Z, post 6b073e501dafb303591f9470)",
+     "timed": true,
+     "by_hand": false,
+     "cover": null
+    },
     {
      "id": "vault/20261126-1100-tt-memewellbeintouch",
      "title": "still waiting. they said they'd be in touch.",
@@ -408,17 +419,6 @@
      "timed": true,
      "by_hand": false,
      "cover": null
-    },
-    {
-     "id": "001",
-     "title": "Reaching out to strangers for careers advice feels uncomfortable. Here is how to actually get replies.",
-     "date": "2026-11-19",
-     "at": "2026-11-19T16:54:33Z",
-     "instagram": false,
-     "tiktok": "sent (shareNow, Buffer post 6aff29ca1bbbe06957e04640)",
-     "timed": false,
-     "by_hand": false,
-     "cover": null
     }
    ],
    "connected": {
@@ -444,28 +444,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 1 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 5,
-   "vault_waiting": 5,
-   "posted": 4,
+   "waiting": 4,
+   "vault_waiting": 4,
+   "posted": 5,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "vault/20261126-1500-tt-quotestevejobs",
-     "title": "the line steve jobs ended stanford with",
-     "slides": 1,
-     "tags": {
-      "format": "video",
-      "series": "Real quotes",
-      "hook": "statement"
-     },
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-26T15:00:00Z",
-     "platform": "tiktok"
-    },
     {
      "id": "vault/20261127-1900-tt-quotesatyanadella",
      "title": "the culture microsoft runs on",
@@ -529,6 +514,17 @@
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261126-1500-tt-quotestevejobs",
+     "title": "the line steve jobs ended stanford with",
+     "date": "2026-11-26",
+     "at": "2026-11-26T15:00:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-26T15:00:00.000Z, post 6b073e51df7fc6365a28efd2)",
+     "timed": true,
+     "by_hand": false,
+     "cover": null
+    },
     {
      "id": "vault/20261125-1100-tt-quotestorymichaeljordan",
      "title": "michael jordan made an advert about his misses",
@@ -596,28 +592,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 2 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 9,
-   "vault_waiting": 9,
-   "posted": 7,
+   "waiting": 8,
+   "vault_waiting": 8,
+   "posted": 8,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261126-1500-tt-mostsuccessfulpt4china",
-     "title": "the most successful person from every country. part 4: china",
-     "slides": 1,
-     "tags": {
-      "format": "video",
-      "series": "Most Successful",
-      "hook": "statement"
-     },
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-26T15:00:00Z",
-     "platform": "tiktok"
-    },
     {
      "id": "vault/20261127-1100-tt-mostsuccessfulpt5india",
      "title": "the most successful person from every country. part 5: india",
@@ -692,10 +673,36 @@
      "cover": null,
      "at": "2026-11-29T11:00:00Z",
      "platform": "tiktok"
+    },
+    {
+     "id": "vault/20261129-1900-tt-obsessionlearningtocode",
+     "title": "they said ai would replace him. he kept coding.",
+     "slides": 1,
+     "tags": {
+      "format": "video",
+      "series": "Obsession",
+      "hook": "statement"
+     },
+     "video": true,
+     "vault": true,
+     "cover": null,
+     "at": "2026-11-29T19:00:00Z",
+     "platform": "tiktok"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261126-1500-tt-mostsuccessfulpt4china",
+     "title": "the most successful person from every country. part 4: china",
+     "date": "2026-11-26",
+     "at": "2026-11-26T11:00:00Z",
+     "instagram": false,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-26T11:00:00.000Z, post 6b073e5437bb564f67659418)",
+     "timed": true,
+     "by_hand": false,
+     "cover": null
+    },
     {
      "id": "vault/20261126-0730-tt-obsessiontheinternship",
      "title": "no return offer. then they asked him back.",
@@ -796,28 +803,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 1 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 5,
-   "vault_waiting": 5,
-   "posted": 4,
+   "waiting": 4,
+   "vault_waiting": 4,
+   "posted": 5,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "vault/20261126-1100-tt-afterhoursep5nineam",
-     "title": "the finale. the doors open at 9. it is 8:57.",
-     "slides": 1,
-     "tags": {
-      "format": "video",
-      "series": "After Hours",
-      "hook": "number"
-     },
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-26T11:00:00Z",
-     "platform": "tiktok"
-    },
     {
      "id": "vault/20261127-1500-tt-theothercandidateep1dayone",
      "title": "you never applied. they said welcome back.",
@@ -881,6 +873,17 @@
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261126-1100-tt-afterhoursep5nineam",
+     "title": "the finale. the doors open at 9. it is 8:57.",
+     "date": "2026-11-26",
+     "at": "2026-11-26T15:00:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-26T15:00:00.000Z, post 6b073e551dafb303591f9d69)",
+     "timed": true,
+     "by_hand": false,
+     "cover": null
+    },
     {
      "id": "vault/20261125-0730-tt-afterhoursep4floor13",
      "title": "part 4. floor 13. every desk belongs to someone who stayed late. one has your name on it.",
@@ -1073,43 +1076,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 14,
-   "vault_waiting": 14,
-   "posted": 17,
+   "waiting": 12,
+   "vault_waiting": 12,
+   "posted": 19,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261126-1100-ig-pestopastawithpeas",
-     "title": "Twelve minutes, three main ingredients, zero effort. Pesto pasta with peas.",
-     "slides": 4,
-     "tags": {
-      "format": "carousel",
-      "series": "Under \u00a31",
-      "hook": "statement"
-     },
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261126-1100-ig-pestopastawithpeas_1.jpg",
-     "at": "2026-11-26T11:00:00Z",
-     "platform": "instagram"
-    },
-    {
-     "id": "vault/20261126-1900-ig-veggiechilli",
-     "title": "A big pot of chilli for less than \u00a31 a bowl.",
-     "slides": 4,
-     "tags": {
-      "format": "carousel",
-      "series": "Under \u00a31",
-      "hook": "number"
-     },
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261126-1900-ig-veggiechilli_1.jpg",
-     "at": "2026-11-26T19:00:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261127-0730-ig-microwavejacketpotato",
      "title": "A proper jacket potato without waiting an hour.",
@@ -1169,10 +1142,62 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261128-1100-ig-eggfriedrice_1.jpg",
      "at": "2026-11-28T11:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261128-1500-ig-loadedovennachos",
+     "title": "Saturday film night nachos for under \u00a31.50 each.",
+     "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Budget meals",
+      "hook": "number"
+     },
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261128-1500-ig-loadedovennachos_1.jpg",
+     "at": "2026-11-28T15:00:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261128-1900-ig-chickenfajitatraybake",
+     "title": "One tray, four dinners. Chicken fajita traybake for under \u00a32 a portion.",
+     "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Budget meals",
+      "hook": "statement"
+     },
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261128-1900-ig-chickenfajitatraybake_1.jpg",
+     "at": "2026-11-28T19:00:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261126-1900-ig-veggiechilli",
+     "title": "A big pot of chilli for less than \u00a31 a bowl.",
+     "date": "2026-11-26",
+     "at": "2026-11-26T19:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261126-1900-ig-veggiechilli_1.jpg"
+    },
+    {
+     "id": "vault/20261126-1100-ig-pestopastawithpeas",
+     "title": "Twelve minutes, three main ingredients, zero effort. Pesto pasta with peas.",
+     "date": "2026-11-26",
+     "at": "2026-11-26T15:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261126-1100-ig-pestopastawithpeas_1.jpg"
+    },
     {
      "id": "vault/20261126-0730-ig-easyovenflapjacks",
      "title": "Twelve flapjacks for the price of one from the campus shop.",
@@ -1238,28 +1263,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1500-ig-creamygarlicmushroompasta_1.jpg"
-    },
-    {
-     "id": "vault/20261124-1100-ig-peanutnoodles",
-     "title": "Better than the takeaway and ready before the delivery app loads. 10-minute peanut noodles, under \u00a31 a portion.",
-     "date": "2026-11-24",
-     "at": "2026-11-24T07:30:00Z",
-     "instagram": true,
-     "tiktok": null,
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1100-ig-peanutnoodles_1.jpg"
-    },
-    {
-     "id": "vault/20261124-1130-ig-chickpea-smash-wrap",
-     "title": "No cooking, two lunches, under \u00a31 each. \ud83c\udf2f",
-     "date": "2026-11-24",
-     "at": "2026-11-24T07:30:00Z",
-     "instagram": true,
-     "tiktok": null,
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1130-ig-chickpea-smash-wrap_1.jpg"
     }
    ],
    "connected": {
@@ -1357,43 +1360,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 1 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 8,
-   "vault_waiting": 8,
-   "posted": 4,
+   "waiting": 6,
+   "vault_waiting": 6,
+   "posted": 6,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261126-1100-ig-reelspottedinlondon",
-     "title": "apparently i'm a sighting now",
-     "slides": 1,
-     "tags": {
-      "format": "video",
-      "series": "Spotted in London",
-      "hook": "pov"
-     },
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-26T11:00:00Z",
-     "platform": "instagram"
-    },
-    {
-     "id": "vault/20261126-1500-li-onewayvideointerview",
-     "title": "Today I had my first one-way video interview.",
-     "slides": 1,
-     "tags": {
-      "format": "photo",
-      "series": "Mr Wei job hunt",
-      "hook": "statement"
-     },
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/mrpathwei/20261126-1500-li-onewayvideointerview_1.jpg",
-     "at": "2026-11-26T15:00:00Z",
-     "platform": "linkedin"
-    },
     {
      "id": "vault/20261127-0730-ig-phototowerbridge",
      "title": "tourist in my own job search",
@@ -1453,10 +1426,62 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/mrpathwei/20261129-1500-ig-photophonebox_1.jpg",
      "at": "2026-11-29T15:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261130-1100-ig-photojobcentre",
+     "title": "back again",
+     "slides": 1,
+     "tags": {
+      "format": "photo",
+      "series": "Mr Wei in London",
+      "hook": "statement"
+     },
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/mrpathwei/20261130-1100-ig-photojobcentre_1.jpg",
+     "at": "2026-11-30T11:00:00Z",
+     "platform": "instagram"
+    },
+    {
+     "id": "vault/20261130-1100-li-adviceihavereceived",
+     "title": "Advice I have received from humans this month:",
+     "slides": 1,
+     "tags": {
+      "format": "photo",
+      "series": "Mr Wei job hunt",
+      "hook": "statement"
+     },
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/mrpathwei/20261130-1100-li-adviceihavereceived_1.jpg",
+     "at": "2026-11-30T11:00:00Z",
+     "platform": "linkedin"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261126-1500-li-onewayvideointerview",
+     "title": "Today I had my first one-way video interview.",
+     "date": "2026-11-26",
+     "at": "2026-11-26T15:00:00Z",
+     "instagram": false,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/mrpathwei/20261126-1500-li-onewayvideointerview_1.jpg"
+    },
+    {
+     "id": "vault/20261126-1100-ig-reelspottedinlondon",
+     "title": "apparently i'm a sighting now",
+     "date": "2026-11-26",
+     "at": "2026-11-26T15:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": null
+    },
     {
      "id": "vault/20261125-1500-ig-carouselmonday",
      "title": "monday",
