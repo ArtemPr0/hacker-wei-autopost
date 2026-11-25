@@ -126,6 +126,15 @@
    "title": "Late-night pizza for under \u00a31. Ready before a delivery would even leave.",
    "timed": true,
    "planned_at": "2026-11-25T11:00:00Z"
+  },
+  {
+   "post": "vault/20261125-1500-ig-sausageandbeancasserole",
+   "date": "2026-11-25",
+   "at": "2026-11-25T19:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-25T19:00:00.000Z, post 6b063332a8becebb774b83e6)",
+   "title": "Proper comfort food for a cold Wednesday. Sausage and bean casserole.",
+   "timed": true,
+   "planned_at": "2026-11-25T15:00:00Z"
   }
  ]
 }

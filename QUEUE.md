@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**10 waiting** (5 from the vault). 19 posted by the system so far.
+**11 waiting** (5 from the vault). 20 posted by the system so far.
 
 ### vault/20261126-1900-tt-tipfollowupemail
 
@@ -72,30 +72,6 @@ use the advert's exact words on your cv
 find the real interview questions before you walk in
 
 #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
-
-### 019
-
-<a href="posts/019_1.jpg"><img src="posts/019_1.jpg" width="110"></a> <a href="posts/019_2.jpg"><img src="posts/019_2.jpg" width="110"></a> <a href="posts/019_3.jpg"><img src="posts/019_3.jpg" width="110"></a> <a href="posts/019_4.jpg"><img src="posts/019_4.jpg" width="110"></a> <a href="posts/019_5.jpg"><img src="posts/019_5.jpg" width="110"></a> <a href="posts/019_6.jpg"><img src="posts/019_6.jpg" width="110"></a> <a href="posts/019_7.jpg"><img src="posts/019_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Finding a placement year is tough when everyone else is applying too. Here is how to stand out.
-
-5 ways to beat the rush:
-1. Target mid sized local firms
-2. Use your university careers hub
-3. Direct message the recruitment team
-4. Treat applications like a module
-5. Practise recorded video interviews
-
-Which one will you try?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #placementyear #internship #unilife #jobsearchuk #hackerwei
 ```
 
 </details>
@@ -196,23 +172,57 @@ Save this and follow for a new hack every day.
 
 </details>
 
-## Pirate Wei
+### 024
 
-**11 waiting** (11 from the vault). 6 posted by the system so far.
-
-### vault/20261125-1500-tt-memeentrylevel
-
-(video)
+<a href="posts/024_1.jpg"><img src="posts/024_1.jpg" width="110"></a> <a href="posts/024_2.jpg"><img src="posts/024_2.jpg" width="110"></a> <a href="posts/024_3.jpg"><img src="posts/024_3.jpg" width="110"></a> <a href="posts/024_4.jpg"><img src="posts/024_4.jpg" width="110"></a> <a href="posts/024_5.jpg"><img src="posts/024_5.jpg" width="110"></a> <a href="posts/024_6.jpg"><img src="posts/024_6.jpg" width="110"></a> <a href="posts/024_7.jpg"><img src="posts/024_7.jpg" width="110"></a>
 
 <details><summary>Caption</summary>
 
 ```
-entry level, apparently
+Numerical reasoning tests catch out hundreds of applicants every year. Here is how to pass the timed maths stage.
 
-#entrylevel #unemployed #jobsearch #corporatelife #corporatehumor #workhumor #officememes
+5 tactics to pass timed maths:
+1. Learn your calculator shortcuts
+2. Skim the chart title first
+3. Skip hard questions early
+4. Use scrap paper cleanly
+5. Do free timed practice tests
+
+Which tactic will you try?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #numericalreasoning #onlinetests #graduatescheme #aptitudetest #hackerwei
 ```
 
 </details>
+
+### 025
+
+<a href="posts/025_1.jpg"><img src="posts/025_1.jpg" width="110"></a> <a href="posts/025_2.jpg"><img src="posts/025_2.jpg" width="110"></a> <a href="posts/025_3.jpg"><img src="posts/025_3.jpg" width="110"></a> <a href="posts/025_4.jpg"><img src="posts/025_4.jpg" width="110"></a> <a href="posts/025_5.jpg"><img src="posts/025_5.jpg" width="110"></a> <a href="posts/025_6.jpg"><img src="posts/025_6.jpg" width="110"></a> <a href="posts/025_7.jpg"><img src="posts/025_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Do not wait until probation to remember what you accomplished. Here is how to track your wins from day one.
+
+5 steps to track your impact:
+1. Create an impact document
+2. Note down small wins weekly
+3. Save positive feedback
+4. Record your exact numbers
+5. Use it in your one-on-ones
+
+Which tip will you start?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #graduatescheme #firstjob #onboarding #workplacetips #graduatelife #hackerwei
+```
+
+</details>
+
+## Pirate Wei
+
+**10 waiting** (10 from the vault). 7 posted by the system so far.
 
 ### vault/20261126-1100-tt-memewellbeintouch
 
@@ -430,21 +440,7 @@ the unwritten rule of corporate life
 
 ## You Are Unemployed
 
-**11 waiting** (11 from the vault). 5 posted by the system so far.
-
-### vault/20261125-1900-tt-obsessiongraduationday
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-they all had a job lined up. he had a question mark.
-
-#graduation #graduatejobs #obsession #ego #motivation #mindset #careertok
-```
-
-</details>
+**10 waiting** (10 from the vault). 6 posted by the system so far.
 
 ### vault/20261126-0730-tt-obsessiontheinternship
 
@@ -722,21 +718,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**16 waiting** (16 from the vault). 15 posted by the system so far.
-
-### vault/20261125-1500-ig-sausageandbeancasserole
-
-<a href="vault/chef/20261125-1500-ig-sausageandbeancasserole_1.jpg"><img src="vault/chef/20261125-1500-ig-sausageandbeancasserole_1.jpg" width="110"></a> <a href="vault/chef/20261125-1500-ig-sausageandbeancasserole_2.jpg"><img src="vault/chef/20261125-1500-ig-sausageandbeancasserole_2.jpg" width="110"></a> <a href="vault/chef/20261125-1500-ig-sausageandbeancasserole_3.jpg"><img src="vault/chef/20261125-1500-ig-sausageandbeancasserole_3.jpg" width="110"></a> <a href="vault/chef/20261125-1500-ig-sausageandbeancasserole_4.jpg"><img src="vault/chef/20261125-1500-ig-sausageandbeancasserole_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Proper comfort food for a cold Wednesday. Sausage and bean casserole.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**15 waiting** (15 from the vault). 16 posted by the system so far.
 
 ### vault/20261126-0730-ig-easyovenflapjacks
 
