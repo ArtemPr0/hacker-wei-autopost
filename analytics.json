@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T01:00:35Z",
+"updated": "2026-11-25T09:57:54Z",
 "days": 90,
 "channels": [
 {
@@ -926,6 +926,28 @@
 "disconnected": false,
 "problems": [],
 "posts": [
+{
+"id": "6b05b525ca966bd75f5f0f2e",
+"at": "2026-11-25T07:31:54.496Z",
+"text": "the 3 part answer to \"tell me about yourself\"",
+"link": "https://tiktok.com/@hacker.wei/video/7712008111908769057",
+"thumb": "https://images.buffer.com/thumbnail/YQUkUSAGcN7ljyA9dvlyiNo_fujvYfyJMv3Hdqzh8WU?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2Fec860b32e725de9e424687f3a9421165b8dc299b%2Fvault%2Fhacker%2F20261125-1500-tt-tiptellmeaboutyourself.mp4",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 0,
+"shares": 0,
+"reach": 0,
+"totalTimeWatched": 0,
+"averageTimeWatched": 0
+},
+"metrics_at": "2026-11-24T16:02:45.026Z",
+"fmt": "video",
+"series": "Hacker tips",
+"hook": "number",
+"tagged": true
+},
 {
 "id": "6b04793db61d3bfe6233b684",
 "at": "2026-11-24T15:04:36.715Z",
@@ -4789,6 +4811,19 @@
 ],
 "posts": [
 {
+"id": "6b05b5254181e8048fa66294",
+"at": "2026-11-25T07:31:27.868Z",
+"text": "the 3 part answer to \"tell me about yourself\"",
+"link": "https://www.instagram.com/reel/DgJ_1TTBnvG/",
+"thumb": "https://images.buffer.com/thumbnail/YQUkUSAGcN7ljyA9dvlyiNo_fujvYfyJMv3Hdqzh8WU?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2Fec860b32e725de9e424687f3a9421165b8dc299b%2Fvault%2Fhacker%2F20261125-1500-tt-tiptellmeaboutyourself.mp4",
+"metrics": {},
+"metrics_at": "2026-11-24T16:02:45.617Z",
+"fmt": "video",
+"series": "Hacker tips",
+"hook": "number",
+"tagged": true
+},
+{
 "id": "6b060e013a603766d5bbad96",
 "at": "2026-11-24T07:30:41.000Z",
 "text": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
@@ -6141,6 +6176,19 @@
 "disconnected": false,
 "problems": [],
 "posts": [
+{
+"id": "6b05b52dc493056b4de989ac",
+"at": "2026-11-25T07:31:36.767Z",
+"text": "No cooking, two lunches, under £1 each. Chickpea smash wraps in 10 minutes.",
+"link": "https://www.instagram.com/p/DgJ_9xAkT0k/",
+"thumb": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/ec860b32e725de9e424687f3a9421165b8dc299b/vault/chef/20261125-0730-ig-chickpeasmashwrap_1.jpg",
+"metrics": {},
+"metrics_at": "2026-11-24T16:02:53.767Z",
+"fmt": "carousel",
+"series": "Under £1",
+"hook": "number",
+"tagged": true
+},
 {
 "id": "6b047946b61d3bfe6233b98c",
 "at": "2026-11-24T15:06:35.696Z",

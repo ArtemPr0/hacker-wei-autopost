@@ -65,6 +65,16 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-25T19:00:00.000Z, post 6b06333091929194132b5860)",
    "planned_at": "2026-11-25T15:00:00Z"
+  },
+  {
+   "post": "vault/20261126-1100-tt-memewellbeintouch",
+   "date": "2026-11-26",
+   "at": "2026-11-26T07:30:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-26T07:30:00.000Z, post 6b06b1204b4ef1d2ba653b2b)",
+   "title": "still waiting. they said they'd be in touch.",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-26T07:30:00.000Z, post 6b06b1204b4ef1d2ba653afe)",
+   "planned_at": "2026-11-26T11:00:00Z"
   }
  ]
 }

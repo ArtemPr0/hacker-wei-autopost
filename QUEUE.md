@@ -4,21 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**11 waiting** (5 from the vault). 20 posted by the system so far.
-
-### vault/20261126-1900-tt-tipfollowupemail
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-send this within 24 hours of every interview
-
-#jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
+**10 waiting** (4 from the vault). 21 posted by the system so far.
 
 ### vault/20261127-0730-tt-tipreplytorejection
 
@@ -222,21 +208,7 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**10 waiting** (10 from the vault). 7 posted by the system so far.
-
-### vault/20261126-1100-tt-memewellbeintouch
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-still waiting. they said they'd be in touch.
-
-#unemployed #jobsearch #corporatelife #corporatehumor #workhumor #officememes
-```
-
-</details>
+**9 waiting** (9 from the vault). 8 posted by the system so far.
 
 ### vault/20261126-1900-tt-memeanyquestions
 
@@ -440,21 +412,7 @@ the unwritten rule of corporate life
 
 ## You Are Unemployed
 
-**10 waiting** (10 from the vault). 6 posted by the system so far.
-
-### vault/20261126-0730-tt-obsessiontheinternship
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-no return offer. then they asked him back.
-
-#internship #obsession #ego #motivation #mindset #careertok
-```
-
-</details>
+**9 waiting** (9 from the vault). 7 posted by the system so far.
 
 ### vault/20261126-1500-tt-mostsuccessfulpt4china
 
@@ -718,21 +676,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**15 waiting** (15 from the vault). 16 posted by the system so far.
-
-### vault/20261126-0730-ig-easyovenflapjacks
-
-<a href="vault/chef/20261126-0730-ig-easyovenflapjacks_1.jpg"><img src="vault/chef/20261126-0730-ig-easyovenflapjacks_1.jpg" width="110"></a> <a href="vault/chef/20261126-0730-ig-easyovenflapjacks_2.jpg"><img src="vault/chef/20261126-0730-ig-easyovenflapjacks_2.jpg" width="110"></a> <a href="vault/chef/20261126-0730-ig-easyovenflapjacks_3.jpg"><img src="vault/chef/20261126-0730-ig-easyovenflapjacks_3.jpg" width="110"></a> <a href="vault/chef/20261126-0730-ig-easyovenflapjacks_4.jpg"><img src="vault/chef/20261126-0730-ig-easyovenflapjacks_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Twelve flapjacks for the price of one from the campus shop.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**14 waiting** (14 from the vault). 17 posted by the system so far.
 
 ### vault/20261126-1100-ig-pestopastawithpeas
 

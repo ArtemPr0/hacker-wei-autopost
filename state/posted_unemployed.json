@@ -57,6 +57,16 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-25T19:00:00.000Z, post 6b063332f0b405190acaa56e)",
    "planned_at": "2026-11-25T19:00:00Z"
+  },
+  {
+   "post": "vault/20261126-0730-tt-obsessiontheinternship",
+   "date": "2026-11-26",
+   "at": "2026-11-26T07:30:00Z",
+   "media_id": null,
+   "title": "no return offer. then they asked him back.",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-26T07:30:00.000Z, post 6b06b121281032331e95a936)",
+   "planned_at": "2026-11-26T07:30:00Z"
   }
  ]
 }
