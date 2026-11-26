@@ -4,21 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**10 waiting** (4 from the vault). 23 posted by the system so far.
-
-### vault/20261127-0730-tt-tipreplytorejection
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-got rejected? reply with this
-
-#jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
+**11 waiting** (3 from the vault). 24 posted by the system so far.
 
 ### vault/20261128-1100-tt-tipsalaryexpectations
 
@@ -202,6 +188,54 @@ Which fix will you try?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #coverletter #coverlettertips #applicationform #jobsearchuk #hackerwei
+```
+
+</details>
+
+### 028
+
+<a href="posts/028_1.jpg"><img src="posts/028_1.jpg" width="110"></a> <a href="posts/028_2.jpg"><img src="posts/028_2.jpg" width="110"></a> <a href="posts/028_3.jpg"><img src="posts/028_3.jpg" width="110"></a> <a href="posts/028_4.jpg"><img src="posts/028_4.jpg" width="110"></a> <a href="posts/028_5.jpg"><img src="posts/028_5.jpg" width="110"></a> <a href="posts/028_6.jpg"><img src="posts/028_6.jpg" width="110"></a> <a href="posts/028_7.jpg"><img src="posts/028_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Stuck because you need experience to get a job? Here is how to count what you already have.
+
+5 ways to count everyday work:
+1. List your society role
+2. Count your part time job
+3. Include group projects
+4. Note tutoring or mentoring
+5. Add volunteering hours
+
+Which number?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #graduatescheme #jobsearchuk #workexperience #graduates #hackerwei
+```
+
+</details>
+
+### 029
+
+<a href="posts/029_1.jpg"><img src="posts/029_1.jpg" width="110"></a> <a href="posts/029_2.jpg"><img src="posts/029_2.jpg" width="110"></a> <a href="posts/029_3.jpg"><img src="posts/029_3.jpg" width="110"></a> <a href="posts/029_4.jpg"><img src="posts/029_4.jpg" width="110"></a> <a href="posts/029_5.jpg"><img src="posts/029_5.jpg" width="110"></a> <a href="posts/029_6.jpg"><img src="posts/029_6.jpg" width="110"></a> <a href="posts/029_7.jpg"><img src="posts/029_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Waiting weeks for a reply that never comes is frustrating. Here is how to follow up politely.
+
+5 ways to chase:
+1. Wait two weeks before you chase
+2. Keep the opening line polite
+3. Ask a simple yes or no question
+4. State your interest in one sentence
+5. Send it mid morning on a tuesday
+
+Which message will you send?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #graduatescheme #jobsearchuk #careerhelp #graduates #hackerwei
 ```
 
 </details>
@@ -620,21 +654,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**12 waiting** (12 from the vault). 19 posted by the system so far.
-
-### vault/20261127-0730-ig-microwavejacketpotato
-
-<a href="vault/chef/20261127-0730-ig-microwavejacketpotato_1.jpg"><img src="vault/chef/20261127-0730-ig-microwavejacketpotato_1.jpg" width="110"></a> <a href="vault/chef/20261127-0730-ig-microwavejacketpotato_2.jpg"><img src="vault/chef/20261127-0730-ig-microwavejacketpotato_2.jpg" width="110"></a> <a href="vault/chef/20261127-0730-ig-microwavejacketpotato_3.jpg"><img src="vault/chef/20261127-0730-ig-microwavejacketpotato_3.jpg" width="110"></a> <a href="vault/chef/20261127-0730-ig-microwavejacketpotato_4.jpg"><img src="vault/chef/20261127-0730-ig-microwavejacketpotato_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-A proper jacket potato without waiting an hour.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**11 waiting** (11 from the vault). 20 posted by the system so far.
 
 ### vault/20261127-1500-ig-stickysoygarlicchicken
 

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:58:50Z",
+ "updated": "2026-11-26T13:02:13Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,28 +24,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 10,
-   "vault_waiting": 4,
-   "posted": 23,
+   "waiting": 11,
+   "vault_waiting": 3,
+   "posted": 24,
    "manual": false,
    "off": false,
    "mirror": true,
    "next": [
-    {
-     "id": "vault/20261127-0730-tt-tipreplytorejection",
-     "title": "got rejected? reply with this",
-     "slides": 1,
-     "tags": {
-      "format": "video",
-      "series": "Hacker tips",
-      "hook": "question"
-     },
-     "video": true,
-     "vault": true,
-     "cover": null,
-     "at": "2026-11-27T07:30:00Z",
-     "platform": "tiktok"
-    },
     {
      "id": "vault/20261128-1100-tt-tipsalaryexpectations",
      "title": "what to say when they ask for your salary expectations",
@@ -116,10 +101,34 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/023_1.jpg"
+    },
+    {
+     "id": "024",
+     "title": "Numerical reasoning tests catch out hundreds of applicants every year. Here is how to pass the timed maths stage.",
+     "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "statement"
+     },
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/024_1.jpg"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261127-0730-tt-tipreplytorejection",
+     "title": "got rejected? reply with this",
+     "date": "2026-11-27",
+     "at": "2026-11-27T11:00:00Z",
+     "instagram": true,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-27T11:00:00.000Z, post 6b082dc67ad5a1071f9ee854)",
+     "timed": true,
+     "by_hand": false,
+     "cover": null
+    },
     {
      "id": "021",
      "title": "Balancing graduate scheme forms with your degree is tough. Here is how to keep on top of both without burning out.",
@@ -196,17 +205,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/017_1.jpg"
-    },
-    {
-     "id": "vault/20261124-1100-tt-tiplinkedinlasthour",
-     "title": "one number in the link changes everything",
-     "date": "2026-11-24",
-     "at": "2026-11-24T11:00:00Z",
-     "instagram": false,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-24T11:00:00.000Z, post 6b04793db61d3bfe6233b642)",
-     "timed": true,
-     "by_hand": false,
-     "cover": null
     }
    ],
    "connected": {
@@ -1076,28 +1074,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 12,
-   "vault_waiting": 12,
-   "posted": 19,
+   "waiting": 11,
+   "vault_waiting": 11,
+   "posted": 20,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261127-0730-ig-microwavejacketpotato",
-     "title": "A proper jacket potato without waiting an hour.",
-     "slides": 4,
-     "tags": {
-      "format": "carousel",
-      "series": "Under \u00a31",
-      "hook": "statement"
-     },
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261127-0730-ig-microwavejacketpotato_1.jpg",
-     "at": "2026-11-27T07:30:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261127-1500-ig-stickysoygarlicchicken",
      "title": "Fakeaway Friday: sticky soy garlic chicken in 20 minutes.",
@@ -1172,10 +1155,36 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261128-1900-ig-chickenfajitatraybake_1.jpg",
      "at": "2026-11-28T19:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261129-0730-ig-bananaoatpancakes",
+     "title": "Sunday pancakes from one banana. Under \u00a31 and ready in 10 minutes.",
+     "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Under \u00a31",
+      "hook": "statement"
+     },
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261129-0730-ig-bananaoatpancakes_1.jpg",
+     "at": "2026-11-29T07:30:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261127-0730-ig-microwavejacketpotato",
+     "title": "A proper jacket potato without waiting an hour.",
+     "date": "2026-11-27",
+     "at": "2026-11-27T11:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261127-0730-ig-microwavejacketpotato_1.jpg"
+    },
     {
      "id": "vault/20261126-1900-ig-veggiechilli",
      "title": "A big pot of chilli for less than \u00a31 a bowl.",
@@ -1252,17 +1261,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1900-ig-bigbatchredlentildal_1.jpg"
-    },
-    {
-     "id": "vault/20261124-1500-ig-creamygarlicmushroompasta",
-     "title": "Tastes like a restaurant, costs like a sandwich. Creamy garlic mushroom pasta, 20 minutes.",
-     "date": "2026-11-24",
-     "at": "2026-11-24T11:00:00Z",
-     "instagram": true,
-     "tiktok": null,
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261124-1500-ig-creamygarlicmushroompasta_1.jpg"
     }
    ],
    "connected": {
