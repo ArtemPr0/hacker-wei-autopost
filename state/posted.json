@@ -229,6 +229,24 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-27T11:00:00.000Z, post 6b082dc67ad5a1071f9ee854)",
    "planned_at": "2026-11-27T07:30:00Z"
+  },
+  {
+   "post": "022",
+   "date": "2026-11-27",
+   "at": "2026-11-27T15:00:00Z",
+   "media_id": null,
+   "title": "Waiting for news after an interview or application? Here is how to chase a recruiter without sounding pushy.",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-27T15:00:00.000Z, post 6b08b27fa784564d7d8e3a59)"
+  },
+  {
+   "post": "023",
+   "date": "2026-11-27",
+   "at": "2026-11-27T19:00:00Z",
+   "media_id": null,
+   "title": "University careers fairs can feel chaotic. Here is how to make real connections and land job leads.",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-27T19:00:00.000Z, post 6b08b27fa784564d7d8e3a94)"
   }
  ]
 }

@@ -46,6 +46,16 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-26T15:00:00.000Z, post 6b073e51df7fc6365a28efd2)",
    "planned_at": "2026-11-26T15:00:00Z"
+  },
+  {
+   "post": "vault/20261127-1900-tt-quotesatyanadella",
+   "date": "2026-11-27",
+   "at": "2026-11-27T19:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-27T19:00:00.000Z, post 6b08b282e44dd487fc013d36)",
+   "title": "the culture microsoft runs on",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-27T19:00:00.000Z, post 6b08b282a30b64e55ea1d2de)",
+   "planned_at": "2026-11-27T19:00:00Z"
   }
  ]
 }

@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**11 waiting** (3 from the vault). 24 posted by the system so far.
+**9 waiting** (3 from the vault). 26 posted by the system so far.
 
 ### vault/20261128-1100-tt-tipsalaryexpectations
 
@@ -44,54 +44,6 @@ use the advert's exact words on your cv
 find the real interview questions before you walk in
 
 #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
-
-### 022
-
-<a href="posts/022_1.jpg"><img src="posts/022_1.jpg" width="110"></a> <a href="posts/022_2.jpg"><img src="posts/022_2.jpg" width="110"></a> <a href="posts/022_3.jpg"><img src="posts/022_3.jpg" width="110"></a> <a href="posts/022_4.jpg"><img src="posts/022_4.jpg" width="110"></a> <a href="posts/022_5.jpg"><img src="posts/022_5.jpg" width="110"></a> <a href="posts/022_6.jpg"><img src="posts/022_6.jpg" width="110"></a> <a href="posts/022_7.jpg"><img src="posts/022_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Waiting for news after an interview or application? Here is how to chase a recruiter without sounding pushy.
-
-5 polite ways to follow up:
-1. Wait for the stated deadline
-2. Reply on the original thread
-3. Keep the message very short
-4. Reiterate your key fit
-5. Set a clear gentle closing
-
-Which step will you try?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #jobapplication #graduatecareers #emailtips #followups #hackerwei
-```
-
-</details>
-
-### 023
-
-<a href="posts/023_1.jpg"><img src="posts/023_1.jpg" width="110"></a> <a href="posts/023_2.jpg"><img src="posts/023_2.jpg" width="110"></a> <a href="posts/023_3.jpg"><img src="posts/023_3.jpg" width="110"></a> <a href="posts/023_4.jpg"><img src="posts/023_4.jpg" width="110"></a> <a href="posts/023_5.jpg"><img src="posts/023_5.jpg" width="110"></a> <a href="posts/023_6.jpg"><img src="posts/023_6.jpg" width="110"></a> <a href="posts/023_7.jpg"><img src="posts/023_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-University careers fairs can feel chaotic. Here is how to make real connections and land job leads.
-
-5 moves to land actual leads:
-1. Pick three target stalls
-2. Prepare a concise intro
-3. Ditch the generic questions
-4. Get specific contact details
-5. Send a note within 24 hours
-
-Which move will you try?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #careersfair #linkedin #networking #gradscheme #hackerwei
 ```
 
 </details>
@@ -242,35 +194,7 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**8 waiting** (8 from the vault). 9 posted by the system so far.
-
-### vault/20261127-0730-tt-inboxstorypt4thequestion
-
-<a href="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_1.jpg"><img src="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_1.jpg" width="110"></a> <a href="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_2.jpg"><img src="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_2.jpg" width="110"></a> <a href="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_3.jpg"><img src="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_3.jpg" width="110"></a> <a href="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_4.jpg"><img src="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_4.jpg" width="110"></a> <a href="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_5.jpg"><img src="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_5.jpg" width="110"></a> <a href="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_6.jpg"><img src="vault/pirate/20261127-0730-tt-inboxstorypt4thequestion_6.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-one question at the end of the interview did this
-
-#interviewtips #jobsearch #graduatejobs #emails #careeradvice #storytime
-```
-
-</details>
-
-### vault/20261127-1500-tt-memelikeafamily
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-we're like a family here
-
-#unemployed #jobsearch #corporatelife #corporatehumor #workhumor #officememes
-```
-
-</details>
+**6 waiting** (6 from the vault). 11 posted by the system so far.
 
 ### vault/20261128-1100-tt-memeoneapplication
 
@@ -358,21 +282,7 @@ reply all. goodbye.
 
 ## The Only Wei
 
-**4 waiting** (4 from the vault). 5 posted by the system so far.
-
-### vault/20261127-1900-tt-quotesatyanadella
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the culture microsoft runs on
-
-#satyanadella #microsoft #mindset #careeradvice #quotes #graduates #motivation
-```
-
-</details>
+**3 waiting** (3 from the vault). 6 posted by the system so far.
 
 ### vault/20261128-0730-tt-newstopemployersgradjobs
 
@@ -418,35 +328,7 @@ the unwritten rule of corporate life
 
 ## You Are Unemployed
 
-**8 waiting** (8 from the vault). 8 posted by the system so far.
-
-### vault/20261127-1100-tt-mostsuccessfulpt5india
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the most successful person from every country. part 5: india
-
-#sundarpichai #google #success #mentality #discipline #obsession
-```
-
-</details>
-
-### vault/20261127-1900-tt-obsessionthesidehustle
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-his first month made £0. he didn't stop.
-
-#sidehustle #smallbusiness #obsession #ego #motivation #mindset #careertok
-```
-
-</details>
+**6 waiting** (6 from the vault). 10 posted by the system so far.
 
 ### vault/20261128-0730-tt-obsessionfinalyear
 
@@ -534,21 +416,7 @@ the most successful person from every country. part 8: japan
 
 ## Wei Stories
 
-**4 waiting** (4 from the vault). 5 posted by the system so far.
-
-### vault/20261127-1500-tt-theothercandidateep1dayone
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-you never applied. they said welcome back.
-
-#scarystories #officehorror #animation #story #corporatelife #horrorstory
-```
-
-</details>
+**3 waiting** (3 from the vault). 6 posted by the system so far.
 
 ### vault/20261128-1900-tt-theothercandidateep2twologins
 
@@ -654,35 +522,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**11 waiting** (11 from the vault). 20 posted by the system so far.
-
-### vault/20261127-1500-ig-stickysoygarlicchicken
-
-<a href="vault/chef/20261127-1500-ig-stickysoygarlicchicken_1.jpg"><img src="vault/chef/20261127-1500-ig-stickysoygarlicchicken_1.jpg" width="110"></a> <a href="vault/chef/20261127-1500-ig-stickysoygarlicchicken_2.jpg"><img src="vault/chef/20261127-1500-ig-stickysoygarlicchicken_2.jpg" width="110"></a> <a href="vault/chef/20261127-1500-ig-stickysoygarlicchicken_3.jpg"><img src="vault/chef/20261127-1500-ig-stickysoygarlicchicken_3.jpg" width="110"></a> <a href="vault/chef/20261127-1500-ig-stickysoygarlicchicken_4.jpg"><img src="vault/chef/20261127-1500-ig-stickysoygarlicchicken_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Fakeaway Friday: sticky soy garlic chicken in 20 minutes.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
-
-### vault/20261127-1900-ig-cheesypastabake
-
-<a href="vault/chef/20261127-1900-ig-cheesypastabake_1.jpg"><img src="vault/chef/20261127-1900-ig-cheesypastabake_1.jpg" width="110"></a> <a href="vault/chef/20261127-1900-ig-cheesypastabake_2.jpg"><img src="vault/chef/20261127-1900-ig-cheesypastabake_2.jpg" width="110"></a> <a href="vault/chef/20261127-1900-ig-cheesypastabake_3.jpg"><img src="vault/chef/20261127-1900-ig-cheesypastabake_3.jpg" width="110"></a> <a href="vault/chef/20261127-1900-ig-cheesypastabake_4.jpg"><img src="vault/chef/20261127-1900-ig-cheesypastabake_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Cook once on Friday, eat all weekend. Cheesy pasta bake, under £1.50 a portion.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**9 waiting** (9 from the vault). 22 posted by the system so far.
 
 ### vault/20261128-1100-ig-eggfriedrice
 
@@ -812,21 +652,7 @@ A creamy curry from the cupboard, under £1 a portion.
 
 ## Pathwei App
 
-**2 waiting** (2 from the vault). 1 posted by the system so far.
-
-### vault/20261127-1500-ig-interviewthisweek
-
-<a href="vault/pathweiapp/20261127-1500-ig-interviewthisweek_1.jpg"><img src="vault/pathweiapp/20261127-1500-ig-interviewthisweek_1.jpg" width="110"></a> <a href="vault/pathweiapp/20261127-1500-ig-interviewthisweek_2.jpg"><img src="vault/pathweiapp/20261127-1500-ig-interviewthisweek_2.jpg" width="110"></a> <a href="vault/pathweiapp/20261127-1500-ig-interviewthisweek_3.jpg"><img src="vault/pathweiapp/20261127-1500-ig-interviewthisweek_3.jpg" width="110"></a> <a href="vault/pathweiapp/20261127-1500-ig-interviewthisweek_4.jpg"><img src="vault/pathweiapp/20261127-1500-ig-interviewthisweek_4.jpg" width="110"></a> <a href="vault/pathweiapp/20261127-1500-ig-interviewthisweek_5.jpg"><img src="vault/pathweiapp/20261127-1500-ig-interviewthisweek_5.jpg" width="110"></a> <a href="vault/pathweiapp/20261127-1500-ig-interviewthisweek_6.jpg"><img src="vault/pathweiapp/20261127-1500-ig-interviewthisweek_6.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Got the interview? Three things to do this week that most candidates skip, and the shortcut on the last slide.
-
-#interviewtips #graduatejobs #jobsearch #ukstudents #careeradvice
-```
-
-</details>
+**1 waiting** (1 from the vault). 2 posted by the system so far.
 
 ### vault/20261130-1900-ig-cvcomparewithyouryear
 
@@ -844,52 +670,7 @@ Three checks to run on your CV tonight, and a quicker way to see where you stand
 
 ## Mr Wei
 
-**6 waiting** (6 from the vault). 6 posted by the system so far.
-
-### vault/20261127-0730-ig-phototowerbridge
-
-<a href="vault/mrpathwei/20261127-0730-ig-phototowerbridge_1.jpg"><img src="vault/mrpathwei/20261127-0730-ig-phototowerbridge_1.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-tourist in my own job search
-```
-
-</details>
-
-### vault/20261127-0730-li-personalitytest
-
-<a href="vault/mrpathwei/20261127-0730-li-personalitytest_1.jpg"><img src="vault/mrpathwei/20261127-0730-li-personalitytest_1.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Today I took a personality test for a job.
-
-Question 14: "I enjoy parties." Agree or disagree.
-Question 15: "I sometimes enjoy parties."
-Question 16: "Parties are enjoyable."
-
-I answered honestly each time.
-The system has decided I am inconsistent.
-
-Question 41 asked if I have ever told a lie.
-I said no.
-I am now flagged as dishonest.
-
-I have been assessed by 9 civilisations.
-This is the first that needed to know whether I like parties.
-
-Result: "Not progressing at this time."
-
-Which online test question confused you the most?
-
-Regards,
-Mr Wei
-```
-
-</details>
+**4 waiting** (4 from the vault). 8 posted by the system so far.
 
 ### vault/20261128-1900-ig-photopool
 

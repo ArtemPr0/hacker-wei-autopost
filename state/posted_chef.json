@@ -171,6 +171,24 @@
    "title": "A proper jacket potato without waiting an hour.",
    "timed": true,
    "planned_at": "2026-11-27T07:30:00Z"
+  },
+  {
+   "post": "vault/20261127-1500-ig-stickysoygarlicchicken",
+   "date": "2026-11-27",
+   "at": "2026-11-27T15:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-27T15:00:00.000Z, post 6b08b287a579402cbee0620a)",
+   "title": "Fakeaway Friday: sticky soy garlic chicken in 20 minutes.",
+   "timed": true,
+   "planned_at": "2026-11-27T15:00:00Z"
+  },
+  {
+   "post": "vault/20261127-1900-ig-cheesypastabake",
+   "date": "2026-11-27",
+   "at": "2026-11-27T19:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-27T19:00:00.000Z, post 6b08b287a579402cbee06240)",
+   "title": "Cook once on Friday, eat all weekend. Cheesy pasta bake, under \u00a31.50 a portion.",
+   "timed": true,
+   "planned_at": "2026-11-27T19:00:00Z"
   }
  ]
 }

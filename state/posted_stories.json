@@ -47,6 +47,16 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-26T15:00:00.000Z, post 6b073e551dafb303591f9d69)",
    "planned_at": "2026-11-26T11:00:00Z"
+  },
+  {
+   "post": "vault/20261127-1500-tt-theothercandidateep1dayone",
+   "date": "2026-11-27",
+   "at": "2026-11-27T19:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-27T19:00:00.000Z, post 6b08b286a30b64e55ea1d3b6)",
+   "title": "you never applied. they said welcome back.",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-27T19:00:00.000Z, post 6b08b285a30b64e55ea1d373)",
+   "planned_at": "2026-11-27T15:00:00Z"
   }
  ]
 }
