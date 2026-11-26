@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T20:00:28Z",
+"updated": "2026-11-26T02:58:41Z",
 "days": 90,
 "channels": [
 {
@@ -15,20 +15,20 @@
 {
 "id": "6b05b52884a6c9364729be80",
 "at": "2026-11-25T11:03:17.029Z",
-"text": "michael jordan made an advert about his misses",
-"link": "https://tiktok.com/@the.only.wei/video/7712062747168591137",
+"text": "michael jordan made an advert about his misses #michaeljordan #nike #mindset #careeradvice #quotes #graduates #motivation",
+"link": "https://www.tiktok.com/@the.only.wei/video/7712062747168591137?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfc77ece6dfde5f10c577/6b05b52884a6c9364729be80_thumbnail.jpg",
 "metrics": {
-"reactions": 0,
+"reactions": 8,
 "comments": 0,
-"engagementRate": 0,
-"views": 103,
+"engagementRate": 2.59,
+"views": 309,
 "shares": 0,
 "reach": 0,
-"totalTimeWatched": 4.88,
-"averageTimeWatched": 2.96
+"totalTimeWatched": 19.57,
+"averageTimeWatched": 3.46
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.468Z",
 "fmt": "carousel",
 "series": "Real quotes",
 "hook": "statement",
@@ -37,20 +37,20 @@
 {
 "id": "6b047940ff0a846b7fac6e56",
 "at": "2026-11-24T07:31:51.063Z",
-"text": "the ceo of nvidia wished stanford students pain and suffering. he meant it kindly.",
-"link": "https://tiktok.com/@the.only.wei/video/7711636966881643809",
+"text": "the ceo of nvidia wished stanford students pain and suffering. he meant it kindly. #jensenhuang #nvidia #mindset #careeradvice #quotes #grad",
+"link": "https://www.tiktok.com/@the.only.wei/video/7711636966881643809?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfc77ece6dfde5f10c577/6b047940ff0a846b7fac6e56_thumbnail.jpg",
 "metrics": {
 "reactions": 12,
 "comments": 0,
-"engagementRate": 3.16,
-"views": 380,
+"engagementRate": 3.14,
+"views": 382,
 "shares": 0,
-"reach": 0,
-"totalTimeWatched": 28.9,
-"averageTimeWatched": 4.32
+"reach": 312,
+"totalTimeWatched": 28.93,
+"averageTimeWatched": 4.31
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.450Z",
 "fmt": "carousel",
 "series": "Real quotes",
 "hook": "statement",
@@ -59,8 +59,8 @@
 {
 "id": "6b037da8d864a0110504a05f",
 "at": "2026-11-23T18:33:15.973Z",
-"text": "it took him 10 years to get good. then everything changed.",
-"link": "https://tiktok.com/@the.only.wei/video/7711436315685915936",
+"text": "it took him 10 years to get good. then everything changed. #stevemartin #discipline #careeradvice #mindset #quotes #ukjobs",
+"link": "https://www.tiktok.com/@the.only.wei/video/7711436315685915936?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfc77ece6dfde5f10c577/6b037da8d864a0110504a05f_thumbnail.jpg",
 "metrics": {
 "reactions": 1,
@@ -68,11 +68,11 @@
 "engagementRate": 0.35,
 "views": 282,
 "shares": 0,
-"reach": 203,
+"reach": 267,
 "totalTimeWatched": 18.03,
 "averageTimeWatched": 3.56
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.460Z",
 "fmt": "carousel",
 "series": "Steve Martin",
 "hook": "statement",
@@ -94,7 +94,7 @@
 "totalTimeWatched": 7.43,
 "averageTimeWatched": 4.7
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.581Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -116,7 +116,7 @@
 "totalTimeWatched": 23.37,
 "averageTimeWatched": 4.29
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.513Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -138,7 +138,7 @@
 "totalTimeWatched": 5.52,
 "averageTimeWatched": 1.95
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.496Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -160,7 +160,7 @@
 "totalTimeWatched": 6.9,
 "averageTimeWatched": 2.21
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.503Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -179,10 +179,10 @@
 "views": 35,
 "shares": 1,
 "reach": 29,
-"totalTimeWatched": 1.15,
-"averageTimeWatched": 1.88
+"totalTimeWatched": 1.03,
+"averageTimeWatched": 1.68
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.571Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -204,7 +204,7 @@
 "totalTimeWatched": 14.52,
 "averageTimeWatched": 1.26
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.529Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -222,11 +222,11 @@
 "engagementRate": 2.29,
 "views": 1923,
 "shares": 4,
-"reach": 1774,
-"totalTimeWatched": 372.28,
-"averageTimeWatched": 11.33
+"reach": 1775,
+"totalTimeWatched": 372.85,
+"averageTimeWatched": 11.32
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.540Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -248,7 +248,7 @@
 "totalTimeWatched": 39.57,
 "averageTimeWatched": 8.7
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.506Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -270,7 +270,7 @@
 "totalTimeWatched": 3.6,
 "averageTimeWatched": 1.16
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.586Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -292,7 +292,7 @@
 "totalTimeWatched": 4.42,
 "averageTimeWatched": 1.39
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.566Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -314,7 +314,7 @@
 "totalTimeWatched": 4.9,
 "averageTimeWatched": 1.2
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.638Z",
 "fmt": "video",
 "series": "",
 "hook": "confession",
@@ -336,7 +336,7 @@
 "totalTimeWatched": 6.32,
 "averageTimeWatched": 1.64
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.706Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -358,7 +358,7 @@
 "totalTimeWatched": 14.28,
 "averageTimeWatched": 3.41
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.573Z",
 "fmt": "",
 "series": "",
 "hook": "",
@@ -380,7 +380,7 @@
 "totalTimeWatched": 5.75,
 "averageTimeWatched": 1.57
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.436Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -402,7 +402,7 @@
 "totalTimeWatched": 6.13,
 "averageTimeWatched": 1.59
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.536Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -424,7 +424,7 @@
 "totalTimeWatched": 6.93,
 "averageTimeWatched": 1.73
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.440Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -446,7 +446,7 @@
 "totalTimeWatched": 40.53,
 "averageTimeWatched": 3.46
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.547Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -468,7 +468,7 @@
 "totalTimeWatched": 12.63,
 "averageTimeWatched": 2.79
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.641Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -490,7 +490,7 @@
 "totalTimeWatched": 3.58,
 "averageTimeWatched": 2.13
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.520Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -512,7 +512,7 @@
 "totalTimeWatched": 7.62,
 "averageTimeWatched": 2.93
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.594Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -534,7 +534,7 @@
 "totalTimeWatched": 14.27,
 "averageTimeWatched": 3.36
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.597Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -556,7 +556,7 @@
 "totalTimeWatched": 13.52,
 "averageTimeWatched": 8.36
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.628Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -578,7 +578,7 @@
 "totalTimeWatched": 0.9,
 "averageTimeWatched": 4.5
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.576Z",
 "fmt": "",
 "series": "",
 "hook": "question",
@@ -600,7 +600,7 @@
 "totalTimeWatched": 2.42,
 "averageTimeWatched": 7.63
 },
-"metrics_at": "2026-11-25T12:36:10.533Z",
+"metrics_at": "2026-11-26T00:11:03.550Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -622,7 +622,7 @@
 "totalTimeWatched": 2.38,
 "averageTimeWatched": 11.92
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.592Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -642,9 +642,9 @@
 "shares": 1,
 "reach": 11,
 "totalTimeWatched": 0.42,
-"averageTimeWatched": 1.39
+"averageTimeWatched": 1.32
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.553Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -666,7 +666,7 @@
 "totalTimeWatched": 1.12,
 "averageTimeWatched": 6.7
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.625Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -688,7 +688,7 @@
 "totalTimeWatched": 0.55,
 "averageTimeWatched": 6.6
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.517Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -710,7 +710,7 @@
 "totalTimeWatched": 26.15,
 "averageTimeWatched": 7.73
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.613Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -732,7 +732,7 @@
 "totalTimeWatched": 0.8,
 "averageTimeWatched": 2.82
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.686Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -754,7 +754,7 @@
 "totalTimeWatched": 3,
 "averageTimeWatched": 10.59
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.556Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -776,7 +776,7 @@
 "totalTimeWatched": 25.3,
 "averageTimeWatched": 7.87
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.590Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -798,7 +798,7 @@
 "totalTimeWatched": 0.8,
 "averageTimeWatched": 5.33
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.583Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -820,7 +820,7 @@
 "totalTimeWatched": 0.67,
 "averageTimeWatched": 4.44
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.534Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -842,7 +842,7 @@
 "totalTimeWatched": 0.28,
 "averageTimeWatched": 1.55
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.543Z",
 "fmt": "",
 "series": "",
 "hook": "",
@@ -864,7 +864,7 @@
 "totalTimeWatched": 108.12,
 "averageTimeWatched": 10.41
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.559Z",
 "fmt": "",
 "series": "",
 "hook": "",
@@ -886,7 +886,7 @@
 "totalTimeWatched": 80.3,
 "averageTimeWatched": 6.64
 },
-"metrics_at": "2026-11-25T12:36:10.534Z",
+"metrics_at": "2026-11-26T00:11:03.690Z",
 "fmt": "",
 "series": "",
 "hook": "",
@@ -951,20 +951,20 @@
 {
 "id": "6b06332f91929194132b57e8",
 "at": "2026-11-25T19:04:39.362Z",
-"text": "Finding a placement year is tough when everyone else is applying too. Here is how to stand out.",
-"link": "https://tiktok.com/@hacker.wei/video/7712186568840072481",
+"text": "Finding a placement year is tough when everyone else is applying too. Here is how to stand out. 5 ways to beat the rush: 1. Target mid sized",
+"link": "https://www.tiktok.com/@hacker.wei/video/7712186568840072481?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b06332f91929194132b57e8_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
 "comments": 0,
 "engagementRate": 0,
-"views": 0,
+"views": 1,
 "shares": 0,
 "reach": 0,
-"totalTimeWatched": 0,
-"averageTimeWatched": 0
+"totalTimeWatched": 0.02,
+"averageTimeWatched": 0.83
 },
-"metrics_at": "2026-11-25T01:00:31.640Z",
+"metrics_at": "2026-11-26T00:08:10.148Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -973,20 +973,20 @@
 {
 "id": "6b05b5264181e8048fa66345",
 "at": "2026-11-25T11:04:56.660Z",
-"text": "An employment contract is more than just a starting date and a salary. Here is what to check before you sign.",
-"link": "https://tiktok.com/@hacker.wei/video/7712062774527954215",
+"text": "An employment contract is more than just a starting date and a salary. Here is what to check before you sign. 5 clauses to check before you ",
+"link": "https://www.tiktok.com/@hacker.wei/video/7712062774527954215?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b05b5264181e8048fa66345_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
 "comments": 0,
 "engagementRate": 0,
-"views": 0,
+"views": 1,
 "shares": 0,
 "reach": 0,
-"totalTimeWatched": 0,
-"averageTimeWatched": 0
+"totalTimeWatched": 0.03,
+"averageTimeWatched": 2.45
 },
-"metrics_at": "2026-11-25T12:34:33.622Z",
+"metrics_at": "2026-11-26T00:08:10.083Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -995,20 +995,20 @@
 {
 "id": "6b05b525ca966bd75f5f0f2e",
 "at": "2026-11-25T07:31:54.496Z",
-"text": "the 3 part answer to \"tell me about yourself\"",
-"link": "https://tiktok.com/@hacker.wei/video/7712008111908769057",
+"text": "the 3 part answer to \"tell me about yourself\" #jobsearch #careertips #graduatejobs #interviewtips #cvtips",
+"link": "https://www.tiktok.com/@hacker.wei/video/7712008111908769057?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://images.buffer.com/thumbnail/YQUkUSAGcN7ljyA9dvlyiNo_fujvYfyJMv3Hdqzh8WU?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2Fec860b32e725de9e424687f3a9421165b8dc299b%2Fvault%2Fhacker%2F20261125-1500-tt-tiptellmeaboutyourself.mp4",
 "metrics": {
-"reactions": 2,
+"reactions": 3,
 "comments": 0,
-"engagementRate": 0.44,
-"views": 457,
+"engagementRate": 0.49,
+"views": 611,
 "shares": 0,
 "reach": 0,
-"totalTimeWatched": 16.08,
-"averageTimeWatched": 1.96
+"totalTimeWatched": 21.57,
+"averageTimeWatched": 1.93
 },
-"metrics_at": "2026-11-25T12:34:33.622Z",
+"metrics_at": "2026-11-26T00:08:10.164Z",
 "fmt": "video",
 "series": "Hacker tips",
 "hook": "number",
@@ -1017,20 +1017,20 @@
 {
 "id": "6b04793db61d3bfe6233b684",
 "at": "2026-11-24T15:04:36.715Z",
-"text": "Starting your first job can feel overwhelming. Here is how to nail your first week.",
-"link": "https://tiktok.com/@hacker.wei/video/7711753820727987495",
+"text": "Starting your first job can feel overwhelming. Here is how to nail your first week. 5 habits that make you look pro: 1. Write everything dow",
+"link": "https://www.tiktok.com/@hacker.wei/video/7711753820727987495?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b04793db61d3bfe6233b684_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
 "comments": 0,
 "engagementRate": 0,
-"views": 192,
+"views": 219,
 "shares": 0,
-"reach": 0,
-"totalTimeWatched": 6.62,
-"averageTimeWatched": 1.93
+"reach": 117,
+"totalTimeWatched": 7.62,
+"averageTimeWatched": 1.95
 },
-"metrics_at": "2026-11-25T12:34:33.622Z",
+"metrics_at": "2026-11-26T00:08:10.118Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1039,8 +1039,8 @@
 {
 "id": "6b04793db61d3bfe6233b642",
 "at": "2026-11-24T11:03:00.411Z",
-"text": "one number in the link changes everything",
-"link": "https://tiktok.com/@hacker.wei/video/7711691680130370849",
+"text": "one number in the link changes everything #linkedintips #jobsearch #careertips #cvtips #interviewtips #graduatejobs",
+"link": "https://www.tiktok.com/@hacker.wei/video/7711691680130370849?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://images.buffer.com/thumbnail/v2a4Aq7EfR6dxe0YB0IMCUBffxT55sc05IJJynIRNlM?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2F030f5c7a4d20300d9294d90316c0dd17c8d778ea%2Fvault%2Fhacker%2F20261124-1100-tt-tiplinkedinlasthour.mp4",
 "metrics": {
 "reactions": 2,
@@ -1048,11 +1048,11 @@
 "engagementRate": 0.68,
 "views": 589,
 "shares": 2,
-"reach": 0,
+"reach": 566,
 "totalTimeWatched": 18.28,
 "averageTimeWatched": 1.74
 },
-"metrics_at": "2026-11-25T12:34:33.622Z",
+"metrics_at": "2026-11-26T00:08:10.106Z",
 "fmt": "video",
 "series": "Hacker tips",
 "hook": "statement",
@@ -1061,8 +1061,8 @@
 {
 "id": "6b03f20000ec56c26fe7e727",
 "at": "2026-11-24T07:32:06.000Z",
-"text": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV.",
-"link": "https://tiktok.com/@hacker.wei/video/7711637037920554273",
+"text": "Worked in retail or at a bar? Here is how to make your part-time uni job look impressive on a graduate CV. 5 ways to upgrade part-time work:",
+"link": "https://www.tiktok.com/@hacker.wei/video/7711637037920554273?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b03f20000ec56c26fe7e727_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
@@ -1070,11 +1070,11 @@
 "engagementRate": 0,
 "views": 3,
 "shares": 0,
-"reach": 0,
+"reach": 3,
 "totalTimeWatched": 0.03,
 "averageTimeWatched": 0.8
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.170Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "question",
@@ -1083,8 +1083,8 @@
 {
 "id": "6b03132dd864a01105d82cc8",
 "at": "2026-11-23T15:32:26.016Z",
-"text": "where recruiters actually look on your cv, in order",
-"link": "https://tiktok.com/@hacker.wei/video/7711389851844644128",
+"text": "where recruiters actually look on your cv, in order #cvtips #recruiter #jobsearch #graduatejobs #careeradvice #ukjobs",
+"link": "https://www.tiktok.com/@hacker.wei/video/7711389851844644128?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b03132dd864a01105d82cc8_thumbnail.jpg",
 "metrics": {
 "reactions": 10,
@@ -1096,7 +1096,7 @@
 "totalTimeWatched": 68.7,
 "averageTimeWatched": 5.69
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.168Z",
 "fmt": "carousel",
 "series": "Cv",
 "hook": "statement",
@@ -1105,8 +1105,8 @@
 {
 "id": "6b0310d5bf5d5a73b6a0ffed",
 "at": "2026-11-23T12:32:19.851Z",
-"text": "Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment.",
-"link": "https://tiktok.com/@hacker.wei/video/7711343426079395104",
+"text": "Situational judgement tests can feel confusing. Here is how to pick the right answers and pass your next assessment. 5 rules for situational",
+"link": "https://www.tiktok.com/@hacker.wei/video/7711343426079395104?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b0310d5bf5d5a73b6a0ffed_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
@@ -1114,11 +1114,11 @@
 "engagementRate": 0,
 "views": 1,
 "shares": 0,
-"reach": 0,
+"reach": 1,
 "totalTimeWatched": 0.05,
 "averageTimeWatched": 3.91
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.159Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1127,8 +1127,8 @@
 {
 "id": "6b02bca5846b0ee907765ae4",
 "at": "2026-11-23T07:31:56.819Z",
-"text": "Feeling lost after graduation is normal. Stop overthinking and start testing your way to a clear answer.",
-"link": "https://tiktok.com/@hacker.wei/video/7711265921301515552",
+"text": "Feeling lost after graduation is normal. Stop overthinking and start testing your way to a clear answer. 5 ways to find your path: 1. List y",
+"link": "https://www.tiktok.com/@hacker.wei/video/7711265921301515552?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b02bca5846b0ee907765ae4_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
@@ -1140,7 +1140,7 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.137Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1149,8 +1149,8 @@
 {
 "id": "6b0210a0846b0ee9073d2db3",
 "at": "2026-11-22T18:32:39.646Z",
-"text": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed.",
-"link": "https://tiktok.com/@hacker.wei/video/7711065063561497889",
+"text": "Stop copying and pasting your motivation answers. Here is how to write a genuine response that actually gets noticed. 5 ways to write a bett",
+"link": "https://www.tiktok.com/@hacker.wei/video/7711065063561497889?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b0210a0846b0ee9073d2db3_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
@@ -1162,7 +1162,7 @@
 "totalTimeWatched": 0.02,
 "averageTimeWatched": 0.88
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.192Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1171,8 +1171,8 @@
 {
 "id": "6b01b90e0247969092e1bece",
 "at": "2026-11-22T12:32:04.020Z",
-"text": "Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool.",
-"link": "https://tiktok.com/@hacker.wei/video/7710972335087521056",
+"text": "Case studies at assessment centres are meant to test your thinking under pressure. Here is how to keep your cool. 5 hacks to stay clear: 1. ",
+"link": "https://www.tiktok.com/@hacker.wei/video/7710972335087521056?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/6afdeb6b324e95dac954adc2/6afdfbf0ece6dfde5f10bf73/6b01b90e0247969092e1bece_thumbnail.jpg",
 "metrics": {
 "reactions": 0,
@@ -1184,7 +1184,7 @@
 "totalTimeWatched": 10.52,
 "averageTimeWatched": 3.24
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.109Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1206,7 +1206,7 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.174Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1228,7 +1228,7 @@
 "totalTimeWatched": 0.72,
 "averageTimeWatched": 2.93
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.112Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1250,7 +1250,7 @@
 "totalTimeWatched": 16.92,
 "averageTimeWatched": 8.13
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.091Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "number",
@@ -1272,7 +1272,7 @@
 "totalTimeWatched": 0.12,
 "averageTimeWatched": 7.04
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.197Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1294,7 +1294,7 @@
 "totalTimeWatched": 1.13,
 "averageTimeWatched": 2.72
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.157Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1316,7 +1316,7 @@
 "totalTimeWatched": 0.03,
 "averageTimeWatched": 2.7
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.172Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1338,7 +1338,7 @@
 "totalTimeWatched": 22.87,
 "averageTimeWatched": 1.96
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.095Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -1360,7 +1360,7 @@
 "totalTimeWatched": 0.32,
 "averageTimeWatched": 1.37
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.161Z",
 "fmt": "carousel",
 "series": "Job hacks",
 "hook": "statement",
@@ -1382,7 +1382,7 @@
 "totalTimeWatched": 0.45,
 "averageTimeWatched": 1.44
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.166Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -1398,13 +1398,13 @@
 "reactions": 5,
 "comments": 0,
 "engagementRate": 0.66,
-"views": 757,
+"views": 758,
 "shares": 0,
 "reach": 713,
 "totalTimeWatched": 36.23,
 "averageTimeWatched": 2.71
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.086Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -1420,13 +1420,13 @@
 "reactions": 3,
 "comments": 0,
 "engagementRate": 0.44,
-"views": 685,
+"views": 686,
 "shares": 0,
 "reach": 635,
 "totalTimeWatched": 25.63,
 "averageTimeWatched": 2.14
 },
-"metrics_at": "2026-11-25T12:34:33.623Z",
+"metrics_at": "2026-11-26T00:08:10.120Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -1445,10 +1445,10 @@
 "views": 711,
 "shares": 1,
 "reach": 663,
-"totalTimeWatched": 90.12,
-"averageTimeWatched": 7.37
+"totalTimeWatched": 84.17,
+"averageTimeWatched": 6.88
 },
-"metrics_at": "2026-11-25T12:34:33.624Z",
+"metrics_at": "2026-11-26T00:08:10.069Z",
 "fmt": "",
 "series": "",
 "hook": "number",
@@ -1470,7 +1470,7 @@
 "totalTimeWatched": 8.45,
 "averageTimeWatched": 2.36
 },
-"metrics_at": "2026-11-25T12:34:33.624Z",
+"metrics_at": "2026-11-26T00:08:10.153Z",
 "fmt": "",
 "series": "",
 "hook": "number",
@@ -1492,7 +1492,7 @@
 "totalTimeWatched": 125.7,
 "averageTimeWatched": 11.06
 },
-"metrics_at": "2026-11-25T12:34:33.624Z",
+"metrics_at": "2026-11-26T00:08:10.150Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -1514,7 +1514,7 @@
 "totalTimeWatched": 24.77,
 "averageTimeWatched": 6.38
 },
-"metrics_at": "2026-11-25T12:34:33.624Z",
+"metrics_at": "2026-11-26T00:08:10.101Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -1536,7 +1536,7 @@
 "totalTimeWatched": 32.47,
 "averageTimeWatched": 2.6
 },
-"metrics_at": "2026-11-25T12:34:33.624Z",
+"metrics_at": "2026-11-26T00:08:10.115Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -1558,7 +1558,7 @@
 "totalTimeWatched": 0.38,
 "averageTimeWatched": 2.88
 },
-"metrics_at": "2026-11-25T12:34:33.624Z",
+"metrics_at": "2026-11-26T00:08:10.097Z",
 "fmt": "",
 "series": "",
 "hook": "number",
@@ -1580,7 +1580,7 @@
 "totalTimeWatched": 3.62,
 "averageTimeWatched": 5.17
 },
-"metrics_at": "2026-11-25T12:34:33.624Z",
+"metrics_at": "2026-11-26T00:08:10.104Z",
 "fmt": "",
 "series": "",
 "hook": "statement",
@@ -1595,14 +1595,14 @@
 "metrics": {
 "reactions": 6,
 "comments": 9,
-"engagementRate": 26.32,
-"views": 95,
+"engagementRate": 25.77,
+"views": 97,
 "shares": 10,
 "reach": 72,
 "totalTimeWatched": 11.45,
 "averageTimeWatched": 6.48
 },
-"metrics_at": "2026-11-25T12:34:33.624Z",
+"metrics_at": "2026-11-26T00:08:10.189Z",
 "fmt": "",
 "series": "",
 "hook": "number",
@@ -1623,8 +1623,8 @@
 {
 "id": "6b063332f0b405190acaa56e",
 "at": "2026-11-25T19:04:21.192Z",
-"text": "they all had a job lined up. he had a question mark.",
-"link": "https://tiktok.com/@yourareunemployed/video/7712186641330326823",
+"text": "they all had a job lined up. he had a question mark. #graduation #graduatejobs #obsession #ego #motivation #mindset #careertok",
+"link": "https://www.tiktok.com/@yourareunemployed/video/7712186641330326823?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://images.buffer.com/thumbnail/aGhhby8_sJl1GmXQUKifCt8DESsjTWc_FlnDMmobU0M?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2F0809b9f7f9f9d26364b1c1fc9c664bbc77c74bff%2Fvault%2Funemployed%2F20261125-1900-tt-obsessiongraduationday.mp4",
 "metrics": {
 "reactions": 0,
@@ -1636,7 +1636,7 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-25T01:00:34.001Z",
+"metrics_at": "2026-11-25T23:51:10.066Z",
 "fmt": "video",
 "series": "Obsession",
 "hook": "statement",
@@ -1645,8 +1645,8 @@
 {
 "id": "6b05b52a7c92bc2c3c991472",
 "at": "2026-11-25T15:06:01.755Z",
-"text": "the most successful person from every country. part 3: the uk",
-"link": "https://tiktok.com/@yourareunemployed/video/7712125113365187873",
+"text": "the most successful person from every country. part 3: the uk #jamesdyson #dyson #success #mentality #discipline #obsession",
+"link": "https://www.tiktok.com/@yourareunemployed/video/7712125113365187873?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://images.buffer.com/thumbnail/SrPRWwG4Br9D0a9-noGQmvMnxGaaBiQFaRx1olSzjlg?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2Fec860b32e725de9e424687f3a9421165b8dc299b%2Fvault%2Funemployed%2F20261125-1100-tt-mostsuccessfulpt3uk.mp4",
 "metrics": {
 "reactions": 0,
@@ -1658,7 +1658,7 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-24T16:02:50.388Z",
+"metrics_at": "2026-11-25T23:51:10.080Z",
 "fmt": "video",
 "series": "Most Successful",
 "hook": "statement",
@@ -1667,8 +1667,8 @@
 {
 "id": "6b0479423a14e6e105dbab77",
 "at": "2026-11-24T11:03:16.819Z",
-"text": "the most successful person from every country. part 2: spain",
-"link": "https://tiktok.com/@yourareunemployed/video/7711691678515481889",
+"text": "the most successful person from every country. part 2: spain #amancioortega #zara #success #mentality #discipline #obsession",
+"link": "https://www.tiktok.com/@yourareunemployed/video/7711691678515481889?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://images.buffer.com/thumbnail/7kGTd71Efy0wjvCDrGSl_CjtA0YuQxn7dhYT_AqbAzk?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2F030f5c7a4d20300d9294d90316c0dd17c8d778ea%2Fvault%2Funemployed%2F20261124-1500-tt-mostsuccessfulpt2spain.mp4",
 "metrics": {
 "reactions": 0,
@@ -1680,7 +1680,7 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-25T12:12:49.726Z",
+"metrics_at": "2026-11-25T23:51:10.078Z",
 "fmt": "video",
 "series": "Most Successful",
 "hook": "statement",
@@ -1689,8 +1689,8 @@
 {
 "id": "6b047941cf4a65d4498f3d3b",
 "at": "2026-11-24T07:31:51.247Z",
-"text": "obsession vs ego vs talent vs motivation. which one are you?",
-"link": "https://tiktok.com/@yourareunemployed/video/7711637025807519009",
+"text": "obsession vs ego vs talent vs motivation. which one are you? #obsession #ego #motivation #mindset #careertok",
+"link": "https://www.tiktok.com/@yourareunemployed/video/7711637025807519009?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
 "thumb": "https://images.buffer.com/thumbnail/sMvjBTViFkPpkSGBqDzNI-_c1Wgc_4rXEJMaguu7d1U?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2F030f5c7a4d20300d9294d90316c0dd17c8d778ea%2Fvault%2Funemployed%2F20261124-0730-tt-obsessionpostingvideos.mp4",
 "metrics": {
 "reactions": 0,
@@ -1702,7 +1702,7 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-25T12:12:49.726Z",
+"metrics_at": "2026-11-25T23:51:10.073Z",
 "fmt": "video",
 "series": "Obsession",
 "hook": "question",
@@ -1724,7 +1724,7 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-25T12:12:49.726Z",
+"metrics_at": "2026-11-25T23:51:10.069Z",
 "fmt": "video",
 "series": "Most Successful",
 "hook": "statement",
@@ -1746,7 +1746,7 @@
 "totalTimeWatched": 0,
 "averageTimeWatched": 0
 },
-"metrics_at": "2026-11-25T12:12:49.726Z",
+"metrics_at": "2026-11-25T23:51:10.082Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -1761,14 +1761,14 @@
 "metrics": {
 "reactions": 6,
 "comments": 0,
-"engagementRate": 1.59,
-"views": 377,
+"engagementRate": 1.57,
+"views": 381,
 "shares": 0,
 "reach": 327,
-"totalTimeWatched": 28.35,
-"averageTimeWatched": 4.44
+"totalTimeWatched": 28.4,
+"averageTimeWatched": 4.41
 },
-"metrics_at": "2026-11-25T12:12:49.726Z",
+"metrics_at": "2026-11-25T23:51:10.115Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -1783,14 +1783,14 @@
 "metrics": {
 "reactions": 5,
 "comments": 3,
-"engagementRate": 1.89,
-"views": 423,
+"engagementRate": 1.88,
+"views": 426,
 "shares": 0,
 "reach": 344,
 "totalTimeWatched": 36.88,
 "averageTimeWatched": 5.23
 },
-"metrics_at": "2026-11-25T12:12:49.727Z",
+"metrics_at": "2026-11-25T23:51:10.093Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -1812,7 +1812,7 @@
 "totalTimeWatched": 15.85,
 "averageTimeWatched": 3.09
 },
-"metrics_at": "2026-11-25T12:12:49.727Z",
+"metrics_at": "2026-11-25T23:51:10.089Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -1834,7 +1834,7 @@
 "totalTimeWatched": 61.67,
 "averageTimeWatched": 11.42
 },
-"metrics_at": "2026-11-25T12:12:49.727Z",
+"metrics_at": "2026-11-25T23:51:10.071Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -1853,10 +1853,10 @@
 "views": 170,
 "shares": 0,
 "reach": 145,
-"totalTimeWatched": 16.6,
-"averageTimeWatched": 5.66
+"totalTimeWatched": 16.62,
+"averageTimeWatched": 5.63
 },
-"metrics_at": "2026-11-25T12:12:49.727Z",
+"metrics_at": "2026-11-25T23:51:10.106Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -1878,7 +1878,7 @@
 "totalTimeWatched": 21.63,
 "averageTimeWatched": 7.46
 },
-"metrics_at": "2026-11-25T12:12:49.727Z",
+"metrics_at": "2026-11-25T23:51:10.086Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -1900,7 +1900,7 @@
 "totalTimeWatched": 40.15,
 "averageTimeWatched": 12.29
 },
-"metrics_at": "2026-11-25T12:12:49.727Z",
+"metrics_at": "2026-11-25T23:51:10.110Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -3755,7 +3755,7 @@
 "brand": "The Only Wei",
 "brand_id": "only",
 "mode": "auto",
-"disconnected": false,
+"disconnected": true,
 "problems": [],
 "posts": [
 {
@@ -4516,7 +4516,7 @@
 "brand": "Pirate Wei",
 "brand_id": "pirate",
 "mode": "auto",
-"disconnected": false,
+"disconnected": true,
 "problems": [],
 "posts": [
 {
@@ -4998,7 +4998,7 @@
 "brand": "Hacker Wei",
 "brand_id": "hacker",
 "mode": "auto",
-"disconnected": false,
+"disconnected": true,
 "problems": [
 {
 "id": "6b05180dbc151fa8ad24572b",
@@ -6438,7 +6438,7 @@
 "brand": "Chef Wei",
 "brand_id": "chef",
 "mode": "auto",
-"disconnected": false,
+"disconnected": true,
 "problems": [],
 "posts": [
 {
@@ -6955,7 +6955,7 @@
 "brand": "Wei Stories",
 "brand_id": "stories",
 "mode": "auto",
-"disconnected": false,
+"disconnected": true,
 "problems": [],
 "posts": [
 {

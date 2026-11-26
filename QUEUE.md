@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**8 waiting** (4 from the vault). 23 posted by the system so far.
+**10 waiting** (4 from the vault). 23 posted by the system so far.
 
 ### vault/20261127-0730-tt-tipreplytorejection
 
@@ -154,6 +154,54 @@ Which tip will you start?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #graduatescheme #firstjob #onboarding #workplacetips #graduatelife #hackerwei
+```
+
+</details>
+
+### 026
+
+<a href="posts/026_1.jpg"><img src="posts/026_1.jpg" width="110"></a> <a href="posts/026_2.jpg"><img src="posts/026_2.jpg" width="110"></a> <a href="posts/026_3.jpg"><img src="posts/026_3.jpg" width="110"></a> <a href="posts/026_4.jpg"><img src="posts/026_4.jpg" width="110"></a> <a href="posts/026_5.jpg"><img src="posts/026_5.jpg" width="110"></a> <a href="posts/026_6.jpg"><img src="posts/026_6.jpg" width="110"></a> <a href="posts/026_7.jpg"><img src="posts/026_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Job hunting can be exhausting when replies go quiet. Here is how to break the slump and protect your energy.
+
+5 steps to reset your energy:
+1. Cap your daily applications
+2. Schedule offline days
+3. Target smaller employers
+4. Track small daily wins
+5. Change your workspace
+
+Which reset do you need?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #jobhunt #graduatelife #studentwellbeing #jobburnout #hackerwei
+```
+
+</details>
+
+### 027
+
+<a href="posts/027_1.jpg"><img src="posts/027_1.jpg" width="110"></a> <a href="posts/027_2.jpg"><img src="posts/027_2.jpg" width="110"></a> <a href="posts/027_3.jpg"><img src="posts/027_3.jpg" width="110"></a> <a href="posts/027_4.jpg"><img src="posts/027_4.jpg" width="110"></a> <a href="posts/027_5.jpg"><img src="posts/027_5.jpg" width="110"></a> <a href="posts/027_6.jpg"><img src="posts/027_6.jpg" width="110"></a> <a href="posts/027_7.jpg"><img src="posts/027_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Generic cover letters get ignored instantly. Here are five easy fixes to make your application stand out.
+
+5 ways to stand out:
+1. Mention a specific project
+2. Link your skills to their need
+3. Ditch the buzzword list
+4. Use their exact terminology
+5. Keep each paragraph focused
+
+Which fix will you try?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #coverletter #coverlettertips #applicationform #jobsearchuk #hackerwei
 ```
 
 </details>

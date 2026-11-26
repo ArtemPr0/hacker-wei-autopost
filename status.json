@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:00:39Z",
+ "updated": "2026-11-26T02:58:50Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,7 +24,7 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 8,
+   "waiting": 10,
    "vault_waiting": 4,
    "posted": 23,
    "manual": false,
