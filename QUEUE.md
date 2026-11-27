@@ -4,7 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**7 waiting** (2 from the vault). 28 posted by the system so far.
+**8 waiting** (2 from the vault). 29 posted by the system so far.
 
 ### vault/20261129-1500-tt-tipadvertwords
 
@@ -30,30 +30,6 @@ use the advert's exact words on your cv
 find the real interview questions before you walk in
 
 #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
-
-### 025
-
-<a href="posts/025_1.jpg"><img src="posts/025_1.jpg" width="110"></a> <a href="posts/025_2.jpg"><img src="posts/025_2.jpg" width="110"></a> <a href="posts/025_3.jpg"><img src="posts/025_3.jpg" width="110"></a> <a href="posts/025_4.jpg"><img src="posts/025_4.jpg" width="110"></a> <a href="posts/025_5.jpg"><img src="posts/025_5.jpg" width="110"></a> <a href="posts/025_6.jpg"><img src="posts/025_6.jpg" width="110"></a> <a href="posts/025_7.jpg"><img src="posts/025_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Do not wait until probation to remember what you accomplished. Here is how to track your wins from day one.
-
-5 steps to track your impact:
-1. Create an impact document
-2. Note down small wins weekly
-3. Save positive feedback
-4. Record your exact numbers
-5. Use it in your one-on-ones
-
-Which tip will you start?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #graduatescheme #firstjob #onboarding #workplacetips #graduatelife #hackerwei
 ```
 
 </details>
@@ -150,6 +126,54 @@ Which message will you send?
 Save this and follow for a new hack every day.
 
 #ukgraduate #graduatejobs #ukstudents #careeradvice #jobhunting #graduatescheme #jobsearchuk #careerhelp #graduates #hackerwei
+```
+
+</details>
+
+### 030
+
+<a href="posts/030_1.jpg"><img src="posts/030_1.jpg" width="110"></a> <a href="posts/030_2.jpg"><img src="posts/030_2.jpg" width="110"></a> <a href="posts/030_3.jpg"><img src="posts/030_3.jpg" width="110"></a> <a href="posts/030_4.jpg"><img src="posts/030_4.jpg" width="110"></a> <a href="posts/030_5.jpg"><img src="posts/030_5.jpg" width="110"></a> <a href="posts/030_6.jpg"><img src="posts/030_6.jpg" width="110"></a> <a href="posts/030_7.jpg"><img src="posts/030_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+Working in a bar or running a uni society counts as real experience. Here is how to write it on your CV.
+
+5 ways to reframe student roles:
+1. Swap job duties for impact
+2. Name the tools you used
+3. Highlight money and budgets
+4. Show leadership in small tasks
+5. Group similar roles together
+
+Which hack will you use?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #cvtips #parttimejob #unisociety #studentcv #hackerwei
+```
+
+</details>
+
+### 031
+
+<a href="posts/031_1.jpg"><img src="posts/031_1.jpg" width="110"></a> <a href="posts/031_2.jpg"><img src="posts/031_2.jpg" width="110"></a> <a href="posts/031_3.jpg"><img src="posts/031_3.jpg" width="110"></a> <a href="posts/031_4.jpg"><img src="posts/031_4.jpg" width="110"></a> <a href="posts/031_5.jpg"><img src="posts/031_5.jpg" width="110"></a> <a href="posts/031_6.jpg"><img src="posts/031_6.jpg" width="110"></a> <a href="posts/031_7.jpg"><img src="posts/031_7.jpg" width="110"></a>
+
+<details><summary>Caption</summary>
+
+```
+The opening question in an interview sets the tone. Here is a simple structure to introduce yourself with confidence.
+
+5 steps to start your interview:
+1. Focus on the present first
+2. Highlight two key achievements
+3. Connect your past to this role
+4. End with your future goal
+5. Keep the pitch under two minutes
+
+Which step will you use?
+Save this and follow for a new hack every day.
+
+#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #interviewtips #interviewprep #graduatescheme #jobinterview #hackerwei
 ```
 
 </details>
@@ -400,21 +424,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**7 waiting** (7 from the vault). 24 posted by the system so far.
-
-### vault/20261128-1900-ig-chickenfajitatraybake
-
-<a href="vault/chef/20261128-1900-ig-chickenfajitatraybake_1.jpg"><img src="vault/chef/20261128-1900-ig-chickenfajitatraybake_1.jpg" width="110"></a> <a href="vault/chef/20261128-1900-ig-chickenfajitatraybake_2.jpg"><img src="vault/chef/20261128-1900-ig-chickenfajitatraybake_2.jpg" width="110"></a> <a href="vault/chef/20261128-1900-ig-chickenfajitatraybake_3.jpg"><img src="vault/chef/20261128-1900-ig-chickenfajitatraybake_3.jpg" width="110"></a> <a href="vault/chef/20261128-1900-ig-chickenfajitatraybake_4.jpg"><img src="vault/chef/20261128-1900-ig-chickenfajitatraybake_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-One tray, four dinners. Chicken fajita traybake for under £2 a portion.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**6 waiting** (6 from the vault). 25 posted by the system so far.
 
 ### vault/20261129-0730-ig-bananaoatpancakes
 

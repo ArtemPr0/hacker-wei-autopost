@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:04:18Z",
+ "updated": "2026-11-27T22:53:17Z",
  "repo": "ArtemPr0/hacker-wei-autopost",
  "paused": false,
  "slots": "07:30, 12:30 and 18:30 UK time for AI posts; vault posts go at their own times",
@@ -24,9 +24,9 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 7,
+   "waiting": 8,
    "vault_waiting": 2,
-   "posted": 28,
+   "posted": 29,
    "manual": false,
    "off": false,
    "mirror": true,
@@ -60,19 +60,6 @@
      "cover": null,
      "at": "2026-11-30T19:00:00Z",
      "platform": "tiktok"
-    },
-    {
-     "id": "025",
-     "title": "Do not wait until probation to remember what you accomplished. Here is how to track your wins from day one.",
-     "slides": 7,
-     "tags": {
-      "format": "carousel",
-      "series": "Job hacks",
-      "hook": "statement"
-     },
-     "video": false,
-     "vault": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/025_1.jpg"
     },
     {
      "id": "026",
@@ -112,10 +99,34 @@
      "video": false,
      "vault": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/028_1.jpg"
+    },
+    {
+     "id": "029",
+     "title": "Waiting weeks for a reply that never comes is frustrating. Here is how to follow up politely.",
+     "slides": 7,
+     "tags": {
+      "format": "carousel",
+      "series": "Job hacks",
+      "hook": "statement"
+     },
+     "video": false,
+     "vault": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/029_1.jpg"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "025",
+     "title": "Do not wait until probation to remember what you accomplished. Here is how to track your wins from day one.",
+     "date": "2026-11-28",
+     "at": "2026-11-28T15:00:00Z",
+     "instagram": false,
+     "tiktok": "sent (scheduled in Buffer for 2026-11-28T15:00:00.000Z, post 6b0a09cfeada83daa6a5a222)",
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/025_1.jpg"
+    },
     {
      "id": "024",
      "title": "Numerical reasoning tests catch out hundreds of applicants every year. Here is how to pass the timed maths stage.",
@@ -192,17 +203,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/posts/020_1.jpg"
-    },
-    {
-     "id": "vault/20261126-1900-tt-tipfollowupemail",
-     "title": "send this within 24 hours of every interview",
-     "date": "2026-11-26",
-     "at": "2026-11-26T07:30:00Z",
-     "instagram": true,
-     "tiktok": "sent (scheduled in Buffer for 2026-11-26T07:30:00.000Z, post 6b06b11e281032331e95a8c8)",
-     "timed": true,
-     "by_hand": false,
-     "cover": null
     }
    ],
    "connected": {
@@ -996,28 +996,13 @@
    "active": true,
    "paused": false,
    "schedule": "Up to 3 a day. Time test 24 Nov to 7 Dec: posts rotate through 07:30, 11:00, 15:00, 19:00 UK",
-   "waiting": 7,
-   "vault_waiting": 7,
-   "posted": 24,
+   "waiting": 6,
+   "vault_waiting": 6,
+   "posted": 25,
    "manual": false,
    "off": false,
    "mirror": false,
    "next": [
-    {
-     "id": "vault/20261128-1900-ig-chickenfajitatraybake",
-     "title": "One tray, four dinners. Chicken fajita traybake for under \u00a32 a portion.",
-     "slides": 4,
-     "tags": {
-      "format": "carousel",
-      "series": "Budget meals",
-      "hook": "statement"
-     },
-     "video": false,
-     "vault": true,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261128-1900-ig-chickenfajitatraybake_1.jpg",
-     "at": "2026-11-28T19:00:00Z",
-     "platform": "instagram"
-    },
     {
      "id": "vault/20261129-0730-ig-bananaoatpancakes",
      "title": "Sunday pancakes from one banana. Under \u00a31 and ready in 10 minutes.",
@@ -1092,10 +1077,36 @@
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261130-1100-ig-tunasweetcornpastasalad_1.jpg",
      "at": "2026-11-30T11:00:00Z",
      "platform": "instagram"
+    },
+    {
+     "id": "vault/20261130-1900-ig-chickpeacoconutcurry",
+     "title": "A creamy curry from the cupboard, under \u00a31 a portion.",
+     "slides": 4,
+     "tags": {
+      "format": "carousel",
+      "series": "Under \u00a31",
+      "hook": "statement"
+     },
+     "video": false,
+     "vault": true,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261130-1900-ig-chickpeacoconutcurry_1.jpg",
+     "at": "2026-11-30T19:00:00Z",
+     "platform": "instagram"
     }
    ],
    "hand": [],
    "recent": [
+    {
+     "id": "vault/20261128-1900-ig-chickenfajitatraybake",
+     "title": "One tray, four dinners. Chicken fajita traybake for under \u00a32 a portion.",
+     "date": "2026-11-28",
+     "at": "2026-11-28T15:00:00Z",
+     "instagram": true,
+     "tiktok": null,
+     "timed": true,
+     "by_hand": false,
+     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261128-1900-ig-chickenfajitatraybake_1.jpg"
+    },
     {
      "id": "vault/20261128-1500-ig-loadedovennachos",
      "title": "Saturday film night nachos for under \u00a31.50 each.",
@@ -1172,17 +1183,6 @@
      "timed": true,
      "by_hand": false,
      "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261126-1100-ig-pestopastawithpeas_1.jpg"
-    },
-    {
-     "id": "vault/20261126-0730-ig-easyovenflapjacks",
-     "title": "Twelve flapjacks for the price of one from the campus shop.",
-     "date": "2026-11-26",
-     "at": "2026-11-26T07:30:00Z",
-     "instagram": true,
-     "tiktok": null,
-     "timed": true,
-     "by_hand": false,
-     "cover": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/main/vault/chef/20261126-0730-ig-easyovenflapjacks_1.jpg"
     }
    ],
    "connected": {
