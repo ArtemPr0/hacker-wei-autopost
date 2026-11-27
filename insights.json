@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T05:10:33Z",
+ "updated": "2026-11-27T05:18:05Z",
  "days": 28,
  "min_posts": 5,
  "windows": [
@@ -861,7 +861,7 @@
     "status": "known",
     "best": {
      "value": "video",
-     "median": 59,
+     "median": 60,
      "posts": 8
     },
     "runner_up": {
@@ -872,7 +872,7 @@
     "groups": [
      {
       "value": "video",
-      "median": 59,
+      "median": 60,
       "posts": 8
      },
      {
@@ -1197,7 +1197,7 @@
   }
  ],
  "lines": [
-  "Videos beat carousels on Chef Wei Instagram (59 vs 1 median views a post, 8 vs 12 posts)",
+  "Videos beat carousels on Chef Wei Instagram (60 vs 1 median views a post, 8 vs 12 posts)",
   "Videos beat carousels on The Only Wei Instagram (130 vs 18 median views a post, 23 vs 8 posts)",
   "Number hooks beat statement hooks on Hacker Wei TikTok (113 vs 32 median views a post, 5 vs 20 posts)"
  ]

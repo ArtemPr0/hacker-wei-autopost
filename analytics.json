@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T05:10:27Z",
+"updated": "2026-11-27T05:17:56Z",
 "days": 90,
 "channels": [
 {
@@ -6694,11 +6694,11 @@
 {
 "service": "instagram",
 "handle": "cheff.wei",
-"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b0075d4ece6dfde5f3471f5_1795192276691",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b0075d4ece6dfde5f3471f5_1795756589053",
 "brand": "Chef Wei",
 "brand_id": "chef",
 "mode": "auto",
-"disconnected": true,
+"disconnected": false,
 "problems": [
 {
 "id": "6b073e581dafb303591fa17d",
@@ -6729,8 +6729,17 @@
 "text": "Proper comfort food for a cold Wednesday. Sausage and bean casserole.",
 "link": "https://www.instagram.com/p/DgLPK4LGJ81/",
 "thumb": "https://raw.githubusercontent.com/ArtemPr0/hacker-wei-autopost/0809b9f7f9f9d26364b1c1fc9c664bbc77c74bff/vault/chef/20261125-1500-ig-sausageandbeancasserole_1.jpg",
-"metrics": {},
-"metrics_at": "2026-11-25T01:00:34.695Z",
+"metrics": {
+"reactions": 0,
+"comments": 0,
+"engagementRate": 0,
+"views": 1,
+"shares": 0,
+"saves": 0,
+"follows": 0,
+"reach": 0
+},
+"metrics_at": "2026-11-27T05:16:35.362Z",
 "fmt": "carousel",
 "series": "Budget meals",
 "hook": "statement",
@@ -6752,7 +6761,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T15:39:34.210Z",
+"metrics_at": "2026-11-27T05:16:35.378Z",
 "fmt": "carousel",
 "series": "Under £1",
 "hook": "number",
@@ -6774,7 +6783,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T15:39:34.206Z",
+"metrics_at": "2026-11-27T05:16:35.372Z",
 "fmt": "carousel",
 "series": "Under £1",
 "hook": "number",
@@ -6796,7 +6805,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T15:39:34.092Z",
+"metrics_at": "2026-11-27T05:16:35.369Z",
 "fmt": "carousel",
 "series": "Under £1",
 "hook": "statement",
@@ -6818,7 +6827,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T15:39:34.122Z",
+"metrics_at": "2026-11-27T05:16:35.393Z",
 "fmt": "carousel",
 "series": "Budget meals",
 "hook": "statement",
@@ -6840,7 +6849,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T15:39:34.202Z",
+"metrics_at": "2026-11-27T05:16:35.387Z",
 "fmt": "carousel",
 "series": "Under £1",
 "hook": "number",
@@ -6862,7 +6871,7 @@
 "follows": 0,
 "reach": 3
 },
-"metrics_at": "2026-11-25T15:39:34.191Z",
+"metrics_at": "2026-11-27T05:16:35.385Z",
 "fmt": "carousel",
 "series": "Banana",
 "hook": "statement",
@@ -6884,7 +6893,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T15:39:34.248Z",
+"metrics_at": "2026-11-27T05:16:35.355Z",
 "fmt": "carousel",
 "series": "Red",
 "hook": "statement",
@@ -6906,7 +6915,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T15:39:34.144Z",
+"metrics_at": "2026-11-27T05:16:35.357Z",
 "fmt": "carousel",
 "series": "Tuna",
 "hook": "statement",
@@ -6928,7 +6937,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T15:39:34.150Z",
+"metrics_at": "2026-11-27T05:16:35.359Z",
 "fmt": "carousel",
 "series": "Batch",
 "hook": "number",
@@ -6950,7 +6959,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T15:39:34.127Z",
+"metrics_at": "2026-11-27T05:16:35.395Z",
 "fmt": "carousel",
 "series": "Chicken",
 "hook": "statement",
@@ -6972,7 +6981,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T15:39:34.087Z",
+"metrics_at": "2026-11-27T05:16:35.375Z",
 "fmt": "carousel",
 "series": "Cheesy",
 "hook": "statement",
@@ -6994,7 +7003,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T15:39:34.232Z",
+"metrics_at": "2026-11-27T05:16:35.380Z",
 "fmt": "carousel",
 "series": "Overnight",
 "hook": "number",
@@ -7016,7 +7025,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T15:39:34.216Z",
+"metrics_at": "2026-11-27T05:16:35.390Z",
 "fmt": "carousel",
 "series": "One",
 "hook": "number",
@@ -7038,7 +7047,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T15:39:34.235Z",
+"metrics_at": "2026-11-27T05:16:35.350Z",
 "fmt": "carousel",
 "series": "Egg",
 "hook": "statement",
@@ -7061,7 +7070,7 @@
 "averageTimeWatched": 1.39,
 "reach": 12
 },
-"metrics_at": "2026-11-25T15:39:34.228Z",
+"metrics_at": "2026-11-27T05:16:35.423Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -7084,7 +7093,7 @@
 "averageTimeWatched": 2.92,
 "reach": 8
 },
-"metrics_at": "2026-11-25T15:39:34.177Z",
+"metrics_at": "2026-11-27T05:16:35.455Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -7100,14 +7109,14 @@
 "reactions": 3,
 "comments": 0,
 "engagementRate": 2.13,
-"views": 174,
+"views": 176,
 "shares": 0,
 "saves": 0,
-"totalTimeWatched": 16.56,
-"averageTimeWatched": 7,
+"totalTimeWatched": 16.9,
+"averageTimeWatched": 7.09,
 "reach": 141
 },
-"metrics_at": "2026-11-25T15:39:34.110Z",
+"metrics_at": "2026-11-27T05:16:35.453Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -7130,7 +7139,7 @@
 "averageTimeWatched": 4.29,
 "reach": 128
 },
-"metrics_at": "2026-11-25T15:39:34.186Z",
+"metrics_at": "2026-11-27T05:16:35.366Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -7153,7 +7162,7 @@
 "averageTimeWatched": 8.36,
 "reach": 168
 },
-"metrics_at": "2026-11-25T15:39:34.173Z",
+"metrics_at": "2026-11-27T05:16:35.364Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -7176,7 +7185,7 @@
 "averageTimeWatched": 2.22,
 "reach": 1
 },
-"metrics_at": "2026-11-25T15:39:34.115Z",
+"metrics_at": "2026-11-27T05:16:35.450Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7199,7 +7208,7 @@
 "averageTimeWatched": 10.63,
 "reach": 2
 },
-"metrics_at": "2026-11-25T15:39:34.154Z",
+"metrics_at": "2026-11-27T05:16:35.398Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7215,14 +7224,14 @@
 "reactions": 8,
 "comments": 6,
 "engagementRate": 26.32,
-"views": 106,
+"views": 107,
 "shares": 5,
 "saves": 5,
-"totalTimeWatched": 9.14,
-"averageTimeWatched": 5.32,
+"totalTimeWatched": 9.17,
+"averageTimeWatched": 5.29,
 "reach": 95
 },
-"metrics_at": "2026-11-25T15:39:34.137Z",
+"metrics_at": "2026-11-27T05:16:35.353Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -7233,11 +7242,11 @@
 {
 "service": "instagram",
 "handle": "weistories",
-"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b0075a3ece6dfde5f346ff4_1795192227167",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6b0075a3ece6dfde5f346ff4_1795756501157",
 "brand": "Wei Stories",
 "brand_id": "stories",
 "mode": "auto",
-"disconnected": true,
+"disconnected": false,
 "problems": [
 {
 "id": "6b073e57a7531375d604aeea",
@@ -7257,15 +7266,15 @@
 "metrics": {
 "reactions": 1,
 "comments": 0,
-"engagementRate": 1.05,
-"views": 106,
+"engagementRate": 1.04,
+"views": 109,
 "shares": 0,
 "saves": 0,
-"totalTimeWatched": 8.98,
-"averageTimeWatched": 5.39,
-"reach": 95
+"totalTimeWatched": 9.05,
+"averageTimeWatched": 5.38,
+"reach": 96
 },
-"metrics_at": "2026-11-25T15:32:31.924Z",
+"metrics_at": "2026-11-27T05:15:11.494Z",
 "fmt": "video",
 "series": "After Hours",
 "hook": "statement",
@@ -7288,7 +7297,7 @@
 "averageTimeWatched": 9.12,
 "reach": 107
 },
-"metrics_at": "2026-11-25T15:32:31.923Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "After Hours",
 "hook": "question",
@@ -7311,7 +7320,7 @@
 "averageTimeWatched": 20.15,
 "reach": 3
 },
-"metrics_at": "2026-11-25T15:32:31.942Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "After Hours",
 "hook": "statement",
@@ -7334,7 +7343,7 @@
 "averageTimeWatched": 31.4,
 "reach": 2
 },
-"metrics_at": "2026-11-25T15:32:31.940Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "After Hours",
 "hook": "statement",
@@ -7350,14 +7359,14 @@
 "reactions": 1,
 "comments": 0,
 "engagementRate": 2.78,
-"views": 48,
+"views": 49,
 "shares": 0,
 "saves": 0,
 "totalTimeWatched": 3.94,
 "averageTimeWatched": 5.25,
 "reach": 36
 },
-"metrics_at": "2026-11-25T15:32:31.927Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7380,7 +7389,7 @@
 "averageTimeWatched": 20.13,
 "reach": 144
 },
-"metrics_at": "2026-11-25T15:32:31.907Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7403,7 +7412,7 @@
 "averageTimeWatched": 6.46,
 "reach": 42
 },
-"metrics_at": "2026-11-25T15:32:31.903Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7426,7 +7435,7 @@
 "averageTimeWatched": 6.75,
 "reach": 106
 },
-"metrics_at": "2026-11-25T15:32:31.901Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7449,7 +7458,7 @@
 "averageTimeWatched": 14.99,
 "reach": 131
 },
-"metrics_at": "2026-11-25T15:32:31.932Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7472,7 +7481,7 @@
 "averageTimeWatched": 6.01,
 "reach": 4
 },
-"metrics_at": "2026-11-25T15:32:31.908Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7495,7 +7504,7 @@
 "averageTimeWatched": 9.67,
 "reach": 6
 },
-"metrics_at": "2026-11-25T15:32:31.939Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7518,7 +7527,7 @@
 "averageTimeWatched": 8.85,
 "reach": 103
 },
-"metrics_at": "2026-11-25T15:32:31.905Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7541,7 +7550,7 @@
 "averageTimeWatched": 16.25,
 "reach": 123
 },
-"metrics_at": "2026-11-25T15:32:31.915Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7564,7 +7573,7 @@
 "averageTimeWatched": 12.87,
 "reach": 120
 },
-"metrics_at": "2026-11-25T15:32:31.913Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7587,7 +7596,7 @@
 "averageTimeWatched": 7.13,
 "reach": 128
 },
-"metrics_at": "2026-11-25T15:32:31.935Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7610,7 +7619,7 @@
 "averageTimeWatched": 23.21,
 "reach": 9
 },
-"metrics_at": "2026-11-25T15:32:31.910Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7633,7 +7642,7 @@
 "averageTimeWatched": 18.17,
 "reach": 9
 },
-"metrics_at": "2026-11-25T15:32:31.899Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -7656,7 +7665,7 @@
 "averageTimeWatched": 12.86,
 "reach": 153
 },
-"metrics_at": "2026-11-25T15:32:31.929Z",
+"metrics_at": "2026-11-27T05:15:11.495Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -8135,5 +8144,63 @@
 ]
 }
 ],
-"errors": []
+"errors": [],
+"alerts": [
+{
+"kind": "failed",
+"channel": "The Only Wei Instagram (@weigradjobs)",
+"at": "2026-11-26T15:00",
+"text": "the line steve jobs ended stanford with",
+"reason": "It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling."
+},
+{
+"kind": "failed",
+"channel": "Pirate Wei Instagram (@pirate.wei)",
+"at": "2026-11-26T11:00",
+"text": "every interview. every time.",
+"reason": "It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling."
+},
+{
+"kind": "failed",
+"channel": "Pirate Wei Instagram (@pirate.wei)",
+"at": "2026-11-26T07:30",
+"text": "still waiting. they said they'd be in touch.",
+"reason": "It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling."
+},
+{
+"kind": "failed",
+"channel": "Hacker Wei Instagram (@hacker.weii)",
+"at": "2026-11-26T07:30",
+"text": "send this within 24 hours of every interview",
+"reason": "It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling."
+},
+{
+"kind": "failed",
+"channel": "Chef Wei Instagram (@cheff.wei)",
+"at": "2026-11-26T19:00",
+"text": "A big pot of chilli for less than £1 a bowl.",
+"reason": "It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling."
+},
+{
+"kind": "failed",
+"channel": "Chef Wei Instagram (@cheff.wei)",
+"at": "2026-11-26T15:00",
+"text": "Twelve minutes, three main ingredients, zero effort. Pesto pasta with peas.",
+"reason": "It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling."
+},
+{
+"kind": "failed",
+"channel": "Chef Wei Instagram (@cheff.wei)",
+"at": "2026-11-26T07:30",
+"text": "Twelve flapjacks for the price of one from the campus shop.",
+"reason": "It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling."
+},
+{
+"kind": "failed",
+"channel": "Wei Stories Instagram (@weistories)",
+"at": "2026-11-26T15:00",
+"text": "the finale. the doors open at 9. it is 8:57.",
+"reason": "It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling."
+}
+]
 }
