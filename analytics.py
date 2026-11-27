@@ -72,6 +72,10 @@ def main():
     for kname, key in keys:
         try: orgs = common.gql("query { account { organizations { id name } } }", key)["account"]["organizations"]
         except Exception as e: out["errors"].append(f"{kname}: {str(e)[:200]}"); continue
+        if os.environ.get("DEBUG"):
+            try: em = common.gql("query { account { email } }", key)["account"].get("email")
+            except Exception: em = "?"
+            print("DEBUG account", kname, em)
         for org in orgs:
             try: chans = common.gql('query { channels(input: {organizationId: "%s"}) { %s } }' % (org["id"], " ".join(want_chan)), key)["channels"]
             except Exception as e: out["errors"].append(f"{kname} channels: {str(e)[:200]}"); continue
