@@ -189,6 +189,24 @@
    "title": "Cook once on Friday, eat all weekend. Cheesy pasta bake, under \u00a31.50 a portion.",
    "timed": true,
    "planned_at": "2026-11-27T19:00:00Z"
+  },
+  {
+   "post": "vault/20261128-1100-ig-eggfriedrice",
+   "date": "2026-11-28",
+   "at": "2026-11-28T07:30:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-28T07:30:00.000Z, post 6b098dd334d224b14a8abdee)",
+   "title": "Fried rice that beats the takeaway, in 10 minutes, for under \u00a31.",
+   "timed": true,
+   "planned_at": "2026-11-28T11:00:00Z"
+  },
+  {
+   "post": "vault/20261128-1500-ig-loadedovennachos",
+   "date": "2026-11-28",
+   "at": "2026-11-28T11:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-28T11:00:00.000Z, post 6b098dd3b83ec61257d14722)",
+   "title": "Saturday film night nachos for under \u00a31.50 each.",
+   "timed": true,
+   "planned_at": "2026-11-28T15:00:00Z"
   }
  ]
 }

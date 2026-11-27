@@ -97,6 +97,26 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-27T19:00:00.000Z, post 6b08b2846fabe326fab6d1d7)",
    "planned_at": "2026-11-27T19:00:00Z"
+  },
+  {
+   "post": "vault/20261128-0730-tt-obsessionfinalyear",
+   "date": "2026-11-28",
+   "at": "2026-11-28T07:30:00Z",
+   "media_id": null,
+   "title": "he failed module 3. then he got a first.",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-28T07:30:00.000Z, post 6b098dcf18c8c6749bed1266)",
+   "planned_at": "2026-11-28T07:30:00Z"
+  },
+  {
+   "post": "vault/20261128-1500-tt-mostsuccessfulpt6southafrica",
+   "date": "2026-11-28",
+   "at": "2026-11-28T11:00:00Z",
+   "media_id": null,
+   "title": "the most successful person from every country. part 6: south africa",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-28T11:00:00.000Z, post 6b098dd0015034238d2fbdad)",
+   "planned_at": "2026-11-28T15:00:00Z"
   }
  ]
 }

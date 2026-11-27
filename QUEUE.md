@@ -4,21 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**9 waiting** (3 from the vault). 26 posted by the system so far.
-
-### vault/20261128-1100-tt-tipsalaryexpectations
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-what to say when they ask for your salary expectations
-
-#salary #salarynegotiation #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
+**7 waiting** (2 from the vault). 28 posted by the system so far.
 
 ### vault/20261129-1500-tt-tipadvertwords
 
@@ -44,30 +30,6 @@ use the advert's exact words on your cv
 find the real interview questions before you walk in
 
 #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
-
-### 024
-
-<a href="posts/024_1.jpg"><img src="posts/024_1.jpg" width="110"></a> <a href="posts/024_2.jpg"><img src="posts/024_2.jpg" width="110"></a> <a href="posts/024_3.jpg"><img src="posts/024_3.jpg" width="110"></a> <a href="posts/024_4.jpg"><img src="posts/024_4.jpg" width="110"></a> <a href="posts/024_5.jpg"><img src="posts/024_5.jpg" width="110"></a> <a href="posts/024_6.jpg"><img src="posts/024_6.jpg" width="110"></a> <a href="posts/024_7.jpg"><img src="posts/024_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Numerical reasoning tests catch out hundreds of applicants every year. Here is how to pass the timed maths stage.
-
-5 tactics to pass timed maths:
-1. Learn your calculator shortcuts
-2. Skim the chart title first
-3. Skip hard questions early
-4. Use scrap paper cleanly
-5. Do free timed practice tests
-
-Which tactic will you try?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #numericalreasoning #onlinetests #graduatescheme #aptitudetest #hackerwei
 ```
 
 </details>
@@ -194,35 +156,7 @@ Save this and follow for a new hack every day.
 
 ## Pirate Wei
 
-**6 waiting** (6 from the vault). 11 posted by the system so far.
-
-### vault/20261128-1100-tt-memeoneapplication
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-one application. time for a nap.
-
-#unemployed #jobsearch #corporatelife #corporatehumor #workhumor #officememes
-```
-
-</details>
-
-### vault/20261128-1900-tt-memequicksync
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-it is never 15 minutes
-
-#meetings #unemployed #jobsearch #corporatelife #corporatehumor #workhumor #officememes
-```
-
-</details>
+**4 waiting** (4 from the vault). 13 posted by the system so far.
 
 ### vault/20261129-0730-tt-inboxstorypt5turningitdown
 
@@ -282,21 +216,7 @@ reply all. goodbye.
 
 ## The Only Wei
 
-**3 waiting** (3 from the vault). 6 posted by the system so far.
-
-### vault/20261128-0730-tt-newstopemployersgradjobs
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-graduate jobs at the uk's top employers are down almost a quarter since 2022
-
-#graduatejobs #ukjobs #jobmarket #graduates #careeradvice
-```
-
-</details>
+**2 waiting** (2 from the vault). 7 posted by the system so far.
 
 ### vault/20261129-1100-tt-quotenavalravikant
 
@@ -328,35 +248,7 @@ the unwritten rule of corporate life
 
 ## You Are Unemployed
 
-**6 waiting** (6 from the vault). 10 posted by the system so far.
-
-### vault/20261128-0730-tt-obsessionfinalyear
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-he failed module 3. then he got a first.
-
-#university #finalyear #obsession #ego #motivation #mindset #careertok
-```
-
-</details>
-
-### vault/20261128-1500-tt-mostsuccessfulpt6southafrica
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-the most successful person from every country. part 6: south africa
-
-#elonmusk #spacex #success #mentality #discipline #obsession
-```
-
-</details>
+**4 waiting** (4 from the vault). 12 posted by the system so far.
 
 ### vault/20261129-1100-tt-mostsuccessfulpt7nigeria
 
@@ -416,21 +308,7 @@ the most successful person from every country. part 8: japan
 
 ## Wei Stories
 
-**3 waiting** (3 from the vault). 6 posted by the system so far.
-
-### vault/20261128-1900-tt-theothercandidateep2twologins
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-part 2. someone is logged in as you. on floor four.
-
-#scarystories #officehorror #animation #story #corporatelife #horrorstory
-```
-
-</details>
+**2 waiting** (2 from the vault). 7 posted by the system so far.
 
 ### vault/20261129-0730-tt-theothercandidateep3floorfour
 
@@ -522,35 +400,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**9 waiting** (9 from the vault). 22 posted by the system so far.
-
-### vault/20261128-1100-ig-eggfriedrice
-
-<a href="vault/chef/20261128-1100-ig-eggfriedrice_1.jpg"><img src="vault/chef/20261128-1100-ig-eggfriedrice_1.jpg" width="110"></a> <a href="vault/chef/20261128-1100-ig-eggfriedrice_2.jpg"><img src="vault/chef/20261128-1100-ig-eggfriedrice_2.jpg" width="110"></a> <a href="vault/chef/20261128-1100-ig-eggfriedrice_3.jpg"><img src="vault/chef/20261128-1100-ig-eggfriedrice_3.jpg" width="110"></a> <a href="vault/chef/20261128-1100-ig-eggfriedrice_4.jpg"><img src="vault/chef/20261128-1100-ig-eggfriedrice_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Fried rice that beats the takeaway, in 10 minutes, for under £1.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
-
-### vault/20261128-1500-ig-loadedovennachos
-
-<a href="vault/chef/20261128-1500-ig-loadedovennachos_1.jpg"><img src="vault/chef/20261128-1500-ig-loadedovennachos_1.jpg" width="110"></a> <a href="vault/chef/20261128-1500-ig-loadedovennachos_2.jpg"><img src="vault/chef/20261128-1500-ig-loadedovennachos_2.jpg" width="110"></a> <a href="vault/chef/20261128-1500-ig-loadedovennachos_3.jpg"><img src="vault/chef/20261128-1500-ig-loadedovennachos_3.jpg" width="110"></a> <a href="vault/chef/20261128-1500-ig-loadedovennachos_4.jpg"><img src="vault/chef/20261128-1500-ig-loadedovennachos_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Saturday film night nachos for under £1.50 each.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**7 waiting** (7 from the vault). 24 posted by the system so far.
 
 ### vault/20261128-1900-ig-chickenfajitatraybake
 
@@ -670,19 +520,7 @@ Three checks to run on your CV tonight, and a quicker way to see where you stand
 
 ## Mr Wei
 
-**4 waiting** (4 from the vault). 8 posted by the system so far.
-
-### vault/20261128-1900-ig-photopool
-
-<a href="vault/mrpathwei/20261128-1900-ig-photopool_1.jpg"><img src="vault/mrpathwei/20261128-1900-ig-photopool_1.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-day off from applying
-```
-
-</details>
+**3 waiting** (3 from the vault). 9 posted by the system so far.
 
 ### vault/20261129-1500-ig-photophonebox
 

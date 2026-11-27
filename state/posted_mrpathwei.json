@@ -75,6 +75,15 @@
    "timed": true,
    "linkedin": "sent (scheduled in Buffer for 2026-11-27T19:00:00.000Z, post 6b08b289a30b64e55ea1d443)",
    "planned_at": "2026-11-27T07:30:00Z"
+  },
+  {
+   "post": "vault/20261128-1900-ig-photopool",
+   "date": "2026-11-28",
+   "at": "2026-11-28T07:30:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-28T07:30:00.000Z, post 6b098dd4015034238d2fbf86)",
+   "title": "day off from applying",
+   "timed": true,
+   "planned_at": "2026-11-28T19:00:00Z"
   }
  ]
 }
