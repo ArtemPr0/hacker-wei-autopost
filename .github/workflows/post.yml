@@ -18,6 +18,7 @@ on:
         default: all
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: autopost
   cancel-in-progress: false
@@ -102,6 +103,34 @@ jobs:
           fi
           DEBUG=${{ inputs.account == 'debug' && '1' || '' }} python analytics.py
           FORCE_INSIGHTS=${{ inputs.action == 'analytics' && '1' || '' }} python insights.py || true
+      - name: Email an alert if a channel is disconnected or a post failed
+        if: env.ACTION == 'analytics' || env.ACTION == 'refresh' || (env.ACTION == 'run' && github.event_name == 'schedule')
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY' > alert.md
+          import json
+          a = json.load(open("analytics.json")).get("alerts", [])
+          dis = sorted({x["channel"] for x in a if x["kind"] == "disconnected"})
+          fail = [x for x in a if x["kind"] == "failed"]
+          if not a: raise SystemExit(0)
+          print("The posting engine found a problem in Buffer." + (" Posts to the disconnected channels are not going out until they are refreshed." if dis else " Everything is connected; some posts failed.") + "\n")
+          if dis:
+              print("**Disconnected in Buffer:**")
+              for d in dis: print(f"- {d}")
+              print("\n**How to fix (2 minutes):** sign in to the Buffer account that holds the channel, click **Refresh** on it, and approve on Instagram while that Instagram account is the one signed in. The All channels view on the dashboard shows the same flag.\n")
+          if fail:
+              print("**Failed in the last 24 hours:**")
+              for f in fail: print(f"- {f['channel']}, {f['at']} UTC: \"{f['text']}\" ({f['reason']})")
+          PY
+          num=$(gh issue list --label alert --state open --json number -q '.[0].number')
+          if [ -s alert.md ]; then
+            gh label create alert --color d73a4a --description "The posting engine needs a person" 2>/dev/null || true
+            if [ -n "$num" ]; then gh issue edit "$num" --body-file alert.md; else gh issue create --title "Action needed: Buffer channel problem" --label alert --assignee "${{ github.repository_owner }}" --body-file alert.md; fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --comment "All channels are connected and nothing has failed in the last 24 hours."
+          fi
       - name: Save what was posted
         if: always()
         env:

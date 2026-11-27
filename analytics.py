@@ -130,6 +130,17 @@ def main():
                                         "mode": ("manual" if b and b.get("manual") else "off" if b and b.get("off") else "auto" if b else "unlisted"),
                                         "disconnected": bool(ch.get("isDisconnected")), "problems": sorted(problems, key=lambda p: p["at"], reverse=True), "posts": sorted(posts, key=lambda p: p["at"] or "", reverse=True)})
                 log(f"{ch.get('service')} {ch.get('name')}: {len(posts)} sent posts in the last {DAYS} days")
+    # Alerts: a disconnected channel, or a post that failed in the last 24 hours. The workflow turns these into a GitHub issue,
+    # which emails the repository owner, and closes it again once everything is connected and posting.
+    day_ago = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M")
+    alerts = []
+    for c in out["channels"]:
+        who = f'{c.get("brand") or c["handle"]} {c["service"].capitalize()} (@{c["handle"]})'
+        if c.get("disconnected"): alerts.append({"kind": "disconnected", "channel": who})
+        for p in c.get("problems", []):
+            if (p.get("at") or "") >= day_ago:
+                alerts.append({"kind": "failed", "channel": who, "at": p["at"][:16], "text": p.get("text", "")[:80], "reason": p.get("reason") or ""})
+    out["alerts"] = alerts
     json.dump(out, open(os.path.join(ROOT, "analytics.json"), "w"), indent=0, ensure_ascii=False)
     log(f"analytics.json written: {len(out['channels'])} channels, {sum(len(c['posts']) for c in out['channels'])} posts, {len(out['errors'])} errors")
     for e in out["errors"]: log("::warning::" + e)
