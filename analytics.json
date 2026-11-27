@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T04:24:49Z",
+"updated": "2026-11-27T05:10:27Z",
 "days": 90,
 "channels": [
 {
@@ -3971,11 +3971,11 @@
 {
 "service": "instagram",
 "handle": "weigradjobs",
-"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff84dcece6dfde5f27bd98_1795130588922",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff84dcece6dfde5f27bd98_1795755759836",
 "brand": "The Only Wei",
 "brand_id": "only",
 "mode": "auto",
-"disconnected": true,
+"disconnected": false,
 "problems": [
 {
 "id": "6b073e5279540b3bd674c1ed",
@@ -4002,7 +4002,7 @@
 "follows": 0,
 "reach": 2
 },
-"metrics_at": "2026-11-25T17:24:12.186Z",
+"metrics_at": "2026-11-27T05:02:43.808Z",
 "fmt": "carousel",
 "series": "Real quotes",
 "hook": "statement",
@@ -4017,14 +4017,14 @@
 "metrics": {
 "reactions": 1,
 "comments": 0,
-"engagementRate": 25,
-"views": 12,
+"engagementRate": 20,
+"views": 14,
 "shares": 0,
 "saves": 0,
 "follows": 0,
-"reach": 4
+"reach": 5
 },
-"metrics_at": "2026-11-25T17:24:12.186Z",
+"metrics_at": "2026-11-27T05:02:43.810Z",
 "fmt": "carousel",
 "series": "Real quotes",
 "hook": "statement",
@@ -4046,7 +4046,7 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-25T17:24:12.186Z",
+"metrics_at": "2026-11-27T05:02:43.662Z",
 "fmt": "carousel",
 "series": "Steve Martin",
 "hook": "statement",
@@ -4069,7 +4069,7 @@
 "averageTimeWatched": 9.34,
 "reach": 113
 },
-"metrics_at": "2026-11-25T17:24:12.186Z",
+"metrics_at": "2026-11-27T05:02:43.728Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4084,15 +4084,15 @@
 "metrics": {
 "reactions": 2,
 "comments": 0,
-"engagementRate": 6.67,
-"views": 60,
+"engagementRate": 6.56,
+"views": 61,
 "shares": 0,
 "saves": 2,
-"totalTimeWatched": 4.29,
-"averageTimeWatched": 4.86,
-"reach": 60
+"totalTimeWatched": 4.31,
+"averageTimeWatched": 4.79,
+"reach": 61
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.665Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4115,7 +4115,7 @@
 "averageTimeWatched": 8.75,
 "reach": 118
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.682Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4138,7 +4138,7 @@
 "averageTimeWatched": 4.91,
 "reach": 105
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.711Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4161,7 +4161,7 @@
 "averageTimeWatched": 3.89,
 "reach": 100
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.696Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4184,7 +4184,7 @@
 "averageTimeWatched": 14.13,
 "reach": 44
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.793Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4207,7 +4207,7 @@
 "averageTimeWatched": 8.08,
 "reach": 114
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.709Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4230,7 +4230,7 @@
 "averageTimeWatched": 1.51,
 "reach": 101
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.660Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4253,7 +4253,7 @@
 "averageTimeWatched": 4.06,
 "reach": 110
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.705Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4276,7 +4276,7 @@
 "averageTimeWatched": 3.06,
 "reach": 108
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.741Z",
 "fmt": "video",
 "series": "",
 "hook": "confession",
@@ -4299,7 +4299,7 @@
 "averageTimeWatched": 9.12,
 "reach": 113
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.800Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4322,7 +4322,7 @@
 "averageTimeWatched": 3.93,
 "reach": 112
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.707Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4345,7 +4345,7 @@
 "averageTimeWatched": 5.68,
 "reach": 49
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.829Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4368,7 +4368,7 @@
 "averageTimeWatched": 5.37,
 "reach": 141
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.803Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4391,7 +4391,7 @@
 "averageTimeWatched": 6.23,
 "reach": 84
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.826Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4414,7 +4414,7 @@
 "averageTimeWatched": 6.88,
 "reach": 114
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.835Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4437,7 +4437,7 @@
 "averageTimeWatched": 5.43,
 "reach": 109
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.703Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4460,7 +4460,7 @@
 "averageTimeWatched": 10.72,
 "reach": 195
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.850Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4482,7 +4482,7 @@
 "follows": 0,
 "reach": 11
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.698Z",
 "fmt": "carousel",
 "series": "",
 "hook": "question",
@@ -4505,7 +4505,7 @@
 "averageTimeWatched": 7.84,
 "reach": 111
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.844Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4528,7 +4528,7 @@
 "averageTimeWatched": 2.87,
 "reach": 146
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.837Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4551,7 +4551,7 @@
 "averageTimeWatched": 8.48,
 "reach": 140
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.723Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4574,7 +4574,7 @@
 "averageTimeWatched": 3.95,
 "reach": 101
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.848Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4596,7 +4596,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.839Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4618,7 +4618,7 @@
 "follows": 0,
 "reach": 7
 },
-"metrics_at": "2026-11-25T17:24:12.187Z",
+"metrics_at": "2026-11-27T05:02:43.725Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4640,7 +4640,7 @@
 "follows": 0,
 "reach": 6
 },
-"metrics_at": "2026-11-25T17:24:12.188Z",
+"metrics_at": "2026-11-27T05:02:43.832Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4662,7 +4662,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-25T17:24:12.188Z",
+"metrics_at": "2026-11-27T05:02:43.823Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -4684,7 +4684,7 @@
 "follows": 0,
 "reach": 8
 },
-"metrics_at": "2026-11-25T17:24:12.188Z",
+"metrics_at": "2026-11-27T05:02:43.820Z",
 "fmt": "carousel",
 "series": "",
 "hook": "question",
@@ -4707,7 +4707,7 @@
 "averageTimeWatched": 3,
 "reach": 129
 },
-"metrics_at": "2026-11-25T17:24:12.188Z",
+"metrics_at": "2026-11-27T05:02:43.730Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4729,7 +4729,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:24:12.188Z",
+"metrics_at": "2026-11-27T05:02:43.693Z",
 "fmt": "photo",
 "series": "",
 "hook": "",
@@ -4740,11 +4740,11 @@
 {
 "service": "instagram",
 "handle": "pirate.wei",
-"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff84a5ece6dfde5f27b707_1795130533454",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff84a5ece6dfde5f27b707_1795755856125",
 "brand": "Pirate Wei",
 "brand_id": "pirate",
 "mode": "auto",
-"disconnected": true,
+"disconnected": false,
 "problems": [
 {
 "id": "6b073e5137bb564f6765916a",
@@ -4768,8 +4768,18 @@
 "text": "entry level, apparently",
 "link": "https://www.instagram.com/reel/DgLPI3xhEgs/",
 "thumb": "https://images.buffer.com/thumbnail/6_XPXdRUvYedbdvRhdLPjQRVrvOgWogmvNRqUmVMOeE?url=https%3A%2F%2Fraw.githubusercontent.com%2FArtemPr0%2Fhacker-wei-autopost%2F0809b9f7f9f9d26364b1c1fc9c664bbc77c74bff%2Fvault%2Fpirate%2F20261125-1500-tt-memeentrylevel.mp4",
-"metrics": {},
-"metrics_at": "2026-11-25T01:00:33.039Z",
+"metrics": {
+"reactions": 1,
+"comments": 1,
+"engagementRate": 2.63,
+"views": 154,
+"shares": 1,
+"saves": 0,
+"totalTimeWatched": 8.72,
+"averageTimeWatched": 4.63,
+"reach": 114
+},
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "Work memes",
 "hook": "statement",
@@ -4791,7 +4801,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "carousel",
 "series": "Alex inbox",
 "hook": "number",
@@ -4814,7 +4824,7 @@
 "averageTimeWatched": 4.18,
 "reach": 111
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "Work memes",
 "hook": "pov",
@@ -4836,7 +4846,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "carousel",
 "series": "Alex inbox",
 "hook": "confession",
@@ -4858,7 +4868,7 @@
 "follows": 0,
 "reach": 2
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "carousel",
 "series": "Email Story",
 "hook": "statement",
@@ -4881,7 +4891,7 @@
 "averageTimeWatched": 4.31,
 "reach": 111
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -4904,7 +4914,7 @@
 "averageTimeWatched": 9.82,
 "reach": 1083
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4927,7 +4937,7 @@
 "averageTimeWatched": 4.08,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4950,7 +4960,7 @@
 "averageTimeWatched": 9.17,
 "reach": 115
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -4973,7 +4983,7 @@
 "averageTimeWatched": 4.97,
 "reach": 61
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -4996,7 +5006,7 @@
 "averageTimeWatched": 3.03,
 "reach": 49
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5019,7 +5029,7 @@
 "averageTimeWatched": 21.46,
 "reach": 4
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5042,7 +5052,7 @@
 "averageTimeWatched": 12.58,
 "reach": 123
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5065,7 +5075,7 @@
 "averageTimeWatched": 1.8,
 "reach": 85
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -5088,7 +5098,7 @@
 "averageTimeWatched": 4.62,
 "reach": 103
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5111,7 +5121,7 @@
 "averageTimeWatched": 3.41,
 "reach": 103
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "confession",
@@ -5134,7 +5144,7 @@
 "averageTimeWatched": 7.9,
 "reach": 1270
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5157,7 +5167,7 @@
 "averageTimeWatched": 4.09,
 "reach": 119
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -5180,7 +5190,7 @@
 "averageTimeWatched": 2.79,
 "reach": 99
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -5203,7 +5213,7 @@
 "averageTimeWatched": 5.09,
 "reach": 108
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "question",
@@ -5226,7 +5236,7 @@
 "averageTimeWatched": 7.52,
 "reach": 408
 },
-"metrics_at": "2026-11-25T17:23:11.147Z",
+"metrics_at": "2026-11-27T05:04:20.987Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5237,11 +5247,11 @@
 {
 "service": "instagram",
 "handle": "hacker.weii",
-"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff845bece6dfde5f27ad78_1795130459624",
+"avatar": "https://buffer-channel-avatars-bucket.s3.amazonaws.com/6aff845bece6dfde5f27ad78_1795755939259",
 "brand": "Hacker Wei",
 "brand_id": "hacker",
 "mode": "auto",
-"disconnected": true,
+"disconnected": false,
 "problems": [
 {
 "id": "6b06b11f59ee21d01df61312",
@@ -5332,7 +5342,7 @@
 "averageTimeWatched": 2.97,
 "reach": 107
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.339Z",
 "fmt": "video",
 "series": "Hacker tips",
 "hook": "number",
@@ -5348,13 +5358,13 @@
 "reactions": 0,
 "comments": 0,
 "engagementRate": 0,
-"views": 2,
+"views": 3,
 "shares": 0,
 "saves": 0,
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.348Z",
 "fmt": "carousel",
 "series": "",
 "hook": "question",
@@ -5376,7 +5386,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.325Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5398,7 +5408,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.336Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5420,7 +5430,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.359Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5442,7 +5452,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.327Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5464,7 +5474,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.357Z",
 "fmt": "carousel",
 "series": "",
 "hook": "number",
@@ -5486,7 +5496,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.329Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5508,7 +5518,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.364Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5530,7 +5540,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.353Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5553,7 +5563,7 @@
 "averageTimeWatched": 2.18,
 "reach": 48
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.341Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5575,7 +5585,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.323Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5598,7 +5608,7 @@
 "averageTimeWatched": 9.53,
 "reach": 2
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.333Z",
 "fmt": "video",
 "series": "",
 "hook": "",
@@ -5620,7 +5630,7 @@
 "follows": 0,
 "reach": 1
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.388Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5642,7 +5652,7 @@
 "follows": 0,
 "reach": 0
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.386Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5664,7 +5674,7 @@
 "follows": 0,
 "reach": 2
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.355Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5686,7 +5696,7 @@
 "follows": 0,
 "reach": 3
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.331Z",
 "fmt": "carousel",
 "series": "",
 "hook": "number",
@@ -5709,7 +5719,7 @@
 "averageTimeWatched": 9.1,
 "reach": 2
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.335Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5732,7 +5742,7 @@
 "averageTimeWatched": 9.36,
 "reach": 3
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.346Z",
 "fmt": "video",
 "series": "",
 "hook": "statement",
@@ -5754,7 +5764,7 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.367Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5776,7 +5786,7 @@
 "follows": 0,
 "reach": 5
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.320Z",
 "fmt": "carousel",
 "series": "",
 "hook": "number",
@@ -5798,7 +5808,7 @@
 "follows": 0,
 "reach": 4
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.362Z",
 "fmt": "carousel",
 "series": "",
 "hook": "statement",
@@ -5820,7 +5830,7 @@
 "follows": 0,
 "reach": 10
 },
-"metrics_at": "2026-11-25T17:21:51.039Z",
+"metrics_at": "2026-11-27T05:05:41.343Z",
 "fmt": "carousel",
 "series": "",
 "hook": "number",

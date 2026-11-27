@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:36:54Z",
+ "updated": "2026-11-27T05:10:33Z",
  "days": 28,
  "min_posts": 5,
  "windows": [
@@ -601,7 +601,7 @@
     "groups": [
      {
       "value": "Real quotes",
-      "median": 12,
+      "median": 14,
       "posts": 1
      },
      {
@@ -729,14 +729,14 @@
       "posts": 1
      },
      {
+      "value": "07:30",
+      "median": 3,
+      "posts": 3
+     },
+     {
       "value": "19:00",
       "median": 3,
       "posts": 6
-     },
-     {
-      "value": "07:30",
-      "median": 2,
-      "posts": 3
      }
     ]
    },
@@ -750,7 +750,7 @@
      },
      {
       "value": "question",
-      "median": 2,
+      "median": 3,
       "posts": 1
      },
      {
