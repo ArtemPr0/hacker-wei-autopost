@@ -67,6 +67,16 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-28T07:30:00.000Z, post 6b098dd1015034238d2fbe37)",
    "planned_at": "2026-11-28T19:00:00Z"
+  },
+  {
+   "post": "vault/20261129-0730-tt-theothercandidateep3floorfour",
+   "date": "2026-11-29",
+   "at": "2026-11-29T11:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-29T11:00:00.000Z, post 6b0ae3ecb8ec87c6ced004d3)",
+   "title": "part 3. floor four. they've been you for a while.",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-29T11:00:00.000Z, post 6b0ae3eb0f9559e0ce1bc8d8)",
+   "planned_at": "2026-11-29T07:30:00Z"
   }
  ]
 }

@@ -66,6 +66,16 @@
    "timed": true,
    "tiktok": "sent (scheduled in Buffer for 2026-11-28T07:30:00.000Z, post 6b098dce32c212878fd619a5)",
    "planned_at": "2026-11-28T07:30:00Z"
+  },
+  {
+   "post": "vault/20261129-1100-tt-quotenavalravikant",
+   "date": "2026-11-29",
+   "at": "2026-11-29T11:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-29T11:00:00.000Z, post 6b0ae3eb8e7dd71de7967ce9)",
+   "title": "nobody can compete with you at being you",
+   "timed": true,
+   "tiktok": "sent (scheduled in Buffer for 2026-11-29T11:00:00.000Z, post 6b0ae3eab793a21e71edad0a)",
+   "planned_at": "2026-11-29T11:00:00Z"
   }
  ]
 }

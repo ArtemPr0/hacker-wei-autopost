@@ -216,6 +216,24 @@
    "title": "One tray, four dinners. Chicken fajita traybake for under \u00a32 a portion.",
    "timed": true,
    "planned_at": "2026-11-28T19:00:00Z"
+  },
+  {
+   "post": "vault/20261129-0730-ig-bananaoatpancakes",
+   "date": "2026-11-29",
+   "at": "2026-11-29T07:30:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-29T07:30:00.000Z, post 6b0ae3ecb8ec87c6ced0050d)",
+   "title": "Sunday pancakes from one banana. Under \u00a31 and ready in 10 minutes.",
+   "timed": true,
+   "planned_at": "2026-11-29T07:30:00Z"
+  },
+  {
+   "post": "vault/20261129-1100-ig-onepanshakshuka",
+   "date": "2026-11-29",
+   "at": "2026-11-29T11:00:00Z",
+   "media_id": "sent (scheduled in Buffer for 2026-11-29T11:00:00.000Z, post 6b0ae3edbe536564e4378903)",
+   "title": "Brunch for two for less than one caf\u00e9 coffee. One-pan shakshuka.",
+   "timed": true,
+   "planned_at": "2026-11-29T11:00:00Z"
   }
  ]
 }

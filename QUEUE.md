@@ -4,21 +4,7 @@ Vault posts (added by hand) go first, then the AI-written queue. To stop a post,
 
 ## Hacker Wei
 
-**8 waiting** (2 from the vault). 29 posted by the system so far.
-
-### vault/20261129-1500-tt-tipadvertwords
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-use the advert's exact words on your cv
-
-#cvtips #ats #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
+**6 waiting** (1 from the vault). 31 posted by the system so far.
 
 ### vault/20261130-1900-tt-tiprealinterviewquestions
 
@@ -30,30 +16,6 @@ use the advert's exact words on your cv
 find the real interview questions before you walk in
 
 #jobsearch #careertips #graduatejobs #interviewtips #cvtips
-```
-
-</details>
-
-### 026
-
-<a href="posts/026_1.jpg"><img src="posts/026_1.jpg" width="110"></a> <a href="posts/026_2.jpg"><img src="posts/026_2.jpg" width="110"></a> <a href="posts/026_3.jpg"><img src="posts/026_3.jpg" width="110"></a> <a href="posts/026_4.jpg"><img src="posts/026_4.jpg" width="110"></a> <a href="posts/026_5.jpg"><img src="posts/026_5.jpg" width="110"></a> <a href="posts/026_6.jpg"><img src="posts/026_6.jpg" width="110"></a> <a href="posts/026_7.jpg"><img src="posts/026_7.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Job hunting can be exhausting when replies go quiet. Here is how to break the slump and protect your energy.
-
-5 steps to reset your energy:
-1. Cap your daily applications
-2. Schedule offline days
-3. Target smaller employers
-4. Track small daily wins
-5. Change your workspace
-
-Which reset do you need?
-Save this and follow for a new hack every day.
-
-#ukgraduate #graduatejobs #ukstudents #careeradvice #jobsearchuk #jobhunt #graduatelife #studentwellbeing #jobburnout #hackerwei
 ```
 
 </details>
@@ -240,21 +202,7 @@ reply all. goodbye.
 
 ## The Only Wei
 
-**2 waiting** (2 from the vault). 7 posted by the system so far.
-
-### vault/20261129-1100-tt-quotenavalravikant
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-nobody can compete with you at being you
-
-#naval #navalravikant #mindset #careeradvice #quotes #graduates #motivation
-```
-
-</details>
+**1 waiting** (1 from the vault). 8 posted by the system so far.
 
 ### vault/20261130-1500-tt-unwrittenrulepromotion
 
@@ -332,21 +280,7 @@ the most successful person from every country. part 8: japan
 
 ## Wei Stories
 
-**2 waiting** (2 from the vault). 7 posted by the system so far.
-
-### vault/20261129-0730-tt-theothercandidateep3floorfour
-
-(video)
-
-<details><summary>Caption</summary>
-
-```
-part 3. floor four. they've been you for a while.
-
-#scarystories #officehorror #animation #story #corporatelife #horrorstory
-```
-
-</details>
+**1 waiting** (1 from the vault). 8 posted by the system so far.
 
 ### vault/20261130-1100-tt-theothercandidateep4thedeal
 
@@ -424,35 +358,7 @@ recruiters every single week with a new rule
 
 ## Chef Wei
 
-**6 waiting** (6 from the vault). 25 posted by the system so far.
-
-### vault/20261129-0730-ig-bananaoatpancakes
-
-<a href="vault/chef/20261129-0730-ig-bananaoatpancakes_1.jpg"><img src="vault/chef/20261129-0730-ig-bananaoatpancakes_1.jpg" width="110"></a> <a href="vault/chef/20261129-0730-ig-bananaoatpancakes_2.jpg"><img src="vault/chef/20261129-0730-ig-bananaoatpancakes_2.jpg" width="110"></a> <a href="vault/chef/20261129-0730-ig-bananaoatpancakes_3.jpg"><img src="vault/chef/20261129-0730-ig-bananaoatpancakes_3.jpg" width="110"></a> <a href="vault/chef/20261129-0730-ig-bananaoatpancakes_4.jpg"><img src="vault/chef/20261129-0730-ig-bananaoatpancakes_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Sunday pancakes from one banana. Under £1 and ready in 10 minutes.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
-
-### vault/20261129-1100-ig-onepanshakshuka
-
-<a href="vault/chef/20261129-1100-ig-onepanshakshuka_1.jpg"><img src="vault/chef/20261129-1100-ig-onepanshakshuka_1.jpg" width="110"></a> <a href="vault/chef/20261129-1100-ig-onepanshakshuka_2.jpg"><img src="vault/chef/20261129-1100-ig-onepanshakshuka_2.jpg" width="110"></a> <a href="vault/chef/20261129-1100-ig-onepanshakshuka_3.jpg"><img src="vault/chef/20261129-1100-ig-onepanshakshuka_3.jpg" width="110"></a> <a href="vault/chef/20261129-1100-ig-onepanshakshuka_4.jpg"><img src="vault/chef/20261129-1100-ig-onepanshakshuka_4.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-Brunch for two for less than one café coffee. One-pan shakshuka.
-
-#studentrecipes #cheapmeals #budgetmeals #easyrecipes #ukstudents
-```
-
-</details>
+**4 waiting** (4 from the vault). 27 posted by the system so far.
 
 ### vault/20261129-1500-ig-onetrayroastchicken
 
@@ -530,19 +436,7 @@ Three checks to run on your CV tonight, and a quicker way to see where you stand
 
 ## Mr Wei
 
-**3 waiting** (3 from the vault). 9 posted by the system so far.
-
-### vault/20261129-1500-ig-photophonebox
-
-<a href="vault/mrpathwei/20261129-1500-ig-photophonebox_1.jpg"><img src="vault/mrpathwei/20261129-1500-ig-photophonebox_1.jpg" width="110"></a>
-
-<details><summary>Caption</summary>
-
-```
-no umbrella. no reply either
-```
-
-</details>
+**2 waiting** (2 from the vault). 10 posted by the system so far.
 
 ### vault/20261130-1100-ig-photojobcentre
 
